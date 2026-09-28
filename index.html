@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="云南旅行">
+<meta name="robots" content="noindex,nofollow">
+<title>云南七日旅行</title>
+<meta name="theme-color" content="#FAFAF8">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <h1>云南七日旅行</h1>
+    <p>9.30 — 10.06 · 普洱 / 景迈山 / 孟连 / 昆明</p>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="trip" role="tab">行程</button>
+    <button class="tab" data-tab="discover" role="tab">发现</button>
+    <button class="tab" data-tab="fav" role="tab">收藏夹<span class="tabcount" id="favCount"></span></button>
+  </nav>
+
+  <main>
+    <section class="screen active" id="screen-trip">
+      <div class="dayrow" id="dayrow"></div>
+      <div id="dayview"></div>
+    </section>
+
+    <section class="screen" id="screen-discover">
+      <div class="chips" id="regionChips"></div>
+      <div class="chips" id="kindChips"></div>
+      <input id="search" class="search" type="search" enterkeyhint="search" autocomplete="off" placeholder="搜店名、菜品：酸醋米线、烧烤、咖啡…">
+      <div class="masonry" id="discoverGrid"></div>
+      <p class="footnote">只放能确认是这个地方的实拍；找不到可靠照片的，不用氛围图代替。</p>
+    </section>
+
+    <section class="screen" id="screen-fav">
+      <div class="favhead">
+        <h2>收藏夹</h2>
+        <p id="favSummary"></p>
+      </div>
+      <div class="masonry" id="favGrid"></div>
+    </section>
+  </main>
+
+  <div class="scrim" id="scrim"></div>
+  <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="grabber"></div>
+    <div id="sheetBody"></div>
+  </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

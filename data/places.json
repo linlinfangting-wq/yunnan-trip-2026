@@ -1,0 +1,434 @@
+[
+  {
+    "id": "puer-lianxing", "name": "连兴早点", "region": "普洱", "kind": "吃",
+    "subtitle": "本地早点 · 花生汤",
+    "description": "评论里出现频率很高，本地人从小吃到大的类型。适合早上快速吃完再出发，不需要把它当网红店打卡。",
+    "why": "本地人从小吃到大的早点，比游客店更日常。",
+    "mustTry": "花生汤、米干",
+    "bestTime": "早餐。在普洱的早上都可以，比如 10/1 取车前。",
+    "xhsKeyword": "普洱 连兴早点", "mapKeyword": "连兴早点"
+  },
+  {
+    "id": "puer-weishi", "name": "魏氏豆汤米干", "region": "普洱", "kind": "吃",
+    "subtitle": "豆汤 / 花生汤米干",
+    "description": "比普通米线更有普洱当地辨识度。想吃当地早餐而不是连锁或游客店，这家更值得留一顿。店在思茅老街。",
+    "why": "豆汤米干是普洱本地味道，门头就在思茅老街上。",
+    "mustTry": "豆汤米干、花生汤米干",
+    "bestTime": "早餐优先",
+    "xhsKeyword": "普洱 魏氏豆汤米干", "mapKeyword": "魏氏豆汤米干"
+  },
+  {
+    "id": "puer-yangji", "name": "杨记普洱酸醋米线", "region": "普洱", "kind": "吃",
+    "subtitle": "普洱特色酸醋米线",
+    "description": "评论区反复出现的本地味型。有人建议加冰块、多放韭菜葱和花椒油。",
+    "why": "酸醋米线是普洱特色吃法，这家被反复点名。",
+    "mustTry": "酸醋米线，加冰块、韭菜、葱、花椒油",
+    "bestTime": "午餐或下午。排队可能很久，太久就换米线王子。",
+    "xhsKeyword": "普洱 杨记酸醋米线", "mapKeyword": "杨记普洱酸醋米线"
+  },
+  {
+    "id": "puer-mixianwangzi", "name": "米线王子", "region": "普洱", "kind": "吃",
+    "subtitle": "酸醋米线 · 阳光悦城",
+    "description": "杨记酸醋米线排队太久时的替代选择，在阳光悦城。",
+    "why": "同样能吃到普洱酸醋米线，不用排长队。",
+    "mustTry": "酸醋米线",
+    "bestTime": "杨记排队太久时",
+    "xhsKeyword": "普洱 米线王子", "mapKeyword": "米线王子 阳光悦城"
+  },
+  {
+    "id": "puer-fuyuan", "name": "福苑老街牛肉米干", "region": "普洱", "kind": "吃",
+    "subtitle": "鲜烫牛肉米干",
+    "description": "主打牛肉米干，汤的和干拌的都有人推荐。",
+    "why": "想吃一碗扎实的牛肉米干时的选择。",
+    "mustTry": "鲜烫牛肉米干、干拌米干",
+    "bestTime": "早餐或午餐",
+    "xhsKeyword": "普洱 福苑老街牛肉米干", "mapKeyword": "福苑老街牛肉米干"
+  },
+  {
+    "id": "puer-duoweiji", "name": "澜沧多味鸡", "region": "普洱", "kind": "吃",
+    "subtitle": "普洱菜 · 一桌吃多种味型",
+    "description": "黄焖鸡、薄荷炒牛肉、凉拌罗非鱼和鸡肉烂饭都有人推荐。比只吃一只烤鸡更适合作为完整正餐。",
+    "why": "一顿能吃到好几种本地味型，适合多人。",
+    "mustTry": "黄焖鸡、薄荷炒牛肉、凉拌罗非鱼、鸡肉烂饭",
+    "bestTime": "正餐，人多更划算",
+    "xhsKeyword": "普洱 澜沧多味鸡", "mapKeyword": "澜沧多味鸡"
+  },
+  {
+    "id": "puer-sudama", "name": "苏大妈烧烤", "region": "普洱", "kind": "吃",
+    "subtitle": "油呛 / 炒米干",
+    "description": "你整理的评论里，油呛是高频推荐菜。适合晚上吃一顿重口味。",
+    "why": "油呛是评论里的高频推荐。",
+    "mustTry": "油呛、炒米干",
+    "bestTime": "晚上 / 夜宵",
+    "xhsKeyword": "普洱 苏大妈烧烤", "mapKeyword": "苏大妈烧烤"
+  },
+  {
+    "id": "puer-youke", "name": "友客烧烤", "region": "普洱", "kind": "吃",
+    "subtitle": "臭豆腐煮鱼 / 辣螃蟹",
+    "description": "不是只有普通烤串，骨头生、臭菜臭豆腐煮鱼和辣螃蟹都被反复点名，适合想吃更有地方感的一顿。",
+    "why": "有烤串以外的本地重口味菜。",
+    "mustTry": "骨头生、臭菜臭豆腐煮鱼、辣螃蟹",
+    "bestTime": "晚上",
+    "xhsKeyword": "普洱 友客烧烤", "mapKeyword": "友客烧烤"
+  },
+  {
+    "id": "puer-yangsan", "name": "杨三饭庄", "region": "普洱", "kind": "吃",
+    "subtitle": "本地家常普洱菜 · 老店",
+    "description": "被描述为本地人吃席常去的老店类型。想吃更稳妥、不是专门做游客生意的本地菜，可以留作备选。",
+    "why": "本地人吃席常去的老店。",
+    "mustTry": "普洱家常菜",
+    "bestTime": "正餐",
+    "xhsKeyword": "普洱 杨三饭庄", "mapKeyword": "杨三饭庄"
+  },
+  {
+    "id": "puer-jiangyu", "name": "江鱼之家", "region": "普洱", "kind": "吃",
+    "subtitle": "小河鱼 · 酸笋 · 蚂蚁蛋",
+    "description": "腌菜煮小河鱼、酸笋煮干巴、炒蚂蚁蛋都是比较少见的本地菜。",
+    "why": "能吃到在别处很难吃到的本地食材。",
+    "mustTry": "腌菜煮小河鱼、酸笋煮干巴、炒蚂蚁蛋",
+    "bestTime": "正餐",
+    "xhsKeyword": "普洱 江鱼之家", "mapKeyword": "江鱼之家"
+  },
+  {
+    "id": "puer-qixi", "name": "栖夕小筑", "region": "普洱", "kind": "吃",
+    "subtitle": "普洱本土菜",
+    "description": "做普洱本土菜的餐厅，可以作为正餐选项之一。",
+    "why": "普洱本土菜。",
+    "mustTry": "到店看招牌菜",
+    "bestTime": "正餐",
+    "xhsKeyword": "普洱 栖夕小筑", "mapKeyword": "栖夕小筑"
+  },
+  {
+    "id": "puer-aliang", "name": "阿良烤鸡", "region": "普洱", "kind": "吃",
+    "subtitle": "烤鸡 · 油呛",
+    "description": "烤鸡和油呛都有人推荐。",
+    "why": "想吃烤鸡时的选择，也有油呛。",
+    "mustTry": "烤鸡、油呛",
+    "bestTime": "晚上",
+    "xhsKeyword": "普洱 阿良烤鸡", "mapKeyword": "阿良烤鸡"
+  },
+  {
+    "id": "puer-dameixian", "name": "大美仙烧烤", "region": "普洱", "kind": "吃",
+    "subtitle": "甜辣味 · 烤牛胸膘",
+    "description": "偏甜辣口味的烧烤，烤牛胸膘被点名。",
+    "why": "口味跟其他烧烤不一样，是甜辣的。",
+    "mustTry": "烤牛胸膘",
+    "bestTime": "晚上",
+    "xhsKeyword": "普洱 大美仙烧烤", "mapKeyword": "大美仙烧烤"
+  },
+  {
+    "id": "puer-ximeng", "name": "西盟岩认烧烤", "region": "普洱", "kind": "吃",
+    "subtitle": "佤味烧烤 · 很辣",
+    "description": "佤族风味的烧烤，评论说很辣，能吃辣再去。",
+    "why": "佤味烧烤，和普通烧烤味道不同。",
+    "mustTry": "佤味烧烤",
+    "bestTime": "晚上。怕辣的提前说。",
+    "xhsKeyword": "普洱 西盟岩认烧烤", "mapKeyword": "西盟岩认烧烤"
+  },
+  {
+    "id": "puer-xiabie", "name": "夏别烧烤", "region": "普洱", "kind": "吃",
+    "subtitle": "木姜子鸭头 · 牛蛙",
+    "description": "木姜子鸭头和牛蛙被推荐。",
+    "why": "木姜子是云南常见的香料，鸭头这样做比较少见。",
+    "mustTry": "木姜子鸭头、牛蛙",
+    "bestTime": "晚上",
+    "xhsKeyword": "普洱 夏别烧烤", "mapKeyword": "夏别烧烤"
+  },
+  {
+    "id": "puer-laoxiong", "name": "老熊凉粉", "region": "普洱", "kind": "吃",
+    "subtitle": "洋芋 + 米凉粉双拼",
+    "description": "凉粉小吃，推荐点洋芋凉粉和米凉粉的双拼。",
+    "why": "一份就能吃到两种凉粉。",
+    "mustTry": "洋芋 + 米凉粉双拼",
+    "bestTime": "小吃，随时",
+    "xhsKeyword": "普洱 老熊凉粉", "mapKeyword": "老熊凉粉"
+  },
+  {
+    "id": "puer-ajiu", "name": "阿九无骨鸡脚", "region": "普洱", "kind": "吃",
+    "subtitle": "无骨鸡脚",
+    "description": "做无骨鸡脚的小店。",
+    "why": "适合买一份边走边吃。",
+    "mustTry": "无骨鸡脚",
+    "bestTime": "小吃，随时",
+    "xhsKeyword": "普洱 阿九无骨鸡脚", "mapKeyword": "阿九无骨鸡脚"
+  },
+  {
+    "id": "puer-wuyinight", "name": "五一夜市", "region": "普洱", "kind": "吃",
+    "subtitle": "夜市小摊",
+    "description": "都是小摊，铁板炒饭和手工棒棒鸡被点名。",
+    "why": "晚上边走边吃，比进店吃更轻松。",
+    "mustTry": "铁板炒饭、手工棒棒鸡",
+    "bestTime": "晚上",
+    "xhsKeyword": "普洱 五一夜市", "mapKeyword": "五一夜市"
+  },
+  {
+    "id": "puer-qiancaofeng", "name": "浅草风", "region": "普洱", "kind": "喝",
+    "subtitle": "酸木瓜系饮品",
+    "description": "山野酸木瓜、龙眼马蹄冰被多次提到。相比普通奶茶，这类酸木瓜和热带水果特调更有普洱辨识度。",
+    "why": "酸木瓜饮品比普通奶茶更有普洱特色。",
+    "mustTry": "山野酸木瓜、龙眼马蹄冰",
+    "bestTime": "下午",
+    "xhsKeyword": "普洱 浅草风", "mapKeyword": "浅草风"
+  },
+  {
+    "id": "puer-broccoli", "name": "西兰花咖啡（行署大院店）", "region": "普洱", "kind": "喝",
+    "subtitle": "城市咖啡馆",
+    "description": "适合不想专程跑咖啡庄园时作为市区选项。你整理的推荐里明确提到特调“菊次郎的夏天”。",
+    "why": "在市区就能喝到的特调咖啡。",
+    "mustTry": "菊次郎的夏天",
+    "bestTime": "白天",
+    "xhsKeyword": "普洱 西兰花咖啡 行署大院", "mapKeyword": "西兰花咖啡 行署大院"
+  },
+  {
+    "id": "puer-xiaoshuitang", "name": "小水堂·老街酸奶", "region": "普洱", "kind": "喝",
+    "subtitle": "泡鲁达 / 牛油果酸奶",
+    "description": "自家现做的酸奶路线，泡鲁达和牛油果酸奶比较有地方感。适合和思茅老街一起安排。",
+    "why": "现做酸奶，泡鲁达是云南特色甜品。",
+    "mustTry": "泡鲁达、牛油果酸奶",
+    "bestTime": "饭后甜品，逛老街时",
+    "xhsKeyword": "普洱 小水堂 老街酸奶", "mapKeyword": "小水堂老街酸奶"
+  },
+  {
+    "id": "puer-niuyouguojia", "name": "牛油果家", "region": "普洱", "kind": "喝",
+    "subtitle": "牛油果奶昔",
+    "description": "主打牛油果饮品，牛油果奶昔被推荐。",
+    "why": "普洱是牛油果产地，可以喝一杯当地的。",
+    "mustTry": "牛油果奶昔",
+    "bestTime": "下午",
+    "xhsKeyword": "普洱 牛油果家", "mapKeyword": "牛油果家"
+  },
+  {
+    "id": "puer-xiangzi", "name": "象子茶铺", "region": "普洱", "kind": "喝",
+    "subtitle": "牛油果鲜乳酪 · 黄油红糖",
+    "description": "茶饮店，牛油果鲜乳酪和黄油红糖被推荐。",
+    "why": "牛油果做的茶饮，外地不常见。",
+    "mustTry": "牛油果鲜乳酪、黄油红糖",
+    "bestTime": "下午",
+    "xhsKeyword": "普洱 象子茶铺", "mapKeyword": "象子茶铺"
+  },
+  {
+    "id": "puer-jianyu", "name": "简聿咖啡", "region": "普洱", "kind": "喝",
+    "subtitle": "黄油 Dirty · 手冲",
+    "description": "咖啡馆，黄油 Dirty 和手冲被推荐。",
+    "why": "有特调也有手冲，两种都能点。",
+    "mustTry": "黄油 Dirty、手冲",
+    "bestTime": "白天",
+    "xhsKeyword": "普洱 简聿咖啡", "mapKeyword": "简聿咖啡"
+  },
+  {
+    "id": "puer-duoxi", "name": "多喜咖啡", "region": "普洱", "kind": "喝",
+    "subtitle": "牛油果 Dirty",
+    "description": "咖啡馆，牛油果 Dirty 被推荐。",
+    "why": "牛油果加咖啡，普洱这边才常见。",
+    "mustTry": "牛油果 Dirty",
+    "bestTime": "白天",
+    "xhsKeyword": "普洱 多喜咖啡", "mapKeyword": "多喜咖啡"
+  },
+  {
+    "id": "puer-muqiao", "name": "目樵咖啡", "region": "普洱", "kind": "喝",
+    "subtitle": "手冲",
+    "description": "以手冲为主的咖啡馆。",
+    "why": "普洱产咖啡豆，适合喝一杯手冲。",
+    "mustTry": "手冲",
+    "bestTime": "白天",
+    "xhsKeyword": "普洱 目樵咖啡", "mapKeyword": "目樵咖啡"
+  },
+  {
+    "id": "puer-xingye", "name": "幸也咖啡", "region": "普洱", "kind": "喝",
+    "subtitle": "酸木瓜特调",
+    "description": "咖啡馆，酸木瓜特调被推荐。",
+    "why": "酸木瓜加咖啡，是本地才有的组合。",
+    "mustTry": "酸木瓜特调",
+    "bestTime": "白天",
+    "xhsKeyword": "普洱 幸也咖啡", "mapKeyword": "幸也咖啡"
+  },
+  {
+    "id": "puer-beigui", "name": "北归咖仓", "region": "普洱", "kind": "喝",
+    "subtitle": "手冲",
+    "description": "以手冲为主的咖啡馆。",
+    "why": "适合想认真喝一杯手冲的时候。",
+    "mustTry": "手冲",
+    "bestTime": "白天",
+    "xhsKeyword": "普洱 北归咖仓", "mapKeyword": "北归咖仓"
+  },
+  {
+    "id": "puer-zhijian", "name": "植间花隐", "region": "普洱", "kind": "喝",
+    "subtitle": "巴斯克蛋糕 · 咖啡特调",
+    "description": "咖啡甜品店，巴斯克蛋糕和咖啡特调被推荐。",
+    "why": "想吃甜点配咖啡时去。",
+    "mustTry": "巴斯克蛋糕、咖啡特调",
+    "bestTime": "下午",
+    "xhsKeyword": "普洱 植间花隐", "mapKeyword": "植间花隐"
+  },
+  {
+    "id": "puer-duomi", "name": "多米家糯米冰浆", "region": "普洱", "kind": "喝",
+    "subtitle": "糯米冰浆",
+    "description": "做糯米冰浆的小店。",
+    "why": "天热时解暑。",
+    "mustTry": "糯米冰浆",
+    "bestTime": "下午",
+    "xhsKeyword": "普洱 多米家糯米冰浆", "mapKeyword": "多米家糯米冰浆"
+  },
+  {
+    "id": "puer-oldstreet", "name": "思茅老街", "region": "普洱", "kind": "逛",
+    "subtitle": "小吃 + 老街散步",
+    "description": "不用把它当景点，比较适合晚上边走边吃。周边可以顺手找烧饵块、拇指玉米、小吃和酸奶。",
+    "why": "魏氏豆汤米干、小水堂酸奶都在附近，逛和吃可以一起解决。",
+    "mustTry": "随便逛、随便吃",
+    "bestTime": "晚上更合适",
+    "xhsKeyword": "普洱 思茅老街", "mapKeyword": "思茅老街"
+  },
+  {
+    "id": "puer-wuyimarket", "name": "五一农贸市场", "region": "普洱", "kind": "逛",
+    "subtitle": "本地烟火气 · 市场小吃",
+    "description": "你整理的评论里，市场里的小摊、老式糕点、糯米饭、豆浆米干反而比不少网红店更被认可。",
+    "why": "能看到普洱人日常吃什么、买什么。",
+    "mustTry": "糯米饭、豆浆米干、老式糕点",
+    "bestTime": "早上或上午",
+    "xhsKeyword": "普洱 五一农贸市场", "mapKeyword": "五一农贸市场"
+  },
+  {
+    "id": "puer-hongfeng", "name": "宏丰市场", "region": "普洱", "kind": "逛",
+    "subtitle": "本地市场",
+    "description": "普洱的另一个本地市场，可以和五一农贸市场二选一。",
+    "why": "看本地日常生活。",
+    "mustTry": "随便逛",
+    "bestTime": "早上或上午",
+    "xhsKeyword": "普洱 宏丰市场", "mapKeyword": "宏丰市场"
+  },
+  {
+    "id": "jingmai-tea", "name": "景迈茶修院", "region": "景迈山", "kind": "喝",
+    "subtitle": "火塘烤茶 · 茶文化体验",
+    "description": "不是“进去喝一杯就走”的茶馆，更适合留出一段时间坐下来。可以先确认当天是否营业、是否需要预约。",
+    "why": "火塘烤茶和古树茶品鉴，能真正了解景迈山的茶。",
+    "mustTry": "火塘烤茶、古树茶品鉴",
+    "bestTime": "预留 1–2 小时。在景迈山的 10/1 下午或 10/2 上午。",
+    "xhsKeyword": "景迈茶修院", "mapKeyword": "景迈茶修院"
+  },
+  {
+    "id": "jingmai-princess", "name": "布朗公主茶空间", "region": "景迈山", "kind": "喝",
+    "subtitle": "木质吊脚楼茶空间",
+    "description": "传统木质吊脚楼，有院子。偏空间和氛围感，适合下午坐着喝茶、拍木结构和山里的光线。和茶修院二选一即可。",
+    "why": "空间好看，能在吊脚楼的院子里喝茶。",
+    "mustTry": "古树茶",
+    "bestTime": "下午",
+    "xhsKeyword": "景迈山 布朗公主茶空间", "mapKeyword": "布朗公主茶空间"
+  },
+  {
+    "id": "jingmai-xianjin", "name": "糯干仙金茶店", "region": "景迈山", "kind": "玩",
+    "subtitle": "茶冰淇淋 · 茶饼手作",
+    "description": "比纯逛古寨更有参与感。茶冰淇淋和茶饼手作都是轻体验，具体活动建议先问。",
+    "why": "可以自己动手做茶饼。",
+    "mustTry": "茶冰淇淋、茶饼手作",
+    "bestTime": "白天，手作活动要先问",
+    "xhsKeyword": "糯干 仙金茶店", "mapKeyword": "糯干仙金茶店"
+  },
+  {
+    "id": "jingmai-wengji", "name": "翁基古寨", "region": "景迈山", "kind": "拍",
+    "subtitle": "木屋 · 古寨 · 布朗族",
+    "description": "适合慢慢走和拍照，不建议为了“打卡数量”赶时间。可以顺便找当地茶农坐下来喝茶。",
+    "why": "布朗族木屋古寨，景迈山最有代表性的村寨之一。",
+    "mustTry": "古寨散步、喝茶、拍照",
+    "bestTime": "别赶时间，傍晚光线好",
+    "xhsKeyword": "景迈山 翁基古寨", "mapKeyword": "翁基古寨"
+  },
+  {
+    "id": "jingmai-teaforest", "name": "大平掌古茶林", "region": "景迈山", "kind": "玩",
+    "subtitle": "林下古茶林",
+    "description": "如果想看景迈山真正有辨识度的自然环境，这里比单纯拍村寨更能理解“茶长在森林里”的感觉。",
+    "why": "古茶树和森林长在一起，是景迈山最特别的风景。",
+    "mustTry": "古茶林散步",
+    "bestTime": "白天，穿好走的鞋",
+    "xhsKeyword": "景迈山 大平掌古茶林", "mapKeyword": "大平掌古茶林"
+  },
+  {
+    "id": "jingmai-nuogan", "name": "糯干古寨", "region": "景迈山", "kind": "拍",
+    "subtitle": "傣族传统村寨",
+    "description": "景迈山上的傣族传统村寨，和布朗族的翁基古寨风格不同。",
+    "why": "能看到傣族村寨，和翁基古寨对比着看。",
+    "mustTry": "村寨散步、拍照",
+    "bestTime": "白天",
+    "xhsKeyword": "景迈山 糯干古寨", "mapKeyword": "糯干古寨"
+  },
+  {
+    "id": "menglian-market", "name": "南垒农贸市场", "region": "孟连", "kind": "逛",
+    "subtitle": "早点 · 市场 · 当地生活",
+    "description": "最适合早上去。重点不是买东西，而是看当地人吃什么、卖什么、怎么过日常。",
+    "why": "孟连人的日常生活都在这里。",
+    "mustTry": "早点、小摊、当地食材",
+    "bestTime": "早上，比如 10/3 早上",
+    "xhsKeyword": "孟连 南垒农贸市场", "mapKeyword": "南垒农贸市场"
+  },
+  {
+    "id": "menglian-oldtown", "name": "娜允古镇", "region": "孟连", "kind": "逛",
+    "subtitle": "傣族建筑 · 散步",
+    "description": "有体力再去，不需要专门安排很长时间。作为孟连的人文背景和拍照地点更合适。",
+    "why": "傣族建筑，适合散步拍照。",
+    "mustTry": "古镇散步、拍照",
+    "bestTime": "傍晚",
+    "xhsKeyword": "孟连 娜允古镇", "mapKeyword": "娜允古镇"
+  },
+  {
+    "id": "menglian-wanderer", "name": "流浪者 Cafe · 森林餐吧", "region": "孟连", "kind": "吃",
+    "subtitle": "森林空间 · 牛油果料理",
+    "description": "森林环境里的咖啡餐吧，牛油果料理、本地食物和空间氛围是重点。适合下午慢慢坐，也适合拍照。",
+    "why": "环境、吃饭、咖啡和拍照可以一次解决。",
+    "mustTry": "牛油果料理、手抓饭、咖啡",
+    "bestTime": "10/2 或 10/3 的午餐 / 下午",
+    "xhsKeyword": "孟连 流浪者 森林餐吧", "mapKeyword": "孟连 流浪者咖啡"
+  },
+  {
+    "id": "menglian-mangmang", "name": "芒芒村咖啡社区", "region": "孟连", "kind": "喝",
+    "subtitle": "咖啡 · 社区 · 旅居",
+    "description": "不是传统景区，更像一个可以停下来和人聊天、喝咖啡、看看当地年轻人怎么做咖啡和旅居的地方。",
+    "why": "能和当地做咖啡的年轻人聊天。",
+    "mustTry": "咖啡、聊天",
+    "bestTime": "留半天弹性",
+    "xhsKeyword": "孟连 芒芒村咖啡", "mapKeyword": "芒芒村"
+  },
+  {
+    "id": "menglian-nayuncoffee", "name": "娜允咖啡主题街", "region": "孟连", "kind": "喝",
+    "subtitle": "咖啡小店 + 傍晚散步",
+    "description": "适合不想再安排“大景点”的时候去。可以找一两家看着顺眼的坐下，不需要全部喝遍。",
+    "why": "一条街都是咖啡小店，随便挑。",
+    "mustTry": "本地咖啡、牛油果系饮品",
+    "bestTime": "傍晚",
+    "xhsKeyword": "孟连 娜允咖啡街", "mapKeyword": "孟连 咖啡主题街"
+  },
+  {
+    "id": "menglian-dai", "name": "孟连傣味小店", "region": "孟连", "kind": "吃",
+    "subtitle": "到当地再选具体店",
+    "description": "比起提前锁死一家网红餐厅，更建议到了之后看市场、酒店和本地人的推荐，优先找酸、辣、香草和凉拌类傣味。",
+    "why": "傣味是孟连的主角，现场找更灵活。",
+    "mustTry": "傣味、酸辣、凉拌、烧烤",
+    "bestTime": "现场决定",
+    "xhsKeyword": "孟连 傣味", "mapKeyword": "孟连 傣味"
+  },
+  {
+    "id": "km-donghua", "name": "东华农贸市场", "region": "昆明", "kind": "逛",
+    "subtitle": "塞拉维酒店附近 · 菜市场",
+    "description": "酒店就在东华农贸市场附近。这里更适合早上或白天逛，看看昆明本地早点、熟食、蔬果和市场烟火气。",
+    "why": "离酒店近，走过去就能逛。",
+    "mustTry": "早点、熟食、市场小吃",
+    "bestTime": "10/6 上午 / 中午",
+    "xhsKeyword": "昆明 东华农贸市场", "mapKeyword": "东华农贸市场"
+  },
+  {
+    "id": "km-dinner", "name": "东华农贸市场附近晚餐", "region": "昆明", "kind": "吃",
+    "subtitle": "10/5 晚上到昆明后",
+    "description": "20:45 才到昆明站，不建议再跑远找网红店。入住后直接在东华农贸市场附近按状态选晚餐更合理。",
+    "why": "晚到之后离酒店近最重要。",
+    "mustTry": "到了再选",
+    "bestTime": "10/5 晚上",
+    "xhsKeyword": "昆明 东华农贸市场 美食", "mapKeyword": "东华农贸市场 美食"
+  },
+  {
+    "id": "km-bbq", "name": "东华农贸市场附近烧烤", "region": "昆明", "kind": "吃",
+    "subtitle": "晚到后的轻松选项",
+    "description": "如果到昆明后还想吃一顿夜宵，就直接在酒店和东华农贸市场附近搜烧烤，不需要再跑公园 1903。",
+    "why": "晚到后不用跑远。",
+    "mustTry": "烧烤 / 夜宵",
+    "bestTime": "10/5 晚上",
+    "xhsKeyword": "昆明 东华农贸市场 烧烤", "mapKeyword": "东华农贸市场 烧烤"
+  }
+]
