@@ -14,4 +14,5 @@ ALLOWED_ORIGIN = "https://linlinfangting-wq.github.io"
 # GITHUB_CLIENT_ID / GITHUB_CLIENT_SECRET  —— GitHub OAuth App（只用来确认登录的是你）
 # GITHUB_TOKEN                             —— 只能写 yunnan-trip-2026 这个仓库的细粒度 token
 # SESSION_SECRET                           —— 随机字符串，用来签登录状态
-# ANTHROPIC_API_KEY                        —— 智能识别用
+# QWEN_API_KEY                             —— 通义千问（阿里云百炼），智能识别用
+# ANTHROPIC_API_KEY                        —— 可选：没设通义千问时改用 Claude
