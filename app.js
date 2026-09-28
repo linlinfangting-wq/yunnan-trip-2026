@@ -9,7 +9,7 @@ const KINDS = ['全部', '吃', '喝', '逛', '玩', '拍'];
 const MAP_CITY = { '普洱': '普洱市', '景迈山': '普洱市', '孟连': '普洱市', '昆明': '昆明市' };
 const MAG_BG = { '普洱': '#F4EFE7', '景迈山': '#EAF0E9', '孟连': '#EEF0F3', '昆明': '#F5F2EC' };
 const EVENT_TAG = { flight: '航班', train: '高铁', car: '租车', hotel: '酒店', meal: '吃饭', free: '自由' };
-const BAIDU_SRC = 'webapp.yunnantrip.planner';
+const BAIDU_SRC = 'ios.yunnantrip.planner';
 
 const state = { trip: null, places: [], byId: {}, day: null, region: '全部', kind: '全部', q: '' };
 const $ = (s, r = document) => r.querySelector(s);
@@ -24,12 +24,15 @@ const xhsPlaceUrl = p => p.noteId ? 'xhsdiscover://item/' + p.noteId : xhsUrl(p.
 const xhsWebUrl = p => p.noteId && p.xsecToken
   ? `https://www.xiaohongshu.com/discovery/item/${p.noteId}?xsec_token=${encodeURIComponent(p.xsecToken)}&xsec_source=pc_share`
   : '';
-// 用百度地图官方网页调起接口（普通 https 链接），手机上会自动唤起百度地图 App
+// 直接调起百度地图 App（Safari 里一点就进）；网页版作备用
+const cityOf = region => encodeURIComponent(MAP_CITY[region] || region);
 const placeUrl = (query, region) =>
-  `https://api.map.baidu.com/place/search?query=${encodeURIComponent(query)}&region=${encodeURIComponent(MAP_CITY[region] || region)}&output=html&src=${BAIDU_SRC}`;
+  `baidumap://map/place/search?query=${encodeURIComponent(query)}&region=${cityOf(region)}&src=${BAIDU_SRC}`;
 const routeUrl = r =>
-  `https://api.map.baidu.com/direction?origin=${encodeURIComponent('name:' + r.from)}&destination=${encodeURIComponent('name:' + r.to)}` +
-  `&mode=${r.mode}&region=${encodeURIComponent(MAP_CITY[r.region] || r.region)}&output=html&src=${BAIDU_SRC}`;
+  `baidumap://map/direction?origin=${encodeURIComponent('name:' + r.from)}&destination=${encodeURIComponent('name:' + r.to)}` +
+  `&mode=${r.mode}&region=${cityOf(r.region)}&src=${BAIDU_SRC}`;
+const placeWebUrl = (query, region) =>
+  `https://api.map.baidu.com/place/search?query=${encodeURIComponent(query)}&region=${cityOf(region)}&output=html&src=webapp.yunnantrip.planner`;
 
 // ---------- 收藏 ----------
 function getFav() {
@@ -196,11 +199,11 @@ function renderDay() {
     routes = d.routes.map(r => `<div class="route card-box">
         <div class="info"><div class="lbl">${esc(r.label)}</div>
         <div class="path">${esc(r.from)}<i>→</i>${esc(r.to)}</div></div>
-        <a target="_blank" rel="noopener" class="btn" href="${esc(routeUrl(r))}">百度地图算路</a>
+        <a class="btn" href="${esc(routeUrl(r))}">百度地图算路</a>
       </div>`).join('');
   } else {
     routes = `<div class="route-empty card-box"><span>今天不换城市，住 ${esc(d.stay.name)}</span>
-      <a target="_blank" rel="noopener" class="btn light" href="${esc(placeUrl(d.stay.name, d.region))}">酒店位置 ↗</a></div>`;
+      <a class="btn light" href="${esc(placeUrl(d.stay.name, d.region))}">酒店位置 ↗</a></div>`;
   }
 
   $('#dayview').innerHTML = `
@@ -250,9 +253,10 @@ function openSheet(id) {
       </div>
       <div class="actions">
         <a class="btn xhs" href="${esc(xhsPlaceUrl(p))}">${p.noteId ? '看这篇笔记 ↗' : '小红书 ↗'}</a>
-        <a target="_blank" rel="noopener" class="btn light" href="${esc(placeUrl(p.mapKeyword, p.region))}">百度地图 ↗</a>
+        <a class="btn light" href="${esc(placeUrl(p.mapKeyword, p.region))}">百度地图 ↗</a>
       </div>
       ${xhsWebUrl(p) ? `<a class="weblink" target="_blank" rel="noopener" href="${esc(xhsWebUrl(p))}">打不开？用网页打开这篇笔记 ↗</a>` : ''}
+      <a class="weblink" target="_blank" rel="noopener" href="${esc(placeWebUrl(p.mapKeyword, p.region))}">没装百度地图？用网页版查看位置 ↗</a>
       <div class="fallback"><span>点了没跳转？复制 <b>${esc(p.xhsKeyword)}</b> 到 App 里搜</span>
         <button class="copy" data-copy="${esc(p.xhsKeyword)}">复制</button></div>
     </div>`;
