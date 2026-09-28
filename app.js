@@ -78,7 +78,7 @@ function magInner(p) {
     <div class="mname">${esc(p.name)}</div>
     <div class="msub">${esc(p.subtitle)}</div>
     <div class="rule"></div>
-    <a class="xhs" href="${esc(xhsUrl(p.xhsKeyword))}" data-stop>去小红书看实拍 ↗</a>`;
+    <a class="xhs" href="${esc(xhsPlaceUrl(p))}" data-stop>${p.noteId ? '看笔记 ↗' : '去小红书看实拍 ↗'}</a>`;
 }
 
 function cardHtml(p) {
@@ -236,7 +236,7 @@ function openSheet(id) {
         <div class="region">${esc(p.region)} · ${esc(p.kind)}</div>
         <div class="mname">暂无可靠实拍</div>
         <div class="rule"></div>
-        <a class="xhs" href="${esc(xhsUrl(p.xhsKeyword))}">去小红书看实拍 ↗</a>`;
+        <a class="xhs" href="${esc(xhsPlaceUrl(p))}">${p.noteId ? '看笔记 ↗' : '去小红书看实拍 ↗'}</a>`;
   $('#sheetBody').innerHTML = `
     ${hero}
       <button class="close" data-close aria-label="关闭"><span>×</span></button>
