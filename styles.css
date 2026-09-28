@@ -168,3 +168,4 @@ a{color:inherit;text-decoration:none}
 .copy{min-height:36px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12px;font-weight:600;position:relative;flex:0 0 auto}
 .copy::before{content:"";position:absolute;inset:-4px 0}
 @media (prefers-reduced-motion:reduce){.sheet,.scrim{transition:none}.heart.pop span{animation:none}}
+.weblink{display:flex;align-items:center;min-height:44px;margin-top:6px;font-size:13px;color:var(--muted);text-decoration:underline;text-underline-offset:3px}

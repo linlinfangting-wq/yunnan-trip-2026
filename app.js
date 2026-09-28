@@ -19,10 +19,11 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': 
 // ---------- 链接 ----------
 const xhsUrl = kw => 'xhsdiscover://search/result?keyword=' + encodeURIComponent(kw);
 // 有图片来源笔记时，直接打开那篇笔记
-// 笔记分享网址（https）：装了小红书的 iPhone 会直接跳进 App 打开这篇笔记
-const xhsPlaceUrl = p => p.noteId && p.xsecToken
+// 直接调起小红书 App 打开这篇笔记（Safari 里可用）；网页链接作备用
+const xhsPlaceUrl = p => p.noteId ? 'xhsdiscover://item/' + p.noteId : xhsUrl(p.xhsKeyword);
+const xhsWebUrl = p => p.noteId && p.xsecToken
   ? `https://www.xiaohongshu.com/discovery/item/${p.noteId}?xsec_token=${encodeURIComponent(p.xsecToken)}&xsec_source=pc_share`
-  : xhsUrl(p.xhsKeyword);
+  : '';
 // 用百度地图官方网页调起接口（普通 https 链接），手机上会自动唤起百度地图 App
 const placeUrl = (query, region) =>
   `https://api.map.baidu.com/place/search?query=${encodeURIComponent(query)}&region=${encodeURIComponent(MAP_CITY[region] || region)}&output=html&src=${BAIDU_SRC}`;
@@ -248,9 +249,10 @@ function openSheet(id) {
         <div class="block"><b>适合什么时候去</b><div>${esc(p.bestTime)}</div></div>
       </div>
       <div class="actions">
-        <a target="_blank" rel="noopener" class="btn xhs" href="${esc(xhsPlaceUrl(p))}">${p.noteId && p.xsecToken ? '看这篇笔记 ↗' : '小红书 ↗'}</a>
+        <a class="btn xhs" href="${esc(xhsPlaceUrl(p))}">${p.noteId ? '看这篇笔记 ↗' : '小红书 ↗'}</a>
         <a target="_blank" rel="noopener" class="btn light" href="${esc(placeUrl(p.mapKeyword, p.region))}">百度地图 ↗</a>
       </div>
+      ${xhsWebUrl(p) ? `<a class="weblink" target="_blank" rel="noopener" href="${esc(xhsWebUrl(p))}">打不开？用网页打开这篇笔记 ↗</a>` : ''}
       <div class="fallback"><span>点了没跳转？复制 <b>${esc(p.xhsKeyword)}</b> 到 App 里搜</span>
         <button class="copy" data-copy="${esc(p.xhsKeyword)}">复制</button></div>
     </div>`;
