@@ -169,3 +169,4 @@ a{color:inherit;text-decoration:none}
 .copy::before{content:"";position:absolute;inset:-4px 0}
 @media (prefers-reduced-motion:reduce){.sheet,.scrim{transition:none}.heart.pop span{animation:none}}
 .weblink{display:flex;align-items:center;min-height:44px;margin-top:6px;font-size:13px;color:var(--muted);text-decoration:underline;text-underline-offset:3px}
+.reflink{display:inline-flex;align-items:center;min-height:36px;color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line)}

@@ -1,0 +1,138 @@
+{
+  "generated": "2026-09-29",
+  "cover": [
+    {
+      "id": "puer-weishi",
+      "level": "replace",
+      "reason": "拼图压着大字，看不清米干",
+      "path": "assets/place-images/puer-weishi.jpg"
+    },
+    {
+      "id": "puer-yangji",
+      "level": "replace",
+      "reason": "拍的是后厨，看不出米线",
+      "path": "assets/place-images/puer-yangji.jpg"
+    },
+    {
+      "id": "puer-mixianwangzi",
+      "level": "replace",
+      "reason": "拍的是后厨台面",
+      "path": "assets/place-images/puer-mixianwangzi.jpg"
+    },
+    {
+      "id": "puer-aliang",
+      "level": "replace",
+      "reason": "塑料盒里的焦黑烤鸡",
+      "path": "assets/place-images/puer-aliang.jpg"
+    },
+    {
+      "id": "puer-wuyinight",
+      "level": "replace",
+      "reason": "大字攻略拼图",
+      "path": "assets/place-images/puer-wuyinight.jpg"
+    },
+    {
+      "id": "puer-dakaihe",
+      "level": "replace",
+      "reason": "带大段文字的拼图",
+      "path": "assets/place-images/puer-dakaihe.jpg"
+    },
+    {
+      "id": "km-donghua",
+      "level": "replace",
+      "reason": "手拿食物 + 大字，看不出市场",
+      "path": "assets/place-images/km-donghua.jpg"
+    },
+    {
+      "id": "km-dinner",
+      "level": "replace",
+      "reason": "纯攻略拼图",
+      "path": "assets/place-images/km-dinner.jpg"
+    },
+    {
+      "id": "puer-oldstreet",
+      "level": "replace",
+      "reason": "可以换成更有老街氛围的图",
+      "path": "assets/place-images/puer-oldstreet.jpg"
+    },
+    {
+      "id": "menglian-dai",
+      "level": "replace",
+      "reason": "区域图，最好换成傣味菜品",
+      "path": "assets/place-images/menglian-dai.jpg"
+    },
+    {
+      "id": "jingmai-aleph",
+      "level": "unknown",
+      "reason": "不确定这张是不是阿莱夫",
+      "path": "assets/place-images/jingmai-aleph.jpg"
+    },
+    {
+      "id": "puer-jianyu",
+      "level": "unknown",
+      "reason": "咖啡图压着大字",
+      "path": "assets/place-images/puer-jianyu.jpg"
+    },
+    {
+      "id": "puer-fuyuan",
+      "level": "unknown",
+      "reason": "带文字拼图",
+      "path": "assets/place-images/puer-fuyuan.jpg"
+    },
+    {
+      "id": "jingmai-wengji",
+      "level": "unknown",
+      "reason": "四宫格拼图",
+      "path": "assets/place-images/jingmai-wengji.jpg"
+    },
+    {
+      "id": "menglian-mangmang",
+      "level": "unknown",
+      "reason": "拼图",
+      "path": "assets/place-images/menglian-mangmang.jpg"
+    },
+    {
+      "id": "km-bbq",
+      "level": "unknown",
+      "reason": "看不出是哪家",
+      "path": "assets/place-images/km-bbq.jpg"
+    },
+    {
+      "id": "puer-manxieba",
+      "level": "unknown",
+      "reason": "光线暗，主体不清楚",
+      "path": "assets/place-images/puer-manxieba.jpg"
+    }
+  ],
+  "region": [
+    {
+      "id": "jingmai-lancang-market",
+      "reason": "在澜沧县城，只有周六晚到周日上午，周六你们在孟连"
+    },
+    {
+      "id": "jingmai-banyan",
+      "reason": "离景迈山主景区开车约 1 小时 20 分钟"
+    },
+    {
+      "id": "puer-xiabie",
+      "reason": "小红书上只找到昆明分店的笔记"
+    }
+  ],
+  "duplicatePlaces": [
+    {
+      "ids": [
+        "km-donghua",
+        "km-dinner",
+        "km-bbq"
+      ],
+      "reason": "后两个不是具体店铺"
+    },
+    {
+      "ids": [
+        "puer-wuyinight",
+        "puer-wuyimarket"
+      ],
+      "reason": "五一农贸市场用的也是夜市攻略"
+    }
+  ]
+}

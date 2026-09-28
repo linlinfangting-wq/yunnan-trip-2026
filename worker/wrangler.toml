@@ -1,0 +1,17 @@
+name = "yunnan-trip-admin"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+# 公开配置（不是密钥）
+[vars]
+ADMIN_LOGIN = "linlinfangting-wq"
+REPO = "linlinfangting-wq/yunnan-trip-2026"
+BRANCH = "main"
+ALLOWED_ORIGIN = "https://linlinfangting-wq.github.io"
+
+# 密钥用 `npx wrangler secret put <名字>` 设置，不写在这里：
+# GITHUB_CLIENT_ID / GITHUB_CLIENT_SECRET  —— GitHub OAuth App（只用来确认登录的是你）
+# GITHUB_TOKEN                             —— 只能写 yunnan-trip-2026 这个仓库的细粒度 token
+# SESSION_SECRET                           —— 随机字符串，用来签登录状态
+# ANTHROPIC_API_KEY                        —— 智能识别用

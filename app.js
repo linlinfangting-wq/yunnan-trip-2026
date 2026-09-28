@@ -18,9 +18,9 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': 
 
 // ---------- 链接 ----------
 const xhsUrl = kw => 'xhsdiscover://search/result?keyword=' + encodeURIComponent(kw);
-// 有图片来源笔记时，直接打开那篇笔记
-// 直接调起小红书 App 打开这篇笔记（Safari 里可用）；网页链接作备用
-const xhsPlaceUrl = p => p.noteId ? 'xhsdiscover://item/' + p.noteId : xhsUrl(p.xhsKeyword);
+// 有独立笔记（primaryXhsLink）时直接调起 App 打开那篇；没有就打开小红书搜索。合集笔记只放「参考攻略」
+const xhsNoteUrl = id => 'xhsdiscover://item/' + id;
+const xhsPlaceUrl = p => p.noteId ? xhsNoteUrl(p.noteId) : p.primaryLink || xhsUrl(p.xhsKeyword);
 const xhsWebUrl = p => p.noteId && p.xsecToken
   ? `https://www.xiaohongshu.com/discovery/item/${p.noteId}?xsec_token=${encodeURIComponent(p.xsecToken)}&xsec_source=pc_share`
   : '';
@@ -137,8 +137,8 @@ function filtered() {
   const q = state.q.trim().toLowerCase();
   return state.places.filter(p =>
     (state.region === '全部' || p.region === state.region) &&
-    (state.kind === '全部' || p.kind === state.kind) &&
-    (!q || [p.name, p.subtitle, p.description, p.mustTry, p.why, p.region, p.kind].join(' ').toLowerCase().includes(q)));
+    (state.kind === '全部' || p.kinds.includes(state.kind)) &&
+    (!q || [p.name, ...p.aliases, p.subtitle, p.description, p.mustTry, p.why, p.region, ...p.kinds].join(' ').toLowerCase().includes(q)));
 }
 function renderDiscover() {
   const list = filtered();
@@ -250,9 +250,11 @@ function openSheet(id) {
         ${p.why ? `<div class="block"><b>为什么值得去</b><div>${esc(p.why)}</div></div>` : ''}
         <div class="block"><b>推荐${p.kind === '喝' ? '喝什么' : p.kind === '吃' ? '吃什么' : '做什么'}</b><div>${esc(p.mustTry)}</div></div>
         <div class="block"><b>适合什么时候去</b><div>${esc(p.bestTime)}</div></div>
+        ${p.refNotes.length ? `<div class="block"><b>参考攻略</b>${p.refNotes.map(n =>
+          `<div><a class="reflink" href="${esc(xhsNoteUrl(n.noteId))}">${esc(n.title)} ↗</a></div>`).join('')}</div>` : ''}
       </div>
       <div class="actions">
-        <a class="btn xhs" href="${esc(xhsPlaceUrl(p))}">${p.noteId ? '看这篇笔记 ↗' : '小红书 ↗'}</a>
+        <a class="btn xhs" href="${esc(xhsPlaceUrl(p))}">${p.noteId || p.primaryLink ? '查看小红书笔记 ↗' : '小红书 ↗'}</a>
         <a class="btn light" href="${esc(placeUrl(p.mapKeyword, p.region))}">百度地图 ↗</a>
       </div>
       ${xhsWebUrl(p) ? `<a class="weblink" target="_blank" rel="noopener" href="${esc(xhsWebUrl(p))}">打不开？用网页打开这篇笔记 ↗</a>` : ''}
@@ -328,20 +330,42 @@ $('#scrim').addEventListener('click', closeSheet);
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
 $('#search').addEventListener('input', e => { state.q = e.target.value; renderDiscover(); });
 
+// ---------- 数据适配层：places.json / notes.json -> 渲染用字段 ----------
+const noteIdOf = url => (String(url || '').match(/(?:item|explore)\/([0-9a-f]{24})/) || [])[1] || '';
+const tokenOf = url => { try { return new URL(url).searchParams.get('xsec_token') || ''; } catch (e) { return ''; } };
+function toViewPlaces(places, notes) {
+  const noteById = Object.fromEntries(notes.map(n => [n.id, n]));
+  const noteByNid = Object.fromEntries(notes.map(n => [n.noteId, n]));
+  return places
+    .filter(p => p.status === 'published')
+    .sort((a, b) => (b.featured === true) - (a.featured === true) || (a.sortOrder ?? 0) - (b.sortOrder ?? 0))
+    .map(p => {
+      const c = p.cover || {};
+      const src = c.localPath || c.url || '';
+      const kinds = p.category && p.category.length ? p.category : ['逛'];
+      const noteId = noteIdOf(p.primaryXhsLink);
+      const coverNote = noteByNid[noteIdOf(c.sourceUrl)];
+      return {
+        id: p.id, name: p.name, aliases: p.aliases || [], region: p.region, kind: kinds[0], kinds,
+        subtitle: p.cardSubtitle || '', description: p.description || '', why: p.why || '',
+        mustTry: (p.mustTry || []).join('、'), bestTime: p.bestTime || '',
+        xhsKeyword: p.xhsKeyword || `${p.region} ${p.name}`, mapKeyword: p.mapKeyword || p.name,
+        photoStatus: src ? (c.status || 'missing') : 'missing', src, sourceType: c.source || '',
+        likes: coverNote ? coverNote.likes : 0,
+        noteId, xsecToken: tokenOf(p.primaryXhsLink), primaryLink: noteId ? '' : (p.primaryXhsLink || ''),
+        refNotes: (p.sourceNotes || []).map(id => noteById[id]).filter(n => n && n.noteId !== noteId),
+      };
+    });
+}
+
 // ---------- 数据加载 ----------
 async function load() {
   const get = f => fetch(f, { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(f); return r.json(); });
   try {
-    const [trip, places, images] = await Promise.all([
-      get('data/trip.json'), get('data/places.json'), get('data/place-images.json')]);
-    const imgById = Object.fromEntries(images.map(i => [i.placeId, i]));
+    const [trip, places, notes] = await Promise.all([
+      get('data/trip.json'), get('data/places.json'), get('data/notes.json')]);
     state.trip = trip;
-    state.places = places.map(p => {
-      const img = imgById[p.id] || {};
-      const src = img.localPath || img.imageUrl || '';
-      const status = src ? (img.photoStatus || 'missing') : 'missing';
-      return { ...p, photoStatus: status, src, sourceType: img.sourceType || '', noteId: img.noteId || '', xsecToken: img.xsecToken || '', likes: img.likes || 0 };
-    });
+    state.places = toViewPlaces(places, notes);
     state.byId = Object.fromEntries(state.places.map(p => [p.id, p]));
   } catch (err) {
     $('main').innerHTML = `<div class="loaderr">行程数据没有读取到。<br>如果是在电脑上直接双击打开的，浏览器会禁止读取 data 文件夹，请用网址打开。</div>`;

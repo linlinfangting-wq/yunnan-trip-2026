@@ -2,1496 +2,3741 @@
   {
     "id": "puer-lianxing",
     "name": "连兴早点",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "本地早点 · 花生汤",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "本地早点 · 花生汤",
     "description": "评论里出现频率很高，本地人从小吃到大的类型。适合早上快速吃完再出发，不需要把它当网红店打卡。",
     "why": "本地人从小吃到大的早点，比游客店更日常。",
-    "mustTry": "花生汤、米干",
+    "mustTry": [
+      "花生汤",
+      "米干"
+    ],
     "bestTime": "早餐。在普洱的早上都可以，比如 10/1 取车前。",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-lianxing.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a7331c90000000006007905?xsec_token=AB4JLNzib9F9JvNyyz83kHCyz-nh_5MG4tMexS2EY0YgA=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 连兴早点",
-    "mapKeyword": "连兴早点"
+    "mapKeyword": "连兴早点",
+    "sourceNotes": [
+      "note-6a7331c90000000006007905"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 10
   },
   {
     "id": "puer-weishi",
     "name": "魏氏豆汤米干",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "豆汤 / 花生汤米干",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "豆汤 / 花生汤米干",
     "description": "比普通米线更有普洱当地辨识度。想吃当地早餐而不是连锁或游客店，这家更值得留一顿。店在思茅老街。",
     "why": "豆汤米干是普洱本地味道，门头就在思茅老街上。",
-    "mustTry": "豆汤米干、花生汤米干",
+    "mustTry": [
+      "豆汤米干",
+      "花生汤米干"
+    ],
     "bestTime": "早餐优先",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-weishi.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/68cab26a0000000013016d8b?xsec_token=ABCkeqDTh9j1rR_mtGVaDuA1sptUFY0OfTVdb06_OmKSA=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/68cab26a0000000013016d8b?xsec_token=ABCkeqDTh9j1rR_mtGVaDuA1sptUFY0OfTVdb06_OmKSA=&xsec_source=pc_share",
     "xhsKeyword": "普洱 魏氏豆汤米干",
-    "mapKeyword": "魏氏豆汤米干"
+    "mapKeyword": "魏氏豆汤米干",
+    "sourceNotes": [
+      "note-68cab26a0000000013016d8b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 20
   },
   {
     "id": "puer-yangji",
     "name": "杨记普洱酸醋米线",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "普洱特色酸醋米线",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "普洱特色酸醋米线",
     "description": "评论区反复出现的本地味型。有人建议加冰块、多放韭菜葱和花椒油。",
     "why": "酸醋米线是普洱特色吃法，这家被反复点名。",
-    "mustTry": "酸醋米线，加冰块、韭菜、葱、花椒油",
+    "mustTry": [
+      "酸醋米线",
+      "加冰块",
+      "韭菜",
+      "葱",
+      "花椒油"
+    ],
     "bestTime": "午餐或下午。排队可能很久，太久就换米线王子。",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-yangji.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/694a5682000000001e00eb8d?xsec_token=ABaUvg68-a4P5D4-3RPZxYOTnqDrYlY1kD4vu7ADxOaR0=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/694a5682000000001e00eb8d?xsec_token=ABaUvg68-a4P5D4-3RPZxYOTnqDrYlY1kD4vu7ADxOaR0=&xsec_source=pc_share",
     "xhsKeyword": "普洱 杨记酸醋米线",
-    "mapKeyword": "杨记普洱酸醋米线"
+    "mapKeyword": "杨记普洱酸醋米线",
+    "sourceNotes": [
+      "note-694a5682000000001e00eb8d"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 30
   },
   {
     "id": "puer-mixianwangzi",
     "name": "米线王子",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "酸醋米线 · 阳光悦城",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "酸醋米线 · 阳光悦城",
     "description": "杨记酸醋米线排队太久时的替代选择，在阳光悦城。",
     "why": "同样能吃到普洱酸醋米线，不用排长队。",
-    "mustTry": "酸醋米线",
+    "mustTry": [
+      "酸醋米线"
+    ],
     "bestTime": "杨记排队太久时",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-mixianwangzi.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696ce117000000001a034d39?xsec_token=ABpuMW82rY5_6KHtiaZXTOEhNB61r21bYm8845_XCTC5Q=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/696ce117000000001a034d39?xsec_token=ABpuMW82rY5_6KHtiaZXTOEhNB61r21bYm8845_XCTC5Q=&xsec_source=pc_share",
     "xhsKeyword": "普洱 米线王子",
-    "mapKeyword": "米线王子 阳光悦城"
+    "mapKeyword": "米线王子 阳光悦城",
+    "sourceNotes": [
+      "note-696ce117000000001a034d39"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 40
   },
   {
     "id": "puer-fuyuan",
     "name": "福苑老街牛肉米干",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "鲜烫牛肉米干",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "鲜烫牛肉米干",
     "description": "主打牛肉米干，汤的和干拌的都有人推荐。",
     "why": "想吃一碗扎实的牛肉米干时的选择。",
-    "mustTry": "鲜烫牛肉米干、干拌米干",
+    "mustTry": [
+      "鲜烫牛肉米干",
+      "干拌米干"
+    ],
     "bestTime": "早餐或午餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-fuyuan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/67d823e3000000001d007e3a?xsec_token=ABGNjODlVftMCtMHx_-Sum12ecMm4fWgQ_kdCSKhpimF8=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/67d823e3000000001d007e3a?xsec_token=ABGNjODlVftMCtMHx_-Sum12ecMm4fWgQ_kdCSKhpimF8=&xsec_source=pc_share",
     "xhsKeyword": "普洱 福苑老街牛肉米干",
-    "mapKeyword": "福苑老街牛肉米干"
+    "mapKeyword": "福苑老街牛肉米干",
+    "sourceNotes": [
+      "note-67d823e3000000001d007e3a"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 50
   },
   {
     "id": "puer-duoweiji",
     "name": "澜沧多味鸡",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "普洱菜 · 一桌吃多种味型",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "普洱菜 · 一桌吃多种味型",
     "description": "黄焖鸡、薄荷炒牛肉、凉拌罗非鱼和鸡肉烂饭都有人推荐。比只吃一只烤鸡更适合作为完整正餐。",
     "why": "一顿能吃到好几种本地味型，适合多人。",
-    "mustTry": "黄焖鸡、薄荷炒牛肉、凉拌罗非鱼、鸡肉烂饭",
+    "mustTry": [
+      "黄焖鸡",
+      "薄荷炒牛肉",
+      "凉拌罗非鱼",
+      "鸡肉烂饭"
+    ],
     "bestTime": "正餐，人多更划算",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-duoweiji.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/68fef1080000000004021471?xsec_token=ABolzgFax_95WKD1U7I6q049wdDsXPPp515BFqJ2aBHBU=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/68fef1080000000004021471?xsec_token=ABolzgFax_95WKD1U7I6q049wdDsXPPp515BFqJ2aBHBU=&xsec_source=pc_share",
     "xhsKeyword": "普洱 澜沧多味鸡",
-    "mapKeyword": "澜沧多味鸡"
+    "mapKeyword": "澜沧多味鸡",
+    "sourceNotes": [
+      "note-68fef1080000000004021471"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 60
   },
   {
     "id": "puer-sudama",
     "name": "苏大妈烧烤",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "油呛 / 炒米干",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "油呛 / 炒米干",
     "description": "你整理的评论里，油呛是高频推荐菜。适合晚上吃一顿重口味。",
     "why": "油呛是评论里的高频推荐。",
-    "mustTry": "油呛、炒米干",
+    "mustTry": [
+      "油呛",
+      "炒米干"
+    ],
     "bestTime": "晚上 / 夜宵",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-sudama.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69aabd3a000000001a0337ca?xsec_token=AB4UXPvAgBYEOJlPzYu55xsjdXvElI5HcK_2uKBP9F3s4=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69aabd3a000000001a0337ca?xsec_token=AB4UXPvAgBYEOJlPzYu55xsjdXvElI5HcK_2uKBP9F3s4=&xsec_source=pc_share",
     "xhsKeyword": "普洱 苏大妈烧烤",
-    "mapKeyword": "苏大妈烧烤"
+    "mapKeyword": "苏大妈烧烤",
+    "sourceNotes": [
+      "note-69aabd3a000000001a0337ca"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 70
   },
   {
     "id": "puer-youke",
     "name": "友客烧烤",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "臭豆腐煮鱼 / 辣螃蟹",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "臭豆腐煮鱼 / 辣螃蟹",
     "description": "不是只有普通烤串，骨头生、臭菜臭豆腐煮鱼和辣螃蟹都被反复点名，适合想吃更有地方感的一顿。",
     "why": "有烤串以外的本地重口味菜。",
-    "mustTry": "骨头生、臭菜臭豆腐煮鱼、辣螃蟹",
+    "mustTry": [
+      "骨头生",
+      "臭菜臭豆腐煮鱼",
+      "辣螃蟹"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-youke.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a61a5fe000000001d00f8a8?xsec_token=ABWcAS5SueSVnzrKIh_rcnyXy3zMGnYDje9pA9jk0VhSc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a61a5fe000000001d00f8a8?xsec_token=ABWcAS5SueSVnzrKIh_rcnyXy3zMGnYDje9pA9jk0VhSc=&xsec_source=pc_share",
     "xhsKeyword": "普洱 友客烧烤",
-    "mapKeyword": "友客烧烤"
+    "mapKeyword": "友客烧烤",
+    "sourceNotes": [
+      "note-6a61a5fe000000001d00f8a8"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 80
   },
   {
     "id": "puer-yangsan",
     "name": "杨三饭庄",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "本地家常普洱菜 · 老店",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "本地家常普洱菜 · 老店",
     "description": "被描述为本地人吃席常去的老店类型。想吃更稳妥、不是专门做游客生意的本地菜，可以留作备选。",
     "why": "本地人吃席常去的老店。",
-    "mustTry": "普洱家常菜",
+    "mustTry": [
+      "普洱家常菜"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 杨三饭庄",
-    "mapKeyword": "杨三饭庄"
+    "mapKeyword": "杨三饭庄",
+    "sourceNotes": [],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 90
   },
   {
     "id": "puer-jiangyu",
     "name": "江鱼之家",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "小河鱼 · 酸笋 · 蚂蚁蛋",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "小河鱼 · 酸笋 · 蚂蚁蛋",
     "description": "腌菜煮小河鱼、酸笋煮干巴、炒蚂蚁蛋都是比较少见的本地菜。",
     "why": "能吃到在别处很难吃到的本地食材。",
-    "mustTry": "腌菜煮小河鱼、酸笋煮干巴、炒蚂蚁蛋",
+    "mustTry": [
+      "腌菜煮小河鱼",
+      "酸笋煮干巴",
+      "炒蚂蚁蛋"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-jiangyu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/699ab972000000001b01f906?xsec_token=ABa-iNjw9AuupLjZmLPL1pzvzBjjuApF6JAukz4mZnAZI=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/699ab972000000001b01f906?xsec_token=ABa-iNjw9AuupLjZmLPL1pzvzBjjuApF6JAukz4mZnAZI=&xsec_source=pc_share",
     "xhsKeyword": "普洱 江鱼之家",
-    "mapKeyword": "江鱼之家"
+    "mapKeyword": "江鱼之家",
+    "sourceNotes": [
+      "note-699ab972000000001b01f906"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 100
   },
   {
     "id": "puer-qixi",
     "name": "栖夕小筑",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "普洱本土菜",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "普洱本土菜",
     "description": "做普洱本土菜的餐厅，可以作为正餐选项之一。",
     "why": "普洱本土菜。",
-    "mustTry": "到店看招牌菜",
+    "mustTry": [
+      "到店看招牌菜"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 栖夕小筑",
-    "mapKeyword": "栖夕小筑"
+    "mapKeyword": "栖夕小筑",
+    "sourceNotes": [],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 110
   },
   {
     "id": "puer-aliang",
     "name": "阿良烤鸡",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "烤鸡 · 油呛",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "烤鸡 · 油呛",
     "description": "烤鸡和油呛都有人推荐。",
     "why": "想吃烤鸡时的选择，也有油呛。",
-    "mustTry": "烤鸡、油呛",
+    "mustTry": [
+      "烤鸡",
+      "油呛"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-aliang.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a4783a9000000001702f67a?xsec_token=ABUICLt7O0itbyfvlDv-NUtO0qOtSIGSewwdgcIFie4lg=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a4783a9000000001702f67a?xsec_token=ABUICLt7O0itbyfvlDv-NUtO0qOtSIGSewwdgcIFie4lg=&xsec_source=pc_share",
     "xhsKeyword": "普洱 阿良烤鸡",
-    "mapKeyword": "阿良烤鸡"
+    "mapKeyword": "阿良烤鸡",
+    "sourceNotes": [
+      "note-6a4783a9000000001702f67a"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 120
   },
   {
     "id": "puer-dameixian",
     "name": "大美仙烧烤",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "甜辣味 · 烤牛胸膘",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "甜辣味 · 烤牛胸膘",
     "description": "偏甜辣口味的烧烤，烤牛胸膘被点名。",
     "why": "口味跟其他烧烤不一样，是甜辣的。",
-    "mustTry": "烤牛胸膘",
+    "mustTry": [
+      "烤牛胸膘"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-dameixian.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a203f5100000000220267da?xsec_token=ABlMU4_4W30Nfy9Ne-dyq3YOi24MBs3zyZfQ1FUWluk10=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a203f5100000000220267da?xsec_token=ABlMU4_4W30Nfy9Ne-dyq3YOi24MBs3zyZfQ1FUWluk10=&xsec_source=pc_share",
     "xhsKeyword": "普洱 大美仙烧烤",
-    "mapKeyword": "大美仙烧烤"
+    "mapKeyword": "大美仙烧烤",
+    "sourceNotes": [
+      "note-6a203f5100000000220267da"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 130
   },
   {
     "id": "puer-ximeng",
     "name": "西盟岩认烧烤",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "佤味烧烤 · 很辣",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "佤味烧烤 · 很辣",
     "description": "佤族风味的烧烤，评论说很辣，能吃辣再去。",
     "why": "佤味烧烤，和普通烧烤味道不同。",
-    "mustTry": "佤味烧烤",
+    "mustTry": [
+      "佤味烧烤"
+    ],
     "bestTime": "晚上。怕辣的提前说。",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-ximeng.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69627a83000000001a01f10f?xsec_token=ABO6GVS4hkol7LcyeJ6I5WbYwgvvwiHX5a3ADFBNdGi4Q=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69627a83000000001a01f10f?xsec_token=ABO6GVS4hkol7LcyeJ6I5WbYwgvvwiHX5a3ADFBNdGi4Q=&xsec_source=pc_share",
     "xhsKeyword": "普洱 西盟岩认烧烤",
-    "mapKeyword": "西盟岩认烧烤"
+    "mapKeyword": "西盟岩认烧烤",
+    "sourceNotes": [
+      "note-69627a83000000001a01f10f"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 140
   },
   {
     "id": "puer-xiabie",
     "name": "夏别烧烤",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "木姜子鸭头 · 牛蛙",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "木姜子鸭头 · 牛蛙",
     "description": "木姜子鸭头和牛蛙被推荐。",
     "why": "木姜子是云南常见的香料，鸭头这样做比较少见。",
-    "mustTry": "木姜子鸭头、牛蛙",
+    "mustTry": [
+      "木姜子鸭头",
+      "牛蛙"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 夏别烧烤",
-    "mapKeyword": "夏别烧烤"
+    "mapKeyword": "夏别烧烤",
+    "sourceNotes": [],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 150
   },
   {
     "id": "puer-laoxiong",
     "name": "老熊凉粉",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "洋芋 + 米凉粉双拼",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "洋芋 + 米凉粉双拼",
     "description": "凉粉小吃，推荐点洋芋凉粉和米凉粉的双拼。",
     "why": "一份就能吃到两种凉粉。",
-    "mustTry": "洋芋 + 米凉粉双拼",
+    "mustTry": [
+      "洋芋 + 米凉粉双拼"
+    ],
     "bestTime": "小吃，随时",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-laoxiong.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69d49df0000000001b02075e?xsec_token=AB0ynChrGdFg7RsMrq7-TJoaTaDzuJrdcMq0wvyCamhvM=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69d49df0000000001b02075e?xsec_token=AB0ynChrGdFg7RsMrq7-TJoaTaDzuJrdcMq0wvyCamhvM=&xsec_source=pc_share",
     "xhsKeyword": "普洱 老熊凉粉",
-    "mapKeyword": "老熊凉粉"
+    "mapKeyword": "老熊凉粉",
+    "sourceNotes": [
+      "note-69d49df0000000001b02075e"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 160
   },
   {
     "id": "puer-ajiu",
     "name": "阿九无骨鸡脚",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "无骨鸡脚",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "无骨鸡脚",
     "description": "做无骨鸡脚的小店。",
     "why": "适合买一份边走边吃。",
-    "mustTry": "无骨鸡脚",
+    "mustTry": [
+      "无骨鸡脚"
+    ],
     "bestTime": "小吃，随时",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 阿九无骨鸡脚",
-    "mapKeyword": "阿九无骨鸡脚"
+    "mapKeyword": "阿九无骨鸡脚",
+    "sourceNotes": [],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 170
   },
   {
     "id": "puer-wuyinight",
     "name": "五一夜市",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "夜市小摊",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "夜市小摊",
     "description": "都是小摊，铁板炒饭和手工棒棒鸡被点名。",
     "why": "晚上边走边吃，比进店吃更轻松。",
-    "mustTry": "铁板炒饭、手工棒棒鸡",
+    "mustTry": [
+      "铁板炒饭",
+      "手工棒棒鸡"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-wuyinight.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a2139d40000000007025ba2?xsec_token=ABZX-zqOHGoP54YKpeIigdj2Y0R3JnShero3x3mVAi1KQ=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a2139d40000000007025ba2?xsec_token=ABZX-zqOHGoP54YKpeIigdj2Y0R3JnShero3x3mVAi1KQ=&xsec_source=pc_share",
     "xhsKeyword": "普洱 五一夜市",
-    "mapKeyword": "五一夜市"
+    "mapKeyword": "五一夜市",
+    "sourceNotes": [
+      "note-6a2139d40000000007025ba2"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 180
   },
   {
     "id": "puer-qiancaofeng",
     "name": "浅草风",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "酸木瓜系饮品",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "酸木瓜系饮品",
     "description": "山野酸木瓜、龙眼马蹄冰被多次提到。相比普通奶茶，这类酸木瓜和热带水果特调更有普洱辨识度。",
     "why": "酸木瓜饮品比普通奶茶更有普洱特色。",
-    "mustTry": "山野酸木瓜、龙眼马蹄冰",
+    "mustTry": [
+      "山野酸木瓜",
+      "龙眼马蹄冰"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-qiancaofeng.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6953d80c000000001e034620?xsec_token=ABj4c7-p5zE-9UZI1i3ANWkHiIUrKzde4VlpQZvPM8fFg=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6953d80c000000001e034620?xsec_token=ABj4c7-p5zE-9UZI1i3ANWkHiIUrKzde4VlpQZvPM8fFg=&xsec_source=pc_share",
     "xhsKeyword": "普洱 浅草风",
-    "mapKeyword": "浅草风"
+    "mapKeyword": "浅草风",
+    "sourceNotes": [
+      "note-6953d80c000000001e034620"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 190
   },
   {
     "id": "puer-broccoli",
     "name": "西兰花咖啡（行署大院店）",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "城市咖啡馆",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "城市咖啡馆",
     "description": "适合不想专程跑咖啡庄园时作为市区选项。你整理的推荐里明确提到特调“菊次郎的夏天”。",
     "why": "在市区就能喝到的特调咖啡。",
-    "mustTry": "菊次郎的夏天",
+    "mustTry": [
+      "菊次郎的夏天"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-broccoli.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69bfd7690000000023024ff8?xsec_token=ABH6Uu78NH38QfvICqVWCYP_iLDPROp9EbXg7qRjC8YOw=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69bfd7690000000023024ff8?xsec_token=ABH6Uu78NH38QfvICqVWCYP_iLDPROp9EbXg7qRjC8YOw=&xsec_source=pc_share",
     "xhsKeyword": "普洱 西兰花咖啡 行署大院",
-    "mapKeyword": "西兰花咖啡 行署大院"
+    "mapKeyword": "西兰花咖啡 行署大院",
+    "sourceNotes": [
+      "note-69bfd7690000000023024ff8"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 200
   },
   {
     "id": "puer-xiaoshuitang",
     "name": "小水堂·老街酸奶",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "泡鲁达 / 牛油果酸奶",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "泡鲁达 / 牛油果酸奶",
     "description": "自家现做的酸奶路线，泡鲁达和牛油果酸奶比较有地方感。适合和思茅老街一起安排。",
     "why": "现做酸奶，泡鲁达是云南特色甜品。",
-    "mustTry": "泡鲁达、牛油果酸奶",
+    "mustTry": [
+      "泡鲁达",
+      "牛油果酸奶"
+    ],
     "bestTime": "饭后甜品，逛老街时",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-xiaoshuitang.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a170d24000000003502b9df?xsec_token=AB-avhZrFl54y9Vb_G2qJbck-g4K_R2ja_WG5crdpWYl4=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a170d24000000003502b9df?xsec_token=AB-avhZrFl54y9Vb_G2qJbck-g4K_R2ja_WG5crdpWYl4=&xsec_source=pc_share",
     "xhsKeyword": "普洱 小水堂 老街酸奶",
-    "mapKeyword": "小水堂老街酸奶"
+    "mapKeyword": "小水堂老街酸奶",
+    "sourceNotes": [
+      "note-6a170d24000000003502b9df"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 210
   },
   {
     "id": "puer-niuyouguojia",
     "name": "牛油果家",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "牛油果奶昔",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "牛油果奶昔",
     "description": "主打牛油果饮品，牛油果奶昔被推荐。",
     "why": "普洱是牛油果产地，可以喝一杯当地的。",
-    "mustTry": "牛油果奶昔",
+    "mustTry": [
+      "牛油果奶昔"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-niuyouguojia.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69be6ef2000000001d019bcd?xsec_token=ABpVpw901peRSkVXa8XvuzbyTuCVZ0vHti9JDZmLYjSNk=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69be6ef2000000001d019bcd?xsec_token=ABpVpw901peRSkVXa8XvuzbyTuCVZ0vHti9JDZmLYjSNk=&xsec_source=pc_share",
     "xhsKeyword": "普洱 牛油果家",
-    "mapKeyword": "牛油果家"
+    "mapKeyword": "牛油果家",
+    "sourceNotes": [
+      "note-69be6ef2000000001d019bcd"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 220
   },
   {
     "id": "puer-xiangzi",
     "name": "象子茶铺",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "牛油果鲜乳酪 · 黄油红糖",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "牛油果鲜乳酪 · 黄油红糖",
     "description": "茶饮店，牛油果鲜乳酪和黄油红糖被推荐。",
     "why": "牛油果做的茶饮，外地不常见。",
-    "mustTry": "牛油果鲜乳酪、黄油红糖",
+    "mustTry": [
+      "牛油果鲜乳酪",
+      "黄油红糖"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-xiangzi.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69e5d43d00000000220025cb?xsec_token=AByqELmc5mgvJKTJ5Tfjuu5eGgjAMKeJVaHTUq2Wu0UCk=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69e5d43d00000000220025cb?xsec_token=AByqELmc5mgvJKTJ5Tfjuu5eGgjAMKeJVaHTUq2Wu0UCk=&xsec_source=pc_share",
     "xhsKeyword": "普洱 象子茶铺",
-    "mapKeyword": "象子茶铺"
+    "mapKeyword": "象子茶铺",
+    "sourceNotes": [
+      "note-69e5d43d00000000220025cb"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 230
   },
   {
     "id": "puer-jianyu",
     "name": "简聿咖啡",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "黄油 Dirty · 手冲",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "黄油 Dirty · 手冲",
     "description": "咖啡馆，黄油 Dirty 和手冲被推荐。",
     "why": "有特调也有手冲，两种都能点。",
-    "mustTry": "黄油 Dirty、手冲",
+    "mustTry": [
+      "黄油 Dirty",
+      "手冲"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-jianyu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6970883b0000000022038c60?xsec_token=ABSZ6E1ZYIWoFJExYEym4mEcHwr-7xqzLkaUru7i9N9pY=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6970883b0000000022038c60?xsec_token=ABSZ6E1ZYIWoFJExYEym4mEcHwr-7xqzLkaUru7i9N9pY=&xsec_source=pc_share",
     "xhsKeyword": "普洱 简聿咖啡",
-    "mapKeyword": "简聿咖啡"
+    "mapKeyword": "简聿咖啡",
+    "sourceNotes": [
+      "note-6970883b0000000022038c60"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 240
   },
   {
     "id": "puer-duoxi",
     "name": "多喜咖啡",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "牛油果 Dirty",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "牛油果 Dirty",
     "description": "咖啡馆，牛油果 Dirty 被推荐。",
     "why": "牛油果加咖啡，普洱这边才常见。",
-    "mustTry": "牛油果 Dirty",
+    "mustTry": [
+      "牛油果 Dirty"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-duoxi.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/687f7b64000000002201d282?xsec_token=AB-I2lws4pYDV8u61q2jVv8mK0z9Q_dFUHw-wVQ72YfsI=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/687f7b64000000002201d282?xsec_token=AB-I2lws4pYDV8u61q2jVv8mK0z9Q_dFUHw-wVQ72YfsI=&xsec_source=pc_share",
     "xhsKeyword": "普洱 多喜咖啡",
-    "mapKeyword": "多喜咖啡"
+    "mapKeyword": "多喜咖啡",
+    "sourceNotes": [
+      "note-687f7b64000000002201d282"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 250
   },
   {
     "id": "puer-muqiao",
     "name": "目樵咖啡",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "手冲",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "手冲",
     "description": "以手冲为主的咖啡馆。",
     "why": "普洱产咖啡豆，适合喝一杯手冲。",
-    "mustTry": "手冲",
+    "mustTry": [
+      "手冲"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-muqiao.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69c907ed00000000210070f7?xsec_token=ABxn_ciKZWIDY_Cw14BSYEx6UikEpfRvqW1ltju2nHqds=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69c907ed00000000210070f7?xsec_token=ABxn_ciKZWIDY_Cw14BSYEx6UikEpfRvqW1ltju2nHqds=&xsec_source=pc_share",
     "xhsKeyword": "普洱 目樵咖啡",
-    "mapKeyword": "目樵咖啡"
+    "mapKeyword": "目樵咖啡",
+    "sourceNotes": [
+      "note-69c907ed00000000210070f7"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 260
   },
   {
     "id": "puer-xingye",
     "name": "幸也咖啡",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "酸木瓜特调",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "酸木瓜特调",
     "description": "咖啡馆，酸木瓜特调被推荐。",
     "why": "酸木瓜加咖啡，是本地才有的组合。",
-    "mustTry": "酸木瓜特调",
+    "mustTry": [
+      "酸木瓜特调"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-xingye.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6952423e000000001d03a9ca?xsec_token=ABnpcEdKHIWWoDBgp04MuAVBUke-wtfdesDl6hOoNH9WU=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6952423e000000001d03a9ca?xsec_token=ABnpcEdKHIWWoDBgp04MuAVBUke-wtfdesDl6hOoNH9WU=&xsec_source=pc_share",
     "xhsKeyword": "普洱 幸也咖啡",
-    "mapKeyword": "幸也咖啡"
+    "mapKeyword": "幸也咖啡",
+    "sourceNotes": [
+      "note-6952423e000000001d03a9ca"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 270
   },
   {
     "id": "puer-beigui",
     "name": "北归咖仓",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "翁基 · Bean Great · 看日出",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "翁基 · Bean Great · 看日出",
     "description": "翁基古寨里的咖啡店（Bean Great 北归咖仓），\"离开景迈山念念不忘的 15 家小店\"之一；北归的观景台是景迈山看日出的首选机位，但没车不方便。",
     "why": "景迈山看日出的首选机位。",
-    "mustTry": "手冲",
+    "mustTry": [
+      "手冲"
+    ],
     "bestTime": "清晨看日出",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-beigui.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 北归咖仓",
-    "mapKeyword": "北归咖仓 翁基"
+    "mapKeyword": "北归咖仓 翁基",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 280
   },
   {
     "id": "puer-zhijian",
     "name": "植间花隐",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "巴斯克蛋糕 · 咖啡特调",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "巴斯克蛋糕 · 咖啡特调",
     "description": "咖啡甜品店，巴斯克蛋糕和咖啡特调被推荐。",
     "why": "想吃甜点配咖啡时去。",
-    "mustTry": "巴斯克蛋糕、咖啡特调",
+    "mustTry": [
+      "巴斯克蛋糕",
+      "咖啡特调"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-zhijian.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a0587de0000000008027e41?xsec_token=ABz9ZYi8sdYZp7wEkbMva5zzsSjW5KSzeoLb0MBK3xPCQ=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a0587de0000000008027e41?xsec_token=ABz9ZYi8sdYZp7wEkbMva5zzsSjW5KSzeoLb0MBK3xPCQ=&xsec_source=pc_share",
     "xhsKeyword": "普洱 植间花隐",
-    "mapKeyword": "植间花隐"
+    "mapKeyword": "植间花隐",
+    "sourceNotes": [
+      "note-6a0587de0000000008027e41"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 290
   },
   {
     "id": "puer-duomi",
     "name": "多米家糯米冰浆",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "糯米冰浆",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "糯米冰浆",
     "description": "做糯米冰浆的小店。",
     "why": "天热时解暑。",
-    "mustTry": "糯米冰浆",
+    "mustTry": [
+      "糯米冰浆"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-duomi.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a22d1f5000000001603f743?xsec_token=AB5-qoshk7knFqX6XTELUiSVJhup08WrEK5ffJzsx25v8=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a22d1f5000000001603f743?xsec_token=AB5-qoshk7knFqX6XTELUiSVJhup08WrEK5ffJzsx25v8=&xsec_source=pc_share",
     "xhsKeyword": "普洱 多米家糯米冰浆",
-    "mapKeyword": "多米家糯米冰浆"
+    "mapKeyword": "多米家糯米冰浆",
+    "sourceNotes": [
+      "note-6a22d1f5000000001603f743"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 300
   },
   {
     "id": "puer-oldstreet",
     "name": "思茅老街",
+    "aliases": [],
     "region": "普洱",
-    "kind": "逛",
-    "subtitle": "小吃 + 老街散步",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "小吃 + 老街散步",
     "description": "不用把它当景点，比较适合晚上边走边吃。周边可以顺手找烧饵块、拇指玉米、小吃和酸奶。",
     "why": "魏氏豆汤米干、小水堂酸奶都在附近，逛和吃可以一起解决。",
-    "mustTry": "随便逛、随便吃",
+    "mustTry": [
+      "随便逛",
+      "随便吃"
+    ],
     "bestTime": "晚上更合适",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-oldstreet.jpg",
+      "source": "云南日报",
+      "sourceUrl": "",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 思茅老街",
-    "mapKeyword": "思茅老街"
+    "mapKeyword": "思茅老街",
+    "sourceNotes": [],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 310
   },
   {
     "id": "puer-wuyimarket",
     "name": "五一农贸市场",
+    "aliases": [],
     "region": "普洱",
-    "kind": "逛",
-    "subtitle": "本地烟火气 · 市场小吃",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "本地烟火气 · 市场小吃",
     "description": "你整理的评论里，市场里的小摊、老式糕点、糯米饭、豆浆米干反而比不少网红店更被认可。",
     "why": "能看到普洱人日常吃什么、买什么。",
-    "mustTry": "糯米饭、豆浆米干、老式糕点",
+    "mustTry": [
+      "糯米饭",
+      "豆浆米干",
+      "老式糕点"
+    ],
     "bestTime": "早上或上午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-wuyimarket.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/68ff68c50000000007038c49?xsec_token=ABgHC5MRvLND7Rsw1QGADqJeGWpO9CIZztg6F06u_EzC4=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/68ff68c50000000007038c49?xsec_token=ABgHC5MRvLND7Rsw1QGADqJeGWpO9CIZztg6F06u_EzC4=&xsec_source=pc_share",
     "xhsKeyword": "普洱 五一农贸市场",
-    "mapKeyword": "五一农贸市场"
+    "mapKeyword": "五一农贸市场",
+    "sourceNotes": [
+      "note-68ff68c50000000007038c49"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 320
   },
   {
     "id": "puer-hongfeng",
     "name": "宏丰市场",
+    "aliases": [],
     "region": "普洱",
-    "kind": "逛",
-    "subtitle": "本地市场",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "本地市场",
     "description": "普洱的另一个本地市场，可以和五一农贸市场二选一。",
     "why": "看本地日常生活。",
-    "mustTry": "随便逛",
+    "mustTry": [
+      "随便逛"
+    ],
     "bestTime": "早上或上午",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 宏丰市场",
-    "mapKeyword": "宏丰市场"
+    "mapKeyword": "宏丰市场",
+    "sourceNotes": [],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 330
   },
   {
     "id": "jingmai-tea",
     "name": "景迈茶修院",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "火塘烤茶 · 茶文化体验",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "火塘烤茶 · 茶文化体验",
     "description": "不是“进去喝一杯就走”的茶馆，更适合留出一段时间坐下来。可以先确认当天是否营业、是否需要预约。",
     "why": "火塘烤茶和古树茶品鉴，能真正了解景迈山的茶。",
-    "mustTry": "火塘烤茶、古树茶品鉴",
+    "mustTry": [
+      "火塘烤茶",
+      "古树茶品鉴"
+    ],
     "bestTime": "预留 1–2 小时。在景迈山的 10/1 下午或 10/2 上午。",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-tea.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69f44199000000003701da4f?xsec_token=AB4GTCmcBbGlCtu0YqUn3EBcrLR1pWBCboODe86Ouohqs=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69f44199000000003701da4f?xsec_token=AB4GTCmcBbGlCtu0YqUn3EBcrLR1pWBCboODe86Ouohqs=&xsec_source=pc_share",
     "xhsKeyword": "景迈茶修院",
-    "mapKeyword": "景迈茶修院"
+    "mapKeyword": "景迈茶修院",
+    "sourceNotes": [
+      "note-69f44199000000003701da4f"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 340
   },
   {
     "id": "jingmai-princess",
     "name": "布朗公主茶空间",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "木质吊脚楼茶空间",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "木质吊脚楼茶空间",
     "description": "传统木质吊脚楼，有院子。偏空间和氛围感，适合下午坐着喝茶、拍木结构和山里的光线。和茶修院二选一即可。",
     "why": "空间好看，能在吊脚楼的院子里喝茶。",
-    "mustTry": "古树茶",
+    "mustTry": [
+      "古树茶"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-princess.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/685573ea0000000013013ac6?xsec_token=ABeFO4x75P1ExHvaq-xPMO3qP4ELNsmFcvhlkJNYvvkSM=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/685573ea0000000013013ac6?xsec_token=ABeFO4x75P1ExHvaq-xPMO3qP4ELNsmFcvhlkJNYvvkSM=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 布朗公主茶空间",
-    "mapKeyword": "布朗公主茶空间"
+    "mapKeyword": "布朗公主茶空间",
+    "sourceNotes": [
+      "note-685573ea0000000013013ac6"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 350
   },
   {
     "id": "jingmai-xianjin",
     "name": "糯干仙金茶店",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "玩",
-    "subtitle": "茶冰淇淋 · 茶饼手作",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "茶冰淇淋 · 茶饼手作",
     "description": "比纯逛古寨更有参与感。茶冰淇淋和茶饼手作都是轻体验，具体活动建议先问。",
     "why": "可以自己动手做茶饼。",
-    "mustTry": "茶冰淇淋、茶饼手作",
+    "mustTry": [
+      "茶冰淇淋",
+      "茶饼手作"
+    ],
     "bestTime": "白天，手作活动要先问",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "糯干 仙金茶店",
-    "mapKeyword": "糯干仙金茶店"
+    "mapKeyword": "糯干仙金茶店",
+    "sourceNotes": [],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 360
   },
   {
     "id": "jingmai-wengji",
     "name": "翁基古寨",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "拍",
-    "subtitle": "木屋 · 古寨 · 布朗族",
+    "category": [
+      "拍"
+    ],
+    "cardSubtitle": "木屋 · 古寨 · 布朗族",
     "description": "适合慢慢走和拍照，不建议为了“打卡数量”赶时间。可以顺便找当地茶农坐下来喝茶。",
     "why": "布朗族木屋古寨，景迈山最有代表性的村寨之一。",
-    "mustTry": "古寨散步、喝茶、拍照",
+    "mustTry": [
+      "古寨散步",
+      "喝茶",
+      "拍照"
+    ],
     "bestTime": "别赶时间，傍晚光线好",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-wengji.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69cfb572000000001a02662d?xsec_token=AB7cL7LJ-Zg9yNkSoZ1X-9lm4lfkPOPXXVxKOWu7A_7sc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69cfb572000000001a02662d?xsec_token=AB7cL7LJ-Zg9yNkSoZ1X-9lm4lfkPOPXXVxKOWu7A_7sc=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 翁基古寨",
-    "mapKeyword": "翁基古寨"
+    "mapKeyword": "翁基古寨",
+    "sourceNotes": [
+      "note-69cfb572000000001a02662d"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 370
   },
   {
     "id": "jingmai-teaforest",
     "name": "大平掌古茶林",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "玩",
-    "subtitle": "林下古茶林",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "林下古茶林",
     "description": "如果想看景迈山真正有辨识度的自然环境，这里比单纯拍村寨更能理解“茶长在森林里”的感觉。",
     "why": "古茶树和森林长在一起，是景迈山最特别的风景。",
-    "mustTry": "古茶林散步",
+    "mustTry": [
+      "古茶林散步"
+    ],
     "bestTime": "白天，穿好走的鞋",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-teaforest.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69a507c8000000001a02622b?xsec_token=ABrdAAG2sa9yQUNGzX1Wps9OZL6nfNnX7rFhD9WqJdwFY=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69a507c8000000001a02622b?xsec_token=ABrdAAG2sa9yQUNGzX1Wps9OZL6nfNnX7rFhD9WqJdwFY=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 大平掌古茶林",
-    "mapKeyword": "大平掌古茶林"
+    "mapKeyword": "大平掌古茶林",
+    "sourceNotes": [
+      "note-69a507c8000000001a02622b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 380
   },
   {
     "id": "jingmai-nuogan",
     "name": "糯干古寨",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "拍",
-    "subtitle": "傣族传统村寨",
+    "category": [
+      "拍"
+    ],
+    "cardSubtitle": "傣族传统村寨",
     "description": "景迈山上的傣族传统村寨，和布朗族的翁基古寨风格不同。",
     "why": "能看到傣族村寨，和翁基古寨对比着看。",
-    "mustTry": "村寨散步、拍照",
+    "mustTry": [
+      "村寨散步",
+      "拍照"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-nuogan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a8043060000000026036f1f?xsec_token=ABsvWIAhrmullXGX_HIxfNWupm7GfKbKmeKNzQpXBZFuY=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a8043060000000026036f1f?xsec_token=ABsvWIAhrmullXGX_HIxfNWupm7GfKbKmeKNzQpXBZFuY=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 糯干古寨",
-    "mapKeyword": "糯干古寨"
+    "mapKeyword": "糯干古寨",
+    "sourceNotes": [
+      "note-6a8043060000000026036f1f"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 390
   },
   {
     "id": "menglian-market",
     "name": "南垒农贸市场",
+    "aliases": [],
     "region": "孟连",
-    "kind": "逛",
-    "subtitle": "早点 · 市场 · 当地生活",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "早点 · 市场 · 当地生活",
     "description": "最适合早上去。重点不是买东西，而是看当地人吃什么、卖什么、怎么过日常。",
     "why": "孟连人的日常生活都在这里。",
-    "mustTry": "早点、小摊、当地食材",
+    "mustTry": [
+      "早点",
+      "小摊",
+      "当地食材"
+    ],
     "bestTime": "早上，比如 10/3 早上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-market.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/692e7c64000000001e001f27?xsec_token=ABKUKAJhPrdi6qlQZ48x18DHCbBRXFY5TlYBqmSE0BV8c=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/692e7c64000000001e001f27?xsec_token=ABKUKAJhPrdi6qlQZ48x18DHCbBRXFY5TlYBqmSE0BV8c=&xsec_source=pc_share",
     "xhsKeyword": "孟连 南垒农贸市场",
-    "mapKeyword": "南垒农贸市场"
+    "mapKeyword": "南垒农贸市场",
+    "sourceNotes": [
+      "note-692e7c64000000001e001f27"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 400
   },
   {
     "id": "menglian-oldtown",
     "name": "娜允古镇",
+    "aliases": [],
     "region": "孟连",
-    "kind": "逛",
-    "subtitle": "傣族建筑 · 散步",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "傣族建筑 · 散步",
     "description": "有体力再去，不需要专门安排很长时间。作为孟连的人文背景和拍照地点更合适。",
     "why": "傣族建筑，适合散步拍照。",
-    "mustTry": "古镇散步、拍照",
+    "mustTry": [
+      "古镇散步",
+      "拍照"
+    ],
     "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-oldtown.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a9170d0000000000400a6db?xsec_token=ABeKfO_Yo1mi-vJBBeCyrca0VR11BB_VLjcsa5K80s6JI=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a9170d0000000000400a6db?xsec_token=ABeKfO_Yo1mi-vJBBeCyrca0VR11BB_VLjcsa5K80s6JI=&xsec_source=pc_share",
     "xhsKeyword": "孟连 娜允古镇",
-    "mapKeyword": "娜允古镇"
+    "mapKeyword": "娜允古镇",
+    "sourceNotes": [
+      "note-6a9170d0000000000400a6db"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 410
   },
   {
     "id": "menglian-wanderer",
     "name": "流浪者 Cafe · 森林餐吧",
+    "aliases": [],
     "region": "孟连",
-    "kind": "吃",
-    "subtitle": "森林空间 · 牛油果料理",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "森林空间 · 牛油果料理",
     "description": "森林环境里的咖啡餐吧，牛油果料理、本地食物和空间氛围是重点。适合下午慢慢坐，也适合拍照。",
     "why": "环境、吃饭、咖啡和拍照可以一次解决。",
-    "mustTry": "牛油果料理、手抓饭、咖啡",
+    "mustTry": [
+      "牛油果料理",
+      "手抓饭",
+      "咖啡"
+    ],
     "bestTime": "10/2 或 10/3 的午餐 / 下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-wanderer.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/682c687d0000000012002043?xsec_token=AB5lEaMoTUzW-0zGELmL8txWja8R_GO0xWBH2LhF9ghAI=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "孟连 流浪者 森林餐吧",
-    "mapKeyword": "孟连 流浪者咖啡"
+    "mapKeyword": "孟连 流浪者咖啡",
+    "sourceNotes": [
+      "note-682c687d0000000012002043"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 420
   },
   {
     "id": "menglian-mangmang",
     "name": "芒芒村咖啡社区",
+    "aliases": [],
     "region": "孟连",
-    "kind": "喝",
-    "subtitle": "咖啡 · 社区 · 旅居",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "咖啡 · 社区 · 旅居",
     "description": "不是传统景区，更像一个可以停下来和人聊天、喝咖啡、看看当地年轻人怎么做咖啡和旅居的地方。",
     "why": "能和当地做咖啡的年轻人聊天。",
-    "mustTry": "咖啡、聊天",
+    "mustTry": [
+      "咖啡",
+      "聊天"
+    ],
     "bestTime": "留半天弹性",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-mangmang.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6965c2e2000000002200b97b?xsec_token=ABVE8T-v4JG_VAouAEzk2NU8Xzlb5-fU65asIhW6-1Bvk=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6965c2e2000000002200b97b?xsec_token=ABVE8T-v4JG_VAouAEzk2NU8Xzlb5-fU65asIhW6-1Bvk=&xsec_source=pc_share",
     "xhsKeyword": "孟连 芒芒村咖啡",
-    "mapKeyword": "芒芒村"
+    "mapKeyword": "芒芒村",
+    "sourceNotes": [
+      "note-6965c2e2000000002200b97b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 430
   },
   {
     "id": "menglian-nayuncoffee",
     "name": "娜允咖啡主题街",
+    "aliases": [],
     "region": "孟连",
-    "kind": "喝",
-    "subtitle": "咖啡小店 + 傍晚散步",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "咖啡小店 + 傍晚散步",
     "description": "适合不想再安排“大景点”的时候去。可以找一两家看着顺眼的坐下，不需要全部喝遍。",
     "why": "一条街都是咖啡小店，随便挑。",
-    "mustTry": "本地咖啡、牛油果系饮品",
+    "mustTry": [
+      "本地咖啡",
+      "牛油果系饮品"
+    ],
     "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "孟连 娜允咖啡街",
-    "mapKeyword": "孟连 咖啡主题街"
+    "mapKeyword": "孟连 咖啡主题街",
+    "sourceNotes": [],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 440
   },
   {
     "id": "menglian-dai",
     "name": "孟连傣味小店",
+    "aliases": [],
     "region": "孟连",
-    "kind": "吃",
-    "subtitle": "到当地再选具体店",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "到当地再选具体店",
     "description": "比起提前锁死一家网红餐厅，更建议到了之后看市场、酒店和本地人的推荐，优先找酸、辣、香草和凉拌类傣味。",
     "why": "傣味是孟连的主角，现场找更灵活。",
-    "mustTry": "傣味、酸辣、凉拌、烧烤",
+    "mustTry": [
+      "傣味",
+      "酸辣",
+      "凉拌",
+      "烧烤"
+    ],
     "bestTime": "现场决定",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-dai.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/697f7d9e000000001a036803?xsec_token=ABvQ9u6g9DEAY70dWMEK3TtzymnA3sifsYoR-L2Dja0VM=&xsec_source=pc_share",
+      "status": "location_only"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/697f7d9e000000001a036803?xsec_token=ABvQ9u6g9DEAY70dWMEK3TtzymnA3sifsYoR-L2Dja0VM=&xsec_source=pc_share",
     "xhsKeyword": "孟连 傣味",
-    "mapKeyword": "孟连 傣味"
+    "mapKeyword": "孟连 傣味",
+    "sourceNotes": [
+      "note-697f7d9e000000001a036803"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 450
   },
   {
     "id": "km-donghua",
     "name": "东华农贸市场",
+    "aliases": [],
     "region": "昆明",
-    "kind": "逛",
-    "subtitle": "塞拉维酒店附近 · 菜市场",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "塞拉维酒店附近 · 菜市场",
     "description": "酒店就在东华农贸市场附近。这里更适合早上或白天逛，看看昆明本地早点、熟食、蔬果和市场烟火气。",
     "why": "离酒店近，走过去就能逛。",
-    "mustTry": "早点、熟食、市场小吃",
+    "mustTry": [
+      "早点",
+      "熟食",
+      "市场小吃"
+    ],
     "bestTime": "10/6 上午 / 中午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-donghua.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6971ff09000000000c03479f?xsec_token=ABY4JiKfvcS9Og58sNMr2-ABSa_pkpxGDZK6wMFcfNTgw=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6971ff09000000000c03479f?xsec_token=ABY4JiKfvcS9Og58sNMr2-ABSa_pkpxGDZK6wMFcfNTgw=&xsec_source=pc_share",
     "xhsKeyword": "昆明 东华农贸市场",
-    "mapKeyword": "东华农贸市场"
+    "mapKeyword": "东华农贸市场",
+    "sourceNotes": [
+      "note-6971ff09000000000c03479f"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 460
   },
   {
     "id": "km-dinner",
     "name": "东华农贸市场附近晚餐",
+    "aliases": [],
     "region": "昆明",
-    "kind": "吃",
-    "subtitle": "10/5 晚上到昆明后",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "10/5 晚上到昆明后",
     "description": "20:45 才到昆明站，不建议再跑远找网红店。入住后直接在东华农贸市场附近按状态选晚餐更合理。",
     "why": "晚到之后离酒店近最重要。",
-    "mustTry": "到了再选",
+    "mustTry": [
+      "到了再选"
+    ],
     "bestTime": "10/5 晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-dinner.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a67226800000000060100bd?xsec_token=ABS-pGCJtMQ1PNx5XpDae1kx3E_Uww3AbvnN1nW5nMEcA=&xsec_source=pc_share",
+      "status": "location_only"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a67226800000000060100bd?xsec_token=ABS-pGCJtMQ1PNx5XpDae1kx3E_Uww3AbvnN1nW5nMEcA=&xsec_source=pc_share",
     "xhsKeyword": "昆明 东华农贸市场 美食",
-    "mapKeyword": "东华农贸市场 美食"
+    "mapKeyword": "东华农贸市场 美食",
+    "sourceNotes": [
+      "note-6a67226800000000060100bd"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 470
   },
   {
     "id": "km-bbq",
     "name": "东华农贸市场附近烧烤",
+    "aliases": [],
     "region": "昆明",
-    "kind": "吃",
-    "subtitle": "晚到后的轻松选项",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "晚到后的轻松选项",
     "description": "如果到昆明后还想吃一顿夜宵，就直接在酒店和东华农贸市场附近搜烧烤，不需要再跑公园 1903。",
     "why": "晚到后不用跑远。",
-    "mustTry": "烧烤 / 夜宵",
+    "mustTry": [
+      "烧烤 / 夜宵"
+    ],
     "bestTime": "10/5 晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-bbq.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69a6598f0000000016009e9b?xsec_token=ABrWvRE2-NcyQkrS-u0yhvvJMk2oljbyq3BetS5hnD-p0=&xsec_source=pc_share",
+      "status": "location_only"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69a6598f0000000016009e9b?xsec_token=ABrWvRE2-NcyQkrS-u0yhvvJMk2oljbyq3BetS5hnD-p0=&xsec_source=pc_share",
     "xhsKeyword": "昆明 东华农贸市场 烧烤",
-    "mapKeyword": "东华农贸市场 烧烤"
+    "mapKeyword": "东华农贸市场 烧烤",
+    "sourceNotes": [
+      "note-69a6598f0000000016009e9b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 480
   },
   {
     "id": "puer-tianyuzhuang",
     "name": "天玉庄咖啡庄园",
+    "aliases": [],
     "region": "普洱",
-    "kind": "玩",
-    "subtitle": "11 种手冲随便喝 · 手抓饭",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "11 种手冲随便喝 · 手抓饭",
     "description": "普洱市区出发约半小时山路。40 元一位可以喝 11 种不同风味的手冲，喝完还能挑喜欢的续；加 40 元有傣味手抓饭。咖啡师在岛台前现场手冲。",
     "why": "收藏里有 5 篇笔记都推荐它，\"咖啡庄园只能选一家\"时的首选。",
-    "mustTry": "11 种手冲、手抓饭",
+    "mustTry": [
+      "11 种手冲",
+      "手抓饭"
+    ],
     "bestTime": "上午去人少能挑位置；傍晚可以爬树屋平台看蓝调。结束后难打车，最好自驾。",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-tianyuzhuang.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a61e53b000000001101f5ca?xsec_token=ABzipT66MFjdRvwf55oQe5FxibPZvmib6qmgeR5qZ1BbM=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a61e53b000000001101f5ca?xsec_token=ABzipT66MFjdRvwf55oQe5FxibPZvmib6qmgeR5qZ1BbM=&xsec_source=pc_share",
     "xhsKeyword": "普洱 天玉庄咖啡庄园",
-    "mapKeyword": "天玉庄咖啡庄园"
+    "mapKeyword": "天玉庄咖啡庄园",
+    "sourceNotes": [
+      "note-6a61e53b000000001101f5ca"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 490
   },
   {
     "id": "puer-dakaihe",
     "name": "大开河梅子咖啡庄园",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "网红庄园 · 冥想屋 · 伴手礼",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "网红庄园 · 冥想屋 · 伴手礼",
     "description": "就在路边，比较网红。可以听免费的咖啡流程讲解（跟场次），伴手礼很好看。冥想屋拍照要排队。",
     "why": "方便顺路去，适合拍照和买伴手礼。",
-    "mustTry": "手冲、甜品（约 50/人）",
+    "mustTry": [
+      "手冲",
+      "甜品（约 50/人）"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-dakaihe.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae0460000000000b00f93d?xsec_token=ABQ0SShbvGyqfe380IAbiDV4bszuV1bEK1pPkxSHMLYHc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 大开河梅子咖啡庄园",
-    "mapKeyword": "大开河梅子咖啡庄园"
+    "mapKeyword": "大开河梅子咖啡庄园",
+    "sourceNotes": [
+      "note-6aae0460000000000b00f93d"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 500
   },
   {
     "id": "puer-torch",
     "name": "炬点咖啡庄园 Torch Coffee",
+    "aliases": [],
     "region": "普洱",
-    "kind": "玩",
-    "subtitle": "咖啡课 · 意大利老师讲解",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "咖啡课 · 意大利老师讲解",
     "description": "可以深度体验一节咖啡课，意大利老师 Fabio 用中文从咖啡种子讲到最终出品，讲得生动有趣。庄园里还有咖啡实验种植基地。",
     "why": "不只是喝咖啡，能真正了解普洱咖啡从哪来。",
-    "mustTry": "咖啡课、庄园咖啡",
+    "mustTry": [
+      "咖啡课",
+      "庄园咖啡"
+    ],
     "bestTime": "白天，建议提前问课程时间",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-torch.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69ca984e000000001d01c930?xsec_token=ABvEUnRzbBiu9Frd3sopJ-DsIpZK3t88yViWQWcWbo75I=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69ca984e000000001d01c930?xsec_token=ABvEUnRzbBiu9Frd3sopJ-DsIpZK3t88yViWQWcWbo75I=&xsec_source=pc_share",
     "xhsKeyword": "普洱 炬点咖啡庄园 Torch Coffee",
-    "mapKeyword": "炬点咖啡庄园"
+    "mapKeyword": "炬点咖啡庄园",
+    "sourceNotes": [
+      "note-69ca984e000000001d01c930"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 510
   },
   {
     "id": "puer-yibeiyunnan",
     "name": "一杯耘南 · 落日茶馆",
+    "aliases": [],
     "region": "普洱",
-    "kind": "玩",
-    "subtitle": "采茶体验 · 离市区近",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "采茶体验 · 离市区近",
     "description": "到店登记后有工作人员带上茶山，边采边讲茶叶知识，提供竹篮和草帽；采完可以在店里体验后续处理，再点杯特调茶。宠物友好。",
     "why": "在普洱亲手采一次茶，离市区很近。",
-    "mustTry": "采茶体验、特调茶",
+    "mustTry": [
+      "采茶体验",
+      "特调茶"
+    ],
     "bestTime": "下午 4 点后去，避开暴晒。穿长袖长裤，山上蚊子多。",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-yibeiyunnan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a26ccbe0000000006032e38?xsec_token=ABSSFEwrCPmUbV7mgCRXtsBwmu7z3jHfJRYgOBs0c4SN0=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a26ccbe0000000006032e38?xsec_token=ABSSFEwrCPmUbV7mgCRXtsBwmu7z3jHfJRYgOBs0c4SN0=&xsec_source=pc_share",
     "xhsKeyword": "普洱 一杯耘南 · 落日茶馆",
-    "mapKeyword": "一杯耘南"
+    "mapKeyword": "一杯耘南",
+    "sourceNotes": [
+      "note-6a26ccbe0000000006032e38"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 520
   },
   {
     "id": "puer-yilishanfeng",
     "name": "一粒山风 · 小岛咖啡",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "环境像清迈 · 很松弛",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "环境像清迈 · 很松弛",
     "description": "两篇笔记都推荐，说环境太像清迈了，很松弛，可以在这里躺平一天。",
     "why": "普洱最有\"不在国内\"感觉的咖啡店之一。",
-    "mustTry": "咖啡",
+    "mustTry": [
+      "咖啡"
+    ],
     "bestTime": "下午慢慢坐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-yilishanfeng.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/68df50dc0000000007034ce9?xsec_token=ABZ5PusQUc_aKJdxaTP5Fac8SCMlzmq7GX1k6IgLmEv4w=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 一粒山风 · 小岛咖啡",
-    "mapKeyword": "一粒山风"
+    "mapKeyword": "一粒山风",
+    "sourceNotes": [
+      "note-68df50dc0000000007034ce9"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 530
   },
   {
     "id": "puer-ziyuan",
     "name": "子元稻田咖啡",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "稻田边的咖啡",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "稻田边的咖啡",
     "description": "离市区很近，坐在稻田边喝咖啡。",
     "why": "不想跑远时的松弛选项。",
-    "mustTry": "咖啡",
+    "mustTry": [
+      "咖啡"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-ziyuan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/68df50dc0000000007034ce9?xsec_token=ABZ5PusQUc_aKJdxaTP5Fac8SCMlzmq7GX1k6IgLmEv4w=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 子元稻田咖啡",
-    "mapKeyword": "子元稻田咖啡"
+    "mapKeyword": "子元稻田咖啡",
+    "sourceNotes": [
+      "note-68df50dc0000000007034ce9"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 540
   },
   {
     "id": "puer-senli",
     "name": "森里咖啡",
+    "aliases": [],
     "region": "普洱",
-    "kind": "拍",
-    "subtitle": "森林里的新店 · 很出片",
+    "category": [
+      "拍"
+    ],
+    "cardSubtitle": "森林里的新店 · 很出片",
     "description": "藏在城市边缘，被树和光包围，蕨类植物、树影、原木桌怎么拍都好看。除了咖啡还有调酒和小吃，天气好可以玩桨板。",
     "why": "笔记作者说是普洱出片天花板。",
-    "mustTry": "咖啡、调酒、桨板",
+    "mustTry": [
+      "咖啡",
+      "调酒",
+      "桨板"
+    ],
     "bestTime": "晴天白天，光线最好",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-senli.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aa64009000000001103089c?xsec_token=ABIu4vrEcHR85rMMxUmAJQyHKMBmKH9AJeL9Lz8Ub6mKM=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6aa64009000000001103089c?xsec_token=ABIu4vrEcHR85rMMxUmAJQyHKMBmKH9AJeL9Lz8Ub6mKM=&xsec_source=pc_share",
     "xhsKeyword": "普洱 森里咖啡",
-    "mapKeyword": "森里咖啡 普洱"
+    "mapKeyword": "森里咖啡 普洱",
+    "sourceNotes": [
+      "note-6aa64009000000001103089c"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 550
   },
   {
     "id": "puer-tonghuo",
     "name": "童伙",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "阁楼咖啡店",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "阁楼咖啡店",
     "description": "一家有意思的阁楼咖啡店，特调咖啡不错。",
     "why": "空间有趣，适合歇脚。",
-    "mustTry": "特调咖啡",
+    "mustTry": [
+      "特调咖啡"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-tonghuo.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696309ad0000000022038b07?xsec_token=ABm_ia6JRMpcS6PWGgahBXT2qWXn_nkBl3B4T9KnPOhVE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 童伙",
-    "mapKeyword": "童伙咖啡 普洱"
+    "mapKeyword": "童伙咖啡 普洱",
+    "sourceNotes": [
+      "note-696309ad0000000022038b07"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 560
   },
   {
     "id": "puer-yunnan-distillery",
     "name": "云男蒸馏所",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "山林里的金酒 · 自己调",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "山林里的金酒 · 自己调",
     "description": "山林里的小店，可以自己做酒，也可以点双人 set 自己调。招牌金酒覆盖根、花、果、叶等风味。司机都说很少有游客找过来。",
     "why": "普洱少见的金酒体验，两篇笔记都推荐。",
-    "mustTry": "双人调酒 set",
+    "mustTry": [
+      "双人调酒 set"
+    ],
     "bestTime": "下午或傍晚，打车去",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-yunnan-distillery.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696309ad0000000022038b07?xsec_token=ABm_ia6JRMpcS6PWGgahBXT2qWXn_nkBl3B4T9KnPOhVE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 云男蒸馏所",
-    "mapKeyword": "云男蒸馏所"
+    "mapKeyword": "云男蒸馏所",
+    "sourceNotes": [
+      "note-696309ad0000000022038b07"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 570
   },
   {
     "id": "puer-niunaikele",
     "name": "牛奶可乐（原创店）",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "小时候的味道",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "小时候的味道",
     "description": "就在杨记酸醋米线不远处，可乐是小时候喝到的味道。",
     "why": "吃完米线顺路喝一杯。",
-    "mustTry": "牛奶可乐",
+    "mustTry": [
+      "牛奶可乐"
+    ],
     "bestTime": "随时",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-niunaikele.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696309ad0000000022038b07?xsec_token=ABm_ia6JRMpcS6PWGgahBXT2qWXn_nkBl3B4T9KnPOhVE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 牛奶可乐（原创店）",
-    "mapKeyword": "牛奶可乐 普洱"
+    "mapKeyword": "牛奶可乐 普洱",
+    "sourceNotes": [
+      "note-696309ad0000000022038b07"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 580
   },
   {
     "id": "puer-niuyouguoshuxia",
     "name": "牛油果树下",
+    "aliases": [],
     "region": "普洱",
-    "kind": "喝",
-    "subtitle": "牛油果奶昔",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "牛油果奶昔",
     "description": "牛油果味更纯的一家。笔记作者觉得象子茶铺更精彩，但喜欢纯牛油果味可以点这家。",
     "why": "和象子茶铺对比着喝。",
-    "mustTry": "牛油果奶昔",
+    "mustTry": [
+      "牛油果奶昔"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-niuyouguoshuxia.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae0460000000000b00f93d?xsec_token=ABQ0SShbvGyqfe380IAbiDV4bszuV1bEK1pPkxSHMLYHc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 牛油果树下",
-    "mapKeyword": "牛油果树下 普洱"
+    "mapKeyword": "牛油果树下 普洱",
+    "sourceNotes": [
+      "note-6aae0460000000000b00f93d"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 590
   },
   {
     "id": "puer-madaibahu",
     "name": "麻袋扒烀",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "会 N 刷的小炒店",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "会 N 刷的小炒店",
     "description": "每一道菜都超级下饭，大众点评也是三家村美食热门榜第 1。",
     "why": "本地小炒，两篇笔记都推荐。",
-    "mustTry": "云南小炒",
+    "mustTry": [
+      "云南小炒"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-madaibahu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696309ad0000000022038b07?xsec_token=ABm_ia6JRMpcS6PWGgahBXT2qWXn_nkBl3B4T9KnPOhVE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 麻袋扒烀",
-    "mapKeyword": "麻袋扒烀"
+    "mapKeyword": "麻袋扒烀",
+    "sourceNotes": [
+      "note-696309ad0000000022038b07"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 600
   },
   {
     "id": "puer-limama",
     "name": "李妈妈厨房",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "烤鸡 · 鸡皮酥脆",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "烤鸡 · 鸡皮酥脆",
     "description": "烤鸡超级香，鸡皮酥脆鸡肉嫩，其他菜也不错。大众点评普洱小吃快餐热门榜第 1。",
     "why": "普洱吃烤鸡的热门选择。",
-    "mustTry": "烤鸡",
+    "mustTry": [
+      "烤鸡"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-limama.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696309ad0000000022038b07?xsec_token=ABm_ia6JRMpcS6PWGgahBXT2qWXn_nkBl3B4T9KnPOhVE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 李妈妈厨房",
-    "mapKeyword": "李妈妈厨房 老普洱吃货街"
+    "mapKeyword": "李妈妈厨房 老普洱吃货街",
+    "sourceNotes": [
+      "note-696309ad0000000022038b07"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 610
   },
   {
     "id": "puer-guaijiaoyourou",
     "name": "拐角有肉",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "烤鸡 · 洋芋小瓜",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "烤鸡 · 洋芋小瓜",
     "description": "本来想吃 52 号烤鸡人太多，结果这家烤鸡超级好吃。洋芋小瓜一定要点，底料香、洋芋炸过很入味。烧烤比较一般。",
     "why": "烤鸡和洋芋小瓜让作者念念不忘。",
-    "mustTry": "烤鸡、洋芋小瓜",
+    "mustTry": [
+      "烤鸡",
+      "洋芋小瓜"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-guaijiaoyourou.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae0460000000000b00f93d?xsec_token=ABQ0SShbvGyqfe380IAbiDV4bszuV1bEK1pPkxSHMLYHc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 拐角有肉",
-    "mapKeyword": "拐角有肉 普洱"
+    "mapKeyword": "拐角有肉 普洱",
+    "sourceNotes": [
+      "note-6aae0460000000000b00f93d"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 620
   },
   {
     "id": "puer-laobaizu",
     "name": "老白族凉粉店（珠市街店）",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "凉粉 · 凉拌",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "凉粉 · 凉拌",
     "description": "除了凉粉，凉拌也好吃，作者还打包上高铁吃。",
     "why": "本地老店，两篇笔记都提到。",
-    "mustTry": "凉粉、凉拌",
+    "mustTry": [
+      "凉粉",
+      "凉拌"
+    ],
     "bestTime": "随时",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-laobaizu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696309ad0000000022038b07?xsec_token=ABm_ia6JRMpcS6PWGgahBXT2qWXn_nkBl3B4T9KnPOhVE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 老白族凉粉店（珠市街店）",
-    "mapKeyword": "老白族凉粉店 珠市街"
+    "mapKeyword": "老白族凉粉店 珠市街",
+    "sourceNotes": [
+      "note-696309ad0000000022038b07"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 630
   },
   {
     "id": "puer-axian",
     "name": "啊仙酸鸡脚（珠市街店）",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "酸鸡脚 · 各种凉拌",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "酸鸡脚 · 各种凉拌",
     "description": "什么时候去都坐满人。鸡脚必点，山楂和菠萝凉拌也很特别；打包放一小时再吃更入味。",
     "why": "普洱人爱吃的酸辣凉拌。",
-    "mustTry": "酸鸡脚、凉拌山楂",
+    "mustTry": [
+      "酸鸡脚",
+      "凉拌山楂"
+    ],
     "bestTime": "随时，适合打包",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-axian.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae0460000000000b00f93d?xsec_token=ABQ0SShbvGyqfe380IAbiDV4bszuV1bEK1pPkxSHMLYHc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 啊仙酸鸡脚（珠市街店）",
-    "mapKeyword": "啊仙酸鸡脚 珠市街"
+    "mapKeyword": "啊仙酸鸡脚 珠市街",
+    "sourceNotes": [
+      "note-6aae0460000000000b00f93d"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 640
   },
   {
     "id": "puer-hani",
     "name": "哈尼风味小吃",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "思茅老街上 · 酸笋炒牛肉",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "思茅老街上 · 酸笋炒牛肉",
     "description": "在思茅老街上随便进的，看着平平无奇没想到很好吃。酸笋炒牛肉很香很下饭，小瓜也有特色。",
     "why": "逛老街时顺路吃一顿。",
-    "mustTry": "酸笋炒牛肉、小瓜",
+    "mustTry": [
+      "酸笋炒牛肉",
+      "小瓜"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-hani.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae0460000000000b00f93d?xsec_token=ABQ0SShbvGyqfe380IAbiDV4bszuV1bEK1pPkxSHMLYHc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 哈尼风味小吃",
-    "mapKeyword": "哈尼风味小吃 思茅老街"
+    "mapKeyword": "哈尼风味小吃 思茅老街",
+    "sourceNotes": [
+      "note-6aae0460000000000b00f93d"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 650
   },
   {
     "id": "puer-yunan",
     "name": "允安私房小吃",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "包浆豆腐 · 西番莲牛肉汤",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "包浆豆腐 · 西番莲牛肉汤",
     "description": "包浆豆腐和西番莲牛肉汤比较推荐，其他菜中规中矩。西瓜刨冰是老式刨冰的味道。",
     "why": "西番莲牛肉汤比较少见。",
-    "mustTry": "包浆豆腐、西番莲牛肉汤",
+    "mustTry": [
+      "包浆豆腐",
+      "西番莲牛肉汤"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-yunan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae0460000000000b00f93d?xsec_token=ABQ0SShbvGyqfe380IAbiDV4bszuV1bEK1pPkxSHMLYHc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 允安私房小吃",
-    "mapKeyword": "允安私房小吃"
+    "mapKeyword": "允安私房小吃",
+    "sourceNotes": [
+      "note-6aae0460000000000b00f93d"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 660
   },
   {
     "id": "puer-laojiechuanchuan",
     "name": "老街小串串烧烤",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "本地朋友推荐的烧烤",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "本地朋友推荐的烧烤",
     "description": "本地朋友推荐的烧烤店，味道不错，可以避开网红店。",
     "why": "想吃本地人去的烧烤。",
-    "mustTry": "烧烤",
+    "mustTry": [
+      "烧烤"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-laojiechuanchuan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696309ad0000000022038b07?xsec_token=ABm_ia6JRMpcS6PWGgahBXT2qWXn_nkBl3B4T9KnPOhVE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 老街小串串烧烤",
-    "mapKeyword": "老街小串串烧烤 普洱"
+    "mapKeyword": "老街小串串烧烤 普洱",
+    "sourceNotes": [
+      "note-696309ad0000000022038b07"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 670
   },
   {
     "id": "puer-zhangji-erkuai",
     "name": "张记大理酱肉饵块",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "手揉饵块 · 肉馅多",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "手揉饵块 · 肉馅多",
     "description": "手揉饵块，份量实在，肉馅给得多。",
     "why": "早餐或加餐。",
-    "mustTry": "酱肉饵块",
+    "mustTry": [
+      "酱肉饵块"
+    ],
     "bestTime": "早餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-zhangji-erkuai.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696309ad0000000022038b07?xsec_token=ABm_ia6JRMpcS6PWGgahBXT2qWXn_nkBl3B4T9KnPOhVE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 张记大理酱肉饵块",
-    "mapKeyword": "张记大理酱肉饵块 普洱"
+    "mapKeyword": "张记大理酱肉饵块 普洱",
+    "sourceNotes": [
+      "note-696309ad0000000022038b07"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 680
   },
   {
     "id": "puer-santian",
     "name": "三天手作面包（阳光店）",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "便宜好吃的手作面包",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "便宜好吃的手作面包",
     "description": "种类比较多，便宜又好吃。",
     "why": "买点面包路上吃。",
-    "mustTry": "抹茶柚子米面包、玫瑰乳酪贝果",
+    "mustTry": [
+      "抹茶柚子米面包",
+      "玫瑰乳酪贝果"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-santian.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/696309ad0000000022038b07?xsec_token=ABm_ia6JRMpcS6PWGgahBXT2qWXn_nkBl3B4T9KnPOhVE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 三天手作面包（阳光店）",
-    "mapKeyword": "三天手作面包 阳光"
+    "mapKeyword": "三天手作面包 阳光",
+    "sourceNotes": [
+      "note-696309ad0000000022038b07"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 690
   },
   {
     "id": "puer-junziyuan",
     "name": "菌子园 · 野生菌火锅",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "真野生菌火锅 · 蒸汽石锅鱼",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "真野生菌火锅 · 蒸汽石锅鱼",
     "description": "收藏笔记里的大众点评清单中，八益商贸城美食热门榜第 1，评价 6400 多条。",
     "why": "十月还能赶上野生菌季。",
-    "mustTry": "野生菌火锅、蒸汽石锅鱼",
+    "mustTry": [
+      "野生菌火锅",
+      "蒸汽石锅鱼"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a86e475000000001700274e?xsec_token=AB8aPaVJwsZtO5k6gxeD70qbaW5CQdgZhMpWpPzUCw7Bo=&xsec_source=pc_share",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 菌子园 · 野生菌火锅",
-    "mapKeyword": "菌子园 普洱"
+    "mapKeyword": "菌子园 普洱",
+    "sourceNotes": [
+      "note-6a86e475000000001700274e"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 700
   },
   {
     "id": "puer-shenji",
     "name": "申记臭豆腐煮鱼（五一步行街店）",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "臭豆腐煮鱼",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "臭豆腐煮鱼",
     "description": "收藏笔记里的大众点评清单中，市中心美食打卡人气榜第 6。",
     "why": "普洱特色的臭豆腐煮鱼。",
-    "mustTry": "臭豆腐煮鱼",
+    "mustTry": [
+      "臭豆腐煮鱼"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a86e475000000001700274e?xsec_token=AB8aPaVJwsZtO5k6gxeD70qbaW5CQdgZhMpWpPzUCw7Bo=&xsec_source=pc_share",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "普洱 申记臭豆腐煮鱼（五一步行街店）",
-    "mapKeyword": "申记臭豆腐煮鱼 五一步行街"
+    "mapKeyword": "申记臭豆腐煮鱼 五一步行街",
+    "sourceNotes": [
+      "note-6a86e475000000001700274e"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 710
   },
   {
     "id": "puer-manxieba",
     "name": "曼歇坝鲜鱼农家乐",
+    "aliases": [],
     "region": "普洱",
-    "kind": "吃",
-    "subtitle": "看冰柜点菜的烤鱼",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "看冰柜点菜的烤鱼",
     "description": "作者每次自驾路过普洱都来吃烤鱼，看冰柜点菜，食材新鲜。",
     "why": "自驾顺路的一顿烤鱼。",
-    "mustTry": "烤鱼、小干肠、马屁泡炒水腌菜、折耳根拌黄瓜",
+    "mustTry": [
+      "烤鱼",
+      "小干肠",
+      "马屁泡炒水腌菜",
+      "折耳根拌黄瓜"
+    ],
     "bestTime": "正餐，自驾路过时",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-manxieba.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/68bc3e8d000000001c03c6bc?xsec_token=ABlu4NuKLehNCxtAYqF9tc5kSRUsWDIPgJ-d1ijOMyhoA=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/68bc3e8d000000001c03c6bc?xsec_token=ABlu4NuKLehNCxtAYqF9tc5kSRUsWDIPgJ-d1ijOMyhoA=&xsec_source=pc_share",
     "xhsKeyword": "普洱 曼歇坝鲜鱼农家乐",
-    "mapKeyword": "普洱曼歇坝 鲜鱼农家乐"
+    "mapKeyword": "普洱曼歇坝 鲜鱼农家乐",
+    "sourceNotes": [
+      "note-68bc3e8d000000001c03c6bc"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 720
   },
   {
     "id": "jingmai-lancang-market",
     "name": "澜沧大集",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "逛",
-    "subtitle": "澜沧县城 · 每周六晚到周日上午",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "澜沧县城 · 每周六晚到周日上午",
     "description": "号称国内市集天花板，一个流动的云南少数民族特产博物馆：新鲜食材、山珍、各种烧烤小吃都有。分东门段和西门段，完整逛完约 2 公里，中间沧 NIGHT 广场有乐队演出。",
     "why": "去景迈山路过的澜沧县城，最有烟火气的集市。",
-    "mustTry": "少数民族小吃、烧烤、逛摊",
+    "mustTry": [
+      "少数民族小吃",
+      "烧烤",
+      "逛摊"
+    ],
     "bestTime": "只在周六 17:30 到周日 11:30。你们周六（10/3）在孟连，行程上对不上，除非调整。",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-lancang-market.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/691a000300000000070154e2?xsec_token=AB2ZcnpKB1knmbaF0i3tHwupA0JBSs8iMM3QkO6cYRWw8=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/691a000300000000070154e2?xsec_token=AB2ZcnpKB1knmbaF0i3tHwupA0JBSs8iMM3QkO6cYRWw8=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 澜沧大集",
-    "mapKeyword": "澜沧街"
+    "mapKeyword": "澜沧街",
+    "sourceNotes": [
+      "note-691a000300000000070154e2"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 730
   },
   {
     "id": "jingmai-ganbai",
     "name": "景迈山赶摆（民族集市）",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "逛",
-    "subtitle": "芒洪周五早 · 糯干周五下午",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "芒洪周五早 · 糯干周五下午",
     "description": "当地人把赶集叫赶摆。芒洪每周五早上，糯干每周五下午，芒景周六早上，景迈大寨周日早上。",
     "why": "10/2 是周五，你们还在景迈山，正好能赶上芒洪或糯干的赶摆。",
-    "mustTry": "逛集市",
+    "mustTry": [
+      "逛集市"
+    ],
     "bestTime": "10/2（周五）早上芒洪，或下午糯干",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-ganbai.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/697099ee000000002102a179?xsec_token=ABbOxHHhtaQtwUgkqyc0vP2YSXzSP2GdZcJyVmk_YjjAU=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 景迈山赶摆（民族集市）",
-    "mapKeyword": "芒洪村"
+    "mapKeyword": "芒洪村",
+    "sourceNotes": [
+      "note-697099ee000000002102a179"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 740
   },
   {
     "id": "jingmai-manghong",
     "name": "芒洪",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "拍",
-    "subtitle": "景迈山地势最高 · 日出日落云海",
+    "category": [
+      "拍"
+    ],
+    "cardSubtitle": "景迈山地势最高 · 日出日落云海",
     "description": "景迈山地势最高的寨子，专属日出、云海、日落视野。新寨民宿和餐饮多，大部分人住这里；傍晚蓝调时刻随手拍木楼都好看。",
     "why": "看日落最方便的地方，旅人蕉附近视野好。",
-    "mustTry": "看日出日落、蓝调时刻",
+    "mustTry": [
+      "看日出日落",
+      "蓝调时刻"
+    ],
     "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-manghong.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a9b9701000000002a02f4bf?xsec_token=ABdnLMIWAkGeGDI-OMK_8AYSLk0TEtGw0b5cOWVtYmlrE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 芒洪",
-    "mapKeyword": "芒洪村 景迈山"
+    "mapKeyword": "芒洪村 景迈山",
+    "sourceNotes": [
+      "note-6a9b9701000000002a02f4bf"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 750
   },
   {
     "id": "jingmai-mangjing",
     "name": "芒景片区",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "玩",
-    "subtitle": "蜂王树 · 公主榕 · 茶祖庙",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "蜂王树 · 公主榕 · 茶祖庙",
     "description": "村寨沿山路铺开，古茶林、古树、茶祖庙集中，适合深度漫游。必看蜂王树、公主榕。",
     "why": "想了解景迈山茶文化的片区。",
-    "mustTry": "古树、茶祖庙",
+    "mustTry": [
+      "古树",
+      "茶祖庙"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aa940e3000000000b003b13?xsec_token=ABLjBeYZtoQYHveF3hXkYsuIkbatU_MOoL0OrFFxgIwsc=&xsec_source=pc_share",
+      "status": "missing"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6aa940e3000000000b003b13?xsec_token=ABLjBeYZtoQYHveF3hXkYsuIkbatU_MOoL0OrFFxgIwsc=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 芒景片区",
-    "mapKeyword": "芒景村 景迈山"
+    "mapKeyword": "芒景村 景迈山",
+    "sourceNotes": [
+      "note-6aa940e3000000000b003b13"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 760
   },
   {
     "id": "jingmai-wengwa",
     "name": "翁洼",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "拍",
-    "subtitle": "看日落 · 视野开阔人少",
+    "category": [
+      "拍"
+    ],
+    "cardSubtitle": "看日落 · 视野开阔人少",
     "description": "日落二选一：芒洪方便，翁洼视野开阔、人少，但位置偏。",
     "why": "想安静看日落。",
-    "mustTry": "看日落",
+    "mustTry": [
+      "看日落"
+    ],
     "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae63c60000000028034574?xsec_token=ABQ0SShbvGyqfe380IAbiDV5yAucuNd1BvhipPr8BDFtU=&xsec_source=pc_share",
+      "status": "missing"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6aae63c60000000028034574?xsec_token=ABQ0SShbvGyqfe380IAbiDV5yAucuNd1BvhipPr8BDFtU=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 翁洼",
-    "mapKeyword": "翁洼 景迈山"
+    "mapKeyword": "翁洼 景迈山",
+    "sourceNotes": [
+      "note-6aae63c60000000028034574"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 770
   },
   {
     "id": "jingmai-heritage-center",
     "name": "景迈山遗产展示中心",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "玩",
-    "subtitle": "上山前先读懂景迈山",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "上山前先读懂景迈山",
     "description": "在景迈山脚的惠民镇上。了解茶林共生和傣族、布朗族历史后再进山，体验感翻倍。",
     "why": "快速入门景迈山。",
-    "mustTry": "看展",
+    "mustTry": [
+      "看展"
+    ],
     "bestTime": "10/1 上山前顺路",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-heritage-center.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/697099ee000000002102a179?xsec_token=ABbOxHHhtaQtwUgkqyc0vP2YSXzSP2GdZcJyVmk_YjjAU=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 景迈山遗产展示中心",
-    "mapKeyword": "景迈山遗产展示中心"
+    "mapKeyword": "景迈山遗产展示中心",
+    "sourceNotes": [
+      "note-697099ee000000002102a179"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 780
   },
   {
     "id": "jingmai-ailen-hike",
     "name": "艾冷茶山徒步",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "玩",
-    "subtitle": "茶祖庙 → 七公主坟 → 茶魂台",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "茶祖庙 → 七公主坟 → 茶魂台",
     "description": "一段轻徒步，沿路经过茶祖庙、七公主坟、茶魂台。也可以请当地向导去雨林徒步。",
     "why": "走进古茶林最直接的方式。",
-    "mustTry": "轻徒步",
+    "mustTry": [
+      "轻徒步"
+    ],
     "bestTime": "白天，穿好走的鞋",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-ailen-hike.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/697099ee000000002102a179?xsec_token=ABbOxHHhtaQtwUgkqyc0vP2YSXzSP2GdZcJyVmk_YjjAU=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 艾冷茶山徒步",
-    "mapKeyword": "艾冷山 景迈山"
+    "mapKeyword": "艾冷山 景迈山",
+    "sourceNotes": [
+      "note-697099ee000000002102a179"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 790
   },
   {
     "id": "jingmai-banyan",
     "name": "景迈山大榕树",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "拍",
-    "subtitle": "《一点就到家》取景地",
+    "category": [
+      "拍"
+    ],
+    "cardSubtitle": "《一点就到家》取景地",
     "description": "导航\"钟华茶叶经营部\"，停车后步行 5 分钟。离景迈山其他景区很远，开车约 1 小时 20 分钟，后半段弯道多。看树大约半小时。",
     "why": "笔记作者说如果没去会很遗憾，1542 赞。",
-    "mustTry": "和大榕树拍照",
+    "mustTry": [
+      "和大榕树拍照"
+    ],
     "bestTime": "要专门留半天，自驾",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-banyan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/67d0eb31000000000d014cd4?xsec_token=ABKjU9vA07fGnYyD2qGDoV6F6XR5cLD4tYQG2WeZ28kAQ=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/67d0eb31000000000d014cd4?xsec_token=ABKjU9vA07fGnYyD2qGDoV6F6XR5cLD4tYQG2WeZ28kAQ=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 景迈山大榕树",
-    "mapKeyword": "钟华茶叶经营部 惠民镇"
+    "mapKeyword": "钟华茶叶经营部 惠民镇",
+    "sourceNotes": [
+      "note-67d0eb31000000000d014cd4"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 800
   },
   {
     "id": "jingmai-liting",
     "name": "里庭",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "糯干 · 茶和水果无限续",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "糯干 · 茶和水果无限续",
     "description": "68 元一位的茶室，茶和水果无限续，每桌点一炷线香，很有仪式感。审美很好，在糯干有三家店（含素食店、下午茶店）。",
     "why": "4 篇收藏笔记都提到它。",
-    "mustTry": "茶室、下午茶",
+    "mustTry": [
+      "茶室",
+      "下午茶"
+    ],
     "bestTime": "下午，日落位",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-liting.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aa81764000000002a02d5b9?xsec_token=ABjBwv5tdcRlJYPIe05RRUMc1XdpJPN_aXa54h_XVUmTg=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 里庭",
-    "mapKeyword": "里庭 糯干"
+    "mapKeyword": "里庭 糯干",
+    "sourceNotes": [
+      "note-6aa81764000000002a02d5b9"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 810
   },
   {
     "id": "jingmai-shanshenwu",
     "name": "山神屋",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "糯干最高处 · 俯瞰寨子",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "糯干最高处 · 俯瞰寨子",
     "description": "能俯瞰整个糯干古寨，适合发呆，咖啡也好喝，饮品略贵。",
     "why": "糯干日落最佳观景位之一。",
-    "mustTry": "咖啡",
+    "mustTry": [
+      "咖啡"
+    ],
     "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-shanshenwu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6ab24293000000003601bfa8?xsec_token=AB9RduMdwoX78hheWf1bv0mZJueuCzy9PAv0WKon-dBgs=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 山神屋",
-    "mapKeyword": "山神屋 糯干"
+    "mapKeyword": "山神屋 糯干",
+    "sourceNotes": [
+      "note-6ab24293000000003601bfa8"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 820
   },
   {
     "id": "jingmai-ganguan",
     "name": "感官上下",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "逛",
-    "subtitle": "糯干 · 香氛集合店",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "糯干 · 香氛集合店",
     "description": "侘寂风集合店：香氛、瓷器、傣锦、茶咖、鞋包饰品。往上走是他们的咖啡，大露台能看到整个寨子。",
     "why": "香氛爱好者必逛，3 篇笔记推荐。",
-    "mustTry": "试香水、露台咖啡",
+    "mustTry": [
+      "试香水",
+      "露台咖啡"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-ganguan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6ab24293000000003601bfa8?xsec_token=AB9RduMdwoX78hheWf1bv0mZJueuCzy9PAv0WKon-dBgs=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 感官上下",
-    "mapKeyword": "感官上下 糯干"
+    "mapKeyword": "感官上下 糯干",
+    "sourceNotes": [
+      "note-6ab24293000000003601bfa8"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 830
   },
   {
     "id": "jingmai-buyuan",
     "name": "不遠",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "糯干 · 日落最佳观景位",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "糯干 · 日落最佳观景位",
     "description": "茶、咖、酒都有，店里空间很大，位置高，是日落最佳观景位之一。咖啡一般。",
     "why": "看日落的位置好。",
-    "mustTry": "茶咖酒",
+    "mustTry": [
+      "茶咖酒"
+    ],
     "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-buyuan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6ab24293000000003601bfa8?xsec_token=AB9RduMdwoX78hheWf1bv0mZJueuCzy9PAv0WKon-dBgs=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 不遠",
-    "mapKeyword": "不遠 糯干"
+    "mapKeyword": "不遠 糯干",
+    "sourceNotes": [
+      "note-6ab24293000000003601bfa8"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 840
   },
   {
     "id": "jingmai-shanhe-bakery",
     "name": "山禾焙里",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "吃",
-    "subtitle": "糯干 · 景迈山特色面包",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "糯干 · 景迈山特色面包",
     "description": "在去岩序的路口，很有景迈山特色的面包店。干巴菌恰巴塔很惊艳，有韧劲、馅料多。",
     "why": "两篇笔记都推荐。",
-    "mustTry": "干巴菌恰巴塔、洋芋包",
+    "mustTry": [
+      "干巴菌恰巴塔",
+      "洋芋包"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-shanhe-bakery.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aa81764000000002a02d5b9?xsec_token=ABjBwv5tdcRlJYPIe05RRUMc1XdpJPN_aXa54h_XVUmTg=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 山禾焙里",
-    "mapKeyword": "山禾焙里 糯干"
+    "mapKeyword": "山禾焙里 糯干",
+    "sourceNotes": [
+      "note-6aa81764000000002a02d5b9"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 850
   },
   {
     "id": "jingmai-guzhai-dai",
     "name": "古寨傣味饭店",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "吃",
-    "subtitle": "糯干 · 傣味",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "糯干 · 傣味",
     "description": "糯干古寨里的傣味饭店，饭也好吃，在鱼一二手作旁边。",
     "why": "在寨子里吃一顿傣味。",
-    "mustTry": "傣味",
+    "mustTry": [
+      "傣味"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-guzhai-dai.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a9b9701000000002a02f4bf?xsec_token=ABdnLMIWAkGeGDI-OMK_8AYSLk0TEtGw0b5cOWVtYmlrE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 古寨傣味饭店",
-    "mapKeyword": "古寨傣味饭店 糯干"
+    "mapKeyword": "古寨傣味饭店 糯干",
+    "sourceNotes": [
+      "note-6a9b9701000000002a02f4bf"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 860
   },
   {
     "id": "jingmai-yanxu",
     "name": "岩序",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "逛",
-    "subtitle": "糯干 · 瓷器和手作",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "糯干 · 瓷器和手作",
     "description": "瓷器、手作包、冰箱贴、配饰，作者说一路上没见过雷同的，后悔没买。",
     "why": "特别的手作店。",
-    "mustTry": "瓷器、手作包",
+    "mustTry": [
+      "瓷器",
+      "手作包"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-yanxu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6ab24293000000003601bfa8?xsec_token=AB9RduMdwoX78hheWf1bv0mZJueuCzy9PAv0WKon-dBgs=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 岩序",
-    "mapKeyword": "岩序 糯干"
+    "mapKeyword": "岩序 糯干",
+    "sourceNotes": [
+      "note-6ab24293000000003601bfa8"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 870
   },
   {
     "id": "jingmai-yuanshan",
     "name": "远山造物",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "逛",
-    "subtitle": "糯干 · 首饰手作",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "糯干 · 首饰手作",
     "description": "在岩序斜对面，以首饰为主，也有手作和包。",
     "why": "和岩序一起逛。",
-    "mustTry": "首饰",
+    "mustTry": [
+      "首饰"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-yuanshan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6ab24293000000003601bfa8?xsec_token=AB9RduMdwoX78hheWf1bv0mZJueuCzy9PAv0WKon-dBgs=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 远山造物",
-    "mapKeyword": "远山造物 糯干"
+    "mapKeyword": "远山造物 糯干",
+    "sourceNotes": [
+      "note-6ab24293000000003601bfa8"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 880
   },
   {
     "id": "jingmai-yinzhi",
     "name": "隐栀",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "拍",
-    "subtitle": "糯干 · 打卡杂货店",
+    "category": [
+      "拍"
+    ],
+    "cardSubtitle": "糯干 · 打卡杂货店",
     "description": "很多打卡照都在这里，其实是一家杂货店。",
     "why": "糯干的热门拍照点。",
-    "mustTry": "拍照",
+    "mustTry": [
+      "拍照"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-yinzhi.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6ab24293000000003601bfa8?xsec_token=AB9RduMdwoX78hheWf1bv0mZJueuCzy9PAv0WKon-dBgs=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 隐栀",
-    "mapKeyword": "隐栀 糯干"
+    "mapKeyword": "隐栀 糯干",
+    "sourceNotes": [
+      "note-6ab24293000000003601bfa8"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 890
   },
   {
     "id": "jingmai-fanhua",
     "name": "繁花似锦瓦山集",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "逛",
-    "subtitle": "糯干 · 民族手作",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "糯干 · 民族手作",
     "description": "景迈山比较有特色的民族手作店之一。",
     "why": "买一件民族手作。",
-    "mustTry": "手作",
+    "mustTry": [
+      "手作"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-fanhua.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 繁花似锦瓦山集",
-    "mapKeyword": "繁花似锦 糯干"
+    "mapKeyword": "繁花似锦 糯干",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 900
   },
   {
     "id": "jingmai-yulinxuyu",
     "name": "雨林絮语",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "糯干",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "糯干",
     "description": "\"离开景迈山念念不忘的 15 家小店\"之一（1.3 万赞）。",
     "why": "15 家必去小店之一。",
-    "mustTry": "到店看",
+    "mustTry": [
+      "到店看"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-yulinxuyu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 雨林絮语",
-    "mapKeyword": "雨林絮语 糯干"
+    "mapKeyword": "雨林絮语 糯干",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 910
   },
   {
     "id": "jingmai-yulinyunwei",
     "name": "雨林韵味",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "翁基 · 法国人开的咖啡集合店",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "翁基 · 法国人开的咖啡集合店",
     "description": "点单时会让你选一款食用香氛喷在饮品上。路两边各一家：一家喝茶和咖啡，一家喝鸡尾酒，进门要脱鞋。",
     "why": "3 篇笔记推荐，体验很特别。",
-    "mustTry": "香氛饮品、鸡尾酒",
+    "mustTry": [
+      "香氛饮品",
+      "鸡尾酒"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-yulinyunwei.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69821a83000000000b0090bb?xsec_token=ABWutYYbePXFeG3Iz1hA_c3YgMVfXd66jUCZIX0ifUvbM=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 雨林韵味",
-    "mapKeyword": "雨林韵味 翁基"
+    "mapKeyword": "雨林韵味 翁基",
+    "sourceNotes": [
+      "note-69821a83000000000b0090bb"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 920
   },
   {
     "id": "jingmai-yishushanyuan",
     "name": "一树山院",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "翁基 · 大院子很安静",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "翁基 · 大院子很安静",
     "description": "院子很大、位置很多，有秋千，视野宽；二楼可以躺着，很安静适合静静待着。",
     "why": "翁基最适合放空的咖啡馆。",
-    "mustTry": "松露干酪、果汁",
+    "mustTry": [
+      "松露干酪",
+      "果汁"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-yishushanyuan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aa81764000000002a02d5b9?xsec_token=ABjBwv5tdcRlJYPIe05RRUMc1XdpJPN_aXa54h_XVUmTg=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 一树山院",
-    "mapKeyword": "一树山院 翁基"
+    "mapKeyword": "一树山院 翁基",
+    "sourceNotes": [
+      "note-6aa81764000000002a02d5b9"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 930
   },
   {
     "id": "jingmai-washe",
     "name": "瓦舍小院",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "吃",
-    "subtitle": "翁基 · 锅气足的家常菜",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "翁基 · 锅气足的家常菜",
     "description": "炒小瓜豆角、煎蛋都很好吃，锅气很足。",
     "why": "在翁基吃一顿家常饭。",
-    "mustTry": "炒小瓜豆角、煎蛋",
+    "mustTry": [
+      "炒小瓜豆角",
+      "煎蛋"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-washe.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aa81764000000002a02d5b9?xsec_token=ABjBwv5tdcRlJYPIe05RRUMc1XdpJPN_aXa54h_XVUmTg=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 瓦舍小院",
-    "mapKeyword": "瓦舍小院 翁基"
+    "mapKeyword": "瓦舍小院 翁基",
+    "sourceNotes": [
+      "note-6aa81764000000002a02d5b9"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 940
   },
   {
     "id": "jingmai-yeyatang",
     "name": "野鸭塘河谷",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "翁基",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "翁基",
     "description": "\"离开景迈山念念不忘的 15 家小店\"之一。",
     "why": "15 家必去小店之一。",
-    "mustTry": "咖啡",
+    "mustTry": [
+      "咖啡"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-yeyatang.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 野鸭塘河谷",
-    "mapKeyword": "野鸭塘河谷 翁基"
+    "mapKeyword": "野鸭塘河谷 翁基",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 950
   },
   {
     "id": "jingmai-dierchashi",
     "name": "第二茶世",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "翁基 · 二楼好拍",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "翁基 · 二楼好拍",
     "description": "翁基古寨里的茶空间，二楼很好拍。",
     "why": "翁基的拍照点。",
-    "mustTry": "喝茶",
+    "mustTry": [
+      "喝茶"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-dierchashi.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a9b9701000000002a02f4bf?xsec_token=ABdnLMIWAkGeGDI-OMK_8AYSLk0TEtGw0b5cOWVtYmlrE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 第二茶世",
-    "mapKeyword": "第二茶世 翁基"
+    "mapKeyword": "第二茶世 翁基",
+    "sourceNotes": [
+      "note-6a9b9701000000002a02f4bf"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 960
   },
   {
     "id": "jingmai-31",
     "name": "31 号洱的咖啡店",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "翁基",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "翁基",
     "description": "\"离开景迈山念念不忘的 15 家小店\"之一。",
     "why": "15 家必去小店之一。",
-    "mustTry": "咖啡",
+    "mustTry": [
+      "咖啡"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 31 号洱的咖啡店",
-    "mapKeyword": "31号洱的咖啡店 翁基"
+    "mapKeyword": "31号洱的咖啡店 翁基",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 970
   },
   {
     "id": "jingmai-jiashe",
     "name": "槚蔎茶酒馆",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "芒洪 · 看日落和蓝调时刻",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "芒洪 · 看日落和蓝调时刻",
     "description": "只卖酒的小酒馆，窗外俯瞰寨子。17:30 左右开门，要看窗景得早点去，坐满就不放人了。就在秋胤饭店上面，看完可以下楼吃饭。",
     "why": "4 篇笔记推荐，在这里看到了\"绝美蓝调时刻\"。",
-    "mustTry": "调酒",
+    "mustTry": [
+      "调酒"
+    ],
     "bestTime": "开门就去占位看日落",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-jiashe.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 槚蔎茶酒馆",
-    "mapKeyword": "槚蔎茶酒馆 芒洪"
+    "mapKeyword": "槚蔎茶酒馆 芒洪",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 980
   },
   {
     "id": "jingmai-lvrenjiao",
     "name": "旅人蕉",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "芒洪 · 以书换饮",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "芒洪 · 以书换饮",
     "description": "咖啡馆，bgm 是整个山头最好听的，可以以书换饮。附近视野好，是看日落的好位置。",
     "why": "3 篇笔记提到。",
-    "mustTry": "咖啡",
+    "mustTry": [
+      "咖啡"
+    ],
     "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-lvrenjiao.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 旅人蕉",
-    "mapKeyword": "旅人蕉 芒洪"
+    "mapKeyword": "旅人蕉 芒洪",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 990
   },
   {
     "id": "jingmai-liangkeshu",
     "name": "两棵树",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "吃",
-    "subtitle": "芒洪 · 民宿私厨咖啡",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "芒洪 · 民宿私厨咖啡",
     "description": "有民宿、私厨、咖啡馆。民宿订不到也可以来用餐喝咖啡，吃饭只有午餐和晚餐开放。",
     "why": "芒洪吃一顿好的。",
-    "mustTry": "私厨午餐 / 晚餐",
+    "mustTry": [
+      "私厨午餐 / 晚餐"
+    ],
     "bestTime": "午餐或晚餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-liangkeshu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69821a83000000000b0090bb?xsec_token=ABWutYYbePXFeG3Iz1hA_c3YgMVfXd66jUCZIX0ifUvbM=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 两棵树",
-    "mapKeyword": "两棵树 芒洪"
+    "mapKeyword": "两棵树 芒洪",
+    "sourceNotes": [
+      "note-69821a83000000000b0090bb"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1000
   },
   {
     "id": "jingmai-daizhuni",
     "name": "傣住你吃货傣味小吃",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "吃",
-    "subtitle": "芒洪 · 傣味小吃",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "芒洪 · 傣味小吃",
     "description": "\"离开景迈山念念不忘的 15 家小店\"之一。",
     "why": "15 家必去小店之一。",
-    "mustTry": "傣味小吃",
+    "mustTry": [
+      "傣味小吃"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-daizhuni.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 傣住你吃货傣味小吃",
-    "mapKeyword": "傣住你 芒洪"
+    "mapKeyword": "傣住你 芒洪",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1010
   },
   {
     "id": "jingmai-guanguan",
     "name": "罐罐烤奶",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "芒洪",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "芒洪",
     "description": "\"离开景迈山念念不忘的 15 家小店\"之一。",
     "why": "15 家必去小店之一。",
-    "mustTry": "罐罐烤奶",
+    "mustTry": [
+      "罐罐烤奶"
+    ],
     "bestTime": "随时",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-guanguan.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 罐罐烤奶",
-    "mapKeyword": "罐罐烤奶 芒洪"
+    "mapKeyword": "罐罐烤奶 芒洪",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1020
   },
   {
     "id": "jingmai-benwu",
     "name": "本无酒馆",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "芒洪 · 小酒馆",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "芒洪 · 小酒馆",
     "description": "\"离开景迈山念念不忘的 15 家小店\"之一。",
     "why": "15 家必去小店之一。",
-    "mustTry": "酒",
+    "mustTry": [
+      "酒"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-benwu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 本无酒馆",
-    "mapKeyword": "本无酒馆 芒洪"
+    "mapKeyword": "本无酒馆 芒洪",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1030
   },
   {
     "id": "jingmai-manghong1",
     "name": "芒洪壹号饭店",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "吃",
-    "subtitle": "芒洪 · 老板热情",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "芒洪 · 老板热情",
     "description": "作者在这里喝了奶茶，大众点评上说饭菜也好吃，老板热情朴实。",
     "why": "芒洪的吃饭选择。",
-    "mustTry": "奶茶、家常菜",
+    "mustTry": [
+      "奶茶",
+      "家常菜"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-manghong1.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a9b9701000000002a02f4bf?xsec_token=ABdnLMIWAkGeGDI-OMK_8AYSLk0TEtGw0b5cOWVtYmlrE=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 芒洪壹号饭店",
-    "mapKeyword": "芒洪壹号饭店"
+    "mapKeyword": "芒洪壹号饭店",
+    "sourceNotes": [
+      "note-6a9b9701000000002a02f4bf"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1040
   },
   {
     "id": "jingmai-mixia",
     "name": "蜜下风物集",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "吃",
-    "subtitle": "芒景 · 躺着看日落",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "芒景 · 躺着看日落",
     "description": "有 Brunch、下午茶、晚餐三个时段，需要预约。躺着看日落很惬意。",
     "why": "两篇笔记推荐，看日落的好位置。",
-    "mustTry": "Brunch、下午茶、晚餐",
+    "mustTry": [
+      "Brunch",
+      "下午茶",
+      "晚餐"
+    ],
     "bestTime": "提前预约傍晚时段",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-mixia.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 蜜下风物集",
-    "mapKeyword": "蜜下风物集 芒景"
+    "mapKeyword": "蜜下风物集 芒景",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1050
   },
   {
     "id": "jingmai-aleph",
     "name": "阿莱夫",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "喝",
-    "subtitle": "芒景 · 有只贪吃的小猫",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "芒景 · 有只贪吃的小猫",
     "description": "店面不大，装修很有风格，有只很贪吃的可爱小猫。",
     "why": "芒景的小咖啡店。",
-    "mustTry": "咖啡",
+    "mustTry": [
+      "咖啡"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-aleph.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a9175dc000000002503c534?xsec_token=AB-Ti_091goJcYakewuDt_Owe3Q-hat3ERu757oVtKg_I=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a9175dc000000002503c534?xsec_token=AB-Ti_091goJcYakewuDt_Owe3Q-hat3ERu757oVtKg_I=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 阿莱夫",
-    "mapKeyword": "阿莱夫 芒景"
+    "mapKeyword": "阿莱夫 芒景",
+    "sourceNotes": [
+      "note-6a9175dc000000002503c534"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1060
   },
   {
     "id": "jingmai-qingmugua",
     "name": "青木瓜树",
+    "aliases": [],
     "region": "景迈山",
-    "kind": "吃",
-    "subtitle": "芒景",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "芒景",
     "description": "\"离开景迈山念念不忘的 15 家小店\"之一。",
     "why": "15 家必去小店之一。",
-    "mustTry": "到店看",
+    "mustTry": [
+      "到店看"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-qingmugua.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "景迈山 青木瓜树",
-    "mapKeyword": "青木瓜树 芒景"
+    "mapKeyword": "青木瓜树 芒景",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1070
   },
   {
     "id": "menglian-mengma",
     "name": "勐马瀑布",
+    "aliases": [],
     "region": "孟连",
-    "kind": "玩",
-    "subtitle": "县城开车 30 多分钟",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "县城开车 30 多分钟",
     "description": "门票 10 元/人（卫生管理费），宠物友好。来回轻徒步加拍照约 40 分钟，可以近距离感受瀑布，几秒就湿透。",
     "why": "丰水期震撼度五颗星，两篇笔记推荐。",
-    "mustTry": "轻徒步、看瀑布",
+    "mustTry": [
+      "轻徒步",
+      "看瀑布"
+    ],
     "bestTime": "白天，带件能湿的衣服",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-mengma.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a4cf1ea000000001101d19f?xsec_token=AB0JGdwvzvJnxmNcOUTv64IgCEhBK1yw4j8d9YGEJMsrA=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a4cf1ea000000001101d19f?xsec_token=AB0JGdwvzvJnxmNcOUTv64IgCEhBK1yw4j8d9YGEJMsrA=&xsec_source=pc_share",
     "xhsKeyword": "孟连 勐马瀑布",
-    "mapKeyword": "勐马瀑布"
+    "mapKeyword": "勐马瀑布",
+    "sourceNotes": [
+      "note-6a4cf1ea000000001101d19f"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1080
   },
   {
     "id": "menglian-jinta",
     "name": "孟连大金塔",
+    "aliases": [],
     "region": "孟连",
-    "kind": "拍",
-    "subtitle": "孟连地标",
+    "category": [
+      "拍"
+    ],
+    "cardSubtitle": "孟连地标",
     "description": "孟连 2 日游攻略里第一天的最后一站，排在娜允古镇之后。",
     "why": "孟连代表性建筑。",
-    "mustTry": "拍照",
+    "mustTry": [
+      "拍照"
+    ],
     "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a16ce480000000006033aa5?xsec_token=ABb6PF0PAvw5k5yWx8QEKSpcxgWXELztp9FIaVFklsvdk=&xsec_source=pc_share",
+      "status": "missing"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a16ce480000000006033aa5?xsec_token=ABb6PF0PAvw5k5yWx8QEKSpcxgWXELztp9FIaVFklsvdk=&xsec_source=pc_share",
     "xhsKeyword": "孟连 孟连大金塔",
-    "mapKeyword": "孟连大金塔"
+    "mapKeyword": "孟连大金塔",
+    "sourceNotes": [
+      "note-6a16ce480000000006033aa5"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1090
   },
   {
     "id": "menglian-mangjiu",
     "name": "芒旧新寨",
+    "aliases": [],
     "region": "孟连",
-    "kind": "逛",
-    "subtitle": "保留原始建筑的居民区",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "保留原始建筑的居民区",
     "description": "不是景区，是山里保留原始建筑的居民区，适合逛逛看看当地人的生活方式。期待值高的不建议去。",
     "why": "看孟连真实的村寨生活。",
-    "mustTry": "散步",
+    "mustTry": [
+      "散步"
+    ],
     "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-mangjiu.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/682c687d0000000012002043?xsec_token=AB5lEaMoTUzW-0zGELmL8txWja8R_GO0xWBH2LhF9ghAI=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "孟连 芒旧新寨",
-    "mapKeyword": "芒旧新寨"
+    "mapKeyword": "芒旧新寨",
+    "sourceNotes": [
+      "note-682c687d0000000012002043"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1100
   },
   {
     "id": "menglian-picar",
     "name": "PicarCoffee",
+    "aliases": [],
     "region": "孟连",
-    "kind": "喝",
-    "subtitle": "佤族店主花花的特调",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "佤族店主花花的特调",
     "description": "店主花花是佤族姑娘，特调\"梅雨季\"淡奶油下面是冰凉的酸甜。岩嘎烧烤就是她推荐的。",
     "why": "孟连本地年轻人开的咖啡店。",
-    "mustTry": "特调梅雨季",
+    "mustTry": [
+      "特调梅雨季"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-picar.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/67946c8e0000000018011754?xsec_token=ABhjHnwLDoQKdZJA9sHiYZOa0eEuxXkfOdZbstOyF7nxw=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "孟连 PicarCoffee",
-    "mapKeyword": "PicarCoffee 孟连"
+    "mapKeyword": "PicarCoffee 孟连",
+    "sourceNotes": [
+      "note-67946c8e0000000018011754"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1110
   },
   {
     "id": "menglian-likeke",
     "name": "Likeke",
+    "aliases": [],
     "region": "孟连",
-    "kind": "喝",
-    "subtitle": "自家小院的咖啡馆",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "自家小院的咖啡馆",
     "description": "院子里坐着喝咖啡晒太阳，处处是店主的心思。特调\"野酸角也有春天\"还能吃到酸角肉，手写的咖啡介绍很可爱。",
     "why": "孟连最有小院感的咖啡馆。",
-    "mustTry": "野酸角也有春天",
+    "mustTry": [
+      "野酸角也有春天"
+    ],
     "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-likeke.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/67946c8e0000000018011754?xsec_token=ABhjHnwLDoQKdZJA9sHiYZOa0eEuxXkfOdZbstOyF7nxw=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "孟连 Likeke",
-    "mapKeyword": "Likeke 孟连"
+    "mapKeyword": "Likeke 孟连",
+    "sourceNotes": [
+      "note-67946c8e0000000018011754"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1120
   },
   {
     "id": "menglian-aliang",
     "name": "阿良泰味小吃",
+    "aliases": [],
     "region": "孟连",
-    "kind": "吃",
-    "subtitle": "本地人苍蝇馆 · 手抓米线",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "本地人苍蝇馆 · 手抓米线",
     "description": "本地人去的店。手抓米线是特色、量很大；嘎抛猪肉盖饭和舂鸡脚也好吃，烤鱼很大一份，像老挝烤鱼。",
     "why": "两篇孟连笔记都推荐。",
-    "mustTry": "手抓米线、烤鱼、舂鸡脚",
+    "mustTry": [
+      "手抓米线",
+      "烤鱼",
+      "舂鸡脚"
+    ],
     "bestTime": "正餐",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-aliang.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/67946c8e0000000018011754?xsec_token=ABhjHnwLDoQKdZJA9sHiYZOa0eEuxXkfOdZbstOyF7nxw=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "孟连 阿良泰味小吃",
-    "mapKeyword": "阿良泰味小吃 孟连"
+    "mapKeyword": "阿良泰味小吃 孟连",
+    "sourceNotes": [
+      "note-67946c8e0000000018011754"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1130
   },
   {
     "id": "menglian-yanga",
     "name": "岩嘎烧烤店",
+    "aliases": [],
     "region": "孟连",
-    "kind": "吃",
-    "subtitle": "嬢嬢们烤的烧烤",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "嬢嬢们烤的烧烤",
     "description": "PicarCoffee 店主推荐，都是嬢嬢们在烤，很香。",
     "why": "本地人去的烧烤。",
-    "mustTry": "烧烤",
+    "mustTry": [
+      "烧烤"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-yanga.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/67946c8e0000000018011754?xsec_token=ABhjHnwLDoQKdZJA9sHiYZOa0eEuxXkfOdZbstOyF7nxw=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "孟连 岩嘎烧烤店",
-    "mapKeyword": "岩嘎烧烤 孟连"
+    "mapKeyword": "岩嘎烧烤 孟连",
+    "sourceNotes": [
+      "note-67946c8e0000000018011754"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1140
   },
   {
     "id": "menglian-dalianjia",
     "name": "大脸家",
+    "aliases": [],
     "region": "孟连",
-    "kind": "吃",
-    "subtitle": "平价 · 露天流浪风",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "平价 · 露天流浪风",
     "description": "很好吃很平价，晚上坐着很舒服，露天流浪风。",
     "why": "孟连晚饭的好选择。",
-    "mustTry": "到店看",
+    "mustTry": [
+      "到店看"
+    ],
     "bestTime": "晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-dalianjia.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/682c687d0000000012002043?xsec_token=AB5lEaMoTUzW-0zGELmL8txWja8R_GO0xWBH2LhF9ghAI=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
     "xhsKeyword": "孟连 大脸家",
-    "mapKeyword": "大脸家 孟连"
+    "mapKeyword": "大脸家 孟连",
+    "sourceNotes": [
+      "note-682c687d0000000012002043"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1150
   }
 ]

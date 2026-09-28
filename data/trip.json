@@ -5,9 +5,20 @@
   "rental": {
     "car": "理想 L8",
     "platform": "同程旅行",
-    "drivers": ["李晨延", "尹项萍"],
-    "pickup": { "date": "2026-10-01", "time": "09:00", "place": "普洱站" },
-    "return": { "date": "2026-10-05", "time": "12:00", "place": "普洱站" }
+    "drivers": [
+      "李晨延",
+      "尹项萍"
+    ],
+    "pickup": {
+      "date": "2026-10-01",
+      "time": "09:00",
+      "place": "普洱站"
+    },
+    "return": {
+      "date": "2026-10-05",
+      "time": "12:00",
+      "place": "普洱站"
+    }
   },
   "days": [
     {
@@ -19,15 +30,48 @@
       "summary": "交通日，坐高铁去普洱，晚上入住",
       "region": "普洱",
       "events": [
-        { "time": "12:00", "type": "flight", "title": "抵达昆明长水机场" },
-        { "time": "15:12", "type": "train", "title": "昆明站发车", "detail": "C280" },
-        { "time": "18:29", "type": "train", "title": "抵达普洱站" },
-        { "time": "晚上", "type": "hotel", "title": "入住普洱浩枫温德姆酒店", "detail": "酒店写的 12:00 起可入住只是入住政策，我们实际晚上才到" }
+        {
+          "time": "12:00",
+          "type": "flight",
+          "title": "抵达昆明长水机场"
+        },
+        {
+          "time": "15:12",
+          "type": "train",
+          "title": "昆明站发车",
+          "detail": "C280"
+        },
+        {
+          "time": "18:29",
+          "type": "train",
+          "title": "抵达普洱站"
+        },
+        {
+          "time": "晚上",
+          "type": "hotel",
+          "title": "入住普洱浩枫温德姆酒店",
+          "detail": "酒店写的 12:00 起可入住只是入住政策，我们实际晚上才到"
+        }
       ],
-      "stay": { "name": "普洱浩枫温德姆酒店", "nights": "9/30 一晚" },
+      "stay": {
+        "name": "普洱浩枫温德姆酒店",
+        "nights": "9/30 一晚"
+      },
       "routes": [
-        { "label": "落地后去火车站", "from": "昆明长水机场", "to": "昆明站", "mode": "transit", "region": "昆明" },
-        { "label": "到普洱后去酒店", "from": "普洱站", "to": "普洱浩枫温德姆酒店", "mode": "driving", "region": "普洱" }
+        {
+          "label": "落地后去火车站",
+          "from": "昆明长水机场",
+          "to": "昆明站",
+          "mode": "transit",
+          "region": "昆明"
+        },
+        {
+          "label": "到普洱后去酒店",
+          "from": "普洱站",
+          "to": "普洱浩枫温德姆酒店",
+          "mode": "driving",
+          "region": "普洱"
+        }
       ]
     },
     {
@@ -39,13 +83,36 @@
       "summary": "早上取车，自驾进景迈山",
       "region": "景迈山",
       "events": [
-        { "time": "09:00", "type": "car", "title": "普洱站取车", "detail": "理想 L8 · 同程旅行 · 主驾驶 李晨延 / 尹项萍" },
-        { "time": "取车后", "type": "car", "title": "自驾前往景迈山" },
-        { "time": "14:00", "type": "hotel", "title": "入住见山云宿", "detail": "10/1 入住 · 10/2 12:00 离店" }
+        {
+          "time": "09:00",
+          "type": "car",
+          "title": "普洱站取车",
+          "detail": "理想 L8 · 同程旅行 · 主驾驶 李晨延 / 尹项萍"
+        },
+        {
+          "time": "取车后",
+          "type": "car",
+          "title": "自驾前往景迈山"
+        },
+        {
+          "time": "14:00",
+          "type": "hotel",
+          "title": "入住见山云宿",
+          "detail": "10/1 入住 · 10/2 12:00 离店"
+        }
       ],
-      "stay": { "name": "见山云宿", "nights": "10/1 一晚" },
+      "stay": {
+        "name": "见山云宿",
+        "nights": "10/1 一晚"
+      },
       "routes": [
-        { "label": "取车后自驾", "from": "普洱站", "to": "见山云宿", "mode": "driving", "region": "普洱" }
+        {
+          "label": "取车后自驾",
+          "from": "普洱站",
+          "to": "见山云宿",
+          "mode": "driving",
+          "region": "普洱"
+        }
       ]
     },
     {
@@ -57,13 +124,35 @@
       "summary": "中午退房，下午自驾到孟连",
       "region": "孟连",
       "events": [
-        { "time": "12:00", "type": "hotel", "title": "见山云宿退房" },
-        { "time": "退房后", "type": "car", "title": "从景迈山自驾去孟连" },
-        { "time": "14:00 起", "type": "hotel", "title": "入住孟连傣王府酒店", "detail": "10/2 入住 · 10/4 14:00 离店" }
+        {
+          "time": "12:00",
+          "type": "hotel",
+          "title": "见山云宿退房"
+        },
+        {
+          "time": "退房后",
+          "type": "car",
+          "title": "从景迈山自驾去孟连"
+        },
+        {
+          "time": "14:00 起",
+          "type": "hotel",
+          "title": "入住孟连傣王府酒店",
+          "detail": "10/2 入住 · 10/4 14:00 离店"
+        }
       ],
-      "stay": { "name": "孟连傣王府酒店", "nights": "10/2 – 10/3 两晚" },
+      "stay": {
+        "name": "孟连傣王府酒店",
+        "nights": "10/2 – 10/3 两晚"
+      },
       "routes": [
-        { "label": "自驾", "from": "见山云宿", "to": "孟连傣王府酒店", "mode": "driving", "region": "普洱" }
+        {
+          "label": "自驾",
+          "from": "见山云宿",
+          "to": "孟连傣王府酒店",
+          "mode": "driving",
+          "region": "普洱"
+        }
       ]
     },
     {
@@ -75,10 +164,21 @@
       "summary": "不换酒店，全天在孟连玩",
       "region": "孟连",
       "events": [
-        { "time": "全天", "type": "free", "title": "孟连自由活动" },
-        { "time": "晚上", "type": "hotel", "title": "孟连傣王府酒店续住" }
+        {
+          "time": "全天",
+          "type": "free",
+          "title": "孟连自由活动"
+        },
+        {
+          "time": "晚上",
+          "type": "hotel",
+          "title": "孟连傣王府酒店续住"
+        }
       ],
-      "stay": { "name": "孟连傣王府酒店", "nights": "续住" },
+      "stay": {
+        "name": "孟连傣王府酒店",
+        "nights": "续住"
+      },
       "routes": []
     },
     {
@@ -90,13 +190,35 @@
       "summary": "14:00 前退房，自驾回普洱",
       "region": "普洱",
       "events": [
-        { "time": "14:00 前", "type": "hotel", "title": "孟连傣王府酒店退房" },
-        { "time": "退房后", "type": "car", "title": "从孟连自驾回普洱" },
-        { "time": "14:00 起", "type": "hotel", "title": "入住普洱曼悦酒店", "detail": "10/4 入住 · 10/5 13:00 离店" }
+        {
+          "time": "14:00 前",
+          "type": "hotel",
+          "title": "孟连傣王府酒店退房"
+        },
+        {
+          "time": "退房后",
+          "type": "car",
+          "title": "从孟连自驾回普洱"
+        },
+        {
+          "time": "14:00 起",
+          "type": "hotel",
+          "title": "入住普洱曼悦酒店",
+          "detail": "10/4 入住 · 10/5 13:00 离店"
+        }
       ],
-      "stay": { "name": "普洱曼悦酒店", "nights": "10/4 一晚" },
+      "stay": {
+        "name": "普洱曼悦酒店",
+        "nights": "10/4 一晚"
+      },
       "routes": [
-        { "label": "自驾", "from": "孟连傣王府酒店", "to": "普洱曼悦酒店", "mode": "driving", "region": "普洱" }
+        {
+          "label": "自驾",
+          "from": "孟连傣王府酒店",
+          "to": "普洱曼悦酒店",
+          "mode": "driving",
+          "region": "普洱"
+        }
       ]
     },
     {
@@ -108,18 +230,60 @@
       "summary": "中午还车，傍晚坐高铁回昆明",
       "region": "昆明",
       "events": [
-        { "time": "12:00", "type": "car", "title": "普洱站还车", "detail": "理想 L8 · 同程旅行" },
-        { "time": "13:00 前", "type": "hotel", "title": "普洱曼悦酒店退房" },
-        { "time": "17:49", "type": "train", "title": "普洱站出发" },
-        { "time": "20:45", "type": "train", "title": "抵达昆明站" },
-        { "time": "晚上", "type": "hotel", "title": "入住昆明塞拉维酒店", "detail": "在东华农贸市场附近（不是公园 1903）· 10/5 14:00 起可入住 · 10/6 14:00 离店" },
-        { "time": "晚上", "type": "meal", "title": "晚餐或直接吃烧烤", "detail": "优先在东华农贸市场附近找" }
+        {
+          "time": "上午",
+          "type": "hotel",
+          "title": "普洱曼悦酒店退房、整理行李",
+          "detail": "酒店最晚 13:00 离店，但要赶 12:00 还车，所以上午先退房"
+        },
+        {
+          "time": "12:00",
+          "type": "car",
+          "title": "普洱站还车",
+          "detail": "理想 L8 · 同程旅行"
+        },
+        {
+          "time": "17:49",
+          "type": "train",
+          "title": "普洱站出发"
+        },
+        {
+          "time": "20:45",
+          "type": "train",
+          "title": "抵达昆明站"
+        },
+        {
+          "time": "晚上",
+          "type": "hotel",
+          "title": "入住昆明塞拉维酒店",
+          "detail": "在东华农贸市场附近（不是公园 1903）· 10/5 14:00 起可入住 · 10/6 14:00 离店"
+        },
+        {
+          "time": "晚上",
+          "type": "meal",
+          "title": "晚餐或直接吃烧烤",
+          "detail": "优先在东华农贸市场附近找"
+        }
       ],
-      "alert": "还车 12:00 在退房 13:00 之前：要么上午先退房、行李随车带去普洱站；要么退房后把行李寄存在曼悦前台，还车后再回来取。出发前先定好。",
-      "stay": { "name": "昆明塞拉维酒店", "nights": "10/5 一晚 · 东华农贸市场附近" },
+      "stay": {
+        "name": "昆明塞拉维酒店",
+        "nights": "10/5 一晚 · 东华农贸市场附近"
+      },
       "routes": [
-        { "label": "中午去还车", "from": "普洱曼悦酒店", "to": "普洱站", "mode": "driving", "region": "普洱" },
-        { "label": "到昆明后去酒店", "from": "昆明站", "to": "昆明塞拉维酒店", "mode": "driving", "region": "昆明" }
+        {
+          "label": "中午去还车",
+          "from": "普洱曼悦酒店",
+          "to": "普洱站",
+          "mode": "driving",
+          "region": "普洱"
+        },
+        {
+          "label": "到昆明后去酒店",
+          "from": "昆明站",
+          "to": "昆明塞拉维酒店",
+          "mode": "driving",
+          "region": "昆明"
+        }
       ]
     },
     {
@@ -131,13 +295,31 @@
       "summary": "白天在昆明，晚上飞回家",
       "region": "昆明",
       "events": [
-        { "time": "14:00 前", "type": "hotel", "title": "昆明塞拉维酒店退房" },
-        { "time": "白天", "type": "free", "title": "Fantine 安排行程" },
-        { "time": "19:00", "type": "flight", "title": "昆明长水机场起飞返程" }
+        {
+          "time": "14:00 前",
+          "type": "hotel",
+          "title": "昆明塞拉维酒店退房"
+        },
+        {
+          "time": "白天",
+          "type": "free",
+          "title": "Fantine 安排行程"
+        },
+        {
+          "time": "19:00",
+          "type": "flight",
+          "title": "昆明长水机场起飞返程"
+        }
       ],
       "stay": null,
       "routes": [
-        { "label": "去机场", "from": "昆明塞拉维酒店", "to": "昆明长水机场", "mode": "driving", "region": "昆明" }
+        {
+          "label": "去机场",
+          "from": "昆明塞拉维酒店",
+          "to": "昆明长水机场",
+          "mode": "driving",
+          "region": "昆明"
+        }
       ]
     }
   ]
