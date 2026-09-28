@@ -223,6 +223,69 @@ const SYSTEM = `你帮一个国庆去云南旅行的人整理小红书攻略。�
 - evidence 用一句话说明依据（例如"第3张图门头写着苏大妈烧烤"）。
 - 不确定就把 confidence 设为 low，不要猜。`;
 
+// 识别结果补齐字段（通义千问没有强制 JSON 结构，这里兜底）
+const arr = v => Array.isArray(v) ? v.map(String) : v ? String(v).split(/[、，,]/).map(x => x.trim()).filter(Boolean) : [];
+const lvl = v => ['high', 'medium', 'low'].includes(v) ? v : 'medium';
+function normCandidate(c) {
+  const region = String(c.region || '');
+  const idx = Number.isInteger(c.coverImageIndex) ? c.coverImageIndex : (typeof c.coverImageIndex === 'string' && /^\d+$/.test(c.coverImageIndex) ? Number(c.coverImageIndex) : null);
+  return {
+    name: String(c.name).trim(), aliases: arr(c.aliases), region, inRoute: c.inRoute !== false && REGIONS.includes(region),
+    category: arr(c.category).filter(k => KINDS.includes(k)), cardSubtitle: String(c.cardSubtitle || ''), description: String(c.description || ''),
+    mustTry: arr(c.mustTry), bestTime: String(c.bestTime || ''), xhsKeyword: String(c.xhsKeyword || ''), mapKeyword: String(c.mapKeyword || ''),
+    confidence: lvl(c.confidence), existingId: c.existingId ? String(c.existingId) : null,
+    coverImageIndex: idx, coverConfidence: lvl(c.coverConfidence), evidence: String(c.evidence || ''),
+  };
+}
+function parseJsonLoose(text) {
+  const t = String(text || '').replace(/```(?:json)?/g, '');
+  const a = t.indexOf('{'); const b = t.lastIndexOf('}');
+  if (a < 0 || b < a) throw new Error('识别结果解析失败，请重试');
+  return JSON.parse(t.slice(a, b + 1));
+}
+
+// 通义千问视觉模型（阿里云百炼，OpenAI 兼容接口）
+async function askQwen(env, content) {
+  const parts = content.map(c => c.type === 'text' ? { type: 'text', text: c.text }
+    : { type: 'image_url', image_url: { url: c.source.type === 'url' ? c.source.url : `data:${c.source.media_type};base64,${c.source.data}` } });
+  const base = (env.QWEN_BASE || 'https://dashscope.aliyuncs.com/compatible-mode/v1').replace(/\/+$/, '');
+  const r = await fetch(`${base}/chat/completions`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${env.QWEN_API_KEY}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: env.QWEN_MODEL || 'qwen-vl-max',
+      temperature: 0.2,
+      messages: [
+        { role: 'system', content: SYSTEM + '\n\n' + JSON_SHAPE },
+        { role: 'user', content: parts },
+      ],
+    }),
+  });
+  const d = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(`通义千问返回 ${r.status}：${(d.error && d.error.message) || d.message || ''}`.slice(0, 200));
+  return parseJsonLoose(d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content);
+}
+const JSON_SHAPE = `只输出一个 JSON 对象，不要任何解释，格式：
+{"candidates":[{"name":"店名","aliases":["别名"],"region":"普洱/景迈山/孟连/昆明 或实际城市","inRoute":true,"category":["吃/喝/逛/玩/拍 选1-2个"],"cardSubtitle":"8-16字一句话","description":"两三句介绍","mustTry":["推荐"],"bestTime":"适合什么时候去","xhsKeyword":"地区 店名","mapKeyword":"店名","confidence":"high/medium/low","existingId":"已有地点id或null","coverImageIndex":0,"coverConfidence":"high/medium/low","evidence":"一句话依据"}]}`;
+
+// Claude（设置了 ANTHROPIC_API_KEY 且没设通义千问时使用）
+async function askClaude(env, content) {
+  const client = new Anthropic({ apiKey: env.ANTHROPIC_API_KEY });
+  const res = await client.beta.messages.create({
+    model: 'claude-opus-5',
+    max_tokens: 16000,
+    betas: ['server-side-fallback-2026-07-01'],
+    fallbacks: 'default',
+    thinking: { type: 'adaptive' },
+    system: SYSTEM,
+    output_config: { effort: 'high', format: { type: 'json_schema', schema: CANDIDATE_SCHEMA } },
+    messages: [{ role: 'user', content }],
+  });
+  if (res.stop_reason === 'refusal') throw new Error('这篇内容没法识别，换一篇或上传截图试试');
+  const textBlock = res.content.find(b => b.type === 'text');
+  return parseJsonLoose(textBlock ? textBlock.text : '{}');
+}
+
 async function analyzeNote(req, env) {
   const body = await req.json().catch(() => ({}));
   const uploads = (body.images || []).filter(s => typeof s === 'string' && s.startsWith('data:image/')).slice(0, 12);
@@ -241,22 +304,12 @@ async function analyzeNote(req, env) {
   const existing = (body.existing || []).slice(0, 400).map(p => `${p.id}｜${p.name}｜${p.region}${p.aliases && p.aliases.length ? '｜' + p.aliases.join('/') : ''}`).join('\n');
   content.push({ type: 'text', text: `${text || '（没有文字，只看图片）'}\n\n已有地点（id｜名称｜地区｜别名）：\n${existing}` });
 
-  const client = new Anthropic({ apiKey: env.ANTHROPIC_API_KEY });
-  const res = await client.beta.messages.create({
-    model: 'claude-opus-5',
-    max_tokens: 16000,
-    betas: ['server-side-fallback-2026-07-01'],
-    fallbacks: 'default',
-    thinking: { type: 'adaptive' },
-    system: SYSTEM,
-    output_config: { effort: 'high', format: { type: 'json_schema', schema: CANDIDATE_SCHEMA } },
-    messages: [{ role: 'user', content }],
-  });
-  if (res.stop_reason === 'refusal') return fail('这篇内容没法识别，换一篇或上传截图试试');
-  const textBlock = res.content.find(b => b.type === 'text');
-  let parsed = { candidates: [] };
-  try { parsed = JSON.parse(textBlock ? textBlock.text : '{}'); } catch (e) { return fail('识别结果解析失败，请重试'); }
-  const cands = (parsed.candidates || []).map(c => ({ ...c, inRoute: c.inRoute && REGIONS.includes(c.region) }));
+  if (!env.QWEN_API_KEY && !env.ANTHROPIC_API_KEY) return fail('智能识别还没设置好（缺少通义千问的 API key）');
+  let parsed;
+  try {
+    parsed = env.QWEN_API_KEY ? await askQwen(env, content) : await askClaude(env, content);
+  } catch (e) { return fail(e.message || '识别服务出错了，请重试'); }
+  const cands = (parsed.candidates || []).filter(c => c && c.name).map(normCandidate);
   const readStatus = note.ok ? 'full' : body.url ? 'failed' : 'upload';
   return json({
     ok: true, readStatus,
