@@ -8,6 +8,8 @@ import Anthropic from '@anthropic-ai/sdk';
 const REGIONS = ['普洱', '景迈山', '孟连', '昆明'];
 const KINDS = ['吃', '喝', '逛', '玩', '拍'];
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
+// 小红书对电脑浏览器要求登录，手机浏览器可以直接看笔记（需要分享链接里的 xsec_token）
+const MOBILE_UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1';
 
 // ---------------- 工具 ----------------
 const enc = new TextEncoder();
@@ -99,7 +101,7 @@ const IMG_PATH = /^assets\/place-images\/[a-z0-9-]+\.jpg$/;
 async function resolveShortLink(url) {
   if (!/xhslink\.com/.test(url)) return url;
   try {
-    const r = await fetch(url, { redirect: 'manual', headers: { 'User-Agent': UA } });
+    const r = await fetch(url, { redirect: 'manual', headers: { 'User-Agent': MOBILE_UA } });
     const loc = r.headers.get('Location');
     return loc && noteIdOf(loc) ? loc : url;
   } catch (e) { return url; }
@@ -163,13 +165,14 @@ async function readNote(url) {
   try {
     const full = await resolveShortLink(url);
     out.url = full; out.noteId = noteIdOf(full);
-    const r = await fetch(full, { headers: { 'User-Agent': UA, 'Accept-Language': 'zh-CN,zh;q=0.9' } });
+    const r = await fetch(full, { headers: { 'User-Agent': MOBILE_UA, 'Accept-Language': 'zh-CN,zh;q=0.9' } });
     const html = await r.text();
     const m = html.match(/window\.__INITIAL_STATE__\s*=\s*({[\s\S]*?})\s*<\/script>/);
     if (!m) return out;
     const state = JSON.parse(m[1].replace(/\bundefined\b/g, 'null'));
+    // 手机版：noteData.data.noteData；电脑版：note.noteDetailMap[id].note
     const map = state?.note?.noteDetailMap || {};
-    const note = (map[out.noteId] || Object.values(map)[0] || {}).note;
+    const note = state?.noteData?.data?.noteData || (map[out.noteId] || Object.values(map)[0] || {}).note;
     if (!note) return out;
     out.title = note.title || ''; out.desc = note.desc || '';
     out.likes = note.interactInfo?.likedCount || '';
@@ -333,6 +336,7 @@ export default {
         if (url.pathname === '/api/me' && req.method === 'GET') return cors(env, json({ ok: true, login: s.u }));
         if (url.pathname === '/api/publish' && req.method === 'POST') return cors(env, await publish(req, env));
         if (url.pathname === '/api/analyze-note' && req.method === 'POST') return cors(env, await analyzeNote(req, env));
+        if (url.pathname === '/api/read-note' && req.method === 'POST') { const b = await req.json().catch(() => ({})); const n = await readNote(b.url); return cors(env, json({ ok: n.ok, title: n.title, descLength: n.desc.length, images: n.images.length, likes: n.likes })); }
       }
       return cors(env, fail('没有这个接口', 404));
     } catch (e) {
