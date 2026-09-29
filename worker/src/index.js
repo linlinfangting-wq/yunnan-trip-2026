@@ -241,7 +241,7 @@ const SYSTEM = `你帮一个国庆去云南旅行的人整理小红书攻略。�
 - region 填四个地区之一；如果地点在大理、丽江、西双版纳、景谷、其他城市或无法判断，region 填实际城市名，inRoute 填 false。
 - 同一个地点的不同叫法（"魏氏""思茅魏氏豆汤米干"）合并成一条，别名放进 aliases。
 - existing 列表里已经有的地点，existingId 填它的 id；没有就填 null。
-- 介绍只写笔记里有依据的内容，不要编造营业时间、价格、菜品。cardSubtitle 是 8-16 字的一句话；description 两三句；mustTry 是笔记里推荐的菜或体验。
+- 介绍只写笔记里有依据的内容，不要编造营业时间、价格、菜品。cardSubtitle 是 8-16 字的一句话；description 一两句，不超过 60 字；mustTry 是笔记里推荐的菜或体验。
 - xhsKeyword 用"地区 店名"，mapKeyword 用百度地图能搜到的店名。
 - coverImageIndex：图片编号从 0 开始，按我给你的顺序。挑最能代表这家的图：清楚的店内空间、门头加环境、代表性菜品、地点代表景色。不要选人脸占满、模糊、聊天截图、地图截图、纯文字图、吃了一半的菜、看不出是这家的图。没有合适的就填 null。确定这张图就是这家时 coverConfidence 填 high。
 - evidence 用一句话说明依据（例如"第3张图门头写着苏大妈烧烤"）。
@@ -290,7 +290,7 @@ async function askQwen(env, content) {
   return parseJsonLoose(d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content);
 }
 const JSON_SHAPE = `只输出一个 JSON 对象，不要任何解释，格式：
-{"candidates":[{"name":"店名","aliases":["别名"],"region":"普洱/景迈山/孟连/昆明 或实际城市","inRoute":true,"category":["吃/喝/逛/玩/拍 选1-2个"],"cardSubtitle":"8-16字一句话","description":"两三句介绍","mustTry":["推荐"],"bestTime":"适合什么时候去","xhsKeyword":"地区 店名","mapKeyword":"店名","confidence":"high/medium/low","existingId":"已有地点id或null","coverImageIndex":0,"coverConfidence":"high/medium/low","evidence":"一句话依据"}]}`;
+{"candidates":[{"name":"店名","aliases":["别名"],"region":"普洱/景迈山/孟连/昆明 或实际城市","inRoute":true,"category":["吃/喝/逛/玩/拍 选1-2个"],"cardSubtitle":"8-16字一句话","description":"一两句介绍，不超过60字","mustTry":["推荐"],"bestTime":"适合什么时候去","xhsKeyword":"地区 店名","mapKeyword":"店名","confidence":"high/medium/low","existingId":"已有地点id或null","coverImageIndex":0,"coverConfidence":"high/medium/low","evidence":"一句话依据"}]}`;
 
 // Claude（设置了 ANTHROPIC_API_KEY 且没设通义千问时使用）
 async function askClaude(env, content) {
@@ -310,6 +310,28 @@ async function askClaude(env, content) {
   return parseJsonLoose(textBlock ? textBlock.text : '{}');
 }
 
+// 同一家店在不同组里可能都被识别到：按名字（去掉空格和标点）或别名合并
+const normName = s => String(s || '').toLowerCase().replace(/[\s·・•|｜()（）【】\[\]「」"'“”,，。.!！?？~～-]/g, '');
+const RANK = { high: 3, medium: 2, low: 1 };
+function mergeCandidates(list) {
+  const out = [];
+  for (const c of list) {
+    const keys = [c.name, ...c.aliases].map(normName).filter(k => k.length >= 2);
+    const hit = out.find(o => [o.name, ...o.aliases].map(normName).some(k => keys.includes(k) || (k.length >= 3 && keys.some(x => x.length >= 3 && (x.includes(k) || k.includes(x))))));
+    if (!hit) { out.push({ ...c }); continue; }
+    const better = RANK[c.confidence] > RANK[hit.confidence];
+    for (const k of ['cardSubtitle', 'description', 'bestTime', 'xhsKeyword', 'mapKeyword', 'evidence']) if (!hit[k] || (better && c[k])) hit[k] = c[k];
+    hit.aliases = [...new Set([...hit.aliases, ...c.aliases, c.name].filter(a => a && a !== hit.name))];
+    hit.mustTry = [...new Set([...hit.mustTry, ...c.mustTry])].slice(0, 6);
+    hit.category = [...new Set([...hit.category, ...c.category])].slice(0, 2);
+    if (better) hit.confidence = c.confidence;
+    hit.existingId = hit.existingId || c.existingId;
+    hit.inRoute = hit.inRoute && c.inRoute;
+    if (c.coverImageIndex != null && (hit.coverImageIndex == null || RANK[c.coverConfidence] > RANK[hit.coverConfidence])) { hit.coverImageIndex = c.coverImageIndex; hit.coverConfidence = c.coverConfidence; }
+  }
+  return out;
+}
+
 async function analyzeNote(req, env) {
   const body = await req.json().catch(() => ({}));
   const uploads = (body.images || []).filter(s => typeof s === 'string' && s.startsWith('data:image/')).slice(0, 12);
@@ -318,22 +340,35 @@ async function analyzeNote(req, env) {
   const remote = note.images.slice(0, 18);
   if (!text && !remote.length && !uploads.length) return fail('没有可以识别的内容：笔记读不到，也没有上传图片');
 
-  const content = [];
-  remote.forEach((u, i) => { content.push({ type: 'text', text: `图片 ${i}` }); content.push({ type: 'image', source: { type: 'url', url: u } }); });
-  uploads.forEach((d, j) => {
-    const [head, data] = d.split(',');
-    content.push({ type: 'text', text: `图片 ${remote.length + j}（用户上传）` });
-    content.push({ type: 'image', source: { type: 'base64', media_type: (head.match(/data:(image\/[a-z]+)/) || [])[1] || 'image/jpeg', data } });
-  });
-  const existing = (body.existing || []).slice(0, 400).map(p => `${p.id}｜${p.name}｜${p.region}${p.aliases && p.aliases.length ? '｜' + p.aliases.join('/') : ''}`).join('\n');
-  content.push({ type: 'text', text: `${text || '（没有文字，只看图片）'}\n\n已有地点（id｜名称｜地区｜别名）：\n${existing}` });
-
   if (!env.QWEN_API_KEY && !env.ANTHROPIC_API_KEY) return fail('智能识别还没设置好（缺少通义千问的 API key）');
-  let parsed;
-  try {
-    parsed = env.QWEN_API_KEY ? await askQwen(env, content) : await askClaude(env, content);
-  } catch (e) { return fail(e.message || '识别服务出错了，请重试'); }
-  const cands = (parsed.candidates || []).filter(c => c && c.name).map(normCandidate);
+  const t0 = Date.now();
+  // 所有图片编好全局序号；送去识别的小红书图用 720px（够看清店名，模型处理快很多），封面仍用 1080px 原图
+  const imgs = [
+    ...remote.map((u, i) => ({ i, source: { type: 'url', url: u.replace('/w/1080/', '/w/720/') } })),
+    ...uploads.map((d, j) => {
+      const [head, data] = d.split(',');
+      return { i: remote.length + j, up: true, source: { type: 'base64', media_type: (head.match(/data:(image\/[a-z]+)/) || [])[1] || 'image/jpeg', data } };
+    }),
+  ];
+  const existing = (body.existing || []).slice(0, 400).map(p => `${p.id}｜${p.name}｜${p.region}${p.aliases && p.aliases.length ? '｜' + p.aliases.join('/') : ''}`).join('\n');
+  const tail = { type: 'text', text: `${text || '（没有文字，只看图片）'}\n\n已有地点（id｜名称｜地区｜别名）：\n${existing}` };
+  // 每 6 张图一组，几组同时识别，最后合并去重
+  const GROUP = 6;
+  const groups = [];
+  for (let k = 0; k < imgs.length; k += GROUP) groups.push(imgs.slice(k, k + GROUP));
+  if (!groups.length) groups.push([]);
+  const buildContent = g => [
+    ...g.flatMap(x => [{ type: 'text', text: `图片 ${x.i}${x.up ? '（用户上传）' : ''}` }, { type: 'image', source: x.source }]),
+    ...(groups.length > 1 ? [{ type: 'text', text: `（这是整篇笔记的一部分图片，只根据这几张图和下面的文字找地点；图片编号用上面标的编号。）` }] : []),
+    tail,
+  ];
+  const ask = g => (env.QWEN_API_KEY ? askQwen(env, buildContent(g)) : askClaude(env, buildContent(g)));
+  const results = await Promise.allSettled(groups.map(ask));
+  const ok = results.filter(r => r.status === 'fulfilled').map(r => r.value);
+  if (!ok.length) return fail((results[0].reason && results[0].reason.message) || '识别服务出错了，请重试');
+  const parsed = { candidates: mergeCandidates(ok.flatMap(r => (r.candidates || []).filter(c => c && c.name).map(normCandidate))) };
+  console.log(`analyze: ${imgs.length} 张图，${groups.length} 组，${parsed.candidates.length} 个地点，${Date.now() - t0}ms，失败 ${results.length - ok.length} 组`);
+  const cands = parsed.candidates;
   const readStatus = note.ok ? 'full' : body.url ? 'failed' : 'upload';
   return json({
     ok: true, readStatus,
