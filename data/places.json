@@ -2480,20 +2480,28 @@
     "bestTime": "白天",
     "cover": {
       "url": "",
-      "localPath": "",
+      "localPath": "assets/place-images/jingmai-mangjing-272bbc23.jpg",
       "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aa940e3000000000b003b13?xsec_token=ABLjBeYZtoQYHveF3hXkYsuIkbatU_MOoL0OrFFxgIwsc=&xsec_source=pc_share",
-      "status": "missing"
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69d6335a000000002003b676?xsec_token=ABEk4eLVqHH6CIRnqA8tt0H_SLQ5tE46g1hJqHiiJz_o8=&xsec_source=pc_share",
+      "status": "verified"
     },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6aa940e3000000000b003b13?xsec_token=ABLjBeYZtoQYHveF3hXkYsuIkbatU_MOoL0OrFFxgIwsc=&xsec_source=pc_share",
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69d6335a000000002003b676?xsec_token=ABEk4eLVqHH6CIRnqA8tt0H_SLQ5tE46g1hJqHiiJz_o8=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 芒景片区",
     "mapKeyword": "芒景村 景迈山",
     "sourceNotes": [
-      "note-6aa940e3000000000b003b13"
+      "note-6aa940e3000000000b003b13",
+      "note-69d6335a000000002003b676"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 760
+    "sortOrder": 760,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g00831umrhbvfii0g5q01b703i8rl6ablgh0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831umrhbvfii405q01b703i8rlpibtgdo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831umrhbvfii4g5q01b703i8rlatd2lp0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831umrhbvfii6g5q01b703i8rl54had08?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831ums08t92q1g5q01b703i8rl7647gv8?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-wengwa",
@@ -2512,20 +2520,28 @@
     "bestTime": "傍晚",
     "cover": {
       "url": "",
-      "localPath": "",
+      "localPath": "assets/place-images/jingmai-wengwa-272bcba0.jpg",
       "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae63c60000000028034574?xsec_token=ABQ0SShbvGyqfe380IAbiDV5yAucuNd1BvhipPr8BDFtU=&xsec_source=pc_share",
-      "status": "missing"
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/699a6a8a000000001a01c89e?xsec_token=ABa-iNjw9AuupLjZmLPL1pzs7oo42uIhvcjzl9h7kbun4=&xsec_source=pc_share",
+      "status": "verified"
     },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6aae63c60000000028034574?xsec_token=ABQ0SShbvGyqfe380IAbiDV5yAucuNd1BvhipPr8BDFtU=&xsec_source=pc_share",
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/699a6a8a000000001a01c89e?xsec_token=ABa-iNjw9AuupLjZmLPL1pzs7oo42uIhvcjzl9h7kbun4=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 翁洼",
     "mapKeyword": "翁洼 景迈山",
     "sourceNotes": [
-      "note-6aae63c60000000028034574"
+      "note-6aae63c60000000028034574",
+      "note-699a6a8a000000001a01c89e"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 770
+    "sortOrder": 770,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31ssf6p5268ag4a0qjpv0l6ouo6r6kcg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g2sg31ssf6p52689g4a0qjpv0l6ouk9r3bbo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g2sg31ssf6p5268704a0qjpv0l6oucfdvu1o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g2sg31ssf6p52688g4a0qjpv0l6oupomk9q0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g2sg31ssf6p5268904a0qjpv0l6ou1gbi8qo?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-heritage-center",
@@ -3592,21 +3608,29 @@
     "bestTime": "傍晚",
     "cover": {
       "url": "",
-      "localPath": "",
+      "localPath": "assets/place-images/menglian-jinta-272bd4c7.jpg",
       "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a16ce480000000006033aa5?xsec_token=ABb6PF0PAvw5k5yWx8QEKSpcxgWXELztp9FIaVFklsvdk=&xsec_source=pc_share",
-      "status": "missing"
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a1f79f700000000210087d1?xsec_token=ABm3zQELh1dq03x381pQj6hOF38wHQJchiOt531pU2lDE=&xsec_source=pc_share",
+      "status": "verified"
     },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a16ce480000000006033aa5?xsec_token=ABb6PF0PAvw5k5yWx8QEKSpcxgWXELztp9FIaVFklsvdk=&xsec_source=pc_share",
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a1f79f700000000210087d1?xsec_token=ABm3zQELh1dq03x381pQj6hOF38wHQJchiOt531pU2lDE=&xsec_source=pc_share",
     "xhsKeyword": "孟连 孟连大金塔",
     "mapKeyword": "孟连大金塔",
     "sourceNotes": [
       "note-6a16ce480000000006033aa5",
-      "note-mulsi789"
+      "note-mulsi789",
+      "note-6a1f79f700000000210087d1"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1090
+    "sortOrder": 1090,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udgb0a7k505pd368p8hckp8t36hd0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udgb0a7k605pd368p8hckpmd60pig?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udgb0a7k6g5pd368p8hckpnroiul8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udntor7e105pd368p8hckph6h83k8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udntor7e205pd368p8hckpd5nrsq8?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "menglian-mangjiu",
@@ -3969,20 +3993,25 @@
     "bestTime": "午餐",
     "cover": {
       "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
+      "localPath": "assets/place-images/jingmai-mulroszm6-272bdf9f.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6958dbe4000000002102ace4?xsec_token=ABHbqCxjzExHhCNkMcKHwjH8_kpHaNN9yDJeZW8B6Keg8=&xsec_source=pc_share",
+      "status": "verified"
     },
-    "primaryXhsLink": null,
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6958dbe4000000002102ace4?xsec_token=ABHbqCxjzExHhCNkMcKHwjH8_kpHaNN9yDJeZW8B6Keg8=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 榕树里",
     "mapKeyword": "景迈山 榕树里",
     "sourceNotes": [
-      "note-mulroszf"
+      "note-mulroszf",
+      "note-6958dbe4000000002102ace4"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1200
+    "sortOrder": 1200,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031qsf2kl97g6g5nl058808uktkllqmso?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031qsf2kl97g605nl058808uktrjqmif8?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-mulroszo9",
@@ -4001,20 +4030,28 @@
     "bestTime": "全天",
     "cover": {
       "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
+      "localPath": "assets/place-images/jingmai-mulroszo9-272bebbf.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/698eb81f000000001a02f243?xsec_token=ABKSuNAURhFWTUq2KP_U8gxzdpgJmtYslfxJXHsH7aZ08=&xsec_source=pc_share",
+      "status": "verified"
     },
-    "primaryXhsLink": null,
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/698eb81f000000001a02f243?xsec_token=ABKSuNAURhFWTUq2KP_U8gxzdpgJmtYslfxJXHsH7aZ08=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 楼角里小吃",
     "mapKeyword": "楼角里小吃",
     "sourceNotes": [
-      "note-mulroszf"
+      "note-mulroszf",
+      "note-698eb81f000000001a02f243"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1210
+    "sortOrder": 1210,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g00831sh22teb5k004a5tit5qualt2v4vpa0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831sh22teb5k0g4a5tit5qualtoqkmct8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831sh22teb5k104a5tit5qualt3ith008?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831sh22teb5k2g4a5tit5qualthohup2g?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831sh22teb5k204a5tit5qualtfukq45o?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-mulroszq13",
@@ -4099,20 +4136,32 @@
     "bestTime": "白天",
     "cover": {
       "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
+      "localPath": "assets/place-images/jingmai-mulroszs16-272bf8c7.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/695d23ca000000001a01e61b?xsec_token=AB0SzfF1wyJ1jr70MGKTrAm3HBw_EAvReERKEtU8MchpU=&xsec_source=pc_share",
+      "status": "verified"
     },
-    "primaryXhsLink": null,
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/695d23ca000000001a01e61b?xsec_token=AB0SzfF1wyJ1jr70MGKTrAm3HBw_EAvReERKEtU8MchpU=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 八角塔",
     "mapKeyword": "景迈山 八角塔",
     "sourceNotes": [
-      "note-mulroszf"
+      "note-mulroszf",
+      "note-695d23ca000000001a01e61b"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1240
+    "sortOrder": 1240,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/note_pre_post_uhdr/1040g3r831r0khf5og07g5n2jq6p4m24roohsego?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/note_pre_post_uhdr/1040g3r831r0khf5og0a05n2jq6p4m24r88n7790?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/note_pre_post_uhdr/1040g3r831r0khf5og0ag5n2jq6p4m24ro2226ng?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/note_pre_post_uhdr/1040g3r831r0khf5og08g5n2jq6p4m24ri3gqm70?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/note_pre_post_uhdr/1040g3r831r0khf5og0805n2jq6p4m24rt8ms7ko?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/note_pre_post_uhdr/1040g3r831r0khf5og0b05n2jq6p4m24rkmhpup8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r0kdsob7g905n2jq6p4m24rppi6vhg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/note_pre_post_uhdr/1040g3r831r0khf5og0905n2jq6p4m24r1pl3i8g?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r0kdsob7gd05n2jq6p4m24rotia97o?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-mulroszs17",
@@ -4132,20 +4181,30 @@
     "bestTime": "白天",
     "cover": {
       "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
+      "localPath": "assets/place-images/jingmai-mulroszs17-272c0634.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aa021a5000000002802f813?xsec_token=ABvxqVJXdaA5zlROAPLAvwJCj1Bg2C3J5fHaopiq4_zbI=&xsec_source=pc_share",
+      "status": "verified"
     },
-    "primaryXhsLink": null,
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6aa021a5000000002802f813?xsec_token=ABvxqVJXdaA5zlROAPLAvwJCj1Bg2C3J5fHaopiq4_zbI=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 古佛寺",
     "mapKeyword": "景迈山 古佛寺",
     "sourceNotes": [
-      "note-mulroszf"
+      "note-mulroszf",
+      "note-6aa021a5000000002802f813"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1250
+    "sortOrder": 1250,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/spectrum/1040g34o324s1o2op1k705o7dm4ig8m2oend38j0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/spectrum/1040g34o324s1o2op1k805o7dm4ig8m2od9kbn20?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/spectrum/1040g34o324s1o2op1k7g5o7dm4ig8m2orpf76a0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/spectrum/1040g34o324s1o2op1k8g5o7dm4ig8m2oj3kpfhg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/spectrum/1040g34o324s1o2op1k905o7dm4ig8m2o53vo0ig?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/spectrum/1040g34o324s1o2op1k9g5o7dm4ig8m2ockfev2o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/spectrum/1040g34o324s1o2op1ka05o7dm4ig8m2ohdfjr2g?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-mulroszs18",
@@ -4626,23 +4685,34 @@
     "mustTry": [
       "手工米干"
     ],
-    "bestTime": "全天",
+    "bestTime": "全天。去之前先确认营业：有笔记说店家在修房子，彩色米干一度卖空",
     "cover": {
       "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
+      "localPath": "assets/place-images/menglian-mult07ca0-272c0ea8.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6936be33000000001d03e824?xsec_token=ABFka_bzAQHV9sME8Ei_Y3-kzfdvJt4s-9FgJ_7vIlskY=&xsec_source=pc_share",
+      "status": "verified"
     },
-    "primaryXhsLink": null,
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6936be33000000001d03e824?xsec_token=ABFka_bzAQHV9sME8Ei_Y3-kzfdvJt4s-9FgJ_7vIlskY=&xsec_source=pc_share",
     "xhsKeyword": "孟连 宰帅手工米干",
     "mapKeyword": "宰帅手工米干",
     "sourceNotes": [
-      "note-mult07ca"
+      "note-mult07ca",
+      "note-6936be33000000001d03e824"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1400
+    "sortOrder": 1400,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831pr4rd9jl0405nnbaung8l78qtp10q0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831pr4rd9jl0005nnbaung8l789ult7oo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831pr4rd9j50705nnbaung8l78jadvcmg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831pr4rd9jl01g5nnbaung8l78uou9mq8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831pr4rd9jl0305nnbaung8l7824p23o0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831pr4rd9jl0205nnbaung8l789oin30o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831pr4rd9jl03g5nnbaung8l78g5e1th8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831pr4rd9jl02g5nnbaung8l78i3oam88?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "menglian-mult07cf2",
