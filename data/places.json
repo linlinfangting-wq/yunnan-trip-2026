@@ -195,7 +195,8 @@
     "xhsKeyword": "普洱 澜沧多味鸡",
     "mapKeyword": "澜沧多味鸡",
     "sourceNotes": [
-      "note-68fef1080000000004021471"
+      "note-68fef1080000000004021471",
+      "note-mum3wrjk"
     ],
     "status": "published",
     "featured": false,
@@ -1367,7 +1368,7 @@
       "sourceUrl": "https://www.xiaohongshu.com/discovery/item/682c687d0000000012002043?xsec_token=AB5lEaMoTUzW-0zGELmL8txWja8R_GO0xWBH2LhF9ghAI=&xsec_source=pc_share",
       "status": "verified"
     },
-    "primaryXhsLink": "https://xhslink.cn/o/1zarzn3uTXA",
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a5c6a320000000011017068?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CB-g8qZRyFHgikBVwkJ319I6wiP2RfQpUk2Gqq_5Yz3g4=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790632342&share_id=ff3a14b426024591bf5a2d68923cb844",
     "xhsKeyword": "孟连 流浪者 森林餐吧",
     "mapKeyword": "孟连 流浪者咖啡",
     "sourceNotes": [
@@ -3740,7 +3741,8 @@
     "sourceNotes": [
       "note-67946c8e0000000018011754",
       "note-mult07ca",
-      "note-multb3ao"
+      "note-multb3ao",
+      "note-multe3dx"
     ],
     "status": "published",
     "featured": false,
@@ -3908,7 +3910,7 @@
       "sourceUrl": "https://xhslink.cn/o/4DANg8Roby1",
       "status": "verified"
     },
-    "primaryXhsLink": "https://xhslink.cn/o/4DANg8Roby1",
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/696d00ea000000001a029f38?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CB_ZYbgrhH4WBg_CgKT-MC3SNMPJh1USaSHe6CS86SPvQ=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790631015&share_id=b0785cd056614472a81980cd2da9c00a",
     "xhsKeyword": "景迈山 乃哩咖啡",
     "mapKeyword": "乃哩咖啡",
     "sourceNotes": [
@@ -4372,7 +4374,7 @@
       "sourceUrl": "https://xhslink.cn/o/2e5ALWqyovs",
       "status": "verified"
     },
-    "primaryXhsLink": "https://xhslink.cn/o/2e5ALWqyovs",
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69ec4589000000001f005bf5?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBPR8bb8SPBnosdIZ8x9AIBRv9MH-6RG1rfmdOn_q9MPs=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790632578&share_id=1a5c0204a8d04f26bed4e4f24a922462",
     "xhsKeyword": "孟连 亚内咖啡",
     "mapKeyword": "亚内咖啡",
     "sourceNotes": [
@@ -4433,8 +4435,8 @@
     ],
     "bestTime": "午餐",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/1040g00831vdgp4e3ig3g5o0vc2eg923por6iqkg?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mulsnjdz5-mum4b6i1.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/7MFf5G6Lj1l",
       "status": "verified"
@@ -4465,8 +4467,8 @@
     ],
     "bestTime": "晚间",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/1040g00831vdgp4e3ig4g5o0vc2eg923pnmmopog?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mulsnjdz6-mum4b6d3.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/7MFf5G6Lj1l",
       "status": "verified"
@@ -4498,8 +4500,8 @@
     ],
     "bestTime": "午餐或晚餐",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/1040g00831vdgp4e3ig5g5o0vc2eg923p9rffbu0?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mulsnjdz7-mum4b6gs.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/7MFf5G6Lj1l",
       "status": "verified"
@@ -4530,8 +4532,8 @@
     ],
     "bestTime": "早餐",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/1040g2sg31vdki6sciae05o0vc2eg923poc9tm08?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mulsnjdz8-mum4b6c6.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/7MFf5G6Lj1l",
       "status": "verified"
@@ -4562,8 +4564,8 @@
     ],
     "bestTime": "白天",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/1040g2sg31vdki6sciafg5o0vc2eg923porg9svo?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mulsnje411-mum4b6cs.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/7MFf5G6Lj1l",
       "status": "verified"
@@ -4692,8 +4694,8 @@
     ],
     "bestTime": "全天",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831n0pdr9t6m604bcgdqu2g34cgk6ndqo?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mult07ch4-mum4b6gs.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/4HEtpeXuRI",
       "status": "verified"
@@ -4727,8 +4729,8 @@
     ],
     "bestTime": "午餐/晚餐",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031n0qec99li004bcgdqu2g34cujd0d5g?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mult07ch6-mum4b7wm.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/4HEtpeXuRI",
       "status": "verified"
@@ -4760,8 +4762,8 @@
     ],
     "bestTime": "午餐/晚餐",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031n0qec99li0g4bcgdqu2g34csc0mrmo?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mult07ch7-mum4b80w.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/4HEtpeXuRI",
       "status": "verified"
@@ -4794,8 +4796,8 @@
     ],
     "bestTime": "午餐/晚餐",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031n0qec99li004bcgdqu2g34cujd0d5g?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mult07ch8-mum4b7wm.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/4HEtpeXuRI",
       "status": "verified"
@@ -4865,8 +4867,8 @@
     ],
     "bestTime": "全天",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831n0pdr9t6m504bcgdqu2g34c3ep3vgo?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mult07ci11-mum4b7ps.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/4HEtpeXuRI",
       "status": "verified"
@@ -4900,8 +4902,8 @@
     ],
     "bestTime": "晚上",
     "cover": {
-      "url": "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031n0qec99li0g4bcgdqu2g34csc0mrmo?imageView2/2/w/1080/format/jpg",
-      "localPath": "",
+      "url": "",
+      "localPath": "assets/place-images/menglian-mult07ci12-mum4b80y.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://xhslink.cn/o/4HEtpeXuRI",
       "status": "verified"
