@@ -87,8 +87,34 @@ const ratioOf = p => RATIOS[hash(p.id) % RATIOS.length];
 const hasPhoto = p => p.photoStatus === 'verified' || p.photoStatus === 'location_only';
 const photoLabel = p => p.photoStatus === 'verified' ? '实拍' : '区域实拍';
 
+// Fantine 的评价
+const stars = n => '★'.repeat(n) + '☆'.repeat(5 - n);
+const meBadge = p => p.me && p.me.rating ? `<span class="mebadge">Fantine ★${p.me.rating}</span>` : '';
+function meBlock(p) {
+  const f = p.me; if (!f) return '';
+  const photos = (f.photos || []);
+  return `<div class="me-review">
+    <div class="me-head"><b>Fantine 的评价</b>${f.rating ? `<span class="me-stars" aria-label="${f.rating} 星">${stars(f.rating)}</span>` : ''}</div>
+    ${f.text ? `<p class="me-text">${esc(f.text)}</p>` : ''}
+    ${photos.length ? `<div class="me-photos">${photos.map((ph, i) => `<button class="me-photo" data-lightbox="${i}"><img src="${esc(ph)}" alt="Fantine 拍的照片 ${i + 1}" loading="lazy"></button>`).join('')}</div>` : ''}
+  </div>`;
+}
+function openLightbox(p, i) {
+  const photos = (p.me && p.me.photos) || []; if (!photos.length) return;
+  let k = i;
+  const box = document.createElement('div'); box.className = 'lightbox';
+  const draw = () => { box.innerHTML = `<img src="${esc(photos[k])}" alt=""><div class="lb-bar"><span>${k + 1} / ${photos.length}</span><button data-lb="close">关闭</button></div>`; };
+  draw(); document.body.appendChild(box);
+  let x0 = null;
+  box.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; }, { passive: true });
+  box.addEventListener('touchend', e => { if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0; x0 = null;
+    if (Math.abs(dx) > 40) { k = (k + (dx < 0 ? 1 : -1) + photos.length) % photos.length; draw(); } }, { passive: true });
+  box.addEventListener('click', e => { if (e.target.closest('[data-lb="close"]') || e.target === box) box.remove();
+    else if (e.target.tagName === 'IMG') { k = (k + 1) % photos.length; draw(); } });
+}
+
 function magInner(p) {
-  return `<div class="region">${esc(p.region)} · ${esc(p.kind)}</div>
+  return `<div class="region">${esc(p.region)} · ${esc(p.kind)}${meBadge(p)}</div>
     <div class="mname">${esc(p.name)}</div>
     <div class="msub">${esc(p.subtitle)}</div>
     <div class="rule"></div>
@@ -107,7 +133,7 @@ function cardHtml(p) {
       <div class="body">
         <div class="name">${esc(p.name)}</div>
         <div class="sub">${esc(p.subtitle)}</div>
-        <div class="meta">${esc(p.region)} · ${esc(p.kind)}</div>
+        <div class="meta">${esc(p.region)} · ${esc(p.kind)}${meBadge(p)}</div>
       </div>
     </article>`;
   }
@@ -152,7 +178,7 @@ function filtered() {
   return state.places.filter(p =>
     (state.region === '全部' || p.region === state.region) &&
     (state.kind === '全部' || p.kinds.includes(state.kind)) &&
-    (!q || [p.name, ...p.aliases, p.subtitle, p.description, p.mustTry, p.why, p.region, ...p.kinds].join(' ').toLowerCase().includes(q)));
+    (!q || [p.name, ...p.aliases, p.subtitle, p.description, p.mustTry, p.why, p.region, ...p.kinds, (p.me && p.me.text) || ''].join(' ').toLowerCase().includes(q)));
 }
 function renderDiscover() {
   const list = filtered();
@@ -239,7 +265,9 @@ function renderDay() {
 
 // ---------- 详情 ----------
 let lastFocus = null;
+let openedId = null;
 function openSheet(id) {
+  openedId = id;
   const p = state.byId[id];
   if (!p) return;
   const hero = hasPhoto(p)
@@ -259,6 +287,7 @@ function openSheet(id) {
     <div class="content">
       <h2>${esc(p.name)}</h2>
       <div class="subline">${esc(p.region)} · ${esc(p.kind)}</div>
+      ${meBlock(p)}
       <p class="desc">${esc(p.description)}</p>
       <div class="blocks">
         ${p.why ? `<div class="block"><b>为什么值得去</b><div>${esc(p.why)}</div></div>` : ''}
@@ -336,6 +365,8 @@ document.addEventListener('click', e => {
   if (rc) { state.region = rc.dataset.region; renderChips(); renderDiscover(); return; }
   const kc = t.closest('[data-kind]');
   if (kc) { state.kind = kc.dataset.kind; renderChips(); renderDiscover(); return; }
+  const lb = t.closest('[data-lightbox]');
+  if (lb) { const id = $('#sheet .content') && openedId; if (id) openLightbox(state.byId[id], Number(lb.dataset.lightbox)); return; }
   const card = t.closest('.pcard');
   if (card) openSheet(card.dataset.id);
 });
@@ -370,6 +401,7 @@ function toViewPlaces(places, notes) {
         likes: coverNote ? coverNote.likes : 0,
         noteId, xsecToken: tokenOf(p.primaryXhsLink), primaryLink: noteId ? '' : (p.primaryXhsLink || ''),
         dianpingLink: p.dianpingLink || '',
+        me: p.fantine && (p.fantine.rating || p.fantine.text || (p.fantine.photos || []).length) ? p.fantine : null,
         refNotes: (p.sourceNotes || []).map(id => noteById[id]).filter(n => n && n.noteId !== noteId),
       };
     });

@@ -100,11 +100,11 @@ function saveDraft() {
 }
 function savePlace(p) {
   const b = baseById()[p.id];
-  if (b && same(stripDraft(p), b) && !p.cover?.pendingImage) delete S.draft.places[p.id];
+  if (b && same(stripDraft(p), b) && !p.cover?.pendingImage && !(p.fantine && p.fantine.pending && Object.keys(p.fantine.pending).length)) delete S.draft.places[p.id];
   else S.draft.places[p.id] = clone(p);
   saveDraft();
 }
-const stripDraft = p => { const c = clone(p); if (c.cover) delete c.cover.pendingImage; return c; };
+const stripDraft = p => { const c = clone(p); if (c.cover) delete c.cover.pendingImage; if (c.fantine) delete c.fantine.pending; return c; };
 
 // 改动汇总（发布前给你看）
 function changes() {
@@ -118,6 +118,7 @@ function changes() {
     if (p.mapKeyword !== b.mapKeyword || (p.dianpingLink || '') !== (b.dianpingLink || '')) kinds.push('map');
     if (p.status !== b.status) kinds.push(p.status === 'hidden' ? 'hide' : 'show');
     if (p.featured !== b.featured || p.sortOrder !== b.sortOrder) kinds.push('order');
+    if (!same(stripDraft(p).fantine || null, b.fantine || null)) kinds.push('review');
     const text = ['name', 'region', 'category', 'cardSubtitle', 'description', 'why', 'mustTry', 'bestTime', 'aliases'];
     if (text.some(k => !same(p[k], b[k]))) kinds.push('text');
     if (kinds.length) list.push({ id, name: p.name, kind: kinds });
@@ -131,7 +132,7 @@ function changes() {
   return list;
 }
 function changeSummary(list) {
-  const c = { place: 0, cover: 0, xhs: 0, map: 0, hide: 0, show: 0, order: 0, new: 0, del: 0 };
+  const c = { place: 0, cover: 0, xhs: 0, map: 0, hide: 0, show: 0, order: 0, new: 0, del: 0, review: 0 };
   for (const x of list) {
     if (x.kind === 'tidy') { c.tidy = x.n; continue; }
     if (x.kind === 'new') c.new++; else if (x.kind === 'delete') c.del++;
@@ -146,6 +147,7 @@ function changeSummary(list) {
   if (c.hide) parts.push(`隐藏 ${c.hide} 个`);
   if (c.show) parts.push(`恢复 ${c.show} 个`);
   if (c.order) parts.push(`调整 ${c.order} 个顺序`);
+  if (c.review) parts.push(`${c.review} 条我的评价`);
   if (c.del) parts.push(`删除 ${c.del} 个`);
   if (c.tidy) parts.push(`整理 ${c.tidy} 处封面图 / 短链接（存进仓库）`);
   return parts;
@@ -198,6 +200,7 @@ function placeCard(p) {
   const tags = [
     `<span class="a-tag ${p.status === 'published' ? 'pub' : p.status === 'hidden' ? 'hid' : 'draft'}">${STATUS_TEXT[p.status] || p.status}</span>`,
     p.featured ? '<span class="a-tag">置顶</span>' : '',
+    p.fantine && p.fantine.rating ? `<span class="a-tag me">我 ★${p.fantine.rating}</span>` : '',
     !src ? '<span class="a-tag warn">无封面</span>' : '',
     edited ? '<span class="a-tag edit">未发布修改</span>' : '',
   ].join('');
@@ -297,6 +300,7 @@ function renderEditor() {
     <div class="a-cover">${src ? `<img src="${esc(src)}" alt="" referrerpolicy="no-referrer">` : '<div class="none">暂无可靠封面</div>'}
       ${coverMark && src ? `<span class="mark">${coverMark}</span>` : ''}
       <button class="a-cover-btn" data-act="cover" data-id="${esc(p.id)}">更换封面</button></div>
+    ${reviewBlock(p)}
     <div class="a-fields">
       ${field('地点名称', 'name', p)}
       <div class="a-field"><div class="lbl">地区</div><div class="a-seg">${REGIONS.map(r =>
@@ -345,6 +349,27 @@ function renderEditor() {
   </div>`;
   ed.scrollTop = keepScroll;
 }
+const photoSrc = (f, path) => (f.pending && f.pending[path] && imgCache[f.pending[path]]) || '../' + path;
+function reviewBlock(p) {
+  const f = p.fantine || { rating: 0, text: '', photos: [] };
+  return `<div class="a-section">Fantine 的评价</div>
+    <div class="a-fields a-review">
+      <div class="a-field"><div class="lbl">我的评分<em>${f.rating ? f.rating + ' 星 · 再点一次清空' : '点星星打分'}</em></div>
+        <div class="a-stars">${[1, 2, 3, 4, 5].map(n => `<button class="${n <= (f.rating || 0) ? 'on' : ''}" data-act="set-rating" data-v="${n}" aria-label="${n} 星">★</button>`).join('')}</div></div>
+      <div class="a-field" data-field="fantine.text"><div class="lbl">我的点评</div>
+        <button class="a-val ${f.text ? '' : 'ph'}" data-act="inline" data-f="fantine.text" data-multi="1">${f.text ? esc(f.text) : '写几句自己的感受，比如必点什么、要不要排队'}</button></div>
+      <div class="a-field"><div class="lbl">我拍的照片<em>${(f.photos || []).length} 张</em></div>
+        <div class="a-photos">${(f.photos || []).map((ph, i) => `<div class="a-photo"><img src="${esc(photoSrc(f, ph))}" alt=""><button data-act="del-photo" data-i="${i}" aria-label="删除这张">×</button></div>`).join('')}
+          <label class="a-photo add">＋<input type="file" accept="image/*" multiple data-act="add-photos"></label></div></div>
+    </div>`;
+}
+function saveReview(p, f) {
+  f.updated = new Date().toISOString().slice(0, 10);
+  const empty = !f.rating && !f.text && !(f.photos || []).length;
+  if (empty) delete p.fantine; else p.fantine = f;
+  savePlace(p);
+}
+
 function openEditor(id) { S.editing = id; renderEditor(); document.documentElement.style.overflow = 'hidden'; }
 function closeEditor() {
   S.editing = null; const ed = $('#editor'); if (ed) ed.remove();
@@ -354,7 +379,7 @@ function closeEditor() {
 // 点文字直接编辑
 function startInline(btn) {
   const f = btn.dataset.f; const p = getPlace(S.editing); if (!p) return;
-  let v = p[f]; if (Array.isArray(v)) v = v.join('、');
+  let v = f === 'fantine.text' ? (p.fantine || {}).text : p[f]; if (Array.isArray(v)) v = v.join('、');
   const multi = btn.dataset.multi === '1' || String(v || '').length > 40;
   const el = document.createElement(multi ? 'textarea' : 'input');
   el.className = 'a-input'; el.value = v || ''; el.dataset.f = f;
@@ -371,6 +396,11 @@ function startInline(btn) {
 function commitInline(el) {
   const p = getPlace(S.editing); if (!p) return;
   const f = el.dataset.f; let v = el.value.trim();
+  if (f === 'fantine.text') {
+    const fr = p.fantine || { rating: 0, text: '', photos: [] };
+    if (fr.text !== v) { fr.text = v; saveReview(p, fr); toast('已保存到本机', 1200); }
+    renderEditor(); return;
+  }
   if (f === 'mustTry' || f === 'aliases') v = v.split(/[、，,\n]/).map(s => s.trim()).filter(Boolean);
   if (f === 'primaryXhsLink') { v = extractUrl(v) || null; if (el.value.trim() && !v) toast('没找到链接，请粘贴完整的小红书链接'); }
   if (f === 'dianpingLink') { v = extractUrl(v) || ''; if (el.value.trim() && !v) toast('没找到链接，请粘贴大众点评分享出来的链接'); }
@@ -529,12 +559,17 @@ async function doPublish() {
         if (data) images.push({ path: c.cover.localPath, data: data.split(',')[1] });
         delete c.cover.pendingImage;
       }
+      if (c.fantine && c.fantine.pending) {
+        for (const [path, key] of Object.entries(c.fantine.pending)) { const data = imgCache[key]; if (data) images.push({ path, data: data.split(',')[1] }); }
+        delete c.fantine.pending;
+      }
       return c;
     });
     const notes = Object.values(allNotes()).map(n => ({ ...n, placeIds: places.filter(p => (p.sourceNotes || []).includes(n.id)).map(p => p.id) }))
       .filter(n => n.placeIds.length).sort((a, b) => a.id.localeCompare(b.id));
     const res = await api('/api/publish', { places, notes, images, summary: changeSummary(changes()).join('；') });
     for (const p of Object.values(S.draft.places)) if (p.cover?.pendingImage) { try { await idb.del(p.cover.pendingImage); } catch (e) { /* 忽略 */ } }
+    for (const p of Object.values(S.draft.places)) for (const k of Object.values((p.fantine && p.fantine.pending) || {})) { try { await idb.del(k); } catch (e) { /* 忽略 */ } }
     S.base.places = res.places || places.map(stripDraft);
     S.base.notes = res.notes || notes;
     S.draft = { places: {}, removed: [], notes: {} }; saveDraft();
@@ -709,6 +744,16 @@ document.addEventListener('click', async e => {
       if (c.has(k)) { if (c.size === 1) { toast('至少保留一个类型'); break; } c.delete(k); } else c.add(k);
       p.category = KINDS.filter(x => c.has(x)); savePlace(p); renderEditor(); break;
     }
+    case 'set-rating': {
+      const p = getPlace(S.editing); const f = p.fantine || { rating: 0, text: '', photos: [] };
+      const n = Number(t.dataset.v); f.rating = f.rating === n ? 0 : n; saveReview(p, f); renderEditor(); break;
+    }
+    case 'del-photo': {
+      const p = getPlace(S.editing); const f = p.fantine; if (!f) break;
+      const path = f.photos[Number(t.dataset.i)]; f.photos.splice(Number(t.dataset.i), 1);
+      if (f.pending && f.pending[path]) { try { await idb.del(f.pending[path]); } catch (e) { /* 忽略 */ } delete f.pending[path]; }
+      saveReview(p, f); renderEditor(); toast('已删除这张照片'); break;
+    }
     case 'toggle-feature': { const p = getPlace(S.editing); p.featured = !p.featured; savePlace(p); renderEditor(); toast(p.featured ? '已置顶' : '已取消置顶'); break; }
     case 'move': {
       const p = getPlace(S.editing); const list = allPlaces().filter(x => x.region === p.region);
@@ -777,6 +822,22 @@ document.addEventListener('change', async e => {
       setCoverPreview(data);
     } catch (err) { toast(err.message); }
   }
+  if (t.dataset.act === 'add-photos' && t.files && t.files.length) {
+    const p = getPlace(S.editing); const f = p.fantine || { rating: 0, text: '', photos: [] };
+    f.photos = f.photos || []; f.pending = f.pending || {};
+    const files = [...t.files].slice(0, 20 - f.photos.length);
+    toast(`正在处理 ${files.length} 张照片…`);
+    for (let i = 0; i < files.length; i++) {
+      try {
+        const data = await compressImage(files[i]);
+        const key = 'me-' + Date.now().toString(36) + i;
+        const path = `assets/place-images/${p.id}-me-${Date.now().toString(36)}${i}.jpg`;
+        imgCache[key] = data; try { await idb.put(key, data); } catch (e) { /* 本次会话仍可发布 */ }
+        f.photos.push(path); f.pending[path] = key;
+      } catch (err) { toast(err.message); }
+    }
+    saveReview(p, f); renderEditor(); toast(`已加 ${files.length} 张照片，发布后生效`);
+  }
   if (t.dataset.act === 'imp-files' && t.files) {
     S.importState.files = [...t.files];
     const lbl = $('#impFiles'); if (lbl) lbl.textContent = `已选 ${t.files.length} 张图片`;
@@ -806,7 +867,10 @@ async function boot() {
   const [places, notes, audit] = await Promise.all([get('places.json', null), get('notes.json', []), get('audit.json', {})]);
   if (!places) { $('#app').innerHTML = '<div class="a-loading">数据读取失败，请检查网络后刷新。<br>本机草稿不受影响。</div>'; return; }
   S.base = { places, notes, audit: { cover: [], region: [], duplicatePlaces: [], ...audit } };
-  // 找回还没发布的上传图片
+  // 找回还没发布的上传图片（封面 + 我的照片）
+  for (const p of Object.values(S.draft.places)) for (const k of Object.values((p.fantine && p.fantine.pending) || {})) {
+    if (!imgCache[k]) { try { const v = await idb.get(k); if (v) imgCache[k] = v; } catch (e) { /* 忽略 */ } }
+  }
   for (const p of Object.values(S.draft.places)) {
     const k = p.cover && p.cover.pendingImage;
     if (k && !imgCache[k]) { try { const v = await idb.get(k); if (v) imgCache[k] = v; } catch (e) { /* 忽略 */ } }

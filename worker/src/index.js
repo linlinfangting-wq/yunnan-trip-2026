@@ -93,7 +93,7 @@ async function gh(env, path, init = {}) {
 }
 const blob = (env, content, encoding) => gh(env, '/git/blobs', { method: 'POST', body: JSON.stringify({ content, encoding }) }).then(d => d.sha);
 
-const PLACE_KEYS = ['id', 'name', 'aliases', 'region', 'category', 'cardSubtitle', 'description', 'why', 'mustTry', 'bestTime', 'cover', 'primaryXhsLink', 'xhsKeyword', 'mapKeyword', 'sourceNotes', 'status', 'featured', 'sortOrder', 'coverCandidates', 'dianpingLink'];
+const PLACE_KEYS = ['id', 'name', 'aliases', 'region', 'category', 'cardSubtitle', 'description', 'why', 'mustTry', 'bestTime', 'cover', 'primaryXhsLink', 'xhsKeyword', 'mapKeyword', 'sourceNotes', 'status', 'featured', 'sortOrder', 'coverCandidates', 'dianpingLink', 'fantine'];
 const NOTE_KEYS = ['id', 'noteId', 'title', 'url', 'source', 'likes', 'placeIds', 'images', 'desc'];
 const pick = (o, keys) => Object.fromEntries(keys.filter(k => k in o).map(k => [k, o[k]]));
 const IMG_PATH = /^assets\/place-images\/[a-z0-9-]+\.jpg$/;
@@ -116,6 +116,11 @@ async function publish(req, env) {
   for (const p of places) {
     if (!p.id || !/^[a-z0-9-]+$/.test(p.id) || ids.has(p.id)) return fail(`地点 id 不合法或重复：${p.id}`);
     if (!p.name) return fail(`有地点没填名称：${p.id}`);
+    if (p.fantine) {   // Fantine 的评价：{ rating 0-5, text, photos[本地路径], updated }
+      const f = p.fantine;
+      p.fantine = { rating: Math.max(0, Math.min(5, Math.round(Number(f.rating) || 0))), text: String(f.text || '').slice(0, 2000),
+        photos: (Array.isArray(f.photos) ? f.photos : []).filter(x => IMG_PATH.test(x)).slice(0, 20), updated: String(f.updated || '').slice(0, 10) };
+    }
     ids.add(p.id);
   }
   // Cloudflare 免费版每次请求最多 50 个对外请求：这里记账，留出提交用的名额

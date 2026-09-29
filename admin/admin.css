@@ -169,3 +169,14 @@
 .a-desc summary::after{content:'›';margin-left:auto;color:var(--faint);transition:transform .2s}
 .a-desc[open] summary::after{transform:rotate(90deg)}
 .a-desc div{white-space:pre-wrap;line-height:1.6;padding:0 0 12px;max-height:40vh;overflow-y:auto}
+.a-stars{display:flex;gap:4px;margin-top:6px}
+.a-stars button{width:44px;height:44px;font-size:30px;line-height:44px;color:#DDD8CF;border-radius:10px}
+.a-stars button.on{color:#F5A623}
+.a-photos{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:8px}
+.a-photo{position:relative;aspect-ratio:1;border-radius:10px;overflow:hidden;background:var(--soft)}
+.a-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.a-photo button{position:absolute;right:2px;top:2px;width:30px;height:30px;border-radius:50%;background:rgba(0,0,0,.55)!important;color:#fff;font-size:18px;line-height:30px}
+.a-photo button::before{content:"";position:absolute;inset:-7px}
+.a-photo.add{display:flex;align-items:center;justify-content:center;font-size:28px;color:var(--muted);border:1.5px dashed #D8D8D2;background:#fff}
+.a-photo.add input{position:absolute;inset:0;opacity:0;font-size:16px}
+.a-tag.me{background:#FFF3DC;color:#A56A00}
