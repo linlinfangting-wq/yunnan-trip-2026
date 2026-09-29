@@ -506,7 +506,7 @@ async function doPublish() {
     S.base.notes = res.notes || notes;
     S.draft = { places: {}, removed: [], notes: {} }; saveDraft();
     S.publishing = false;
-    openSheet(`<div class="grab"></div><h3>✓ 已发布</h3><p class="sub">GitHub Pages 大约 1 分钟后更新，原来的网址不变。</p>
+    openSheet(`<div class="grab"></div><h3>✓ 已发布</h3><p class="sub">GitHub Pages 大约 1 分钟后更新，原来的网址不变。${res.pending ? `<br>还有 ${res.pending} 张封面暂时用小红书原图显示，下次发布会自动存好。` : ''}</p>
       <div class="a-actions"><a class="a-btn dark a-file" href="${esc(CFG.siteUrl || '../')}" target="_blank" rel="noopener">打开旅行页面</a><button class="a-btn light" data-act="close-sheet">好</button></div>`);
   } catch (e) {
     S.publishing = false;

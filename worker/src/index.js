@@ -117,42 +117,55 @@ async function publish(req, env) {
     if (!p.name) return fail(`有地点没填名称：${p.id}`);
     ids.add(p.id);
   }
+  // Cloudflare 免费版每次请求最多 50 个对外请求：这里记账，留出提交用的名额
+  const LIMIT = 46; const RESERVE = 10; let used = 0;
   const files = [];
-  // 1) 手机上传的图片
-  for (const im of body.images || []) {
+  // 1) 手机上传的图片（每张 1 个请求）
+  const uploads = body.images || [];
+  if (uploads.length > LIMIT - RESERVE) return fail(`一次最多发布 ${LIMIT - RESERVE} 张新上传的图片，请分几次发布`);
+  for (const im of uploads) {
     if (!IMG_PATH.test(im.path) || typeof im.data !== 'string') return fail(`图片路径不合法：${im.path}`);
     if (im.data.length > 8 * 1024 * 1024) return fail('单张图片太大');
-    files.push({ path: im.path, sha: await blob(env, im.data, 'base64') });
+    files.push({ path: im.path, sha: await blob(env, im.data, 'base64') }); used++;
   }
-  // 2) 选了小红书图片做封面：服务端下载存进仓库，前台不依赖外链
+  // 2) 小红书图片做封面：名额够就下载存进仓库（每张 2 个请求）；不够的先用原图地址，下次发布再存
+  let localized = 0, pending = 0;
+  const jobs = [];
   for (const p of places) {
     const c = p.cover || {};
-    if (c.url && !c.localPath && /xhscdn\.com|xiaohongshu\.com/.test(c.url)) {
-      try {
-        const r = await fetch(c.url, { headers: { 'User-Agent': UA } });
-        if (r.ok && (r.headers.get('content-type') || '').startsWith('image/')) {
-          const path = `assets/place-images/${p.id}-${Date.now().toString(36)}.jpg`;
-          files.push({ path, sha: await blob(env, bufToB64(await r.arrayBuffer()), 'base64') });
-          p.cover = { ...c, localPath: path, url: '' };
-        }
-      } catch (e) { /* 下载失败就保留外链 */ }
-    }
-    if (p.primaryXhsLink) p.primaryXhsLink = await resolveShortLink(p.primaryXhsLink);
+    if (p.primaryXhsLink && /xhslink\.com/.test(p.primaryXhsLink) && used < LIMIT - RESERVE) { p.primaryXhsLink = await resolveShortLink(p.primaryXhsLink); used++; }
+    if (!(c.url && !c.localPath && /xhscdn\.com|xiaohongshu\.com/.test(c.url))) continue;
+    if (used + 2 > LIMIT - RESERVE) { pending++; continue; }
+    used += 2; jobs.push(p);
   }
+  const saveCover = async p => {
+    const c = p.cover;
+    try {
+      const r = await fetch(c.url, { headers: { 'User-Agent': UA } });
+      if (!r.ok || !(r.headers.get('content-type') || '').startsWith('image/')) return;
+      const path = `assets/place-images/${p.id}-${Date.now().toString(36)}.jpg`;
+      files.push({ path, sha: await blob(env, bufToB64(await r.arrayBuffer()), 'base64') });
+      p.cover = { ...c, localPath: path, url: '' }; localized++;
+    } catch (e) { /* 下载失败就保留原图地址 */ }
+  };
+  for (let i = 0; i < jobs.length; i += 6) await Promise.all(jobs.slice(i, i + 6).map(saveCover));   // Workers 同时最多 6 个连接
   const notes = body.notes.map(n => pick(n, NOTE_KEYS));
-  files.push({ path: 'data/places.json', sha: await blob(env, JSON.stringify(places, null, 2) + '\n', 'utf-8') });
-  files.push({ path: 'data/notes.json', sha: await blob(env, JSON.stringify(notes, null, 2) + '\n', 'utf-8') });
+  // 数据文件直接写进提交，不单独占请求
+  const inline = [
+    { path: 'data/places.json', content: JSON.stringify(places, null, 2) + '\n' },
+    { path: 'data/notes.json', content: JSON.stringify(notes, null, 2) + '\n' },
+  ];
 
   // 3) 一次提交；如果期间有别的提交，重试一次
   for (let attempt = 0; attempt < 2; attempt++) {
     const ref = await gh(env, `/git/ref/heads/${env.BRANCH}`);
     const head = await gh(env, `/git/commits/${ref.object.sha}`);
-    const tree = await gh(env, '/git/trees', { method: 'POST', body: JSON.stringify({ base_tree: head.tree.sha, tree: files.map(f => ({ path: f.path, mode: '100644', type: 'blob', sha: f.sha })) }) });
+    const tree = await gh(env, '/git/trees', { method: 'POST', body: JSON.stringify({ base_tree: head.tree.sha, tree: [...files.map(f => ({ path: f.path, mode: '100644', type: 'blob', sha: f.sha })), ...inline.map(f => ({ path: f.path, mode: '100644', type: 'blob', content: f.content }))] }) });
     const msg = `后台发布：${String(body.summary || '更新攻略').slice(0, 200)}`;
     const commit = await gh(env, '/git/commits', { method: 'POST', body: JSON.stringify({ message: msg, tree: tree.sha, parents: [ref.object.sha] }) });
     try {
       await gh(env, `/git/refs/heads/${env.BRANCH}`, { method: 'PATCH', body: JSON.stringify({ sha: commit.sha, force: false }) });
-      return json({ ok: true, commit: commit.sha, places, notes });
+      return json({ ok: true, commit: commit.sha, places, notes, localized, pending });
     } catch (e) { if (attempt === 1 || e.status !== 422) throw e; }
   }
   return fail('发布冲突，请重试', 409);
