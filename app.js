@@ -32,7 +32,14 @@ const routeUrl = r =>
   `baidumap://map/direction?origin=${encodeURIComponent('name:' + r.from)}&destination=${encodeURIComponent('name:' + r.to)}` +
   `&mode=${r.mode}&region=${cityOf(r.region)}&src=${BAIDU_SRC}`;
 // 大众点评：填了店铺链接就打开那家店，没填就调起 App 搜店名
-const dianpingUrl = p => p.dianpingLink || `dianping://searchshoplist?keyword=${encodeURIComponent(p.mapKeyword.includes(p.region) ? p.mapKeyword : p.region + ' ' + p.mapKeyword)}`;
+// 大众点评的网页链接不会自动跳进 App（它只给扫码、订单等少数路径开了「App 打开」），所以主按钮用 dianping:// 直接调起 App
+const dpShopId = u => (String(u || '').match(/dianping\.com\/shop(?:share)?\/([A-Za-z0-9]+)/) || [])[1] || '';
+const dianpingUrl = p => {
+  const id = dpShopId(p.dianpingLink);
+  if (id) return `dianping://shopinfo?shopuuid=${id}`;
+  if (p.dianpingLink) return p.dianpingLink;            // 例如 App 里分享出来的 dpurl.cn 短链接
+  return `dianping://searchshoplist?keyword=${encodeURIComponent(p.mapKeyword.includes(p.region) ? p.mapKeyword : p.region + ' ' + p.mapKeyword)}`;
+};
 const placeWebUrl = (query, region) =>
   `https://api.map.baidu.com/place/search?query=${encodeURIComponent(query)}&region=${cityOf(region)}&output=html&src=webapp.yunnantrip.planner`;
 
@@ -262,6 +269,7 @@ function openSheet(id) {
       </div>
       ${xhsWebUrl(p) ? `<a class="weblink" target="_blank" rel="noopener" href="${esc(xhsWebUrl(p))}">打不开？用网页打开这篇笔记 ↗</a>` : ''}
       <a class="weblink" target="_blank" rel="noopener" href="${esc(placeWebUrl(p.mapKeyword, p.region))}">没装百度地图？用网页版查看位置 ↗</a>
+      ${dpShopId(p.dianpingLink) ? `<a class="weblink" target="_blank" rel="noopener" href="${esc(p.dianpingLink)}">大众点评打不开？用网页打开这家店 ↗</a>` : ''}
       <div class="fallback"><span>点了没跳转？复制 <b>${esc(p.xhsKeyword)}</b> 到 App 里搜</span>
         <button class="copy" data-copy="${esc(p.xhsKeyword)}">复制</button></div>
     </div>`;
