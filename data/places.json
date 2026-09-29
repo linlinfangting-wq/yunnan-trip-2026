@@ -4680,8 +4680,11 @@
   },
   {
     "id": "menglian-mulsnje411",
-    "name": "联斯达山泉咖啡",
-    "aliases": [],
+    "name": "联斯达山泉咖啡庄园",
+    "aliases": [
+      "洪安联斯达山泉咖啡庄园",
+      "联斯达山泉咖啡庄园"
+    ],
     "region": "孟连",
     "category": [
       "喝"
@@ -4695,20 +4698,40 @@
     "bestTime": "白天",
     "cover": {
       "url": "",
-      "localPath": "assets/place-images/menglian-mulsnje411-mum4b6cs.jpg",
+      "localPath": "assets/place-images/menglian-mulsnje411-munbp60z.jpg",
       "source": "小红书笔记",
-      "sourceUrl": "https://xhslink.cn/o/7MFf5G6Lj1l",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6960fcee0000000009039f3f?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBrggLhzDHyluwZEYq-tlm85cbKIVNz78oxFI1xu5gkbo=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790725228&share_id=4bcef7b68f794e9abaf4997aafe302d3",
       "status": "verified"
     },
-    "primaryXhsLink": null,
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6960fcee0000000009039f3f?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBrggLhzDHyluwZEYq-tlm85cbKIVNz78oxFI1xu5gkbo=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790725228&share_id=4bcef7b68f794e9abaf4997aafe302d3",
     "xhsKeyword": "孟连 联斯达山泉咖啡",
     "mapKeyword": "联斯达山泉咖啡",
     "sourceNotes": [
-      "note-mulsnjdy"
+      "note-mulsnjdy",
+      "note-6960fcee0000000009039f3f"
     ],
-    "status": "hidden",
+    "status": "published",
     "featured": false,
     "sortOrder": 1380,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3l3q727049m3gfj1nnv7e5q99kg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r4d3ldn6ucg49m3gfj1nnv745chsg8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3phq74m049m3gfj1nnv764v1nn8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r4d3ldn6u9049m3gfj1nnv7tqr0ffo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r4d3ldn6ubg49m3gfj1nnv7qrdb450?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r4d3ldn6u9g49m3gfj1nnv7i9icf0g?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3oqk720049m3gfj1nnv7u3nlok8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3oe0n40049m3gfj1nnv7o0tn9eo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3nuan20049m3gfj1nnv75u6p0k0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3nofn00049m3gfj1nnv732sht7o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r4d3ldn6uc049m3gfj1nnv7u58f9g0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3n5c700049m3gfj1nnv7c3lmcj8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3mk46u0049m3gfj1nnv7kd62ukg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3m3s707049m3gfj1nnv7n59ef00?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031r4d3ljgn40049m3gfj1nnv7ut2uero?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r4d3ldn6u8g49m3gfj1nnv7pagenfo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r4d3ldn6u7g49m3gfj1nnv7glu9vro?imageView2/2/w/1080/format/jpg"
+    ],
     "dianpingLink": "https://m.dianping.com/shop/k6j2rrTXBUMbBcFH"
   },
   {
