@@ -162,3 +162,10 @@
   .a-btn{padding:0 14px}
 }
 @media (prefers-reduced-motion:reduce){.a-sheet,.a-scrim,.a-toast{transition:none}}
+.a-grid .badge.pno{background:rgba(0,0,0,.6)}
+.a-desc{margin:4px 0 8px;font-size:13px;color:#444;background:var(--soft);border-radius:10px;padding:0 12px}
+.a-desc summary{min-height:40px;display:flex;align-items:center;font-weight:600;cursor:pointer;list-style:none}
+.a-desc summary::-webkit-details-marker{display:none}
+.a-desc summary::after{content:'›';margin-left:auto;color:var(--faint);transition:transform .2s}
+.a-desc[open] summary::after{transform:rotate(90deg)}
+.a-desc div{white-space:pre-wrap;line-height:1.6;padding:0 0 12px;max-height:40vh;overflow-y:auto}

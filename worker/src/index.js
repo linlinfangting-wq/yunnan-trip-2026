@@ -93,8 +93,8 @@ async function gh(env, path, init = {}) {
 }
 const blob = (env, content, encoding) => gh(env, '/git/blobs', { method: 'POST', body: JSON.stringify({ content, encoding }) }).then(d => d.sha);
 
-const PLACE_KEYS = ['id', 'name', 'aliases', 'region', 'category', 'cardSubtitle', 'description', 'why', 'mustTry', 'bestTime', 'cover', 'primaryXhsLink', 'xhsKeyword', 'mapKeyword', 'sourceNotes', 'status', 'featured', 'sortOrder'];
-const NOTE_KEYS = ['id', 'noteId', 'title', 'url', 'source', 'likes', 'placeIds', 'images'];
+const PLACE_KEYS = ['id', 'name', 'aliases', 'region', 'category', 'cardSubtitle', 'description', 'why', 'mustTry', 'bestTime', 'cover', 'primaryXhsLink', 'xhsKeyword', 'mapKeyword', 'sourceNotes', 'status', 'featured', 'sortOrder', 'coverCandidates'];
+const NOTE_KEYS = ['id', 'noteId', 'title', 'url', 'source', 'likes', 'placeIds', 'images', 'desc'];
 const pick = (o, keys) => Object.fromEntries(keys.filter(k => k in o).map(k => [k, o[k]]));
 const IMG_PATH = /^assets\/place-images\/[a-z0-9-]+\.jpg$/;
 
@@ -215,7 +215,7 @@ const CANDIDATE_SCHEMA = {
       type: 'array',
       items: {
         type: 'object', additionalProperties: false,
-        required: ['name', 'aliases', 'region', 'inRoute', 'category', 'cardSubtitle', 'description', 'mustTry', 'bestTime', 'xhsKeyword', 'mapKeyword', 'confidence', 'existingId', 'coverImageIndex', 'coverConfidence', 'evidence'],
+        required: ['name', 'aliases', 'region', 'inRoute', 'category', 'cardSubtitle', 'description', 'mustTry', 'bestTime', 'xhsKeyword', 'mapKeyword', 'confidence', 'existingId', 'coverImageIndex', 'coverConfidence', 'imageIndexes', 'evidence'],
         properties: {
           name: { type: 'string' }, aliases: { type: 'array', items: { type: 'string' } },
           region: { type: 'string' }, inRoute: { type: 'boolean' },
@@ -225,6 +225,7 @@ const CANDIDATE_SCHEMA = {
           confidence: { type: 'string', enum: ['high', 'medium', 'low'] },
           existingId: { type: ['string', 'null'] },
           coverImageIndex: { type: ['integer', 'null'] }, coverConfidence: { type: 'string', enum: ['high', 'medium', 'low'] },
+          imageIndexes: { type: 'array', items: { type: 'integer' } },
           evidence: { type: 'string' },
         },
       },
@@ -244,6 +245,7 @@ const SYSTEM = `你帮一个国庆去云南旅行的人整理小红书攻略。�
 - 介绍只写笔记里有依据的内容，不要编造营业时间、价格、菜品。cardSubtitle 是 8-16 字的一句话；description 一两句，不超过 60 字；mustTry 是笔记里推荐的菜或体验。
 - xhsKeyword 用"地区 店名"，mapKeyword 用百度地图能搜到的店名。
 - coverImageIndex：图片编号从 0 开始，按我给你的顺序。挑最能代表这家的图：清楚的店内空间、门头加环境、代表性菜品、地点代表景色。不要选人脸占满、模糊、聊天截图、地图截图、纯文字图、吃了一半的菜、看不出是这家的图。没有合适的就填 null。确定这张图就是这家时 coverConfidence 填 high。
+- imageIndexes：这家店出现在哪几张图里（门头、菜品、店内环境、菜单、带它名字的文字图），只列确实属于这家的；和它无关的图、别家店的图、纯自拍都不要列。
 - evidence 用一句话说明依据（例如"第3张图门头写着苏大妈烧烤"）。
 - 不确定就把 confidence 设为 low，不要猜。`;
 
@@ -259,6 +261,7 @@ function normCandidate(c) {
     mustTry: arr(c.mustTry), bestTime: String(c.bestTime || ''), xhsKeyword: String(c.xhsKeyword || ''), mapKeyword: String(c.mapKeyword || ''),
     confidence: lvl(c.confidence), existingId: c.existingId ? String(c.existingId) : null,
     coverImageIndex: idx, coverConfidence: lvl(c.coverConfidence), evidence: String(c.evidence || ''),
+    imageIndexes: [...new Set([...(Array.isArray(c.imageIndexes) ? c.imageIndexes : []).map(Number).filter(Number.isInteger), ...(idx != null ? [idx] : [])])].sort((x, y) => x - y),
   };
 }
 function parseJsonLoose(text) {
@@ -290,7 +293,7 @@ async function askQwen(env, content) {
   return parseJsonLoose(d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content);
 }
 const JSON_SHAPE = `只输出一个 JSON 对象，不要任何解释，格式：
-{"candidates":[{"name":"店名","aliases":["别名"],"region":"普洱/景迈山/孟连/昆明 或实际城市","inRoute":true,"category":["吃/喝/逛/玩/拍 选1-2个"],"cardSubtitle":"8-16字一句话","description":"一两句介绍，不超过60字","mustTry":["推荐"],"bestTime":"适合什么时候去","xhsKeyword":"地区 店名","mapKeyword":"店名","confidence":"high/medium/low","existingId":"已有地点id或null","coverImageIndex":0,"coverConfidence":"high/medium/low","evidence":"一句话依据"}]}`;
+{"candidates":[{"name":"店名","aliases":["别名"],"region":"普洱/景迈山/孟连/昆明 或实际城市","inRoute":true,"category":["吃/喝/逛/玩/拍 选1-2个"],"cardSubtitle":"8-16字一句话","description":"一两句介绍，不超过60字","mustTry":["推荐"],"bestTime":"适合什么时候去","xhsKeyword":"地区 店名","mapKeyword":"店名","confidence":"high/medium/low","existingId":"已有地点id或null","coverImageIndex":0,"coverConfidence":"high/medium/low","imageIndexes":[0,2,3],"evidence":"一句话依据"}]}`;
 
 // Claude（设置了 ANTHROPIC_API_KEY 且没设通义千问时使用）
 async function askClaude(env, content) {
@@ -326,6 +329,7 @@ function mergeCandidates(list) {
     hit.category = [...new Set([...hit.category, ...c.category])].slice(0, 2);
     if (better) hit.confidence = c.confidence;
     hit.existingId = hit.existingId || c.existingId;
+    hit.imageIndexes = [...new Set([...hit.imageIndexes, ...c.imageIndexes])].sort((x, y) => x - y);
     hit.inRoute = hit.inRoute && c.inRoute;
     if (c.coverImageIndex != null && (hit.coverImageIndex == null || RANK[c.coverConfidence] > RANK[hit.coverConfidence])) { hit.coverImageIndex = c.coverImageIndex; hit.coverConfidence = c.coverConfidence; }
   }
@@ -373,7 +377,7 @@ async function analyzeNote(req, env) {
   return json({
     ok: true, readStatus,
     message: note.ok ? `读到正文和 ${remote.length} 张图` : body.url ? '无法完整读取这篇笔记（可能需要登录），只分析了你粘贴的文字和上传的图片' : `分析了 ${uploads.length} 张图片`,
-    note: note.ok || body.url ? { title: note.title, url: note.url || body.url, noteId: note.noteId, likes: note.likes } : null,
+    note: note.ok || body.url ? { title: note.title, url: note.url || body.url, noteId: note.noteId, likes: note.likes, desc: note.desc.replace(/#[^#\s]+\[话题\]#/g, '').trim() } : null,
     images: remote, candidates: cands,
   });
 }

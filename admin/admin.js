@@ -384,17 +384,37 @@ let coverTarget = null; let coverPick = null;
 function openCoverSheet(id) {
   coverTarget = id; coverPick = null;
   const p = getPlace(id); const notes = allNotes();
-  const cands = [];
+  const own = new Set(p.coverCandidates || []);
+  const cands = []; const seen = new Set();
+  const noteOf = u => (p.sourceNotes || []).map(id => notes[id]).find(n => n && (n.images || []).includes(u)) || { url: '', title: '', images: [] };
+  for (const u of p.coverCandidates || []) if (!seen.has(u)) { seen.add(u); cands.push({ url: u, note: noteOf(u), own: true }); }
   for (const nid of p.sourceNotes || []) {
     const n = notes[nid]; if (!n) continue;
-    (n.images || []).forEach((u, i) => cands.push({ url: u, note: n, i }));
+    (n.images || []).forEach(u => { if (!seen.has(u)) { seen.add(u); cands.push({ url: u, note: n, own: false }); } });
   }
+  const ownN = cands.filter(c => c.own).length;
   const cur = hasCover(p) ? coverSrc(p) : '';
   openSheet(`<div class="grab"></div><h3>换封面</h3><p class="sub">${esc(p.name)}</p>
     <div class="a-cover" style="margin:0">${cur ? `<img src="${esc(cur)}" alt="" referrerpolicy="no-referrer">` : '<div class="none">暂无可靠封面</div>'}<span class="mark">当前封面</span></div>
-    ${cands.length ? `<div class="a-section">来自参考笔记的图片（${cands.length}）</div>
-      <div class="a-grid">${cands.map((c, k) => `<button data-act="pick-cand" data-k="${k}">
-        <img src="${esc(thumbOf(c.url))}" alt="" loading="lazy" referrerpolicy="no-referrer">${c.url === p.cover?.url ? '<span class="badge">当前</span>' : ''}</button>`).join('')}</div>` : ''}
+    ${(() => {
+      const pno = c => { const i = (c.note.images || []).indexOf(c.url); return i >= 0 ? 'P' + (i + 1) : ''; };
+      const tile = (c, k) => `<button data-act="pick-cand" data-k="${k}">
+        <img src="${esc(thumbOf(c.url))}" alt="" loading="lazy" referrerpolicy="no-referrer">
+        ${c.url === p.cover?.url ? '<span class="badge">当前</span>' : pno(c) ? `<span class="badge pno">${pno(c)}</span>` : ''}</button>`;
+      const ownHtml = cands.map((c, k) => c.own ? tile(c, k) : '').join('');
+      // 其他图按笔记分组，附笔记原文（原文里常写「P3-4 是哪家」）
+      const byNote = new Map();
+      cands.forEach((c, k) => { if (!c.own) { const key = c.note.id || c.note.url; if (!byNote.has(key)) byNote.set(key, { note: c.note, tiles: [] }); byNote.get(key).tiles.push(tile(c, k)); } });
+      const otherN = cands.length - ownN;
+      const groupsHtml = [...byNote.values()].map(g => `<div class="a-notegrp">
+          <div class="a-section" style="margin-top:14px">《${esc(g.note.title || '笔记')}》</div>
+          ${g.note.desc ? `<details class="a-desc"><summary>看笔记原文（找 P 几是哪家）</summary><div>${esc(g.note.desc)}</div></details>` : ''}
+          <div class="a-grid">${g.tiles.join('')}</div></div>`).join('');
+      return (ownN ? `<div class="a-section">这家店的图（${ownN}）</div><div class="a-grid">${ownHtml}</div>` : '')
+        + (otherN ? (ownN
+          ? `<button class="a-btn light" style="width:100%;margin-top:10px" data-act="show-other-imgs">笔记里的其他图片（${otherN}）</button><div id="otherImgs" hidden>${groupsHtml}</div>`
+          : groupsHtml) : '');
+    })()}
     <div class="a-actions">
       <label class="a-btn dark a-file">从相册选择<input type="file" accept="image/*" data-act="upload"></label>
       <label class="a-btn light a-file">拍照<input type="file" accept="image/*" capture="environment" data-act="upload"></label>
@@ -601,7 +621,7 @@ async function addImported() {
     const same = Object.values(allNotes()).find(n => (nid && n.noteId === nid) || (note.url && n.url === note.url));
     noteId = same ? same.id : 'note-' + (nid || Date.now().toString(36));
     const exist = allNotes()[noteId];
-    S.draft.notes[noteId] = { id: noteId, noteId: nid, title: note.title || '小红书笔记', url: note.url || '', source: 'xiaohongshu', likes: String(note.likes || ''),
+    S.draft.notes[noteId] = { id: noteId, noteId: nid, title: note.title || '小红书笔记', url: note.url || '', source: 'xiaohongshu', likes: String(note.likes || ''), desc: note.desc || (exist && exist.desc) || '',
       placeIds: [], images: res.images || [], ...(exist ? { images: exist.images?.length ? exist.images : res.images || [] } : {}) };
   }
   const chosen = cands.map((c, i) => ({ c, i })).filter(x => st.pick[x.i]);
@@ -621,8 +641,10 @@ async function addImported() {
         cover = { url: '', localPath: '', source: '我上传的截图', sourceUrl: note ? note.url : '', status: 'verified', pendingImage: key };
       }
     }
+    const ownImgs = (c.imageIndexes || []).map(k => (res.images || [])[k]).filter(Boolean);   // 只记笔记里的原图地址，上传的截图不记
     if (st.mode[i] === 'update' && c.existingId && getPlace(c.existingId)) {
       const p = getPlace(c.existingId);
+      if (ownImgs.length) p.coverCandidates = [...new Set([...(p.coverCandidates || []), ...ownImgs])];
       if (noteId && !(p.sourceNotes || []).includes(noteId)) p.sourceNotes = [...(p.sourceNotes || []), noteId];
       for (const k of ['cardSubtitle', 'description', 'bestTime', 'mapKeyword', 'xhsKeyword']) if (!p[k] && c[k]) p[k] = c[k];
       if ((!p.mustTry || !p.mustTry.length) && c.mustTry) p.mustTry = c.mustTry;
@@ -636,7 +658,7 @@ async function addImported() {
       const p = {
         id, name: c.name, aliases: c.aliases || [], region, category: (c.category || []).filter(k => KINDS.includes(k)).slice(0, 2),
         cardSubtitle: c.cardSubtitle || '', description: c.description || '', why: c.why || '', mustTry: c.mustTry || [], bestTime: c.bestTime || '',
-        cover, primaryXhsLink: single && note && note.url ? note.url : null,
+        cover, coverCandidates: ownImgs, primaryXhsLink: single && note && note.url ? note.url : null,
         xhsKeyword: c.xhsKeyword || `${region} ${c.name}`, mapKeyword: c.mapKeyword || c.name,
         sourceNotes: noteId ? [noteId] : [], status: REGIONS.includes(c.region) && c.inRoute !== false ? 'published' : 'draft',
         featured: false, sortOrder: maxOrder + (added + 1) * 10,
@@ -723,6 +745,7 @@ document.addEventListener('click', async e => {
         coverPick = { url: u, localPath: '', source: '网络图片', sourceUrl: u, status: 'verified' }; setCoverPreview(u); });
       break;
     }
+    case 'show-other-imgs': { const g = $('#otherImgs'); if (g) { g.hidden = false; t.remove(); } break; }
     case 'cover-done': if (coverPick) applyCover(coverPick); break;
     case 'cover-remove': applyCover({ url: '', localPath: '', source: '', sourceUrl: '', status: 'missing' }); break;
     case 'publish': askPublish(); break;
