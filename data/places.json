@@ -1562,10 +1562,10 @@
     "bestTime": "10/6 上午 / 中午",
     "cover": {
       "url": "",
-      "localPath": "assets/place-images/km-donghua.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6971ff09000000000c03479f?xsec_token=ABY4JiKfvcS9Og58sNMr2-ABSa_pkpxGDZK6wMFcfNTgw=&xsec_source=pc_share",
-      "status": "verified"
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
     },
     "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6971ff09000000000c03479f?xsec_token=ABY4JiKfvcS9Og58sNMr2-ABSa_pkpxGDZK6wMFcfNTgw=&xsec_source=pc_share",
     "xhsKeyword": "昆明 东华农贸市场",
