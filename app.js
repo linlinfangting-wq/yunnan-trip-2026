@@ -358,6 +358,16 @@ function toViewPlaces(places, notes) {
     });
 }
 
+// ---------- 微信里打开时的提示（微信会拦截跳转小红书 / 百度地图） ----------
+function wechatHint() {
+  if (!/MicroMessenger/i.test(navigator.userAgent)) return;
+  const bar = document.createElement('div');
+  bar.className = 'wxbar';
+  bar.innerHTML = '微信里点不开小红书和百度地图。请点右上角 <b>···</b> →「<b>在默认浏览器中打开</b>」';
+  document.querySelector('.app').prepend(bar);
+}
+wechatHint();
+
 // ---------- 数据加载 ----------
 async function load() {
   // 每次都拿最新数据（后台发布后不用等浏览器缓存过期）
