@@ -886,11 +886,15 @@
     "xhsKeyword": "普洱 幸也咖啡",
     "mapKeyword": "幸也咖啡",
     "sourceNotes": [
-      "note-6952423e000000001d03a9ca"
+      "note-6952423e000000001d03a9ca",
+      "note-6a8548510000000032023819"
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 270
+    "sortOrder": 270,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l708g5qem5jasmo4jfrr435o?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "puer-beigui",
@@ -1500,6 +1504,46 @@
     "sortOrder": 450
   },
   {
+    "id": "km-munauao67",
+    "name": "山山茶茶",
+    "aliases": [
+      "山山茶茶"
+    ],
+    "region": "昆明",
+    "category": [
+      "喝",
+      "拍"
+    ],
+    "cardSubtitle": "茶饮小铺 感觉比上山喝茶好喝",
+    "description": "连锁",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 山山茶茶",
+    "mapKeyword": "山山茶茶",
+    "sourceNotes": [
+      "note-69e3832b00000000220292c1"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 460,
+    "coverCandidates": [],
+    "fantine": {
+      "rating": 5,
+      "text": "",
+      "photos": [],
+      "updated": "2026-09-29"
+    }
+  },
+  {
     "id": "km-donghua",
     "name": "东华农贸市场",
     "aliases": [],
@@ -1531,72 +1575,48 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 460,
+    "sortOrder": 470,
     "dianpingLink": "https://m.dianping.com/shop/l3xa4XKBM6iTmvVm"
   },
   {
-    "id": "km-dinner",
-    "name": "东华农贸市场附近晚餐",
-    "aliases": [],
+    "id": "km-munanfl42",
+    "name": "翠湖公园",
+    "aliases": [
+      "翠湖"
+    ],
     "region": "昆明",
     "category": [
-      "吃"
+      "逛",
+      "拍"
     ],
-    "cardSubtitle": "10/5 晚上到昆明后",
-    "description": "20:45 才到昆明站，不建议再跑远找网红店。入住后直接在东华农贸市场附近按状态选晚餐更合理。",
-    "why": "晚到之后离酒店近最重要。",
+    "cardSubtitle": "蓝调时刻，湖光柔美",
+    "description": "日落后的翠湖公园，光线柔和，湖面映天色，适合散步与摄影。",
+    "why": "",
     "mustTry": [
-      "到了再选"
+      "蓝调时刻拍照"
     ],
-    "bestTime": "10/5 晚上",
+    "bestTime": "傍晚至日落",
     "cover": {
       "url": "",
-      "localPath": "assets/place-images/km-dinner.jpg",
+      "localPath": "assets/place-images/km-munanfl42-munb62nm.jpg",
       "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a67226800000000060100bd?xsec_token=ABS-pGCJtMQ1PNx5XpDae1kx3E_Uww3AbvnN1nW5nMEcA=&xsec_source=pc_share",
-      "status": "location_only"
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae4855000000002700b934?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CB34qZcxMef798jeCoRQX7L5hEhyD86vXJ_4w17RbvAUw=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723660&share_id=01984b142e2941c1b34b9675b082635c",
+      "status": "verified"
     },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a67226800000000060100bd?xsec_token=ABS-pGCJtMQ1PNx5XpDae1kx3E_Uww3AbvnN1nW5nMEcA=&xsec_source=pc_share",
-    "xhsKeyword": "昆明 东华农贸市场 美食",
-    "mapKeyword": "东华农贸市场 美食",
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 翠湖公园",
+    "mapKeyword": "翠湖公园",
     "sourceNotes": [
-      "note-6a67226800000000060100bd"
+      "note-6aae4855000000002700b934"
     ],
-    "status": "hidden",
+    "status": "published",
     "featured": false,
-    "sortOrder": 470
-  },
-  {
-    "id": "km-bbq",
-    "name": "东华农贸市场附近烧烤",
-    "aliases": [],
-    "region": "昆明",
-    "category": [
-      "吃"
-    ],
-    "cardSubtitle": "晚到后的轻松选项",
-    "description": "如果到昆明后还想吃一顿夜宵，就直接在酒店和东华农贸市场附近搜烧烤，不需要再跑公园 1903。",
-    "why": "晚到后不用跑远。",
-    "mustTry": [
-      "烧烤 / 夜宵"
-    ],
-    "bestTime": "10/5 晚上",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/km-bbq.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69a6598f0000000016009e9b?xsec_token=ABrWvRE2-NcyQkrS-u0yhvvJMk2oljbyq3BetS5hnD-p0=&xsec_source=pc_share",
-      "status": "location_only"
-    },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69a6598f0000000016009e9b?xsec_token=ABrWvRE2-NcyQkrS-u0yhvvJMk2oljbyq3BetS5hnD-p0=&xsec_source=pc_share",
-    "xhsKeyword": "昆明 东华农贸市场 烧烤",
-    "mapKeyword": "东华农贸市场 烧烤",
-    "sourceNotes": [
-      "note-69a6598f0000000016009e9b"
-    ],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 480
+    "sortOrder": 480,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql83g5n9rurckg95u4sq3bhg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql8405n9rurckg95u4t9imdg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql84g5n9rurckg95uoa6h35g?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "puer-tianyuzhuang",
@@ -5210,5 +5230,636 @@
     "status": "hidden",
     "featured": false,
     "sortOrder": 1530
+  },
+  {
+    "id": "km-dinner",
+    "name": "东华农贸市场附近晚餐",
+    "aliases": [],
+    "region": "昆明",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "10/5 晚上到昆明后",
+    "description": "20:45 才到昆明站，不建议再跑远找网红店。入住后直接在东华农贸市场附近按状态选晚餐更合理。",
+    "why": "晚到之后离酒店近最重要。",
+    "mustTry": [
+      "到了再选"
+    ],
+    "bestTime": "10/5 晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-dinner.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a67226800000000060100bd?xsec_token=ABS-pGCJtMQ1PNx5XpDae1kx3E_Uww3AbvnN1nW5nMEcA=&xsec_source=pc_share",
+      "status": "location_only"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a67226800000000060100bd?xsec_token=ABS-pGCJtMQ1PNx5XpDae1kx3E_Uww3AbvnN1nW5nMEcA=&xsec_source=pc_share",
+    "xhsKeyword": "昆明 东华农贸市场 美食",
+    "mapKeyword": "东华农贸市场 美食",
+    "sourceNotes": [
+      "note-6a67226800000000060100bd"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 1540
+  },
+  {
+    "id": "km-bbq",
+    "name": "东华农贸市场附近烧烤",
+    "aliases": [],
+    "region": "昆明",
+    "category": [
+      "吃"
+    ],
+    "cardSubtitle": "晚到后的轻松选项",
+    "description": "如果到昆明后还想吃一顿夜宵，就直接在酒店和东华农贸市场附近搜烧烤，不需要再跑公园 1903。",
+    "why": "晚到后不用跑远。",
+    "mustTry": [
+      "烧烤 / 夜宵"
+    ],
+    "bestTime": "10/5 晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-bbq.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69a6598f0000000016009e9b?xsec_token=ABrWvRE2-NcyQkrS-u0yhvvJMk2oljbyq3BetS5hnD-p0=&xsec_source=pc_share",
+      "status": "location_only"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69a6598f0000000016009e9b?xsec_token=ABrWvRE2-NcyQkrS-u0yhvvJMk2oljbyq3BetS5hnD-p0=&xsec_source=pc_share",
+    "xhsKeyword": "昆明 东华农贸市场 烧烤",
+    "mapKeyword": "东华农贸市场 烧烤",
+    "sourceNotes": [
+      "note-69a6598f0000000016009e9b"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 1550
+  },
+  {
+    "id": "km-munaiwe00",
+    "name": "斗南花市",
+    "aliases": [
+      "昆明斗南花市",
+      "斗南鲜花市场"
+    ],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "夜场才是灵魂",
+    "description": "亚洲最大鲜切花交易市场，夜场批发氛围震撼，人间烟火气拉满。",
+    "why": "",
+    "mustTry": [
+      "逛花市",
+      "拍照打卡",
+      "洋桔梗",
+      "康乃馨",
+      "向日葵",
+      "香雪兰"
+    ],
+    "bestTime": "晚上8:30-凌晨2:00",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munaiwe00-munb62gw.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69aa5a39000000001a032a4c?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBZObKRy82vIMwgHJ1QwvUbK1khTMjlgXw6W8GEsXzoeo=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723454&share_id=0ae7bd615dfa47488570a65d579e4f1e",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69aa5a39000000001a032a4c?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBZObKRy82vIMwgHJ1QwvUbK1khTMjlgXw6W8GEsXzoeo=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723454&share_id=0ae7bd615dfa47488570a65d579e4f1e",
+    "xhsKeyword": "昆明 斗南花市",
+    "mapKeyword": "斗南花市",
+    "sourceNotes": [
+      "note-69aa5a39000000001a032a4c"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1560,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31tbunvbo5t3048n0no2j3ggdamdf6o0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k5g48n0no2j3ggd4mend1o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k5048n0no2j3ggdt1a5nt8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k3048n0no2j3ggdjscnfp8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k4048n0no2j3ggd6ms0td0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k2g48n0no2j3ggdkmj47m0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k4g48n0no2j3ggdpjhn9q0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k2048n0no2j3ggdmljf8s0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k1g48n0no2j3ggd7t25e18?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k3g48n0no2j3ggdj93d6co?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tc1o0ltls9048n0no2j3ggd8f0jpdg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tc1o0ltls7048n0no2j3ggd448p0p0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tc1o0ltls8g48n0no2j3ggdoslvfvo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k6g48n0no2j3ggdv2r4a7g?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tbv60av5k6048n0no2j3ggd1lo0upo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tc1o0ltls7g48n0no2j3ggdkq9k7u8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tc1o0ltls9g48n0no2j3ggdtv48ij8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31tc1o0ltls8048n0no2j3ggd2sbv7a0?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munanfl40",
+    "name": "纸布屋",
+    "aliases": [],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "文艺小楼，随手出片",
+    "description": "独栋五层文艺书店，设计感强，顶楼有花园，适合拍照和放松。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munanfl40-munb62b9.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aae4855000000002700b934?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CB34qZcxMef798jeCoRQX7L5hEhyD86vXJ_4w17RbvAUw=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723660&share_id=01984b142e2941c1b34b9675b082635c",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 纸布屋",
+    "mapKeyword": "纸布屋",
+    "sourceNotes": [
+      "note-6aae4855000000002700b934"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 1570,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg3259s0qo54al05n9rurckg95utqevn0o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql8005n9rurckg95uagvkfe8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql80g5n9rurckg95u48rvk3o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql8205n9rurckg95u82ebi8g?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql82g5n9rurckg95ufac4950?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql8305n9rurckg95u5355sj8?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munayqlj0",
+    "name": "巡津街主街",
+    "aliases": [
+      "巡津街"
+    ],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "梧桐光影文艺街区 很多咖啡店",
+    "description": "昆明小武康路，法式梧桐与民国建筑交织，下午3-5点光影最美。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "晴天下午3-5点",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munayqlj0-munb61i5.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a8548510000000032023819?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBNCvqptV-XmE9Afsm9SWVHndP3Xrtg1VRPOSaRPnBL9A=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790724122&share_id=bde8946c68af4202b435b84fd2a8856e",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 巡津街主街",
+    "mapKeyword": "巡津街主街",
+    "sourceNotes": [
+      "note-6a8548510000000032023819"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1580,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l70d05qem5jasmo4j30ojob0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l70cg5qem5jasmo4ju31iiio?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l70ag5qem5jasmo4je6m8jfo?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munauao69",
+    "name": "谢里xiely咖啡",
+    "aliases": [
+      "谢里咖啡"
+    ],
+    "region": "昆明",
+    "category": [
+      "喝",
+      "拍"
+    ],
+    "cardSubtitle": "滇池景 海晏村咖啡 好看！",
+    "description": "民宿旁的审美空间，咖啡饮品好喝，适合放松小憩。",
+    "why": "",
+    "mustTry": [
+      "咖啡饮品"
+    ],
+    "bestTime": "上午至下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munauao69-munb61m7.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69e3832b00000000220292c1?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBgcOqcwBFHOMF9nZd8hFR6y0oFaJ_zdjbIeYdTzhVDX4=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723925&share_id=bc04135792404b528de29c0f22f3b24b",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 谢里xiely咖啡",
+    "mapKeyword": "谢里xiely咖啡",
+    "sourceNotes": [
+      "note-69e3832b00000000220292c1"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1590,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq4g5q1sdiqn9fgkha0pb98?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq6g5q1sdiqn9fgk8aaui28?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rvtp5jq0g5q1sdiqn9fgkkehvq20?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rvtp5jq105q1sdiqn9fgknntobf8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rvtp5jq1g5q1sdiqn9fgk7ugemc8?imageView2/2/w/1080/format/jpg"
+    ],
+    "fantine": {
+      "rating": 5,
+      "text": "",
+      "photos": [],
+      "updated": "2026-09-29"
+    }
+  },
+  {
+    "id": "km-munanfl41",
+    "name": "翠湖 橡皮书店",
+    "aliases": [],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "复古小众，书香满溢",
+    "description": "木质陈设、暖黄灯光、手写纸条，安静治愈的独立书店。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "全天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munanfl41-munb61m3.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69e3832b00000000220292c1?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBgcOqcwBFHOMF9nZd8hFR6y0oFaJ_zdjbIeYdTzhVDX4=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723925&share_id=bc04135792404b528de29c0f22f3b24b",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 橡皮书店",
+    "mapKeyword": "橡皮书店",
+    "sourceNotes": [
+      "note-6aae4855000000002700b934",
+      "note-69e3832b00000000220292c1"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1600,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg3259s0qo54al05n9rurckg95utqevn0o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql8005n9rurckg95uagvkfe8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql80g5n9rurckg95u48rvk3o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql8205n9rurckg95u82ebi8g?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql8305n9rurckg95u5355sj8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831v561jtcii005q1sdiqn9fgkujfg298?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq105q1sdiqn9fgk2ns41ng?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munarynt0",
+    "name": "巡津新村",
+    "aliases": [],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "黄墙梧桐老洋房拍照地",
+    "description": "昆明巡津街的法式老洋房与梧桐林荫道，适合打卡拍照，感受民国风情。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "下午光线好，适合拍照",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munarynt0-munb66y6.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6aace232000000001203e2f2?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CB-eQAJ-p6ZWtGWRCiwKJeTxOJGwELotBzf1pMs-VnkTE=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723769&share_id=631e6acbadea4dddaa74d8529e242291",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 巡津新村",
+    "mapKeyword": "巡津新村",
+    "sourceNotes": [
+      "note-6aace232000000001203e2f2"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 1610,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk45g5nh0bmq098ne34hd8q8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk46g5nh0bmq098nee0fdhb0?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munarynt3",
+    "name": "敬德巷",
+    "aliases": [
+      "铁皮巷",
+      "敬德巷与铁皮巷"
+    ],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "喝"
+    ],
+    "cardSubtitle": "网红小店聚集地",
+    "description": "整条巷子遍布咖啡店和特色小店，涂鸦墙、薄荷绿木门，随手出片。",
+    "why": "",
+    "mustTry": [
+      "幸也精品咖啡",
+      "豆花米线拿铁",
+      "木姜子冷萃"
+    ],
+    "bestTime": "下午茶时段",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munarynt3-munb64b9.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a8548510000000032023819?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBNCvqptV-XmE9Afsm9SWVHndP3Xrtg1VRPOSaRPnBL9A=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790724122&share_id=bde8946c68af4202b435b84fd2a8856e",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 敬德巷",
+    "mapKeyword": "敬德巷",
+    "sourceNotes": [
+      "note-6aace232000000001203e2f2",
+      "note-6a8548510000000032023819"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 1620,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk4505nh0bmq098nej1jr1v0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l70ag5qem5jasmo4je6m8jfo?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munarynt6",
+    "name": "东寺塔",
+    "aliases": [
+      "书林街与东寺塔",
+      "东寺塔茶花园入口",
+      "书林街"
+    ],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "唐代古塔黄昏绝美",
+    "description": "步行10分钟可达的唐代古塔，黄昏光影绝佳，适合与老街同框拍照。",
+    "why": "",
+    "mustTry": [
+      "黄昏打卡"
+    ],
+    "bestTime": "黄昏时分",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munarynt6-munb65f9.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a8548510000000032023819?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBNCvqptV-XmE9Afsm9SWVHndP3Xrtg1VRPOSaRPnBL9A=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790724122&share_id=bde8946c68af4202b435b84fd2a8856e",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 东寺塔",
+    "mapKeyword": "东寺塔",
+    "sourceNotes": [
+      "note-6aace232000000001203e2f2",
+      "note-6a8548510000000032023819"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1630,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk44g5nh0bmq098ne8u0ar10?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk41g5nh0bmq098neaqqcet8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk4005nh0bmq098negc0ct28?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l70bg5qem5jasmo4ju9sqiu0?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munauao61",
+    "name": "翠湖 纸布石书店",
+    "aliases": [
+      "纸布石书店"
+    ],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "文艺书屋空间",
+    "description": "充满艺术气息的独立书店，结合书籍与手作，环境静谧宜人。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munauao61-munb65nz.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69e3832b00000000220292c1?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBgcOqcwBFHOMF9nZd8hFR6y0oFaJ_zdjbIeYdTzhVDX4=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723925&share_id=bc04135792404b528de29c0f22f3b24b",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 纸布石书店",
+    "mapKeyword": "纸布石书店",
+    "sourceNotes": [
+      "note-69e3832b00000000220292c1"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1640,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g00831v561jtcii005q1sdiqn9fgkujfg298?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq0g5q1sdiqn9fgk036feho?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munauao63",
+    "name": "庇护所书店",
+    "aliases": [
+      "庇护所书店"
+    ],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "隐秘文艺书屋",
+    "description": "藏身于老建筑中的独立书店，氛围安静，适合沉浸式阅读。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munauao63-munb66nd.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69e3832b00000000220292c1?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBgcOqcwBFHOMF9nZd8hFR6y0oFaJ_zdjbIeYdTzhVDX4=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723925&share_id=bc04135792404b528de29c0f22f3b24b",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 庇护所书店",
+    "mapKeyword": "庇护所书店",
+    "sourceNotes": [
+      "note-69e3832b00000000220292c1"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1650,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g00831v561jtcii005q1sdiqn9fgkujfg298?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munauao64",
+    "name": "捞鱼河湿地公园",
+    "aliases": [],
+    "region": "昆明",
+    "category": [
+      "玩",
+      "拍"
+    ],
+    "cardSubtitle": "水杉林日落胜地",
+    "description": "拥有大片水杉林的湿地公园，傍晚时分可欣赏绝美日落景色。",
+    "why": "",
+    "mustTry": [
+      "日落打卡"
+    ],
+    "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munauao64-munb65lp.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69e3832b00000000220292c1?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBgcOqcwBFHOMF9nZd8hFR6y0oFaJ_zdjbIeYdTzhVDX4=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723925&share_id=bc04135792404b528de29c0f22f3b24b",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 捞鱼河湿地公园",
+    "mapKeyword": "捞鱼河湿地公园",
+    "sourceNotes": [
+      "note-69e3832b00000000220292c1"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1660,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq005q1sdiqn9fgk57cpn30?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rvtp5jq005q1sdiqn9fgkr9uc230?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munauao66",
+    "name": "海晏书屋",
+    "aliases": [
+      "海晏原生态书店"
+    ],
+    "region": "昆明",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "昆明文艺书店打卡地",
+    "description": "位于海晏村的原生态书店，环境静谧，适合阅读与拍照。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/km-munauao66-munb69xi.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69e3832b00000000220292c1?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBgcOqcwBFHOMF9nZd8hFR6y0oFaJ_zdjbIeYdTzhVDX4=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790723925&share_id=bc04135792404b528de29c0f22f3b24b",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 海晏书屋",
+    "mapKeyword": "海晏书屋",
+    "sourceNotes": [
+      "note-69e3832b00000000220292c1"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1670,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq605q1sdiqn9fgkkf7ucv0?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munayqlq5",
+    "name": "NOCHRO",
+    "aliases": [
+      "NOCHRO"
+    ],
+    "region": "昆明",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "梧桐光影下的新店",
+    "description": "设计感十足，拿铁醇厚，甜品颜值高。",
+    "why": "",
+    "mustTry": [
+      "拿铁"
+    ],
+    "bestTime": "全天",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 NOCHRO",
+    "mapKeyword": "NOCHRO",
+    "sourceNotes": [
+      "note-6a8548510000000032023819"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1680,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l708g5qem5jasmo4jfrr435o?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munayqlq6",
+    "name": "Lamb Coffee",
+    "aliases": [
+      "Lamb Coffee"
+    ],
+    "region": "昆明",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "复古黄墙绿植出片",
+    "description": "拍照氛围感拉满，是巡津街的出片机位。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "全天",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 Lamb Coffee",
+    "mapKeyword": "Lamb Coffee",
+    "sourceNotes": [
+      "note-6a8548510000000032023819"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1690,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l708g5qem5jasmo4jfrr435o?imageView2/2/w/1080/format/jpg"
+    ]
   }
 ]
