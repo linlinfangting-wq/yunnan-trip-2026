@@ -2,9 +2,9 @@
 // - 页面文件和数据：优先联网拿最新的，4 秒没拿到就用手机上存的
 // - 图片：先用手机上存的，没有再联网
 // - 后台 /admin/ 和发布服务不走缓存
-const VERSION = 'yt-v1';
+const VERSION = 'yt-v2';
 const SHELL = VERSION + '-shell';
-const IMAGES = VERSION + '-images';
+const IMAGES = 'yt-images';            // 图片缓存不跟版本走，升级时不用重新下载封面
 const SHELL_FILES = ['./', 'index.html', 'styles.css', 'app.js', 'data/trip.json', 'data/places.json', 'data/notes.json'];
 
 self.addEventListener('install', e => {
@@ -13,7 +13,7 @@ self.addEventListener('install', e => {
 
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys()
-    .then(keys => Promise.all(keys.filter(k => !k.startsWith(VERSION)).map(k => caches.delete(k))))
+    .then(keys => Promise.all(keys.filter(k => k !== SHELL && k !== IMAGES).map(k => caches.delete(k))))
     .then(() => self.clients.claim()));
 });
 
@@ -26,7 +26,8 @@ async function networkFirst(req) {
   const key = keyOf(req.url);
   try {
     const res = await Promise.race([
-      fetch(req),
+      // 按网址重新请求并绕过浏览器缓存（导航请求本身不能改参数），发布后马上拿到新版本
+      fetch(req.url, { cache: 'no-cache', credentials: 'same-origin' }),
       new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 4000)),
     ]);
     if (res.ok) cache.put(key, res.clone());
