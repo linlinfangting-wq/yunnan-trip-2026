@@ -150,7 +150,8 @@ async function publish(req, env) {
   const saveCover = async p => {
     const c = p.cover;
     try {
-      const r = await fetch(c.url, { headers: { 'User-Agent': UA } });
+      // 存 900px（卡片和详情都够清楚），比原图小一半多
+      const r = await fetch(c.url.replace('/w/1080/', '/w/900/'), { headers: { 'User-Agent': UA } });
       if (!r.ok || !(r.headers.get('content-type') || '').startsWith('image/')) return;
       const path = `assets/place-images/${p.id}-${Date.now().toString(36)}.jpg`;
       files.push({ path, sha: await blob(env, bufToB64(await r.arrayBuffer()), 'base64') });

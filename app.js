@@ -377,6 +377,16 @@ async function load() {
   renderDayRow(); renderDay(); updateFavCount();
   const active = $('#dayrow .day.active');
   if (active) active.scrollIntoView({ inline: 'center', block: 'nearest' });
+  warmOffline();
+}
+
+// 离线缓存：注册 sw.js，空闲时把所有封面存到手机上（山里没信号也能看）
+function warmOffline() {
+  if (!('serviceWorker' in navigator) || !(location.protocol === 'https:' || location.hostname === 'localhost')) return;
+  navigator.serviceWorker.register('sw.js').then(() => navigator.serviceWorker.ready).then(reg => {
+    const urls = state.places.filter(p => p.src).map(p => new URL(p.src, location.href).href);
+    setTimeout(() => reg.active && reg.active.postMessage({ type: 'warm', urls }), 4000);
+  }).catch(() => { /* 不支持就算了，在线照常用 */ });
 }
 load();
 })();

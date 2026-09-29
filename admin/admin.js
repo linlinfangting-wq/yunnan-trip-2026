@@ -52,8 +52,8 @@ const idb = {
 };
 const imgCache = {};   // pendingImage key -> dataURL
 
-// 手机照片压缩成 JPEG（最长边 1400）
-function compressImage(file, max = 1400, q = 0.82) {
+// 手机照片压缩成 JPEG（最长边 900，和其他封面一致）
+function compressImage(file, max = 900, q = 0.8) {
   return new Promise((res, rej) => {
     const url = URL.createObjectURL(file); const im = new Image();
     im.onload = () => {
