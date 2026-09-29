@@ -123,11 +123,17 @@ function changes() {
     if (kinds.length) list.push({ id, name: p.name, kind: kinds });
   }
   for (const id of S.draft.removed) if (base[id]) list.push({ id, name: base[id].name, kind: 'delete' });
+  // 线上还有没存进仓库的小红书封面、或没解析的短链：发布一次就能整理好
+  const isShort = u => /xhslink\.(com|cn)\//.test(String(u || ''));
+  const tidy = allPlaces().filter(p => (p.cover && p.cover.url && !p.cover.localPath && /xhscdn\.com|xiaohongshu\.com/.test(p.cover.url)) || isShort(p.primaryXhsLink)).length
+    + Object.values(allNotes()).filter(n => isShort(n.url)).length;
+  if (tidy) list.push({ id: '_tidy', name: '', kind: 'tidy', n: tidy });
   return list;
 }
 function changeSummary(list) {
   const c = { place: 0, cover: 0, xhs: 0, map: 0, hide: 0, show: 0, order: 0, new: 0, del: 0 };
   for (const x of list) {
+    if (x.kind === 'tidy') { c.tidy = x.n; continue; }
     if (x.kind === 'new') c.new++; else if (x.kind === 'delete') c.del++;
     else { c.place++; for (const k of x.kind) if (k in c) c[k]++; }
   }
@@ -141,6 +147,7 @@ function changeSummary(list) {
   if (c.show) parts.push(`恢复 ${c.show} 个`);
   if (c.order) parts.push(`调整 ${c.order} 个顺序`);
   if (c.del) parts.push(`删除 ${c.del} 个`);
+  if (c.tidy) parts.push(`整理 ${c.tidy} 处封面图 / 短链接（存进仓库）`);
   return parts;
 }
 
@@ -366,7 +373,10 @@ function commitInline(el) {
   if (f === 'primaryXhsLink') { v = extractUrl(v) || null; if (el.value.trim() && !v) toast('没找到链接，请粘贴完整的小红书链接'); }
   if (f === 'name' && !v) { toast('地点名称不能为空'); renderEditor(); return; }
   if (!same(p[f], v)) { p[f] = v; savePlace(p); toast('已保存到本机', 1200); }
-  renderEditor();
+  if (f === 'primaryXhsLink') { setTimeout(renderEditor, 350); return; }   // 这一格有联动提示，稍后再重画
+  const tmp = document.createElement('div'); tmp.innerHTML = field('', f, getPlace(S.editing), { multi: el.tagName === 'TEXTAREA' });
+  el.replaceWith(tmp.querySelector('.a-val'));
+  if (f === 'name') { const t = document.querySelector('.a-ebar .t'); if (t) t.textContent = v; }
 }
 
 // ============ 换封面 ============
@@ -507,7 +517,7 @@ async function doPublish() {
     S.draft = { places: {}, removed: [], notes: {} }; saveDraft();
     S.publishing = false;
     openSheet(`<div class="grab"></div><h3>✓ 已发布</h3><p class="sub">GitHub Pages 大约 1 分钟后更新，原来的网址不变。${res.pending ? `<br>还有 ${res.pending} 张封面暂时用小红书原图显示，下次发布会自动存好。` : ''}</p>
-      <div class="a-actions"><a class="a-btn dark a-file" href="${esc(CFG.siteUrl || '../')}" target="_blank" rel="noopener">打开旅行页面</a><button class="a-btn light" data-act="close-sheet">好</button></div>`);
+      <div class="a-actions"><a class="a-btn dark a-file" href="${esc((CFG.siteUrl || '../') + '?v=' + Date.now())}" target="_blank" rel="noopener">打开旅行页面</a><button class="a-btn light" data-act="close-sheet">好</button></div>`);
   } catch (e) {
     S.publishing = false;
     openSheet(`<div class="grab"></div><h3>发布失败</h3><p class="sub">${esc(e.message)}</p>
@@ -588,7 +598,8 @@ async function addImported() {
   let noteId = null;
   if (note) {
     const nid = noteIdOf(note.url);
-    noteId = 'note-' + (nid || Date.now().toString(36));
+    const same = Object.values(allNotes()).find(n => (nid && n.noteId === nid) || (note.url && n.url === note.url));
+    noteId = same ? same.id : 'note-' + (nid || Date.now().toString(36));
     const exist = allNotes()[noteId];
     S.draft.notes[noteId] = { id: noteId, noteId: nid, title: note.title || '小红书笔记', url: note.url || '', source: 'xiaohongshu', likes: String(note.likes || ''),
       placeIds: [], images: res.images || [], ...(exist ? { images: exist.images?.length ? exist.images : res.images || [] } : {}) };

@@ -98,8 +98,9 @@ const NOTE_KEYS = ['id', 'noteId', 'title', 'url', 'source', 'likes', 'placeIds'
 const pick = (o, keys) => Object.fromEntries(keys.filter(k => k in o).map(k => [k, o[k]]));
 const IMG_PATH = /^assets\/place-images\/[a-z0-9-]+\.jpg$/;
 
+const isShort = url => /xhslink\.(com|cn)\//.test(String(url || ''));
 async function resolveShortLink(url) {
-  if (!/xhslink\.com/.test(url)) return url;
+  if (!isShort(url)) return url;
   try {
     const r = await fetch(url, { redirect: 'manual', headers: { 'User-Agent': MOBILE_UA } });
     const loc = r.headers.get('Location');
@@ -131,9 +132,17 @@ async function publish(req, env) {
   // 2) 小红书图片做封面：名额够就下载存进仓库（每张 2 个请求）；不够的先用原图地址，下次发布再存
   let localized = 0, pending = 0;
   const jobs = [];
+  const notes = body.notes.map(n => pick(n, NOTE_KEYS));
+  const resolved = {};
+  const resolve = async u => {
+    if (!isShort(u)) return u;
+    if (!(u in resolved)) { if (used >= LIMIT - RESERVE) return u; used++; resolved[u] = await resolveShortLink(u); }
+    return resolved[u];
+  };
+  for (const n of notes) if (isShort(n.url)) { n.url = await resolve(n.url); n.noteId = noteIdOf(n.url) || n.noteId || ''; }
+  for (const p of places) if (isShort(p.primaryXhsLink)) p.primaryXhsLink = await resolve(p.primaryXhsLink);
   for (const p of places) {
     const c = p.cover || {};
-    if (p.primaryXhsLink && /xhslink\.com/.test(p.primaryXhsLink) && used < LIMIT - RESERVE) { p.primaryXhsLink = await resolveShortLink(p.primaryXhsLink); used++; }
     if (!(c.url && !c.localPath && /xhscdn\.com|xiaohongshu\.com/.test(c.url))) continue;
     if (used + 2 > LIMIT - RESERVE) { pending++; continue; }
     used += 2; jobs.push(p);
@@ -149,7 +158,6 @@ async function publish(req, env) {
     } catch (e) { /* 下载失败就保留原图地址 */ }
   };
   for (let i = 0; i < jobs.length; i += 6) await Promise.all(jobs.slice(i, i + 6).map(saveCover));   // Workers 同时最多 6 个连接
-  const notes = body.notes.map(n => pick(n, NOTE_KEYS));
   // 数据文件直接写进提交，不单独占请求
   const inline = [
     { path: 'data/places.json', content: JSON.stringify(places, null, 2) + '\n' },

@@ -251,7 +251,7 @@ function openSheet(id) {
         <div class="block"><b>推荐${p.kind === '喝' ? '喝什么' : p.kind === '吃' ? '吃什么' : '做什么'}</b><div>${esc(p.mustTry)}</div></div>
         <div class="block"><b>适合什么时候去</b><div>${esc(p.bestTime)}</div></div>
         ${p.refNotes.length ? `<div class="block"><b>参考攻略</b>${p.refNotes.map(n =>
-          `<div><a class="reflink" href="${esc(xhsNoteUrl(n.noteId))}">${esc(n.title)} ↗</a></div>`).join('')}</div>` : ''}
+          `<div><a class="reflink" href="${esc(n.noteId ? xhsNoteUrl(n.noteId) : n.url)}">${esc(n.title)} ↗</a></div>`).join('')}</div>` : ''}
       </div>
       <div class="actions">
         <a class="btn xhs" href="${esc(xhsPlaceUrl(p))}">${p.noteId || p.primaryLink ? '查看小红书笔记 ↗' : '小红书 ↗'}</a>
@@ -360,7 +360,8 @@ function toViewPlaces(places, notes) {
 
 // ---------- 数据加载 ----------
 async function load() {
-  const get = f => fetch(f, { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(f); return r.json(); });
+  // 每次都拿最新数据（后台发布后不用等浏览器缓存过期）
+  const get = f => fetch(`${f}?v=${Date.now()}`, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(f); return r.json(); });
   try {
     const [trip, places, notes] = await Promise.all([
       get('data/trip.json'), get('data/places.json'), get('data/notes.json')]);
