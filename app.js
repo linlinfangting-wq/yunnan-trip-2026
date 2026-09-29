@@ -26,8 +26,13 @@ const xhsWebUrl = p => p.noteId && p.xsecToken
   : '';
 // 直接调起百度地图 App（Safari 里一点就进）；网页版作备用
 const cityOf = region => encodeURIComponent(MAP_CITY[region] || region);
+// 搜索词前面自动加地名（景迈山 / 孟连 / 普洱 / 昆明），避免「里庭」「两棵树」这类常见店名搜到别处
+const withArea = (query, region) => {
+  const q = String(query || '').trim();
+  return !region || q.includes(region) ? q : `${region} ${q}`;
+};
 const placeUrl = (query, region) =>
-  `baidumap://map/place/search?query=${encodeURIComponent(query)}&region=${cityOf(region)}&src=${BAIDU_SRC}`;
+  `baidumap://map/place/search?query=${encodeURIComponent(withArea(query, region))}&region=${cityOf(region)}&src=${BAIDU_SRC}`;
 const routeUrl = r =>
   `baidumap://map/direction?origin=${encodeURIComponent('name:' + r.from)}&destination=${encodeURIComponent('name:' + r.to)}` +
   `&mode=${r.mode}&region=${cityOf(r.region)}&src=${BAIDU_SRC}`;
@@ -41,7 +46,7 @@ const dianpingUrl = p => {
   return `dianping://searchshoplist?keyword=${encodeURIComponent(p.mapKeyword.includes(p.region) ? p.mapKeyword : p.region + ' ' + p.mapKeyword)}`;
 };
 const placeWebUrl = (query, region) =>
-  `https://api.map.baidu.com/place/search?query=${encodeURIComponent(query)}&region=${cityOf(region)}&output=html&src=webapp.yunnantrip.planner`;
+  `https://api.map.baidu.com/place/search?query=${encodeURIComponent(withArea(query, region))}&region=${cityOf(region)}&output=html&src=webapp.yunnantrip.planner`;
 
 // ---------- 收藏 ----------
 function getFav() {
