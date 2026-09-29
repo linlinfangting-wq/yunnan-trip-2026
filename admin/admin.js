@@ -115,7 +115,7 @@ function changes() {
     const kinds = [];
     if (!same(p.cover, b.cover) || p.cover?.pendingImage) kinds.push('cover');
     if (p.primaryXhsLink !== b.primaryXhsLink || p.xhsKeyword !== b.xhsKeyword || !same(p.sourceNotes, b.sourceNotes)) kinds.push('xhs');
-    if (p.mapKeyword !== b.mapKeyword) kinds.push('map');
+    if (p.mapKeyword !== b.mapKeyword || (p.dianpingLink || '') !== (b.dianpingLink || '')) kinds.push('map');
     if (p.status !== b.status) kinds.push(p.status === 'hidden' ? 'hide' : 'show');
     if (p.featured !== b.featured || p.sortOrder !== b.sortOrder) kinds.push('order');
     const text = ['name', 'region', 'category', 'cardSubtitle', 'description', 'why', 'mustTry', 'bestTime', 'aliases'];
@@ -142,7 +142,7 @@ function changeSummary(list) {
   if (c.place) parts.push(`更新 ${c.place} 个地点`);
   if (c.cover) parts.push(`${c.cover} 个封面`);
   if (c.xhs) parts.push(`${c.xhs} 个小红书链接`);
-  if (c.map) parts.push(`${c.map} 个地图关键词`);
+  if (c.map) parts.push(`${c.map} 个地图 / 大众点评`);
   if (c.hide) parts.push(`隐藏 ${c.hide} 个`);
   if (c.show) parts.push(`恢复 ${c.show} 个`);
   if (c.order) parts.push(`调整 ${c.order} 个顺序`);
@@ -324,8 +324,9 @@ function renderEditor() {
           ${p.primaryXhsLink === n.url ? '<span class="a-tag pub">主链接</span>' : `<button data-act="set-primary" data-note="${esc(n.id)}">设为主链接</button>`}
         </div>`).join('') || '<div class="a-hint">没有</div>'}</div></div>
     </div>
-    <div class="a-section">百度地图</div>
-    <div class="a-fields">${field('搜索关键词', 'mapKeyword', p, { hint: '点「百度地图」时搜这个' })}</div>
+    <div class="a-section">地图和点评</div>
+    <div class="a-fields">${field('百度地图搜索词', 'mapKeyword', p, { hint: '点「百度地图」时搜这个' })}
+      ${field('大众点评链接', 'dianpingLink', p, { hint: '在大众点评「分享 → 复制链接」', ph: '没填 → 前台用店名搜大众点评' })}</div>
     <div class="a-section">显示</div>
     <div class="a-fields">
       <div class="a-field"><div class="a-row">
@@ -359,6 +360,7 @@ function startInline(btn) {
   el.className = 'a-input'; el.value = v || ''; el.dataset.f = f;
   if (!multi) { el.type = f === 'primaryXhsLink' ? 'url' : 'text'; el.enterKeyHint = 'done'; }
   if (f === 'primaryXhsLink') el.placeholder = '粘贴小红书链接或分享文字';
+  if (f === 'dianpingLink') { el.placeholder = '粘贴大众点评的分享文字或链接'; el.type = 'url'; }
   btn.replaceWith(el);
   const grow = () => { if (multi) { el.style.height = 'auto'; el.style.height = el.scrollHeight + 2 + 'px'; } };
   el.addEventListener('input', grow); grow();
@@ -371,6 +373,7 @@ function commitInline(el) {
   const f = el.dataset.f; let v = el.value.trim();
   if (f === 'mustTry' || f === 'aliases') v = v.split(/[、，,\n]/).map(s => s.trim()).filter(Boolean);
   if (f === 'primaryXhsLink') { v = extractUrl(v) || null; if (el.value.trim() && !v) toast('没找到链接，请粘贴完整的小红书链接'); }
+  if (f === 'dianpingLink') { v = extractUrl(v) || ''; if (el.value.trim() && !v) toast('没找到链接，请粘贴大众点评分享出来的链接'); }
   if (f === 'name' && !v) { toast('地点名称不能为空'); renderEditor(); return; }
   if (!same(p[f], v)) { p[f] = v; savePlace(p); toast('已保存到本机', 1200); }
   if (f === 'primaryXhsLink') { setTimeout(renderEditor, 350); return; }   // 这一格有联动提示，稍后再重画

@@ -93,7 +93,7 @@ async function gh(env, path, init = {}) {
 }
 const blob = (env, content, encoding) => gh(env, '/git/blobs', { method: 'POST', body: JSON.stringify({ content, encoding }) }).then(d => d.sha);
 
-const PLACE_KEYS = ['id', 'name', 'aliases', 'region', 'category', 'cardSubtitle', 'description', 'why', 'mustTry', 'bestTime', 'cover', 'primaryXhsLink', 'xhsKeyword', 'mapKeyword', 'sourceNotes', 'status', 'featured', 'sortOrder', 'coverCandidates'];
+const PLACE_KEYS = ['id', 'name', 'aliases', 'region', 'category', 'cardSubtitle', 'description', 'why', 'mustTry', 'bestTime', 'cover', 'primaryXhsLink', 'xhsKeyword', 'mapKeyword', 'sourceNotes', 'status', 'featured', 'sortOrder', 'coverCandidates', 'dianpingLink'];
 const NOTE_KEYS = ['id', 'noteId', 'title', 'url', 'source', 'likes', 'placeIds', 'images', 'desc'];
 const pick = (o, keys) => Object.fromEntries(keys.filter(k => k in o).map(k => [k, o[k]]));
 const IMG_PATH = /^assets\/place-images\/[a-z0-9-]+\.jpg$/;

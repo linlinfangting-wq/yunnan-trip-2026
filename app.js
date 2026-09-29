@@ -31,6 +31,8 @@ const placeUrl = (query, region) =>
 const routeUrl = r =>
   `baidumap://map/direction?origin=${encodeURIComponent('name:' + r.from)}&destination=${encodeURIComponent('name:' + r.to)}` +
   `&mode=${r.mode}&region=${cityOf(r.region)}&src=${BAIDU_SRC}`;
+// 大众点评：填了店铺链接就打开那家店，没填就调起 App 搜店名
+const dianpingUrl = p => p.dianpingLink || `dianping://searchshoplist?keyword=${encodeURIComponent(p.mapKeyword.includes(p.region) ? p.mapKeyword : p.region + ' ' + p.mapKeyword)}`;
 const placeWebUrl = (query, region) =>
   `https://api.map.baidu.com/place/search?query=${encodeURIComponent(query)}&region=${cityOf(region)}&output=html&src=webapp.yunnantrip.planner`;
 
@@ -255,6 +257,7 @@ function openSheet(id) {
       </div>
       <div class="actions">
         <a class="btn xhs" href="${esc(xhsPlaceUrl(p))}">${p.noteId || p.primaryLink ? '查看小红书笔记 ↗' : '小红书 ↗'}</a>
+        <a class="btn light" href="${esc(dianpingUrl(p))}">大众点评 ↗</a>
         <a class="btn light" href="${esc(placeUrl(p.mapKeyword, p.region))}">百度地图 ↗</a>
       </div>
       ${xhsWebUrl(p) ? `<a class="weblink" target="_blank" rel="noopener" href="${esc(xhsWebUrl(p))}">打不开？用网页打开这篇笔记 ↗</a>` : ''}
@@ -353,6 +356,7 @@ function toViewPlaces(places, notes) {
         photoStatus: src ? (c.status || 'missing') : 'missing', src, sourceType: c.source || '',
         likes: coverNote ? coverNote.likes : 0,
         noteId, xsecToken: tokenOf(p.primaryXhsLink), primaryLink: noteId ? '' : (p.primaryXhsLink || ''),
+        dianpingLink: p.dianpingLink || '',
         refNotes: (p.sourceNotes || []).map(id => noteById[id]).filter(n => n && n.noteId !== noteId),
       };
     });
