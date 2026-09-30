@@ -1330,7 +1330,10 @@
   {
     "id": "menglian-oldtown",
     "name": "娜允古镇",
-    "aliases": [],
+    "aliases": [
+      "娜允古城",
+      "宣抚司署"
+    ],
     "region": "孟连",
     "category": [
       "逛"
@@ -1355,11 +1358,15 @@
     "mapKeyword": "娜允古镇",
     "sourceNotes": [
       "note-6a9170d0000000000400a6db",
-      "note-mulsi789"
+      "note-mulsi789",
+      "note-6ab3bdcd000000001301ba49"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 410
+    "sortOrder": 410,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8805osilkp7rt3enufo5c8?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "menglian-wanderer",
@@ -1396,17 +1403,24 @@
       "note-682c687d0000000012002043",
       "note-muls9zjr",
       "note-mulsi789",
-      "note-mult07ca"
+      "note-mult07ca",
+      "note-6ab3bdcd000000001301ba49"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 420,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8ag5osilkp7rt3eg537pdg?imageView2/2/w/1080/format/jpg"
+    ],
     "dianpingLink": "https://m.dianping.com/shop/k6NhEm0FeiacxDQD"
   },
   {
     "id": "menglian-mangmang",
     "name": "芒芒村咖啡社区",
-    "aliases": [],
+    "aliases": [
+      "芒芒村",
+      "mountree.village"
+    ],
     "region": "孟连",
     "category": [
       "喝"
@@ -1430,17 +1444,28 @@
     "xhsKeyword": "孟连 芒芒村咖啡",
     "mapKeyword": "芒芒村",
     "sourceNotes": [
-      "note-6965c2e2000000002200b97b"
+      "note-6965c2e2000000002200b97b",
+      "note-6ab3bdcd000000001301ba49"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 430,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8705osilkp7rt3ek0phnsg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal87g5osilkp7rt3efunfdd8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8805osilkp7rt3enufo5c8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal88g5osilkp7rt3ee0ll9qg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8905osilkp7rt3ecn0hshg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal89g5osilkp7rt3erfrs60g?imageView2/2/w/1080/format/jpg"
+    ],
     "dianpingLink": "https://m.dianping.com/shop/H9eWRN4KoIq91Gbb"
   },
   {
     "id": "menglian-nayuncoffee",
     "name": "娜允咖啡主题街",
-    "aliases": [],
+    "aliases": [
+      "精品咖啡街"
+    ],
     "region": "孟连",
     "category": [
       "喝"
@@ -1463,10 +1488,15 @@
     "primaryXhsLink": null,
     "xhsKeyword": "孟连 娜允咖啡街",
     "mapKeyword": "孟连 咖啡主题街",
-    "sourceNotes": [],
+    "sourceNotes": [
+      "note-6ab3bdcd000000001301ba49"
+    ],
     "status": "published",
     "featured": false,
-    "sortOrder": 440
+    "sortOrder": 440,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal88g5osilkp7rt3ee0ll9qg?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "menglian-dai",
@@ -4473,7 +4503,7 @@
   },
   {
     "id": "menglian-mulsgeen0",
-    "name": "亚内咖啡",
+    "name": "亚内咖啡庄园",
     "aliases": [
       "信岗亚内咖啡",
       "冠军庄园·信岗亚内咖啡",
@@ -4495,7 +4525,7 @@
     "bestTime": "晴天午后",
     "cover": {
       "url": "",
-      "localPath": "assets/place-images/menglian-mulsgeen0-munagh0z.jpg",
+      "localPath": "assets/place-images/menglian-mulsgeen0-munep1ai.jpg",
       "source": "小红书笔记",
       "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69ec4589000000001f005bf5?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBPR8bb8SPBnosdIZ8x9AIBRv9MH-6RG1rfmdOn_q9MPs=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790632578&share_id=1a5c0204a8d04f26bed4e4f24a922462",
       "status": "verified"
@@ -5016,6 +5046,42 @@
     "sortOrder": 1460
   },
   {
+    "id": "menglian-munc7pba3",
+    "name": "朗勒集市",
+    "aliases": [],
+    "region": "孟连",
+    "category": [
+      "逛",
+      "吃"
+    ],
+    "cardSubtitle": "国庆活动",
+    "description": "沉浸式体验孟连本地夜市，品尝跳跳肉等特色小吃。",
+    "why": "",
+    "mustTry": [
+      "跳跳肉"
+    ],
+    "bestTime": "10月2日下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-munc7pba3-munep13v.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6ab3bdcd000000001301ba49?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBUeCfKeUlL4SokjJ5c-45qKWdWeMhPPIdFOu3UVZsjcU=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790726031&share_id=0848a5df33684d79b3bc03e0db3e774b",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "孟连 朗勒集市",
+    "mapKeyword": "朗勒集市",
+    "sourceNotes": [
+      "note-6ab3bdcd000000001301ba49"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1470,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8805osilkp7rt3enufo5c8?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
     "id": "menglian-mult07ci11",
     "name": "岩龙特色小吃",
     "aliases": [],
@@ -5050,7 +5116,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1470
+    "sortOrder": 1480
   },
   {
     "id": "menglian-mult07ci12",
@@ -5085,7 +5151,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1480
+    "sortOrder": 1490
   },
   {
     "id": "menglian-mult07cj14",
@@ -5120,7 +5186,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1490
+    "sortOrder": 1500
   },
   {
     "id": "menglian-mult07cj15",
@@ -5154,7 +5220,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1500
+    "sortOrder": 1510
   },
   {
     "id": "menglian-mult07cj16",
@@ -5186,7 +5252,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1510,
+    "sortOrder": 1520,
     "dianpingLink": "https://m.dianping.com/shop/H1yfZlAOWOwYsTh2"
   },
   {
@@ -5215,38 +5281,6 @@
     "primaryXhsLink": null,
     "xhsKeyword": "孟连 热浪",
     "mapKeyword": "热浪",
-    "sourceNotes": [
-      "note-mult07ca"
-    ],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 1520
-  },
-  {
-    "id": "menglian-mult07cj19",
-    "name": "拓海",
-    "aliases": [],
-    "region": "孟连",
-    "category": [
-      "喝"
-    ],
-    "cardSubtitle": "颜值与口味兼备",
-    "description": "适合小聚或餐后小酌，饮品颜值高，口感佳，氛围轻松。",
-    "why": "",
-    "mustTry": [
-      "特调饮品"
-    ],
-    "bestTime": "傍晚/晚上",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/menglian-mult07cj19-mum4c399.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://xhslink.cn/o/4HEtpeXuRI",
-      "status": "verified"
-    },
-    "primaryXhsLink": null,
-    "xhsKeyword": "孟连 拓海",
-    "mapKeyword": "拓海",
     "sourceNotes": [
       "note-mult07ca"
     ],
@@ -5883,6 +5917,104 @@
     "sortOrder": 1690,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l708g5qem5jasmo4jfrr435o?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "menglian-mult07cj19",
+    "name": "拓海",
+    "aliases": [
+      "孟连中勒水库亚内咖啡",
+      "信岗亚内咖啡庄园中勒水库店",
+      "亚内咖啡庄园中勒水库店",
+      "儒丽金湾",
+      "中勒水库（儒丽金湾）",
+      "中勒水库",
+      "亚内咖啡·中勒水库店"
+    ],
+    "region": "孟连",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "颜值与口味兼备",
+    "description": "适合小聚或餐后小酌，饮品颜值高，口感佳，氛围轻松。",
+    "why": "",
+    "mustTry": [
+      "特调饮品"
+    ],
+    "bestTime": "傍晚/晚上",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-mult07cj19-mum4c399.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://xhslink.cn/o/4HEtpeXuRI",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "孟连 拓海",
+    "mapKeyword": "拓海",
+    "sourceNotes": [
+      "note-mult07ca",
+      "note-68bee403000000001d010a9f"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 1700,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g00831m6k8ovkkq0g490btlvjg38uo56sm7o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831m63c87sl0b0490btlvjg38u47468qo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831m63c87sl0bg490btlvjg38u8j7gvk0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831m63c87sl0ag490btlvjg38u3t56jag?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831m63c87sl0cg490btlvjg38ulqnrk7g?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831m63c87sl0d0490btlvjg38uai7ur98?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831m63c87sl0dg490btlvjg38u9p7qt28?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031m63i63ll00g490btlvjg38umaplhs8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031m63i63ll010490btlvjg38ua48ovt0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031m63i63ll01g490btlvjg38u9mqmbog?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031m63i63ll020490btlvjg38uamkn010?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031m63i63ll02g490btlvjg38uv8jlgs8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031m63i63ll040490btlvjg38udjakfr0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831m7ehjqal210490btlvjg38uocbhtu8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831m7ehjqal21g490btlvjg38u8jl7dr8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831m7ehjqal20g490btlvjg38ukchokk0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831m7ehjqal200490btlvjg38udclt7lo?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "menglian-munc7pb91",
+    "name": "娜允广场",
+    "aliases": [],
+    "region": "孟连",
+    "category": [
+      "逛",
+      "玩"
+    ],
+    "cardSubtitle": "节庆活动主场地",
+    "description": "国庆文艺汇演和新米节举办地，感受孟连民族节日氛围。",
+    "why": "",
+    "mustTry": [
+      "国庆文艺汇演",
+      "孟连新米节"
+    ],
+    "bestTime": "10月1日、4日晚",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "孟连 娜允广场",
+    "mapKeyword": "娜允广场",
+    "sourceNotes": [
+      "note-6ab3bdcd000000001301ba49"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1710,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal87g5osilkp7rt3efunfdd8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8905osilkp7rt3ecn0hshg?imageView2/2/w/1080/format/jpg"
     ]
   }
 ]
