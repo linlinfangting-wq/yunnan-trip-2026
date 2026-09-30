@@ -923,11 +923,15 @@
     "mapKeyword": "北归咖仓 翁基",
     "sourceNotes": [
       "note-6943f72e000000001e00c92b",
-      "note-mulroszf"
+      "note-mulroszf",
+      "note-6969d079000000000a030cc5"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 280,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe0g4a0kf3f2usjhbmlvi40?imageView2/2/w/1080/format/jpg"
+    ],
     "dianpingLink": "https://m.dianping.com/shop/H92MTmzgogxAioPo"
   },
   {
@@ -2716,11 +2720,15 @@
     "mapKeyword": "钟华茶叶经营部 惠民镇",
     "sourceNotes": [
       "note-67d0eb31000000000d014cd4",
-      "note-mulroszf"
+      "note-mulroszf",
+      "note-6969d079000000000a030cc5"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 800
+    "sortOrder": 800,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe4g4a0kf3f2usjhepi50ig?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-liting",
@@ -2790,11 +2798,15 @@
     "mapKeyword": "山神屋 糯干",
     "sourceNotes": [
       "note-6ab24293000000003601bfa8",
-      "note-mulroszf"
+      "note-mulroszf",
+      "note-6969d079000000000a030cc5"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 820,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rd0u49tn0704a0kf3f2usjhvmr7j00?imageView2/2/w/1080/format/jpg"
+    ],
     "dianpingLink": "https://m.dianping.com/shop/G3RFJ2sM1TwJEMMt"
   },
   {
@@ -3128,11 +3140,16 @@
     "sourceNotes": [
       "note-69821a83000000000b0090bb",
       "note-mulr0qhj",
-      "note-mulroszf"
+      "note-mulroszf",
+      "note-6969d079000000000a030cc5"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 920,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe204a0kf3f2usjh66ulfbg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe2g4a0kf3f2usjhpssnme8?imageView2/2/w/1080/format/jpg"
+    ],
     "dianpingLink": "https://m.dianping.com/shop/l3j7zRdFrhzB2LzE"
   },
   {
@@ -3236,11 +3253,15 @@
     "xhsKeyword": "景迈山 野鸭塘河谷",
     "mapKeyword": "野鸭塘河谷 翁基",
     "sourceNotes": [
-      "note-6943f72e000000001e00c92b"
+      "note-6943f72e000000001e00c92b",
+      "note-6969d079000000000a030cc5"
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 950
+    "sortOrder": 950,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe1g4a0kf3f2usjho8u86lo?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-dierchashi",
@@ -3346,7 +3367,9 @@
   {
     "id": "jingmai-lvrenjiao",
     "name": "旅人蕉",
-    "aliases": [],
+    "aliases": [
+      "旅人居"
+    ],
     "region": "景迈山",
     "category": [
       "喝"
@@ -3371,11 +3394,15 @@
     "sourceNotes": [
       "note-6943f72e000000001e00c92b",
       "note-mulroszf",
-      "note-muls29ar"
+      "note-muls29ar",
+      "note-6969d079000000000a030cc5"
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 990
+    "sortOrder": 990,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe6g4a0kf3f2usjhlcc9ka0?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-liangkeshu",
@@ -3571,11 +3598,16 @@
     "mapKeyword": "蜜下风物集 芒景",
     "sourceNotes": [
       "note-6943f72e000000001e00c92b",
-      "note-mulr0qhj"
+      "note-mulr0qhj",
+      "note-6969d079000000000a030cc5"
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1050
+    "sortOrder": 1050,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe604a0kf3f2usjhfvmpkp0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g2sg31rd0u49tn07g4a0kf3f2usjhgj6cupg?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-aleph",
@@ -4029,11 +4061,16 @@
     "xhsKeyword": "景迈山 乃哩咖啡",
     "mapKeyword": "乃哩咖啡",
     "sourceNotes": [
-      "note-mulrhizp"
+      "note-mulrhizp",
+      "note-6969d079000000000a030cc5"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 1180,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe404a0kf3f2usjhsbj8908?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe504a0kf3f2usjhgl211bg?imageView2/2/w/1080/format/jpg"
+    ],
     "dianpingLink": "https://m.dianping.com/shop/l5WSaLH2guklmR4X"
   },
   {
@@ -4151,7 +4188,10 @@
   {
     "id": "jingmai-mulroszq13",
     "name": "不止手作",
-    "aliases": [],
+    "aliases": [
+      "檟设咖啡",
+      "檟设"
+    ],
     "region": "景迈山",
     "category": [
       "逛"
@@ -4174,11 +4214,16 @@
     "xhsKeyword": "景迈山 不止手作",
     "mapKeyword": "不止手作",
     "sourceNotes": [
-      "note-mulroszf"
+      "note-mulroszf",
+      "note-6969d079000000000a030cc5"
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1220
+    "sortOrder": 1220,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe104a0kf3f2usjhsn6ovd8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe3g4a0kf3f2usjhprnn06o?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-mulroszq14",
@@ -6015,6 +6060,40 @@
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal87g5osilkp7rt3efunfdd8?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8905osilkp7rt3ecn0hshg?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "jingmai-muo6k5631",
+    "name": "小隐芒山",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "芒洪静谧观景台",
+    "description": "位于芒洪的小隐芒山，视野开阔，可远眺群山与村落晨雾，适合拍照与冥想。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "清晨",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-muo6k5631-muo6kz77.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6969d079000000000a030cc5?app_platform=ios&app_version=9.49&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBQCqICvaafPyjDhPzR2Lg-WBc0Ndi3mhyt9nK5bhjE5w=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790777196&share_id=695d7652ddd74609a2b7dc01849b44aa",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "景迈山 小隐芒山",
+    "mapKeyword": "小隐芒山",
+    "sourceNotes": [
+      "note-6969d079000000000a030cc5"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1720,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe5g4a0kf3f2usjhqn98ta0?imageView2/2/w/1080/format/jpg"
     ]
   }
 ]
