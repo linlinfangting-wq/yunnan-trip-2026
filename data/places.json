@@ -301,7 +301,7 @@
     "xhsKeyword": "普洱 杨三饭庄",
     "mapKeyword": "杨三饭庄",
     "sourceNotes": [],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 90,
     "dianpingLink": "https://m.dianping.com/shop/l3SRsdaJ0N8ygiTS"
@@ -357,10 +357,10 @@
     "bestTime": "正餐",
     "cover": {
       "url": "",
-      "localPath": "",
-      "source": "",
+      "localPath": "assets/place-images/puer-qixi-munwi649.jpg",
+      "source": "我上传的",
       "sourceUrl": "",
-      "status": "missing"
+      "status": "verified"
     },
     "primaryXhsLink": null,
     "xhsKeyword": "普洱 栖夕小筑",
@@ -1086,7 +1086,7 @@
     "xhsKeyword": "普洱 宏丰市场",
     "mapKeyword": "宏丰市场",
     "sourceNotes": [],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 330,
     "dianpingLink": "https://m.dianping.com/shop/H6axtNxXIvOf3xTc"
@@ -1941,7 +1941,7 @@
     "sourceNotes": [
       "note-696309ad0000000022038b07"
     ],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 570,
     "dianpingLink": "https://m.dianping.com/shop/G2Ki5H9i1MD2yZWy"
