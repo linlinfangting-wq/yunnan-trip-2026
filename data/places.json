@@ -1221,7 +1221,8 @@
     "mapKeyword": "翁基古寨",
     "sourceNotes": [
       "note-69cfb572000000001a02662d",
-      "note-mulrak89"
+      "note-mulrak89",
+      "note-69edd989000000001f000fd5"
     ],
     "status": "published",
     "featured": false,
@@ -1253,7 +1254,8 @@
     "xhsKeyword": "景迈山 大平掌古茶林",
     "mapKeyword": "大平掌古茶林",
     "sourceNotes": [
-      "note-69a507c8000000001a02622b"
+      "note-69a507c8000000001a02622b",
+      "note-69edd989000000001f000fd5"
     ],
     "status": "hidden",
     "featured": false,
@@ -1287,7 +1289,8 @@
     "mapKeyword": "糯干古寨",
     "sourceNotes": [
       "note-6a8043060000000026036f1f",
-      "note-mulrak89"
+      "note-mulrak89",
+      "note-69edd989000000001f000fd5"
     ],
     "status": "published",
     "featured": false,
@@ -2483,7 +2486,10 @@
   {
     "id": "jingmai-ganbai",
     "name": "景迈山赶摆（民族集市）",
-    "aliases": [],
+    "aliases": [
+      "景迈山赶摆",
+      "民族集市"
+    ],
     "region": "景迈山",
     "category": [
       "逛"
@@ -2506,7 +2512,8 @@
     "xhsKeyword": "景迈山 景迈山赶摆（民族集市）",
     "mapKeyword": "芒洪村",
     "sourceNotes": [
-      "note-697099ee000000002102a179"
+      "note-697099ee000000002102a179",
+      "note-69edd989000000001f000fd5"
     ],
     "status": "published",
     "featured": false,
@@ -2540,7 +2547,8 @@
     "mapKeyword": "芒洪村 景迈山",
     "sourceNotes": [
       "note-6a9b9701000000002a02f4bf",
-      "note-mulrak89"
+      "note-mulrak89",
+      "note-69edd989000000001f000fd5"
     ],
     "status": "published",
     "featured": false,
@@ -2574,7 +2582,8 @@
     "mapKeyword": "芒景村 景迈山",
     "sourceNotes": [
       "note-6aa940e3000000000b003b13",
-      "note-69d6335a000000002003b676"
+      "note-69d6335a000000002003b676",
+      "note-69edd989000000001f000fd5"
     ],
     "status": "published",
     "featured": false,
@@ -6095,5 +6104,37 @@
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe5g4a0kf3f2usjhqn98ta0?imageView2/2/w/1080/format/jpg"
     ]
+  },
+  {
+    "id": "puer-muo6soxb0",
+    "name": "拙木烟火里",
+    "aliases": [],
+    "region": "普洱",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "稻田里的旧木屋",
+    "description": "藏在稻田中的木质建筑，适合拍照打卡，氛围宁静自然。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "白天光线好时",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69e99963000000001a0267a3?app_platform=ios&app_version=9.49&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBJfj1mt0v679Eb4gNtQm-Mc6lb1f0CUuczm1vVN8ao9I=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790777664&share_id=347e76ccbbc649f392d897b4fa629815",
+    "xhsKeyword": "普洱 拙木烟火里",
+    "mapKeyword": "拙木烟火里",
+    "sourceNotes": [
+      "note-69e99963000000001a0267a3"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1730,
+    "coverCandidates": []
   }
 ]
