@@ -683,7 +683,6 @@
     "likes": "2659",
     "placeIds": [
       "puer-beigui",
-      "jingmai-banyan",
       "jingmai-shanshenwu",
       "jingmai-yulinyunwei",
       "jingmai-yeyatang",
@@ -691,7 +690,8 @@
       "jingmai-mixia",
       "jingmai-mulrhizq0",
       "jingmai-mulroszq13",
-      "jingmai-muo6k5631"
+      "jingmai-muo6k5631",
+      "jingmai-banyan"
     ],
     "images": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe604a0kf3f2usjhfvmpkp0?imageView2/2/w/1080/format/jpg",
@@ -1291,10 +1291,10 @@
     "placeIds": [
       "jingmai-nuogan",
       "jingmai-wengji",
-      "jingmai-teaforest",
-      "jingmai-ganbai",
+      "jingmai-mangjing",
       "jingmai-manghong",
-      "jingmai-mangjing"
+      "jingmai-teaforest",
+      "jingmai-ganbai"
     ],
     "images": [],
     "desc": ""
@@ -2186,7 +2186,6 @@
     "likes": "6",
     "placeIds": [
       "puer-beigui",
-      "jingmai-banyan",
       "jingmai-liting",
       "jingmai-shanshenwu",
       "jingmai-yinzhi",
@@ -2202,7 +2201,8 @@
       "jingmai-mulroszs16",
       "jingmai-mulroszs17",
       "jingmai-mulroszs18",
-      "jingmai-mulroszs19"
+      "jingmai-mulroszs19",
+      "jingmai-banyan"
     ],
     "images": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320sm8g9g7ke05n5giqi44i65lg1j4l0?imageView2/2/w/1080/format/jpg",

@@ -1162,6 +1162,83 @@
     "sortOrder": 350
   },
   {
+    "id": "jingmai-mangjing",
+    "name": "芒景片区",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "蜂王树 · 公主榕 · 茶祖庙",
+    "description": "村寨沿山路铺开，古茶林、古树、茶祖庙集中，适合深度漫游。必看蜂王树、公主榕。",
+    "why": "想了解景迈山茶文化的片区。",
+    "mustTry": [
+      "古树",
+      "茶祖庙"
+    ],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69d6335a000000002003b676?xsec_token=ABEk4eLVqHH6CIRnqA8tt0H_SLQ5tE46g1hJqHiiJz_o8=&xsec_source=pc_share",
+    "xhsKeyword": "景迈山 芒景片区",
+    "mapKeyword": "芒景村 景迈山",
+    "sourceNotes": [
+      "note-6aa940e3000000000b003b13",
+      "note-69d6335a000000002003b676",
+      "note-69edd989000000001f000fd5"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 360,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g00831umrhbvfii0g5q01b703i8rl6ablgh0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831umrhbvfii405q01b703i8rlpibtgdo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831umrhbvfii4g5q01b703i8rlatd2lp0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831umrhbvfii6g5q01b703i8rl54had08?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/1040g00831ums08t92q1g5q01b703i8rl7647gv8?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "jingmai-manghong",
+    "name": "芒洪",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "拍"
+    ],
+    "cardSubtitle": "景迈山地势最高 · 日出日落云海",
+    "description": "景迈山地势最高的寨子，专属日出、云海、日落视野。新寨民宿和餐饮多，大部分人住这里；傍晚蓝调时刻随手拍木楼都好看。",
+    "why": "看日落最方便的地方，旅人蕉附近视野好。",
+    "mustTry": [
+      "看日出日落",
+      "蓝调时刻"
+    ],
+    "bestTime": "傍晚",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "景迈山 芒洪",
+    "mapKeyword": "芒洪村 景迈山",
+    "sourceNotes": [
+      "note-6a9b9701000000002a02f4bf",
+      "note-mulrak89",
+      "note-69edd989000000001f000fd5"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 370
+  },
+  {
     "id": "puer-beigui",
     "name": "北归咖仓",
     "aliases": [],
@@ -1193,7 +1270,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 360,
+    "sortOrder": 380,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe0g4a0kf3f2usjhbmlvi40?imageView2/2/w/1080/format/jpg"
     ],
@@ -1229,72 +1306,8 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 370,
+    "sortOrder": 390,
     "dianpingLink": "https://m.dianping.com/shop/k8Z5Gnc9W77aaZz5"
-  },
-  {
-    "id": "jingmai-xianjin",
-    "name": "糯干仙金茶店",
-    "aliases": [],
-    "region": "景迈山",
-    "category": [
-      "玩"
-    ],
-    "cardSubtitle": "茶冰淇淋 · 茶饼手作",
-    "description": "比纯逛古寨更有参与感。茶冰淇淋和茶饼手作都是轻体验，具体活动建议先问。",
-    "why": "可以自己动手做茶饼。",
-    "mustTry": [
-      "茶冰淇淋",
-      "茶饼手作"
-    ],
-    "bestTime": "白天，手作活动要先问",
-    "cover": {
-      "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
-    },
-    "primaryXhsLink": null,
-    "xhsKeyword": "糯干 仙金茶店",
-    "mapKeyword": "糯干仙金茶店",
-    "sourceNotes": [],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 380
-  },
-  {
-    "id": "jingmai-teaforest",
-    "name": "大平掌古茶林",
-    "aliases": [],
-    "region": "景迈山",
-    "category": [
-      "玩"
-    ],
-    "cardSubtitle": "林下古茶林",
-    "description": "如果想看景迈山真正有辨识度的自然环境，这里比单纯拍村寨更能理解“茶长在森林里”的感觉。",
-    "why": "古茶树和森林长在一起，是景迈山最特别的风景。",
-    "mustTry": [
-      "古茶林散步"
-    ],
-    "bestTime": "白天，穿好走的鞋",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/jingmai-teaforest.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69a507c8000000001a02622b?xsec_token=ABrdAAG2sa9yQUNGzX1Wps9OZL6nfNnX7rFhD9WqJdwFY=&xsec_source=pc_share",
-      "status": "verified"
-    },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69a507c8000000001a02622b?xsec_token=ABrdAAG2sa9yQUNGzX1Wps9OZL6nfNnX7rFhD9WqJdwFY=&xsec_source=pc_share",
-    "xhsKeyword": "景迈山 大平掌古茶林",
-    "mapKeyword": "大平掌古茶林",
-    "sourceNotes": [
-      "note-69a507c8000000001a02622b",
-      "note-69edd989000000001f000fd5"
-    ],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 390
   },
   {
     "id": "menglian-market",
@@ -2450,6 +2463,70 @@
     "sortOrder": 720
   },
   {
+    "id": "jingmai-xianjin",
+    "name": "糯干仙金茶店",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "茶冰淇淋 · 茶饼手作",
+    "description": "比纯逛古寨更有参与感。茶冰淇淋和茶饼手作都是轻体验，具体活动建议先问。",
+    "why": "可以自己动手做茶饼。",
+    "mustTry": [
+      "茶冰淇淋",
+      "茶饼手作"
+    ],
+    "bestTime": "白天，手作活动要先问",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "糯干 仙金茶店",
+    "mapKeyword": "糯干仙金茶店",
+    "sourceNotes": [],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 730
+  },
+  {
+    "id": "jingmai-teaforest",
+    "name": "大平掌古茶林",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "林下古茶林",
+    "description": "如果想看景迈山真正有辨识度的自然环境，这里比单纯拍村寨更能理解“茶长在森林里”的感觉。",
+    "why": "古茶树和森林长在一起，是景迈山最特别的风景。",
+    "mustTry": [
+      "古茶林散步"
+    ],
+    "bestTime": "白天，穿好走的鞋",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-teaforest.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69a507c8000000001a02622b?xsec_token=ABrdAAG2sa9yQUNGzX1Wps9OZL6nfNnX7rFhD9WqJdwFY=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69a507c8000000001a02622b?xsec_token=ABrdAAG2sa9yQUNGzX1Wps9OZL6nfNnX7rFhD9WqJdwFY=&xsec_source=pc_share",
+    "xhsKeyword": "景迈山 大平掌古茶林",
+    "mapKeyword": "大平掌古茶林",
+    "sourceNotes": [
+      "note-69a507c8000000001a02622b",
+      "note-69edd989000000001f000fd5"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 740
+  },
+  {
     "id": "jingmai-lancang-market",
     "name": "澜沧大集",
     "aliases": [],
@@ -2481,7 +2558,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 730
+    "sortOrder": 750
   },
   {
     "id": "jingmai-ganbai",
@@ -2517,84 +2594,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 740
-  },
-  {
-    "id": "jingmai-manghong",
-    "name": "芒洪",
-    "aliases": [],
-    "region": "景迈山",
-    "category": [
-      "拍"
-    ],
-    "cardSubtitle": "景迈山地势最高 · 日出日落云海",
-    "description": "景迈山地势最高的寨子，专属日出、云海、日落视野。新寨民宿和餐饮多，大部分人住这里；傍晚蓝调时刻随手拍木楼都好看。",
-    "why": "看日落最方便的地方，旅人蕉附近视野好。",
-    "mustTry": [
-      "看日出日落",
-      "蓝调时刻"
-    ],
-    "bestTime": "傍晚",
-    "cover": {
-      "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
-    },
-    "primaryXhsLink": null,
-    "xhsKeyword": "景迈山 芒洪",
-    "mapKeyword": "芒洪村 景迈山",
-    "sourceNotes": [
-      "note-6a9b9701000000002a02f4bf",
-      "note-mulrak89",
-      "note-69edd989000000001f000fd5"
-    ],
-    "status": "published",
-    "featured": false,
-    "sortOrder": 750
-  },
-  {
-    "id": "jingmai-mangjing",
-    "name": "芒景片区",
-    "aliases": [],
-    "region": "景迈山",
-    "category": [
-      "玩"
-    ],
-    "cardSubtitle": "蜂王树 · 公主榕 · 茶祖庙",
-    "description": "村寨沿山路铺开，古茶林、古树、茶祖庙集中，适合深度漫游。必看蜂王树、公主榕。",
-    "why": "想了解景迈山茶文化的片区。",
-    "mustTry": [
-      "古树",
-      "茶祖庙"
-    ],
-    "bestTime": "白天",
-    "cover": {
-      "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
-    },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69d6335a000000002003b676?xsec_token=ABEk4eLVqHH6CIRnqA8tt0H_SLQ5tE46g1hJqHiiJz_o8=&xsec_source=pc_share",
-    "xhsKeyword": "景迈山 芒景片区",
-    "mapKeyword": "芒景村 景迈山",
-    "sourceNotes": [
-      "note-6aa940e3000000000b003b13",
-      "note-69d6335a000000002003b676",
-      "note-69edd989000000001f000fd5"
-    ],
-    "status": "published",
-    "featured": false,
-    "sortOrder": 760,
-    "coverCandidates": [
-      "https://ci.xiaohongshu.com/1040g00831umrhbvfii0g5q01b703i8rl6ablgh0?imageView2/2/w/1080/format/jpg",
-      "https://ci.xiaohongshu.com/1040g00831umrhbvfii405q01b703i8rlpibtgdo?imageView2/2/w/1080/format/jpg",
-      "https://ci.xiaohongshu.com/1040g00831umrhbvfii4g5q01b703i8rlatd2lp0?imageView2/2/w/1080/format/jpg",
-      "https://ci.xiaohongshu.com/1040g00831umrhbvfii6g5q01b703i8rl54had08?imageView2/2/w/1080/format/jpg",
-      "https://ci.xiaohongshu.com/1040g00831ums08t92q1g5q01b703i8rl7647gv8?imageView2/2/w/1080/format/jpg"
-    ]
+    "sortOrder": 760
   },
   {
     "id": "jingmai-wengwa",
@@ -2625,7 +2625,7 @@
       "note-6aae63c60000000028034574",
       "note-699a6a8a000000001a01c89e"
     ],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 770,
     "coverCandidates": [
@@ -2701,45 +2701,6 @@
     "sortOrder": 790
   },
   {
-    "id": "jingmai-banyan",
-    "name": "景迈山大榕树",
-    "aliases": [
-      "公主榕"
-    ],
-    "region": "景迈山",
-    "category": [
-      "拍"
-    ],
-    "cardSubtitle": "《一点就到家》取景地",
-    "description": "导航\"钟华茶叶经营部\"，停车后步行 5 分钟。离景迈山其他景区很远，开车约 1 小时 20 分钟，后半段弯道多。看树大约半小时。",
-    "why": "笔记作者说如果没去会很遗憾，1542 赞。",
-    "mustTry": [
-      "和大榕树拍照"
-    ],
-    "bestTime": "要专门留半天，自驾",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/jingmai-banyan-munagd55.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a1db62700000000210220b9?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBVvZPxW1KWetH0rwHcIkV0qNW2AHaAS7lJN9VwRqwHz4=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790631205&share_id=0022084e05e64583b254d8fb1a01322f",
-      "status": "verified"
-    },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/67d0eb31000000000d014cd4?xsec_token=ABKjU9vA07fGnYyD2qGDoV6F6XR5cLD4tYQG2WeZ28kAQ=&xsec_source=pc_share",
-    "xhsKeyword": "景迈山 景迈山大榕树",
-    "mapKeyword": "钟华茶叶经营部 惠民镇",
-    "sourceNotes": [
-      "note-67d0eb31000000000d014cd4",
-      "note-mulroszf",
-      "note-6969d079000000000a030cc5"
-    ],
-    "status": "published",
-    "featured": false,
-    "sortOrder": 800,
-    "coverCandidates": [
-      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe4g4a0kf3f2usjhepi50ig?imageView2/2/w/1080/format/jpg"
-    ]
-  },
-  {
     "id": "jingmai-liting",
     "name": "里庭",
     "aliases": [
@@ -2777,7 +2738,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 810,
+    "sortOrder": 800,
     "dianpingLink": "https://m.dianping.com/shop/H9pIGg9ewh8STJwm"
   },
   {
@@ -2812,7 +2773,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 820,
+    "sortOrder": 810,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rd0u49tn0704a0kf3f2usjhvmr7j00?imageView2/2/w/1080/format/jpg"
     ],
@@ -2853,7 +2814,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 830
+    "sortOrder": 820
   },
   {
     "id": "jingmai-buyuan",
@@ -2886,7 +2847,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 840,
+    "sortOrder": 830,
     "dianpingLink": "https://m.dianping.com/shop/G9AmZpNdu6seoi61"
   },
   {
@@ -2920,7 +2881,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 850
+    "sortOrder": 840
   },
   {
     "id": "jingmai-guzhai-dai",
@@ -2952,7 +2913,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 860
+    "sortOrder": 850
   },
   {
     "id": "jingmai-yanxu",
@@ -2985,7 +2946,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 870
+    "sortOrder": 860
   },
   {
     "id": "jingmai-yuanshan",
@@ -3017,7 +2978,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 880
+    "sortOrder": 870
   },
   {
     "id": "jingmai-yinzhi",
@@ -3052,7 +3013,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 890
+    "sortOrder": 880
   },
   {
     "id": "jingmai-fanhua",
@@ -3084,7 +3045,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 900
+    "sortOrder": 890
   },
   {
     "id": "jingmai-yulinxuyu",
@@ -3116,7 +3077,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 910
+    "sortOrder": 900
   },
   {
     "id": "jingmai-yulinyunwei",
@@ -3154,7 +3115,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 920,
+    "sortOrder": 910,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe204a0kf3f2usjh66ulfbg?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe2g4a0kf3f2usjhpssnme8?imageView2/2/w/1080/format/jpg"
@@ -3199,7 +3160,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 930,
+    "sortOrder": 920,
     "dianpingLink": "https://m.dianping.com/shop/l1YveeqbNPpCMaT7"
   },
   {
@@ -3233,7 +3194,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 940,
+    "sortOrder": 930,
     "dianpingLink": "https://m.dianping.com/shop/laknJgLWv5VrWhex"
   },
   {
@@ -3267,7 +3228,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 950,
+    "sortOrder": 940,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe1g4a0kf3f2usjho8u86lo?imageView2/2/w/1080/format/jpg"
     ]
@@ -3302,7 +3263,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 960,
+    "sortOrder": 950,
     "dianpingLink": "https://m.dianping.com/shop/EOL6shae5GYfFwuZ"
   },
   {
@@ -3335,7 +3296,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 970
+    "sortOrder": 960
   },
   {
     "id": "jingmai-jiashe",
@@ -3370,7 +3331,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 980,
+    "sortOrder": 970,
     "dianpingLink": "https://m.dianping.com/shop/l1nFvXa8oMXryliH"
   },
   {
@@ -3408,7 +3369,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 990,
+    "sortOrder": 980,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe6g4a0kf3f2usjhlcc9ka0?imageView2/2/w/1080/format/jpg"
     ]
@@ -3443,7 +3404,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1000,
+    "sortOrder": 990,
     "dianpingLink": "https://m.dianping.com/shop/H42eyaVFvn32ZqGo"
   },
   {
@@ -3476,7 +3437,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1010
+    "sortOrder": 1000
   },
   {
     "id": "jingmai-guanguan",
@@ -3508,7 +3469,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1020
+    "sortOrder": 1010
   },
   {
     "id": "jingmai-benwu",
@@ -3540,7 +3501,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1030,
+    "sortOrder": 1020,
     "dianpingLink": "https://m.dianping.com/shop/k5m8o1NTdIMOn70V"
   },
   {
@@ -3574,7 +3535,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1040
+    "sortOrder": 1030
   },
   {
     "id": "jingmai-mixia",
@@ -3612,7 +3573,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1050,
+    "sortOrder": 1040,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe604a0kf3f2usjhfvmpkp0?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g2sg31rd0u49tn07g4a0kf3f2usjhgj6cupg?imageView2/2/w/1080/format/jpg"
@@ -3652,7 +3613,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1060
+    "sortOrder": 1050
   },
   {
     "id": "jingmai-qingmugua",
@@ -3683,6 +3644,41 @@
     "mapKeyword": "青木瓜树 芒景",
     "sourceNotes": [
       "note-6943f72e000000001e00c92b",
+      "note-mulr0qhj"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 1060
+  },
+  {
+    "id": "jingmai-mulr0qhs7",
+    "name": "槾屿",
+    "aliases": [
+      "槾屿茶空间"
+    ],
+    "region": "景迈山",
+    "category": [
+      "喝",
+      "拍"
+    ],
+    "cardSubtitle": "俯瞰古寨，茶香满园",
+    "description": "槾屿位于糯干，拥有绝佳视野，可俯瞰整个村寨，室内布置简洁，适合喝茶与拍照。",
+    "why": "",
+    "mustTry": [
+      "茶饮"
+    ],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-mulr0qhs7-mum3r0jl.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://xhslink.cn/o/7zLfcblJwY9",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "景迈山 槾屿",
+    "mapKeyword": "槾屿",
+    "sourceNotes": [
       "note-mulr0qhj"
     ],
     "status": "hidden",
@@ -3973,41 +3969,6 @@
     "sortOrder": 1150
   },
   {
-    "id": "jingmai-mulr0qhs7",
-    "name": "槾屿",
-    "aliases": [
-      "槾屿茶空间"
-    ],
-    "region": "景迈山",
-    "category": [
-      "喝",
-      "拍"
-    ],
-    "cardSubtitle": "俯瞰古寨，茶香满园",
-    "description": "槾屿位于糯干，拥有绝佳视野，可俯瞰整个村寨，室内布置简洁，适合喝茶与拍照。",
-    "why": "",
-    "mustTry": [
-      "茶饮"
-    ],
-    "bestTime": "白天",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/jingmai-mulr0qhs7-mum3r0jl.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://xhslink.cn/o/7zLfcblJwY9",
-      "status": "verified"
-    },
-    "primaryXhsLink": null,
-    "xhsKeyword": "景迈山 槾屿",
-    "mapKeyword": "槾屿",
-    "sourceNotes": [
-      "note-mulr0qhj"
-    ],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 1160
-  },
-  {
     "id": "jingmai-mulr0qht8",
     "name": "山上茶舍",
     "aliases": [
@@ -4040,7 +4001,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1170
+    "sortOrder": 1160
   },
   {
     "id": "jingmai-mulrhizq0",
@@ -4075,7 +4036,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1180,
+    "sortOrder": 1170,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe404a0kf3f2usjhsbj8908?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe504a0kf3f2usjhgl211bg?imageView2/2/w/1080/format/jpg"
@@ -4090,7 +4051,7 @@
     "category": [
       "吃"
     ],
-    "cardSubtitle": "薄荷炸排骨香到爆",
+    "cardSubtitle": "芒景 薄荷炸排骨香到爆",
     "description": "芒景片区推荐餐厅，主打布朗族风味，薄荷炸排骨是招牌菜，味道浓郁。",
     "why": "",
     "mustTry": [
@@ -4112,7 +4073,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1190,
+    "sortOrder": 1180,
     "dianpingLink": "https://m.dianping.com/shop/l5xcgHmOpdjWM72w"
   },
   {
@@ -4146,7 +4107,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1200,
+    "sortOrder": 1190,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031qsf2kl97g6g5nl058808uktkllqmso?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031qsf2kl97g605nl058808uktrjqmif8?imageView2/2/w/1080/format/jpg"
@@ -4184,7 +4145,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1210,
+    "sortOrder": 1200,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g00831sh22teb5k004a5tit5qualt2v4vpa0?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g00831sh22teb5k0g4a5tit5qualtoqkmct8?imageView2/2/w/1080/format/jpg",
@@ -4228,7 +4189,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1220,
+    "sortOrder": 1210,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe104a0kf3f2usjhsn6ovd8?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe3g4a0kf3f2usjhprnn06o?imageView2/2/w/1080/format/jpg"
@@ -4265,7 +4226,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1230
+    "sortOrder": 1220
   },
   {
     "id": "jingmai-mulroszs16",
@@ -4299,7 +4260,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1240,
+    "sortOrder": 1230,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/note_pre_post_uhdr/1040g3r831r0khf5og07g5n2jq6p4m24roohsego?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/note_pre_post_uhdr/1040g3r831r0khf5og0a05n2jq6p4m24r88n7790?imageView2/2/w/1080/format/jpg",
@@ -4344,7 +4305,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1250,
+    "sortOrder": 1240,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/spectrum/1040g34o324s1o2op1k705o7dm4ig8m2oend38j0?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/spectrum/1040g34o324s1o2op1k805o7dm4ig8m2od9kbn20?imageView2/2/w/1080/format/jpg",
@@ -4385,7 +4346,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1260
+    "sortOrder": 1250
   },
   {
     "id": "jingmai-mulroszs19",
@@ -4418,7 +4379,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1270
+    "sortOrder": 1260
   },
   {
     "id": "jingmai-muls29as0",
@@ -4429,7 +4390,7 @@
       "吃",
       "拍"
     ],
-    "cardSubtitle": "日落云海与甜点相伴",
+    "cardSubtitle": "芒洪 日落云海与甜点相伴",
     "description": "位于芒洪的福芙村，是欣赏日落云海的好去处，适合饭后享用甜点，环境静谧优美。",
     "why": "",
     "mustTry": [
@@ -4451,7 +4412,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1280,
+    "sortOrder": 1270,
     "dianpingLink": "https://m.dianping.com/shop/l89c0i4V69oFPfL8"
   },
   {
@@ -4485,7 +4446,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1290
+    "sortOrder": 1280
   },
   {
     "id": "jingmai-muls29ay5",
@@ -4518,8 +4479,42 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1300,
+    "sortOrder": 1290,
     "dianpingLink": "https://m.dianping.com/shop/H99SNzbnDKUjrxn9"
+  },
+  {
+    "id": "jingmai-muo6k5631",
+    "name": "小隐芒山",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "芒洪静谧观景台",
+    "description": "位于芒洪的小隐芒山，视野开阔，可远眺群山与村落晨雾，适合拍照与冥想。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "清晨",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-muo6k5631-muo6kz77.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6969d079000000000a030cc5?app_platform=ios&app_version=9.49&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBQCqICvaafPyjDhPzR2Lg-WBc0Ndi3mhyt9nK5bhjE5w=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790777196&share_id=695d7652ddd74609a2b7dc01849b44aa",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "景迈山 小隐芒山",
+    "mapKeyword": "小隐芒山",
+    "sourceNotes": [
+      "note-6969d079000000000a030cc5"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1300,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe5g4a0kf3f2usjhqn98ta0?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "jingmai-muls29b08",
@@ -6072,37 +6067,42 @@
     ]
   },
   {
-    "id": "jingmai-muo6k5631",
-    "name": "小隐芒山",
-    "aliases": [],
+    "id": "jingmai-banyan",
+    "name": "景迈山大榕树",
+    "aliases": [
+      "公主榕"
+    ],
     "region": "景迈山",
     "category": [
-      "逛",
       "拍"
     ],
-    "cardSubtitle": "芒洪静谧观景台",
-    "description": "位于芒洪的小隐芒山，视野开阔，可远眺群山与村落晨雾，适合拍照与冥想。",
-    "why": "",
-    "mustTry": [],
-    "bestTime": "清晨",
+    "cardSubtitle": "《一点就到家》取景地",
+    "description": "导航\"钟华茶叶经营部\"，停车后步行 5 分钟。离景迈山其他景区很远，开车约 1 小时 20 分钟，后半段弯道多。看树大约半小时。",
+    "why": "笔记作者说如果没去会很遗憾，1542 赞。",
+    "mustTry": [
+      "和大榕树拍照"
+    ],
+    "bestTime": "要专门留半天，自驾",
     "cover": {
       "url": "",
-      "localPath": "assets/place-images/jingmai-muo6k5631-muo6kz77.jpg",
+      "localPath": "assets/place-images/jingmai-banyan-munagd55.jpg",
       "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6969d079000000000a030cc5?app_platform=ios&app_version=9.49&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBQCqICvaafPyjDhPzR2Lg-WBc0Ndi3mhyt9nK5bhjE5w=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790777196&share_id=695d7652ddd74609a2b7dc01849b44aa",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a1db62700000000210220b9?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBVvZPxW1KWetH0rwHcIkV0qNW2AHaAS7lJN9VwRqwHz4=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790631205&share_id=0022084e05e64583b254d8fb1a01322f",
       "status": "verified"
     },
-    "primaryXhsLink": null,
-    "xhsKeyword": "景迈山 小隐芒山",
-    "mapKeyword": "小隐芒山",
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/67d0eb31000000000d014cd4?xsec_token=ABKjU9vA07fGnYyD2qGDoV6F6XR5cLD4tYQG2WeZ28kAQ=&xsec_source=pc_share",
+    "xhsKeyword": "景迈山 景迈山大榕树",
+    "mapKeyword": "钟华茶叶经营部 惠民镇",
     "sourceNotes": [
+      "note-67d0eb31000000000d014cd4",
+      "note-mulroszf",
       "note-6969d079000000000a030cc5"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 1720,
     "coverCandidates": [
-      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe5g4a0kf3f2usjhqn98ta0?imageView2/2/w/1080/format/jpg"
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe4g4a0kf3f2usjhepi50ig?imageView2/2/w/1080/format/jpg"
     ]
   },
   {
