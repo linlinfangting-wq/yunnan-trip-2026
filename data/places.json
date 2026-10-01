@@ -897,42 +897,39 @@
     ]
   },
   {
-    "id": "puer-beigui",
-    "name": "北归咖仓",
+    "id": "jingmai-nuogan",
+    "name": "糯干古寨",
     "aliases": [],
     "region": "景迈山",
     "category": [
-      "喝"
+      "拍"
     ],
-    "cardSubtitle": "翁基 · Bean Great · 看日出",
-    "description": "翁基古寨里的咖啡店（Bean Great 北归咖仓），\"离开景迈山念念不忘的 15 家小店\"之一；北归的观景台是景迈山看日出的首选机位，但没车不方便。",
-    "why": "景迈山看日出的首选机位。",
+    "cardSubtitle": "傣族传统村寨",
+    "description": "景迈山上的傣族传统村寨，和布朗族的翁基古寨风格不同。",
+    "why": "能看到傣族村寨，和翁基古寨对比着看。",
     "mustTry": [
-      "手冲"
+      "村寨散步",
+      "拍照"
     ],
-    "bestTime": "清晨看日出",
+    "bestTime": "白天",
     "cover": {
       "url": "",
-      "localPath": "assets/place-images/puer-beigui.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
-      "status": "verified"
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
     },
-    "primaryXhsLink": null,
-    "xhsKeyword": "景迈山 北归咖仓",
-    "mapKeyword": "北归咖仓 翁基",
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a8043060000000026036f1f?xsec_token=ABsvWIAhrmullXGX_HIxfNWupm7GfKbKmeKNzQpXBZFuY=&xsec_source=pc_share",
+    "xhsKeyword": "景迈山 糯干古寨",
+    "mapKeyword": "糯干古寨",
     "sourceNotes": [
-      "note-6943f72e000000001e00c92b",
-      "note-mulroszf",
-      "note-6969d079000000000a030cc5"
+      "note-6a8043060000000026036f1f",
+      "note-mulrak89",
+      "note-69edd989000000001f000fd5"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 280,
-    "coverCandidates": [
-      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe0g4a0kf3f2usjhbmlvi40?imageView2/2/w/1080/format/jpg"
-    ],
-    "dianpingLink": "https://m.dianping.com/shop/H92MTmzgogxAioPo"
+    "sortOrder": 280
   },
   {
     "id": "puer-zhijian",
@@ -1129,70 +1126,6 @@
     "sortOrder": 340
   },
   {
-    "id": "jingmai-princess",
-    "name": "布朗公主茶空间",
-    "aliases": [],
-    "region": "景迈山",
-    "category": [
-      "喝"
-    ],
-    "cardSubtitle": "木质吊脚楼茶空间",
-    "description": "传统木质吊脚楼，有院子。偏空间和氛围感，适合下午坐着喝茶、拍木结构和山里的光线。和茶修院二选一即可。",
-    "why": "空间好看，能在吊脚楼的院子里喝茶。",
-    "mustTry": [
-      "古树茶"
-    ],
-    "bestTime": "下午",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/jingmai-princess.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/685573ea0000000013013ac6?xsec_token=ABeFO4x75P1ExHvaq-xPMO3qP4ELNsmFcvhlkJNYvvkSM=&xsec_source=pc_share",
-      "status": "verified"
-    },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/685573ea0000000013013ac6?xsec_token=ABeFO4x75P1ExHvaq-xPMO3qP4ELNsmFcvhlkJNYvvkSM=&xsec_source=pc_share",
-    "xhsKeyword": "景迈山 布朗公主茶空间",
-    "mapKeyword": "布朗公主茶空间",
-    "sourceNotes": [
-      "note-685573ea0000000013013ac6"
-    ],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 350,
-    "dianpingLink": "https://m.dianping.com/shop/k8Z5Gnc9W77aaZz5"
-  },
-  {
-    "id": "jingmai-xianjin",
-    "name": "糯干仙金茶店",
-    "aliases": [],
-    "region": "景迈山",
-    "category": [
-      "玩"
-    ],
-    "cardSubtitle": "茶冰淇淋 · 茶饼手作",
-    "description": "比纯逛古寨更有参与感。茶冰淇淋和茶饼手作都是轻体验，具体活动建议先问。",
-    "why": "可以自己动手做茶饼。",
-    "mustTry": [
-      "茶冰淇淋",
-      "茶饼手作"
-    ],
-    "bestTime": "白天，手作活动要先问",
-    "cover": {
-      "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
-    },
-    "primaryXhsLink": null,
-    "xhsKeyword": "糯干 仙金茶店",
-    "mapKeyword": "糯干仙金茶店",
-    "sourceNotes": [],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 360
-  },
-  {
     "id": "jingmai-wengji",
     "name": "翁基古寨",
     "aliases": [],
@@ -1226,7 +1159,109 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 370
+    "sortOrder": 350
+  },
+  {
+    "id": "puer-beigui",
+    "name": "北归咖仓",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "翁基 · Bean Great · 看日出",
+    "description": "翁基古寨里的咖啡店（Bean Great 北归咖仓），\"离开景迈山念念不忘的 15 家小店\"之一；北归的观景台是景迈山看日出的首选机位，但没车不方便。",
+    "why": "景迈山看日出的首选机位。",
+    "mustTry": [
+      "手冲"
+    ],
+    "bestTime": "清晨看日出",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-beigui.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6943f72e000000001e00c92b?xsec_token=ABx4yMWxofT2G05nQh2ejedw-SbCet1AH1mFeN3qddMVc=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "景迈山 北归咖仓",
+    "mapKeyword": "北归咖仓 翁基",
+    "sourceNotes": [
+      "note-6943f72e000000001e00c92b",
+      "note-mulroszf",
+      "note-6969d079000000000a030cc5"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 360,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe0g4a0kf3f2usjhbmlvi40?imageView2/2/w/1080/format/jpg"
+    ],
+    "dianpingLink": "https://m.dianping.com/shop/H92MTmzgogxAioPo"
+  },
+  {
+    "id": "jingmai-princess",
+    "name": "布朗公主茶空间",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "木质吊脚楼茶空间",
+    "description": "传统木质吊脚楼，有院子。偏空间和氛围感，适合下午坐着喝茶、拍木结构和山里的光线。和茶修院二选一即可。",
+    "why": "空间好看，能在吊脚楼的院子里喝茶。",
+    "mustTry": [
+      "古树茶"
+    ],
+    "bestTime": "下午",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-princess.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/685573ea0000000013013ac6?xsec_token=ABeFO4x75P1ExHvaq-xPMO3qP4ELNsmFcvhlkJNYvvkSM=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/685573ea0000000013013ac6?xsec_token=ABeFO4x75P1ExHvaq-xPMO3qP4ELNsmFcvhlkJNYvvkSM=&xsec_source=pc_share",
+    "xhsKeyword": "景迈山 布朗公主茶空间",
+    "mapKeyword": "布朗公主茶空间",
+    "sourceNotes": [
+      "note-685573ea0000000013013ac6"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 370,
+    "dianpingLink": "https://m.dianping.com/shop/k8Z5Gnc9W77aaZz5"
+  },
+  {
+    "id": "jingmai-xianjin",
+    "name": "糯干仙金茶店",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "玩"
+    ],
+    "cardSubtitle": "茶冰淇淋 · 茶饼手作",
+    "description": "比纯逛古寨更有参与感。茶冰淇淋和茶饼手作都是轻体验，具体活动建议先问。",
+    "why": "可以自己动手做茶饼。",
+    "mustTry": [
+      "茶冰淇淋",
+      "茶饼手作"
+    ],
+    "bestTime": "白天，手作活动要先问",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "糯干 仙金茶店",
+    "mapKeyword": "糯干仙金茶店",
+    "sourceNotes": [],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 380
   },
   {
     "id": "jingmai-teaforest",
@@ -1258,41 +1293,6 @@
       "note-69edd989000000001f000fd5"
     ],
     "status": "hidden",
-    "featured": false,
-    "sortOrder": 380
-  },
-  {
-    "id": "jingmai-nuogan",
-    "name": "糯干古寨",
-    "aliases": [],
-    "region": "景迈山",
-    "category": [
-      "拍"
-    ],
-    "cardSubtitle": "傣族传统村寨",
-    "description": "景迈山上的傣族传统村寨，和布朗族的翁基古寨风格不同。",
-    "why": "能看到傣族村寨，和翁基古寨对比着看。",
-    "mustTry": [
-      "村寨散步",
-      "拍照"
-    ],
-    "bestTime": "白天",
-    "cover": {
-      "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
-    },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a8043060000000026036f1f?xsec_token=ABsvWIAhrmullXGX_HIxfNWupm7GfKbKmeKNzQpXBZFuY=&xsec_source=pc_share",
-    "xhsKeyword": "景迈山 糯干古寨",
-    "mapKeyword": "糯干古寨",
-    "sourceNotes": [
-      "note-6a8043060000000026036f1f",
-      "note-mulrak89",
-      "note-69edd989000000001f000fd5"
-    ],
-    "status": "published",
     "featured": false,
     "sortOrder": 390
   },
@@ -2515,7 +2515,7 @@
       "note-697099ee000000002102a179",
       "note-69edd989000000001f000fd5"
     ],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 740
   },

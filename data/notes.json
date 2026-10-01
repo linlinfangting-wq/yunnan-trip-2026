@@ -1289,9 +1289,9 @@
     "source": "xiaohongshu",
     "likes": "",
     "placeIds": [
+      "jingmai-nuogan",
       "jingmai-wengji",
       "jingmai-teaforest",
-      "jingmai-nuogan",
       "jingmai-ganbai",
       "jingmai-manghong",
       "jingmai-mangjing"
@@ -2125,8 +2125,8 @@
     "source": "xiaohongshu",
     "likes": "1147",
     "placeIds": [
-      "jingmai-wengji",
       "jingmai-nuogan",
+      "jingmai-wengji",
       "jingmai-manghong",
       "jingmai-liting",
       "jingmai-ganguan",
