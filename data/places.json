@@ -1313,7 +1313,8 @@
     "id": "menglian-market",
     "name": "南垒农贸市场",
     "aliases": [
-      "南垒农贸市场糯米饭摊"
+      "南垒农贸市场糯米饭摊",
+      "南垒市场"
     ],
     "region": "孟连",
     "category": [
@@ -1341,11 +1342,16 @@
     "sourceNotes": [
       "note-692e7c64000000001e001f27",
       "note-mult07ca",
-      "note-mult3omr"
+      "note-mult3omr",
+      "note-6985ac86000000000b011c93"
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 400
+    "sortOrder": 400,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl620415e3hoi47ndiuebhgo?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl640415e3hoi47ndrgl55mg?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "menglian-oldtown",
@@ -1379,13 +1385,17 @@
     "sourceNotes": [
       "note-6a9170d0000000000400a6db",
       "note-mulsi789",
-      "note-6ab3bdcd000000001301ba49"
+      "note-6ab3bdcd000000001301ba49",
+      "note-6985ac86000000000b011c93"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 410,
     "coverCandidates": [
-      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8805osilkp7rt3enufo5c8?imageView2/2/w/1080/format/jpg"
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8805osilkp7rt3enufo5c8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl600415e3hoi47nd8ckv1qg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl630415e3hoi47ndnqhpkp0?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl64g415e3hoi47ndj8pok0g?imageView2/2/w/1080/format/jpg"
     ]
   },
   {
@@ -1424,13 +1434,17 @@
       "note-muls9zjr",
       "note-mulsi789",
       "note-mult07ca",
-      "note-6ab3bdcd000000001301ba49"
+      "note-6ab3bdcd000000001301ba49",
+      "note-6985ac86000000000b011c93"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 420,
     "coverCandidates": [
-      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8ag5osilkp7rt3eg537pdg?imageView2/2/w/1080/format/jpg"
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k8325g9rtpal8ag5osilkp7rt3eg537pdg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl600415e3hoi47nd8ckv1qg?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl62g415e3hoi47nd7ui5s4o?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl61g415e3hoi47nd0fpofm8?imageView2/2/w/1080/format/jpg"
     ],
     "dianpingLink": "https://m.dianping.com/shop/k6NhEm0FeiacxDQD"
   },
@@ -3721,7 +3735,10 @@
   {
     "id": "menglian-jinta",
     "name": "孟连大金塔",
-    "aliases": [],
+    "aliases": [
+      "大金塔",
+      "总佛寺"
+    ],
     "region": "孟连",
     "category": [
       "拍"
@@ -3746,7 +3763,8 @@
     "sourceNotes": [
       "note-6a16ce480000000006033aa5",
       "note-mulsi789",
-      "note-6a1f79f700000000210087d1"
+      "note-6a1f79f700000000210087d1",
+      "note-6985ac86000000000b011c93"
     ],
     "status": "published",
     "featured": false,
@@ -3756,7 +3774,9 @@
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udgb0a7k605pd368p8hckpmd60pig?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udgb0a7k6g5pd368p8hckpnroiul8?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udntor7e105pd368p8hckph6h83k8?imageView2/2/w/1080/format/jpg",
-      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udntor7e205pd368p8hckpd5nrsq8?imageView2/2/w/1080/format/jpg"
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k0320udntor7e205pd368p8hckpd5nrsq8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl60g415e3hoi47ndo6k5aj8?imageView2/2/w/1080/format/jpg",
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl610415e3hoi47nd6e40iqg?imageView2/2/w/1080/format/jpg"
     ]
   },
   {
@@ -3796,7 +3816,8 @@
     "name": "PicarCoffee",
     "aliases": [
       "皮卡咖啡",
-      "Picar Coffee"
+      "Picar Coffee",
+      "Picar Coffee 皮卡咖啡"
     ],
     "region": "孟连",
     "category": [
@@ -3822,11 +3843,15 @@
     "sourceNotes": [
       "note-67946c8e0000000018011754",
       "note-mulsnjdy",
-      "note-mult07ca"
+      "note-mult07ca",
+      "note-6985ac86000000000b011c93"
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1110
+    "sortOrder": 1110,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl62g415e3hoi47nd7ui5s4o?imageView2/2/w/1080/format/jpg"
+    ]
   },
   {
     "id": "menglian-likeke",
@@ -4585,11 +4610,15 @@
     "sourceNotes": [
       "note-mulsgeel",
       "note-mulsnjdy",
-      "note-mult07ca"
+      "note-mult07ca",
+      "note-6985ac86000000000b011c93"
     ],
     "status": "published",
     "featured": false,
     "sortOrder": 1320,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl61g415e3hoi47nd0fpofm8?imageView2/2/w/1080/format/jpg"
+    ],
     "dianpingLink": "https://m.dianping.com/shop/G3IMfCWvNNE7YoLl"
   },
   {
@@ -4996,7 +5025,9 @@
   {
     "id": "menglian-mult07ch7",
     "name": "三道鸡",
-    "aliases": [],
+    "aliases": [
+      "河边小吃"
+    ],
     "region": "孟连",
     "category": [
       "吃"
@@ -5020,7 +5051,8 @@
     "xhsKeyword": "孟连 三道鸡",
     "mapKeyword": "三道鸡",
     "sourceNotes": [
-      "note-mult07ca"
+      "note-mult07ca",
+      "note-6985ac86000000000b011c93"
     ],
     "status": "hidden",
     "featured": false,
@@ -5978,7 +6010,8 @@
       "儒丽金湾",
       "中勒水库（儒丽金湾）",
       "中勒水库",
-      "亚内咖啡·中勒水库店"
+      "亚内咖啡·中勒水库店",
+      "拓海酒吧"
     ],
     "region": "孟连",
     "category": [
@@ -6003,7 +6036,8 @@
     "mapKeyword": "拓海",
     "sourceNotes": [
       "note-mult07ca",
-      "note-68bee403000000001d010a9f"
+      "note-68bee403000000001d010a9f",
+      "note-6985ac86000000000b011c93"
     ],
     "status": "hidden",
     "featured": false,
@@ -6136,5 +6170,44 @@
     "featured": false,
     "sortOrder": 1730,
     "coverCandidates": []
+  },
+  {
+    "id": "menglian-murk1ycr9",
+    "name": "允软村",
+    "aliases": [
+      "允软",
+      "允软边寨"
+    ],
+    "region": "孟连",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "中缅边境的傣式边寨",
+    "description": "傣式竹楼建筑，边寨风情浓郁，可打卡边境标识牌和自然风光。",
+    "why": "",
+    "mustTry": [
+      "边寨风光"
+    ],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/menglian-murk1ycr9-murk2fbq.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6985ac86000000000b011c93?app_platform=ios&app_version=9.49&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CB_gg445otuX8fOvKX-l_v2H_n3My_LvAgvXpFurXxISs=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790981241&share_id=01a5e627552a4c8cb3008a7baed5548f",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "孟连 允软村",
+    "mapKeyword": "允软村",
+    "sourceNotes": [
+      "note-6985ac86000000000b011c93"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1740,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl64g415e3hoi47ndj8pok0g?imageView2/2/w/1080/format/jpg"
+    ]
   }
 ]
