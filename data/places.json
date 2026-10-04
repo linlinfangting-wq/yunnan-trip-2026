@@ -1671,7 +1671,8 @@
     "xhsKeyword": "昆明 翠湖公园",
     "mapKeyword": "翠湖公园",
     "sourceNotes": [
-      "note-6aae4855000000002700b934"
+      "note-6aae4855000000002700b934",
+      "note-6abf490c000000001801bc75"
     ],
     "status": "published",
     "featured": false,
@@ -5534,6 +5535,49 @@
     ]
   },
   {
+    "id": "km-muu040850",
+    "name": "万物香铺",
+    "aliases": [
+      "万物香铺昆明首店"
+    ],
+    "region": "昆明",
+    "category": [
+      "吃",
+      "喝"
+    ],
+    "cardSubtitle": "昆明新晋香氛咖啡馆",
+    "description": "位于翠湖公园旁的万物香铺，融合香氛与咖啡体验，环境清雅，适合拍照打卡。",
+    "why": "",
+    "mustTry": [
+      "香氛咖啡",
+      "手冲咖啡"
+    ],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 万物香铺",
+    "mapKeyword": "万物香铺",
+    "sourceNotes": [
+      "note-6abf490c000000001801bc75"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1580,
+    "coverCandidates": [],
+    "fantine": {
+      "rating": 5,
+      "text": "新店带走云南的味道",
+      "photos": [],
+      "updated": "2026-10-04"
+    }
+  },
+  {
     "id": "km-munayqlj0",
     "name": "巡津街主街",
     "aliases": [
@@ -5564,7 +5608,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1580,
+    "sortOrder": 1590,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l70d05qem5jasmo4j30ojob0?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l70cg5qem5jasmo4ju31iiio?imageView2/2/w/1080/format/jpg",
@@ -5604,7 +5648,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1590,
+    "sortOrder": 1600,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq4g5q1sdiqn9fgkha0pb98?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq6g5q1sdiqn9fgk8aaui28?imageView2/2/w/1080/format/jpg",
@@ -5649,7 +5693,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1600,
+    "sortOrder": 1610,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg3259s0qo54al05n9rurckg95utqevn0o?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg3259si8jql8005n9rurckg95uagvkfe8?imageView2/2/w/1080/format/jpg",
@@ -5689,7 +5733,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1610,
+    "sortOrder": 1620,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk45g5nh0bmq098ne34hd8q8?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk46g5nh0bmq098nee0fdhb0?imageView2/2/w/1080/format/jpg"
@@ -5732,7 +5776,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1620,
+    "sortOrder": 1630,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk4505nh0bmq098nej1jr1v0?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l70ag5qem5jasmo4je6m8jfo?imageView2/2/w/1080/format/jpg"
@@ -5774,7 +5818,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1630,
+    "sortOrder": 1640,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk44g5nh0bmq098ne8u0ar10?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k03258gqb0qk41g5nh0bmq098neaqqcet8?imageView2/2/w/1080/format/jpg",
@@ -5813,7 +5857,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1640,
+    "sortOrder": 1650,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g00831v561jtcii005q1sdiqn9fgkujfg298?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq0g5q1sdiqn9fgk036feho?imageView2/2/w/1080/format/jpg"
@@ -5850,7 +5894,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1650,
+    "sortOrder": 1660,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g00831v561jtcii005q1sdiqn9fgkujfg298?imageView2/2/w/1080/format/jpg"
     ]
@@ -5886,7 +5930,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1660,
+    "sortOrder": 1670,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq005q1sdiqn9fgk57cpn30?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rvtp5jq005q1sdiqn9fgkr9uc230?imageView2/2/w/1080/format/jpg"
@@ -5923,7 +5967,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1670,
+    "sortOrder": 1680,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_uhdr/1040g3qg31v3rugdiiq605q1sdiqn9fgkkf7ucv0?imageView2/2/w/1080/format/jpg"
     ]
@@ -5955,41 +5999,6 @@
     "primaryXhsLink": null,
     "xhsKeyword": "昆明 NOCHRO",
     "mapKeyword": "NOCHRO",
-    "sourceNotes": [
-      "note-6a8548510000000032023819"
-    ],
-    "status": "published",
-    "featured": false,
-    "sortOrder": 1680,
-    "coverCandidates": [
-      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l708g5qem5jasmo4jfrr435o?imageView2/2/w/1080/format/jpg"
-    ]
-  },
-  {
-    "id": "km-munayqlq6",
-    "name": "Lamb Coffee",
-    "aliases": [
-      "Lamb Coffee"
-    ],
-    "region": "昆明",
-    "category": [
-      "喝"
-    ],
-    "cardSubtitle": "复古黄墙绿植出片",
-    "description": "拍照氛围感拉满，是巡津街的出片机位。",
-    "why": "",
-    "mustTry": [],
-    "bestTime": "全天",
-    "cover": {
-      "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
-    },
-    "primaryXhsLink": null,
-    "xhsKeyword": "昆明 Lamb Coffee",
-    "mapKeyword": "Lamb Coffee",
     "sourceNotes": [
       "note-6a8548510000000032023819"
     ],
@@ -6208,6 +6217,41 @@
     "sortOrder": 1740,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031s86tlehl64g415e3hoi47ndj8pok0g?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
+    "id": "km-munayqlq6",
+    "name": "Lamb Coffee",
+    "aliases": [
+      "Lamb Coffee"
+    ],
+    "region": "昆明",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "复古黄墙绿植出片",
+    "description": "拍照氛围感拉满，是巡津街的出片机位。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "全天",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "昆明 Lamb Coffee",
+    "mapKeyword": "Lamb Coffee",
+    "sourceNotes": [
+      "note-6a8548510000000032023819"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1750,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l708g5qem5jasmo4jfrr435o?imageView2/2/w/1080/format/jpg"
     ]
   }
 ]
