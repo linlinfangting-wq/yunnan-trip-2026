@@ -6392,6 +6392,14 @@
     "status": "published",
     "featured": false,
     "sortOrder": 1770,
-    "coverCandidates": []
+    "coverCandidates": [],
+    "fantine": {
+      "rating": 5,
+      "text": "院子咖啡",
+      "photos": [
+        "assets/place-images/puer-muv3b4b10-me-muv3d64p5.jpg"
+      ],
+      "updated": "2026-10-05"
+    }
   }
 ]
