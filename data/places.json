@@ -631,6 +631,48 @@
     "dianpingLink": "https://m.dianping.com/shop/l8JtnIjUzzxuWoKG"
   },
   {
+    "id": "puer-muv36ii50",
+    "name": "喜愿吉阿咖佤拉咖啡Akawala",
+    "aliases": [
+      "喜愿吉阿咖佤拉咖啡",
+      "Akawala咖啡"
+    ],
+    "region": "普洱",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "行署大院里的咖啡香",
+    "description": "位于普洱行署大院内的特色咖啡店，环境安静，适合慢享一杯手冲。",
+    "why": "",
+    "mustTry": [
+      "手冲咖啡"
+    ],
+    "bestTime": "上午或下午茶时间",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-muv36ii50-muv37z5o.jpg",
+      "source": "我上传的",
+      "sourceUrl": "",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6ac225880000000015010916?app_platform=ios&app_version=9.49.1&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CB5rT1m_Ks4Ph4C_BA0HW-7a7BCuTlaNf2JD_DGHWEevY=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1791194852&share_id=c9d068bd979747d9a265d8e2d2c4acac",
+    "xhsKeyword": "普洱 喜愿吉阿咖佤拉咖啡Akawala",
+    "mapKeyword": "喜愿吉阿咖佤拉咖啡Akawala",
+    "sourceNotes": [
+      "note-6ac225880000000015010916"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 200,
+    "coverCandidates": [],
+    "fantine": {
+      "rating": 4,
+      "text": "很多豆子可以选",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
+  },
+  {
     "id": "puer-broccoli",
     "name": "西兰花咖啡（行署大院店）",
     "aliases": [],
@@ -660,7 +702,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 200,
+    "sortOrder": 210,
     "dianpingLink": "https://m.dianping.com/shop/G6XAMTow1hXggSwX"
   },
   {
@@ -694,7 +736,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 210
+    "sortOrder": 220
   },
   {
     "id": "puer-niuyouguojia",
@@ -726,7 +768,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 220
+    "sortOrder": 230
   },
   {
     "id": "puer-xiangzi",
@@ -759,7 +801,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 230,
+    "sortOrder": 240,
     "dianpingLink": "https://m.dianping.com/shop/G57Wa6BNAbYQUjY5"
   },
   {
@@ -793,7 +835,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 240
+    "sortOrder": 250
   },
   {
     "id": "puer-duoxi",
@@ -825,7 +867,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 250,
+    "sortOrder": 260,
     "dianpingLink": "https://m.dianping.com/shop/G7hgurw3fBYhRVOd"
   },
   {
@@ -858,43 +900,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 260
-  },
-  {
-    "id": "puer-xingye",
-    "name": "幸也咖啡",
-    "aliases": [],
-    "region": "普洱",
-    "category": [
-      "喝"
-    ],
-    "cardSubtitle": "酸木瓜特调",
-    "description": "咖啡馆，酸木瓜特调被推荐。",
-    "why": "酸木瓜加咖啡，是本地才有的组合。",
-    "mustTry": [
-      "酸木瓜特调"
-    ],
-    "bestTime": "白天",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/puer-xingye.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6952423e000000001d03a9ca?xsec_token=ABnpcEdKHIWWoDBgp04MuAVBUke-wtfdesDl6hOoNH9WU=&xsec_source=pc_share",
-      "status": "verified"
-    },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6952423e000000001d03a9ca?xsec_token=ABnpcEdKHIWWoDBgp04MuAVBUke-wtfdesDl6hOoNH9WU=&xsec_source=pc_share",
-    "xhsKeyword": "普洱 幸也咖啡",
-    "mapKeyword": "幸也咖啡",
-    "sourceNotes": [
-      "note-6952423e000000001d03a9ca",
-      "note-6a8548510000000032023819"
-    ],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 270,
-    "coverCandidates": [
-      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l708g5qem5jasmo4jfrr435o?imageView2/2/w/1080/format/jpg"
-    ]
+    "sortOrder": 270
   },
   {
     "id": "jingmai-nuogan",
@@ -938,6 +944,42 @@
     }
   },
   {
+    "id": "puer-xingye",
+    "name": "幸也咖啡",
+    "aliases": [],
+    "region": "普洱",
+    "category": [
+      "喝"
+    ],
+    "cardSubtitle": "酸木瓜特调",
+    "description": "咖啡馆，酸木瓜特调被推荐。",
+    "why": "酸木瓜加咖啡，是本地才有的组合。",
+    "mustTry": [
+      "酸木瓜特调"
+    ],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/puer-xingye.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6952423e000000001d03a9ca?xsec_token=ABnpcEdKHIWWoDBgp04MuAVBUke-wtfdesDl6hOoNH9WU=&xsec_source=pc_share",
+      "status": "verified"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6952423e000000001d03a9ca?xsec_token=ABnpcEdKHIWWoDBgp04MuAVBUke-wtfdesDl6hOoNH9WU=&xsec_source=pc_share",
+    "xhsKeyword": "普洱 幸也咖啡",
+    "mapKeyword": "幸也咖啡",
+    "sourceNotes": [
+      "note-6952423e000000001d03a9ca",
+      "note-6a8548510000000032023819"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 290,
+    "coverCandidates": [
+      "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l708g5qem5jasmo4jfrr435o?imageView2/2/w/1080/format/jpg"
+    ]
+  },
+  {
     "id": "puer-zhijian",
     "name": "植间花隐",
     "aliases": [],
@@ -968,7 +1010,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 290
+    "sortOrder": 300
   },
   {
     "id": "puer-duomi",
@@ -1000,7 +1042,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 300
+    "sortOrder": 310
   },
   {
     "id": "puer-oldstreet",
@@ -1031,7 +1073,7 @@
     "sourceNotes": [],
     "status": "published",
     "featured": false,
-    "sortOrder": 310
+    "sortOrder": 320
   },
   {
     "id": "puer-wuyimarket",
@@ -1065,38 +1107,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 320
-  },
-  {
-    "id": "puer-hongfeng",
-    "name": "宏丰市场",
-    "aliases": [],
-    "region": "普洱",
-    "category": [
-      "逛"
-    ],
-    "cardSubtitle": "本地市场",
-    "description": "普洱的另一个本地市场，可以和五一农贸市场二选一。",
-    "why": "看本地日常生活。",
-    "mustTry": [
-      "随便逛"
-    ],
-    "bestTime": "早上或上午",
-    "cover": {
-      "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
-    },
-    "primaryXhsLink": null,
-    "xhsKeyword": "普洱 宏丰市场",
-    "mapKeyword": "宏丰市场",
-    "sourceNotes": [],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 330,
-    "dianpingLink": "https://m.dianping.com/shop/H6axtNxXIvOf3xTc"
+    "sortOrder": 330
   },
   {
     "id": "jingmai-tea",
@@ -1708,6 +1719,37 @@
     ]
   },
   {
+    "id": "puer-hongfeng",
+    "name": "宏丰市场",
+    "aliases": [],
+    "region": "普洱",
+    "category": [
+      "逛"
+    ],
+    "cardSubtitle": "本地市场",
+    "description": "普洱的另一个本地市场，可以和五一农贸市场二选一。",
+    "why": "看本地日常生活。",
+    "mustTry": [
+      "随便逛"
+    ],
+    "bestTime": "早上或上午",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "普洱 宏丰市场",
+    "mapKeyword": "宏丰市场",
+    "sourceNotes": [],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 490,
+    "dianpingLink": "https://m.dianping.com/shop/H6axtNxXIvOf3xTc"
+  },
+  {
     "id": "puer-tianyuzhuang",
     "name": "天玉庄咖啡庄园",
     "aliases": [],
@@ -1738,7 +1780,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 490
+    "sortOrder": 500
   },
   {
     "id": "puer-dakaihe",
@@ -1771,7 +1813,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 500,
+    "sortOrder": 510,
     "dianpingLink": "https://m.dianping.com/shop/k4uq6rCIG2ga7SXo"
   },
   {
@@ -1805,7 +1847,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 510
+    "sortOrder": 520
   },
   {
     "id": "puer-yibeiyunnan",
@@ -1838,7 +1880,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 520
+    "sortOrder": 530
   },
   {
     "id": "puer-yilishanfeng",
@@ -1870,7 +1912,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 530,
+    "sortOrder": 540,
     "dianpingLink": "https://m.dianping.com/shop/H80ybFSnq452CUWU"
   },
   {
@@ -1903,7 +1945,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 540,
+    "sortOrder": 550,
     "dianpingLink": "https://m.dianping.com/shop/H8ryrUnCP0BdBcPQ"
   },
   {
@@ -1938,7 +1980,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 550
+    "sortOrder": 560
   },
   {
     "id": "puer-tonghuo",
@@ -1970,7 +2012,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 560
+    "sortOrder": 570
   },
   {
     "id": "puer-yunnan-distillery",
@@ -2002,7 +2044,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 570,
+    "sortOrder": 580,
     "dianpingLink": "https://m.dianping.com/shop/G2Ki5H9i1MD2yZWy"
   },
   {
@@ -2035,8 +2077,14 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 580,
-    "dianpingLink": "https://m.dianping.com/shop/Haw19vHRT7oRSW3P"
+    "sortOrder": 590,
+    "dianpingLink": "https://m.dianping.com/shop/Haw19vHRT7oRSW3P",
+    "fantine": {
+      "rating": 4,
+      "text": "还可以",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "puer-niuyouguoshuxia",
@@ -2068,7 +2116,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 590,
+    "sortOrder": 600,
     "dianpingLink": "https://m.dianping.com/shop/F2cx7pzEEkiZg0Bu"
   },
   {
@@ -2101,7 +2149,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 600,
+    "sortOrder": 610,
     "dianpingLink": "https://m.dianping.com/shop/k5ynj7HZdIiYlman"
   },
   {
@@ -2134,7 +2182,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 610,
+    "sortOrder": 620,
     "dianpingLink": "https://m.dianping.com/shop/H2l0d5FgDHoj18xs"
   },
   {
@@ -2168,7 +2216,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 620,
+    "sortOrder": 630,
     "dianpingLink": "https://m.dianping.com/shop/G7XXE2mS4UOHPM1R"
   },
   {
@@ -2202,7 +2250,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 630
+    "sortOrder": 640
   },
   {
     "id": "puer-axian",
@@ -2235,7 +2283,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 640
+    "sortOrder": 650
   },
   {
     "id": "puer-hani",
@@ -2268,7 +2316,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 650,
+    "sortOrder": 660,
     "dianpingLink": "https://m.dianping.com/shop/l7qVsrd1Y5LY0na7"
   },
   {
@@ -2302,7 +2350,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 660
+    "sortOrder": 670
   },
   {
     "id": "puer-laojiechuanchuan",
@@ -2334,7 +2382,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 670
+    "sortOrder": 680
   },
   {
     "id": "puer-zhangji-erkuai",
@@ -2366,7 +2414,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 680
+    "sortOrder": 690
   },
   {
     "id": "puer-santian",
@@ -2399,7 +2447,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 690
+    "sortOrder": 700
   },
   {
     "id": "puer-junziyuan",
@@ -2432,7 +2480,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 700
+    "sortOrder": 710
   },
   {
     "id": "puer-shenji",
@@ -2463,41 +2511,6 @@
       "note-6a86e475000000001700274e"
     ],
     "status": "hidden",
-    "featured": false,
-    "sortOrder": 710
-  },
-  {
-    "id": "puer-manxieba",
-    "name": "曼歇坝鲜鱼农家乐",
-    "aliases": [],
-    "region": "普洱",
-    "category": [
-      "吃"
-    ],
-    "cardSubtitle": "看冰柜点菜的烤鱼",
-    "description": "作者每次自驾路过普洱都来吃烤鱼，看冰柜点菜，食材新鲜。",
-    "why": "自驾顺路的一顿烤鱼。",
-    "mustTry": [
-      "烤鱼",
-      "小干肠",
-      "马屁泡炒水腌菜",
-      "折耳根拌黄瓜"
-    ],
-    "bestTime": "正餐，自驾路过时",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/puer-manxieba-munagd1n.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/68bc3e8d000000001c03c6bc?xsec_token=ABlu4NuKLehNCxtAYqF9tc5kSRUsWDIPgJ-d1ijOMyhoA=&xsec_source=pc_share",
-      "status": "verified"
-    },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/68bc3e8d000000001c03c6bc?xsec_token=ABlu4NuKLehNCxtAYqF9tc5kSRUsWDIPgJ-d1ijOMyhoA=&xsec_source=pc_share",
-    "xhsKeyword": "普洱 曼歇坝鲜鱼农家乐",
-    "mapKeyword": "普洱曼歇坝 鲜鱼农家乐",
-    "sourceNotes": [
-      "note-68bc3e8d000000001c03c6bc"
-    ],
-    "status": "published",
     "featured": false,
     "sortOrder": 720
   },
@@ -6209,36 +6222,39 @@
     }
   },
   {
-    "id": "puer-muo6soxb0",
-    "name": "拙木烟火里",
+    "id": "puer-manxieba",
+    "name": "曼歇坝鲜鱼农家乐",
     "aliases": [],
     "region": "普洱",
     "category": [
-      "逛",
-      "拍"
+      "吃"
     ],
-    "cardSubtitle": "稻田里的旧木屋",
-    "description": "藏在稻田中的木质建筑，适合拍照打卡，氛围宁静自然。",
-    "why": "",
-    "mustTry": [],
-    "bestTime": "白天光线好时",
+    "cardSubtitle": "看冰柜点菜的烤鱼",
+    "description": "作者每次自驾路过普洱都来吃烤鱼，看冰柜点菜，食材新鲜。",
+    "why": "自驾顺路的一顿烤鱼。",
+    "mustTry": [
+      "烤鱼",
+      "小干肠",
+      "马屁泡炒水腌菜",
+      "折耳根拌黄瓜"
+    ],
+    "bestTime": "正餐，自驾路过时",
     "cover": {
       "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
+      "localPath": "assets/place-images/puer-manxieba-munagd1n.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/68bc3e8d000000001c03c6bc?xsec_token=ABlu4NuKLehNCxtAYqF9tc5kSRUsWDIPgJ-d1ijOMyhoA=&xsec_source=pc_share",
+      "status": "verified"
     },
-    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69e99963000000001a0267a3?app_platform=ios&app_version=9.49&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBJfj1mt0v679Eb4gNtQm-Mc6lb1f0CUuczm1vVN8ao9I=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790777664&share_id=347e76ccbbc649f392d897b4fa629815",
-    "xhsKeyword": "普洱 拙木烟火里",
-    "mapKeyword": "拙木烟火里",
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/68bc3e8d000000001c03c6bc?xsec_token=ABlu4NuKLehNCxtAYqF9tc5kSRUsWDIPgJ-d1ijOMyhoA=&xsec_source=pc_share",
+    "xhsKeyword": "普洱 曼歇坝鲜鱼农家乐",
+    "mapKeyword": "普洱曼歇坝 鲜鱼农家乐",
     "sourceNotes": [
-      "note-69e99963000000001a0267a3"
+      "note-68bc3e8d000000001c03c6bc"
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1730,
-    "coverCandidates": []
+    "sortOrder": 1730
   },
   {
     "id": "menglian-murk1ycr9",
@@ -6313,5 +6329,69 @@
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k83241r8t6l708g5qem5jasmo4jfrr435o?imageView2/2/w/1080/format/jpg"
     ]
+  },
+  {
+    "id": "puer-muo6soxb0",
+    "name": "拙木烟火里",
+    "aliases": [],
+    "region": "普洱",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "稻田里的旧木屋",
+    "description": "藏在稻田中的木质建筑，适合拍照打卡，氛围宁静自然。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "白天光线好时",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69e99963000000001a0267a3?app_platform=ios&app_version=9.49&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBJfj1mt0v679Eb4gNtQm-Mc6lb1f0CUuczm1vVN8ao9I=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790777664&share_id=347e76ccbbc649f392d897b4fa629815",
+    "xhsKeyword": "普洱 拙木烟火里",
+    "mapKeyword": "拙木烟火里",
+    "sourceNotes": [
+      "note-69e99963000000001a0267a3"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1760,
+    "coverCandidates": []
+  },
+  {
+    "id": "puer-muv3b4b10",
+    "name": "戴家巷一草巷子",
+    "aliases": [],
+    "region": "普洱",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "普洱文艺小巷打卡地",
+    "description": "位于思茅老街附近的戴家巷一草巷子，是本地人推荐的文艺街区，适合拍照散步。",
+    "why": "",
+    "mustTry": [],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "",
+      "source": "",
+      "sourceUrl": "",
+      "status": "missing"
+    },
+    "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/692ab3c8000000001d03a5f0?app_platform=ios&app_version=9.49.1&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CB-EPH1sAUB9dfCna_byu2dAoy9FkdOfxyz-92LN57UsI=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1791195064&share_id=6ee3bf71d4c8439995fb377a124b2d76",
+    "xhsKeyword": "普洱 戴家巷一草巷子",
+    "mapKeyword": "戴家巷一草巷子",
+    "sourceNotes": [
+      "note-692ab3c8000000001d03a5f0"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 1770,
+    "coverCandidates": []
   }
 ]
