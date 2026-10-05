@@ -366,7 +366,7 @@
     "xhsKeyword": "普洱 栖夕小筑",
     "mapKeyword": "栖夕小筑",
     "sourceNotes": [],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 110,
     "dianpingLink": "https://m.dianping.com/shop/G59htkdlmEhYuCkM"
@@ -625,7 +625,7 @@
     "sourceNotes": [
       "note-6953d80c000000001e034620"
     ],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 190,
     "dianpingLink": "https://m.dianping.com/shop/l8JtnIjUzzxuWoKG"
@@ -1150,10 +1150,10 @@
     "bestTime": "别赶时间，傍晚光线好",
     "cover": {
       "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
+      "localPath": "assets/place-images/jingmai-wengji-muuzt5j1.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a809879000000003300834f?app_platform=ios&app_version=9.48&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBVy4NPrI-p7eTqwm30_ZkfeZSxTFYjH8BNAOvMN7YgbY=&author_share=1&xhsshare=CopyLink&shareRedId=Nz5DM0Q8PEpHQEc0Tkw3NjY4Ok04PTlK&apptime=1790630658&share_id=04b5b0e66f9447e080495ebd0f202ee5",
+      "status": "verified"
     },
     "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/69cfb572000000001a02662d?xsec_token=AB7cL7LJ-Zg9yNkSoZ1X-9lm4lfkPOPXXVxKOWu7A_7sc=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 翁基古寨",
@@ -1165,7 +1165,13 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 350
+    "sortOrder": 350,
+    "fantine": {
+      "rating": 3,
+      "text": "挺大的一个寨子，但是坡坡挺大，爬坡预警",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "jingmai-mangjing",
@@ -1207,7 +1213,13 @@
       "https://ci.xiaohongshu.com/1040g00831umrhbvfii4g5q01b703i8rlatd2lp0?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g00831umrhbvfii6g5q01b703i8rl54had08?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g00831ums08t92q1g5q01b703i8rl7647gv8?imageView2/2/w/1080/format/jpg"
-    ]
+    ],
+    "fantine": {
+      "rating": 3,
+      "text": "蜂王树可以看看，公主榕就在路中间一般",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "jingmai-manghong",
@@ -1242,7 +1254,13 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 370
+    "sortOrder": 370,
+    "fantine": {
+      "rating": 2,
+      "text": "一般，就是更生活化的寨子，没什么店，有个李现同款西兰花树",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "puer-beigui",
@@ -1274,7 +1292,7 @@
       "note-mulroszf",
       "note-6969d079000000000a030cc5"
     ],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 380,
     "coverCandidates": [
@@ -2687,7 +2705,13 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 780
+    "sortOrder": 780,
+    "fantine": {
+      "rating": 4,
+      "text": "上山前可以看看景迈山历史，旁边还有个茶马古窖是安缦酒店北茶馆的分店",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "jingmai-ailen-hike",
@@ -2760,7 +2784,13 @@
     "status": "published",
     "featured": false,
     "sortOrder": 800,
-    "dianpingLink": "https://m.dianping.com/shop/H9pIGg9ewh8STJwm"
+    "dianpingLink": "https://m.dianping.com/shop/H9pIGg9ewh8STJwm",
+    "fantine": {
+      "rating": 3,
+      "text": "人多如果想出片可以去",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "jingmai-shanshenwu",
@@ -2798,7 +2828,13 @@
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rd0u49tn0704a0kf3f2usjhvmr7j00?imageView2/2/w/1080/format/jpg"
     ],
-    "dianpingLink": "https://m.dianping.com/shop/G3RFJ2sM1TwJEMMt"
+    "dianpingLink": "https://m.dianping.com/shop/G3RFJ2sM1TwJEMMt",
+    "fantine": {
+      "rating": 1,
+      "text": "一般吧",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "jingmai-ganguan",
@@ -3034,7 +3070,13 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 880
+    "sortOrder": 880,
+    "fantine": {
+      "rating": 3,
+      "text": "可以",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "jingmai-fanhua",
@@ -3213,7 +3255,7 @@
     "sourceNotes": [
       "note-6aa81764000000002a02d5b9"
     ],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 930,
     "dianpingLink": "https://m.dianping.com/shop/laknJgLWv5VrWhex"
@@ -4083,7 +4125,7 @@
     "category": [
       "吃"
     ],
-    "cardSubtitle": "芒景 薄荷炸排骨香到爆",
+    "cardSubtitle": "芒景 薄荷炸排骨",
     "description": "芒景片区推荐餐厅，主打布朗族风味，薄荷炸排骨是招牌菜，味道浓郁。",
     "why": "",
     "mustTry": [
@@ -4670,8 +4712,8 @@
     "category": [
       "吃"
     ],
-    "cardSubtitle": "惊艳的鸡油饭体验",
-    "description": "餐厅提供鸡油饭，口味远超预期，是当地值得尝试的美食之一。",
+    "cardSubtitle": "鸡油饭",
+    "description": "",
     "why": "",
     "mustTry": [
       "鸡油饭"
@@ -4847,7 +4889,13 @@
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r4d3ldn6u8g49m3gfj1nnv7pagenfo?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k831r4d3ldn6u7g49m3gfj1nnv7glu9vro?imageView2/2/w/1080/format/jpg"
     ],
-    "dianpingLink": "https://m.dianping.com/shop/k6j2rrTXBUMbBcFH"
+    "dianpingLink": "https://m.dianping.com/shop/k6j2rrTXBUMbBcFH",
+    "fantine": {
+      "rating": 4,
+      "text": "风景挺好的，但是现在看不到晒豆，建议换个季节去",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "menglian-mulsnje512",
@@ -5162,7 +5210,7 @@
     "sourceNotes": [
       "note-6ab3bdcd000000001301ba49"
     ],
-    "status": "published",
+    "status": "hidden",
     "featured": false,
     "sortOrder": 1470,
     "coverCandidates": [
@@ -6152,7 +6200,13 @@
     "sortOrder": 1720,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe4g4a0kf3f2usjhepi50ig?imageView2/2/w/1080/format/jpg"
-    ]
+    ],
+    "fantine": {
+      "rating": 1,
+      "text": "路中间不好拍照",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "puer-muo6soxb0",
