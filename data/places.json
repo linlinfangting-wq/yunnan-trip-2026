@@ -874,7 +874,7 @@
     "sourceNotes": [
       "note-6970883b0000000022038c60"
     ],
-    "status": "hidden",
+    "status": "published",
     "featured": false,
     "sortOrder": 260
   },
@@ -1094,7 +1094,7 @@
       "逛"
     ],
     "cardSubtitle": "小吃 + 老街散步",
-    "description": "不用把它当景点，比较适合晚上边走边吃。周边可以顺手找烧饵块、拇指玉米、小吃和酸奶。",
+    "description": "",
     "why": "魏氏豆汤米干、小水堂酸奶都在附近，逛和吃可以一起解决。",
     "mustTry": [
       "随便逛",
@@ -1387,7 +1387,7 @@
       "note-mult3omr",
       "note-6985ac86000000000b011c93"
     ],
-    "status": "hidden",
+    "status": "published",
     "featured": false,
     "sortOrder": 400,
     "coverCandidates": [
@@ -2296,7 +2296,10 @@
   {
     "id": "puer-axian",
     "name": "啊仙酸鸡脚（珠市街店）",
-    "aliases": [],
+    "aliases": [
+      "啊仙家酸鸡爪",
+      "啊仙酸鸡脚"
+    ],
     "region": "普洱",
     "category": [
       "吃"
@@ -2320,9 +2323,10 @@
     "xhsKeyword": "普洱 啊仙酸鸡脚（珠市街店）",
     "mapKeyword": "啊仙酸鸡脚 珠市街",
     "sourceNotes": [
-      "note-6aae0460000000000b00f93d"
+      "note-6aae0460000000000b00f93d",
+      "note-6a365d920000000006035c0c"
     ],
-    "status": "hidden",
+    "status": "published",
     "featured": false,
     "sortOrder": 660
   },
@@ -4320,7 +4324,7 @@
     "sourceNotes": [
       "note-mulroszf"
     ],
-    "status": "hidden",
+    "status": "published",
     "featured": false,
     "sortOrder": 1220
   },
@@ -5598,7 +5602,7 @@
     "sourceNotes": [
       "note-6aae4855000000002700b934"
     ],
-    "status": "hidden",
+    "status": "published",
     "featured": false,
     "sortOrder": 1570,
     "coverCandidates": [
