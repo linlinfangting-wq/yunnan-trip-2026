@@ -914,10 +914,10 @@
     "bestTime": "白天",
     "cover": {
       "url": "",
-      "localPath": "",
-      "source": "",
-      "sourceUrl": "",
-      "status": "missing"
+      "localPath": "assets/place-images/jingmai-nuogan-muuzhybb.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://www.xiaohongshu.com/discovery/item/6a8043060000000026036f1f?xsec_token=ABsvWIAhrmullXGX_HIxfNWupm7GfKbKmeKNzQpXBZFuY=&xsec_source=pc_share",
+      "status": "verified"
     },
     "primaryXhsLink": "https://www.xiaohongshu.com/discovery/item/6a8043060000000026036f1f?xsec_token=ABsvWIAhrmullXGX_HIxfNWupm7GfKbKmeKNzQpXBZFuY=&xsec_source=pc_share",
     "xhsKeyword": "景迈山 糯干古寨",
@@ -929,7 +929,13 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 280
+    "sortOrder": 280,
+    "fantine": {
+      "rating": 3,
+      "text": "一般，比较小，有几个网红店",
+      "photos": [],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "puer-zhijian",
