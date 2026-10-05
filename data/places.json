@@ -3250,7 +3250,15 @@
     "status": "published",
     "featured": false,
     "sortOrder": 920,
-    "dianpingLink": "https://m.dianping.com/shop/l1YveeqbNPpCMaT7"
+    "dianpingLink": "https://m.dianping.com/shop/l1YveeqbNPpCMaT7",
+    "fantine": {
+      "rating": 5,
+      "text": "日落好看",
+      "photos": [
+        "assets/place-images/jingmai-yishushanyuan-me-muv3lyuw0.jpg"
+      ],
+      "updated": "2026-10-05"
+    }
   },
   {
     "id": "jingmai-washe",
@@ -3287,6 +3295,47 @@
     "dianpingLink": "https://m.dianping.com/shop/laknJgLWv5VrWhex"
   },
   {
+    "id": "jingmai-mulroszq14",
+    "name": "蜂王树",
+    "aliases": [],
+    "region": "景迈山",
+    "category": [
+      "逛",
+      "拍"
+    ],
+    "cardSubtitle": "奇观般的古老树木",
+    "description": "芒景片区的标志性自然景观，树上挂满蜂巢，形态奇特，是必打卡景点。",
+    "why": "",
+    "mustTry": [
+      "拍照"
+    ],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-mulroszq14-mum3r0il.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://xhslink.cn/o/AoCB7pTUww9",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "景迈山 蜂王树",
+    "mapKeyword": "景迈山 蜂王树",
+    "sourceNotes": [
+      "note-mulroszf"
+    ],
+    "status": "published",
+    "featured": false,
+    "sortOrder": 940,
+    "fantine": {
+      "rating": 5,
+      "text": "路上有家茶厂可以坐下喝杯茶聊聊天，体验下布朗族的酸茶",
+      "photos": [
+        "assets/place-images/jingmai-mulroszq14-me-muv3mtr60.jpg"
+      ],
+      "updated": "2026-10-05"
+    }
+  },
+  {
     "id": "jingmai-yeyatang",
     "name": "野鸭塘河谷",
     "aliases": [],
@@ -3317,7 +3366,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 940,
+    "sortOrder": 950,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe1g4a0kf3f2usjho8u86lo?imageView2/2/w/1080/format/jpg"
     ]
@@ -3352,7 +3401,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 950,
+    "sortOrder": 960,
     "dianpingLink": "https://m.dianping.com/shop/EOL6shae5GYfFwuZ"
   },
   {
@@ -3385,7 +3434,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 960
+    "sortOrder": 970
   },
   {
     "id": "jingmai-jiashe",
@@ -3420,7 +3469,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 970,
+    "sortOrder": 980,
     "dianpingLink": "https://m.dianping.com/shop/l1nFvXa8oMXryliH"
   },
   {
@@ -3458,7 +3507,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 980,
+    "sortOrder": 990,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe6g4a0kf3f2usjhlcc9ka0?imageView2/2/w/1080/format/jpg"
     ]
@@ -3493,7 +3542,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 990,
+    "sortOrder": 1000,
     "dianpingLink": "https://m.dianping.com/shop/H42eyaVFvn32ZqGo"
   },
   {
@@ -3526,7 +3575,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1000
+    "sortOrder": 1010
   },
   {
     "id": "jingmai-guanguan",
@@ -3558,7 +3607,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1010
+    "sortOrder": 1020
   },
   {
     "id": "jingmai-benwu",
@@ -3590,7 +3639,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1020,
+    "sortOrder": 1030,
     "dianpingLink": "https://m.dianping.com/shop/k5m8o1NTdIMOn70V"
   },
   {
@@ -3624,7 +3673,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1030
+    "sortOrder": 1040
   },
   {
     "id": "jingmai-mixia",
@@ -3662,7 +3711,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1040,
+    "sortOrder": 1050,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe604a0kf3f2usjhfvmpkp0?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g2sg31rd0u49tn07g4a0kf3f2usjhgj6cupg?imageView2/2/w/1080/format/jpg"
@@ -3702,7 +3751,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1050
+    "sortOrder": 1060
   },
   {
     "id": "jingmai-qingmugua",
@@ -3733,41 +3782,6 @@
     "mapKeyword": "青木瓜树 芒景",
     "sourceNotes": [
       "note-6943f72e000000001e00c92b",
-      "note-mulr0qhj"
-    ],
-    "status": "hidden",
-    "featured": false,
-    "sortOrder": 1060
-  },
-  {
-    "id": "jingmai-mulr0qhs7",
-    "name": "槾屿",
-    "aliases": [
-      "槾屿茶空间"
-    ],
-    "region": "景迈山",
-    "category": [
-      "喝",
-      "拍"
-    ],
-    "cardSubtitle": "俯瞰古寨，茶香满园",
-    "description": "槾屿位于糯干，拥有绝佳视野，可俯瞰整个村寨，室内布置简洁，适合喝茶与拍照。",
-    "why": "",
-    "mustTry": [
-      "茶饮"
-    ],
-    "bestTime": "白天",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/jingmai-mulr0qhs7-mum3r0jl.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://xhslink.cn/o/7zLfcblJwY9",
-      "status": "verified"
-    },
-    "primaryXhsLink": null,
-    "xhsKeyword": "景迈山 槾屿",
-    "mapKeyword": "槾屿",
-    "sourceNotes": [
       "note-mulr0qhj"
     ],
     "status": "hidden",
@@ -4069,6 +4083,41 @@
     "sortOrder": 1150
   },
   {
+    "id": "jingmai-mulr0qhs7",
+    "name": "槾屿",
+    "aliases": [
+      "槾屿茶空间"
+    ],
+    "region": "景迈山",
+    "category": [
+      "喝",
+      "拍"
+    ],
+    "cardSubtitle": "俯瞰古寨，茶香满园",
+    "description": "槾屿位于糯干，拥有绝佳视野，可俯瞰整个村寨，室内布置简洁，适合喝茶与拍照。",
+    "why": "",
+    "mustTry": [
+      "茶饮"
+    ],
+    "bestTime": "白天",
+    "cover": {
+      "url": "",
+      "localPath": "assets/place-images/jingmai-mulr0qhs7-mum3r0jl.jpg",
+      "source": "小红书笔记",
+      "sourceUrl": "https://xhslink.cn/o/7zLfcblJwY9",
+      "status": "verified"
+    },
+    "primaryXhsLink": null,
+    "xhsKeyword": "景迈山 槾屿",
+    "mapKeyword": "槾屿",
+    "sourceNotes": [
+      "note-mulr0qhj"
+    ],
+    "status": "hidden",
+    "featured": false,
+    "sortOrder": 1160
+  },
+  {
     "id": "jingmai-mulr0qht8",
     "name": "山上茶舍",
     "aliases": [
@@ -4101,7 +4150,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1160
+    "sortOrder": 1170
   },
   {
     "id": "jingmai-mulrhizq0",
@@ -4136,7 +4185,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1170,
+    "sortOrder": 1180,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe404a0kf3f2usjhsbj8908?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe504a0kf3f2usjhgl211bg?imageView2/2/w/1080/format/jpg"
@@ -4173,7 +4222,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1180,
+    "sortOrder": 1190,
     "dianpingLink": "https://m.dianping.com/shop/l5xcgHmOpdjWM72w"
   },
   {
@@ -4207,7 +4256,7 @@
     ],
     "status": "published",
     "featured": false,
-    "sortOrder": 1190,
+    "sortOrder": 1200,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031qsf2kl97g6g5nl058808uktkllqmso?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/notes_pre_post/1040g3k031qsf2kl97g605nl058808uktrjqmif8?imageView2/2/w/1080/format/jpg"
@@ -4245,7 +4294,7 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1200,
+    "sortOrder": 1210,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g00831sh22teb5k004a5tit5qualt2v4vpa0?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g00831sh22teb5k0g4a5tit5qualtoqkmct8?imageView2/2/w/1080/format/jpg",
@@ -4289,44 +4338,11 @@
     ],
     "status": "hidden",
     "featured": false,
-    "sortOrder": 1210,
+    "sortOrder": 1220,
     "coverCandidates": [
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe104a0kf3f2usjhsn6ovd8?imageView2/2/w/1080/format/jpg",
       "https://ci.xiaohongshu.com/1040g2sg31rcu754ehe3g4a0kf3f2usjhprnn06o?imageView2/2/w/1080/format/jpg"
     ]
-  },
-  {
-    "id": "jingmai-mulroszq14",
-    "name": "蜂王树",
-    "aliases": [],
-    "region": "景迈山",
-    "category": [
-      "逛",
-      "拍"
-    ],
-    "cardSubtitle": "奇观般的古老树木",
-    "description": "芒景片区的标志性自然景观，树上挂满蜂巢，形态奇特，是必打卡景点。",
-    "why": "",
-    "mustTry": [
-      "拍照"
-    ],
-    "bestTime": "白天",
-    "cover": {
-      "url": "",
-      "localPath": "assets/place-images/jingmai-mulroszq14-mum3r0il.jpg",
-      "source": "小红书笔记",
-      "sourceUrl": "https://xhslink.cn/o/AoCB7pTUww9",
-      "status": "verified"
-    },
-    "primaryXhsLink": null,
-    "xhsKeyword": "景迈山 蜂王树",
-    "mapKeyword": "景迈山 蜂王树",
-    "sourceNotes": [
-      "note-mulroszf"
-    ],
-    "status": "published",
-    "featured": false,
-    "sortOrder": 1220
   },
   {
     "id": "jingmai-mulroszs16",
